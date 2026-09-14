@@ -5,7 +5,12 @@ import { Badge } from "@/components/ui/Badge";
 
 interface AffiliateProductProps {
   code: string;
-  /** Compact mode for tighter grids (e.g. sidebars). Defaults to full card. */
+  /**
+   * "card"   — full product card (default), for grids like /recommendations
+   * "banner" — compact horizontal strip, for the sitewide banner in layout.tsx
+   */
+  variant?: "card" | "banner";
+  /** Compact card mode for tighter grids (e.g. sidebars). Ignored for "banner". */
   compact?: boolean;
 }
 
@@ -17,7 +22,7 @@ interface AffiliateProductProps {
 //
 // Pages should only ever contain the product code, never the underlying
 // name/image/link — that all lives centrally in lib/data/products.json.ts.
-export async function AffiliateProduct({ code, compact = false }: AffiliateProductProps) {
+export async function AffiliateProduct({ code, variant = "card", compact = false }: AffiliateProductProps) {
   const product = await getAffiliateProduct(code);
 
   // Missing code: fail loudly in development, fail silently in production
@@ -38,6 +43,34 @@ export async function AffiliateProduct({ code, compact = false }: AffiliateProdu
   // can be reactivated later just by flipping `active` back to true.
   if (!product.active) {
     return null;
+  }
+
+  if (variant === "banner") {
+    return (
+      <div className="flex items-center gap-4 rounded-card border border-ink-100 bg-white p-3 shadow-card">
+        <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-md bg-ink-50 sm:h-16 sm:w-16">
+          <Image src={product.image} alt={product.name} fill sizes="64px" className="object-contain p-1" />
+        </div>
+        <div className="min-w-0 flex-1">
+          <p className="truncate text-sm font-medium text-ink-900">{product.name}</p>
+          {product.price ? (
+            <p className="text-xs text-ink-500">{product.price}</p>
+          ) : (
+            product.shortDescription && (
+              <p className="truncate text-xs text-ink-500">{product.shortDescription}</p>
+            )
+          )}
+        </div>
+        <a
+          href={product.affiliateLink}
+          target="_blank"
+          rel="nofollow sponsored noopener"
+          className="inline-flex shrink-0 items-center gap-1 rounded-md bg-brand-600 px-3 py-1.5 text-xs font-medium text-white transition-colors hover:bg-brand-700"
+        >
+          {product.buttonText} <ExternalLink className="h-3 w-3" />
+        </a>
+      </div>
+    );
   }
 
   return (
