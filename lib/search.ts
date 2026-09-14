@@ -38,7 +38,7 @@ export async function buildSearchIndex(): Promise<SearchableItem[]> {
     items.push({
       type: "subject",
       title: s.name,
-      subtitle: `Semester ${s.semester}`,
+      subtitle: s.specialization ? `${s.specialization} · Semester ${s.semester}` : `Semester ${s.semester}`,
       href: `/courses/${s.courseSlug}/${s.universitySlug}/${s.branchSlug}/${s.semester}/${s.slug}`,
     });
   }
