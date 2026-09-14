@@ -71,14 +71,15 @@ export interface Subject {
   universitySlug: string;
   branchSlug: string;
   semester: number;
-  // Unit-wise syllabus text, shown as its own section on the subject page.
-  // Left undefined when a syllabus hasn't been added for that subject yet.
-  syllabus?: string;
+ 
   // Free-text specialization tag — e.g. "Finance", "HR", "Marketing" for
   // MBA elective subjects. Shown as a badge on the subject card/page and
   // surfaced in search. Works for any course (MBA, MBA Integrated, etc.)
   // without any extra setup — just set this on a subject when it applies.
   specialization?: string;
+   // Unit-wise syllabus text, shown as its own section on the subject page.
+  // Left undefined when a syllabus hasn't been added for that subject yet.
+  syllabus?: string;
 }
 
 // A single downloadable/viewable resource item attached to a subject.
