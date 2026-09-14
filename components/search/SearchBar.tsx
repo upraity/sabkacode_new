@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Search, BookOpen, GraduationCap, FolderGit2, Wrench, Building2 } from "lucide-react";
@@ -18,34 +18,55 @@ const typeMeta: Record<SearchableItem["type"], { label: string; icon: JSX.Elemen
 
 export function SearchBar({ index }: { index: SearchableItem[] }) {
   const [query, setQuery] = useState("");
-  const [focused, setFocused] = useState(false);
+  const [open, setOpen] = useState(false);
   const router = useRouter();
   const inputRef = useRef<HTMLInputElement>(null);
+  const containerRef = useRef<HTMLFormElement>(null);
 
   const results = useMemo(() => searchItems(index, query, 7), [index, query]);
-  const showDropdown = focused && query.trim().length > 0;
+  const showDropdown = open && query.trim().length > 0;
+
+  // Close the dropdown on a click/tap anywhere outside the search box.
+  // This replaces an input-onBlur approach, which on touch devices closes
+  // the dropdown before a tap on a result can register — that was the bug
+  // where a result had to be tapped twice (or Enter used instead).
+  useEffect(() => {
+    if (!showDropdown) return;
+
+    function handlePointerDown(e: MouseEvent | TouchEvent) {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handlePointerDown);
+    document.addEventListener("touchstart", handlePointerDown);
+    return () => {
+      document.removeEventListener("mousedown", handlePointerDown);
+      document.removeEventListener("touchstart", handlePointerDown);
+    };
+  }, [showDropdown]);
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (query.trim()) {
       router.push(`/search?q=${encodeURIComponent(query.trim())}`);
       inputRef.current?.blur();
-      setFocused(false);
+      setOpen(false);
     }
   }
 
   return (
     <div className="border-b border-ink-100 bg-white py-3">
       <Container>
-        <form onSubmit={handleSubmit} className="relative mx-auto max-w-2xl">
+        <form ref={containerRef} onSubmit={handleSubmit} className="relative mx-auto max-w-2xl">
           <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-400" />
           <input
             ref={inputRef}
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            onFocus={() => setFocused(true)}
-            onBlur={() => setTimeout(() => setFocused(false), 150)}
+            onFocus={() => setOpen(true)}
             placeholder="Search courses, subjects, notes, projects..."
             className="w-full rounded-md border border-ink-200 bg-ink-50/60 py-2.5 pl-10 pr-4 text-sm text-ink-800 placeholder:text-ink-400 focus:border-brand-500 focus:bg-white focus:outline-none focus:ring-1 focus:ring-brand-500"
             aria-label="Search SabkaCode"
@@ -63,7 +84,8 @@ export function SearchBar({ index }: { index: SearchableItem[] }) {
                     <li key={`${item.type}-${item.href}-${i}`}>
                       <Link
                         href={item.href}
-                        className="flex items-center gap-3 px-4 py-3 hover:bg-ink-50"
+                        onClick={() => setOpen(false)}
+                        className="flex items-center gap-3 px-4 py-3 hover:bg-ink-50 active:bg-ink-100"
                       >
                         <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-brand-50 text-brand-600">
                           {typeMeta[item.type].icon}
