@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BookOpen } from "lucide-react";
 import { Subject } from "@/types";
+import { Badge } from "@/components/ui/Badge";
 
 export function SubjectCard({ subject, href }: { subject: Subject; href: string }) {
   return (
@@ -12,7 +13,10 @@ export function SubjectCard({ subject, href }: { subject: Subject; href: string 
         <BookOpen className="h-4 w-4" />
       </span>
       <div className="min-w-0">
-        <h3 className="font-medium text-ink-900">{subject.name}</h3>
+        <div className="flex flex-wrap items-center gap-1.5">
+          <h3 className="font-medium text-ink-900">{subject.name}</h3>
+          {subject.specialization && <Badge tone="brand">{subject.specialization}</Badge>}
+        </div>
         {subject.code && <p className="text-xs text-ink-400">{subject.code}</p>}
         {subject.description && (
           <p className="mt-1 line-clamp-2 text-sm text-ink-500">{subject.description}</p>
