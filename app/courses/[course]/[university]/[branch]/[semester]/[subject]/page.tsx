@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { Section } from "@/components/ui/Section";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
+import { Badge } from "@/components/ui/Badge";
 import { ResourceTabs } from "@/components/resources/ResourceTabs";
 import { SyllabusSection } from "@/components/resources/SyllabusSection";
 import {
@@ -78,6 +79,11 @@ export default async function SubjectDetailPage({ params }: Props) {
           { label: subject.name },
         ]}
       />
+      {subject.specialization && (
+        <div className="mb-4">
+          <Badge tone="brand">{subject.specialization}</Badge>
+        </div>
+      )}
       <SyllabusSection syllabus={subject.syllabus} />
       <ResourceTabs resources={resources} />
     </Section>
