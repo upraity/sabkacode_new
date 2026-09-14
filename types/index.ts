@@ -88,6 +88,10 @@ export interface ResourceItem {
   year?: number; // for PYQs
   examType?: string; // for PYQs: "Regular" | "Back Paper" | "Mid Term" | ...
   fileUrl?: string;
+  // Separate link for a worked/solved answer to this paper, when one
+  // exists. Left undefined until a real solution is available — the UI
+  // shows "Not available" rather than a broken or fake link.
+  solutionUrl?: string;
   updatedAt: string; // ISO date
   isDemo?: boolean; // marks placeholder/demo content explicitly
 }
