@@ -22,6 +22,7 @@ import { subjects } from "./subjects.json";
 import { resources } from "./resources.json";
 import { projects } from "./projects.json";
 import { tools } from "./tools.json";
+import { affiliateProducts } from "./products.json";
 import type {
   Branch,
   Course,
@@ -31,6 +32,7 @@ import type {
   Subject,
   Tool,
   University,
+  AffiliateProductData,
 } from "@/types";
 
 // ---------- Courses ----------
@@ -171,4 +173,14 @@ export async function getTools(): Promise<Tool[]> {
 
 export async function getToolBySlug(slug: string): Promise<Tool | undefined> {
   return tools.find((t) => t.slug === slug);
+}
+
+// ---------- Affiliate Products ----------
+
+export async function getAffiliateProduct(code: string): Promise<AffiliateProductData | undefined> {
+  return affiliateProducts[code];
+}
+
+export async function getActiveAffiliateProducts(): Promise<AffiliateProductData[]> {
+  return Object.values(affiliateProducts).filter((p) => p.active);
 }

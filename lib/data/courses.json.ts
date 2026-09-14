@@ -1,7 +1,5 @@
 import { Course } from "@/types";
 
-// DEMO DATA — replace/extend freely. This file is the single source of
-// truth for courses until a real database is connected.
 export const courses: Course[] = [
   {
     id: "c-btech",
@@ -28,6 +26,15 @@ export const courses: Course[] = [
     name: "MCA",
     fullName: "Master of Computer Applications",
     description: "A postgraduate degree for students aiming to specialise in computer applications.",
+    hasBranches: false,
+    totalSemesters: 4,
+  },
+  {
+    id: "c-mba",
+    slug: "mba",
+    name: "MBA",
+    fullName: "Master of Business Administration",
+    description: "A postgraduate management degree covering finance, HR, marketing and operations.",
     hasBranches: false,
     totalSemesters: 4,
   },

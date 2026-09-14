@@ -20,6 +20,7 @@ const columns: { title: string; links: { href: string; label: string }[] }[] = [
       { href: "/notes", label: "Subjects" },
       { href: "/notes", label: "PYQs" },
       { href: "/notes", label: "Question Banks" },
+      { href: "/recommendations", label: "Recommended Products" },
     ],
   },
   {
@@ -29,6 +30,7 @@ const columns: { title: string; links: { href: string; label: string }[] }[] = [
       { href: "/contact", label: "Contact" },
       { href: "/privacy", label: "Privacy Policy" },
       { href: "/terms", label: "Terms" },
+      { href: "/disclaimer", label: "Disclaimer" },
     ],
   },
 ];

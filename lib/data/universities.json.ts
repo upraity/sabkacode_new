@@ -1,9 +1,8 @@
 import { University } from "@/types";
 
-// DEMO DATA — AKTU is fully wired up as the first university. Others are
-// listed as "coming-soon" placeholders to prove the architecture supports
-// many universities without code changes — no fake content is attached
-// to them.
+// Universities actually covered by SabkaCode's original content, migrated
+// from the previous site. CCSU is referenced on the original About/Contact
+// pages but had no notes content yet, so it's listed as "coming-soon".
 export const universities: University[] = [
   {
     id: "u-aktu",
@@ -16,30 +15,30 @@ export const universities: University[] = [
     status: "active",
   },
   {
-    id: "u-vtu",
-    slug: "vtu",
-    name: "Visvesvaraya Technological University",
-    shortName: "VTU",
-    description: "A state technical university based in Karnataka.",
-    location: "Belagavi, Karnataka",
-    status: "coming-soon",
+    id: "u-dbrau",
+    slug: "dbrau",
+    name: "Dr. Bhimrao Ambedkar University",
+    shortName: "DBRAU",
+    description: "A state university based in Agra, Uttar Pradesh, offering BCA and other programmes.",
+    location: "Agra, Uttar Pradesh",
+    status: "active",
   },
   {
-    id: "u-jntu",
-    slug: "jntu",
-    name: "Jawaharlal Nehru Technological University",
-    shortName: "JNTU",
-    description: "A state technical university in Andhra Pradesh / Telangana.",
-    location: "Andhra Pradesh / Telangana",
-    status: "coming-soon",
+    id: "u-csjmu",
+    slug: "csjmu",
+    name: "Chhatrapati Shahu Ji Maharaj University",
+    shortName: "CSJMU",
+    description: "A state university based in Kanpur, Uttar Pradesh, offering BCA and other programmes.",
+    location: "Kanpur, Uttar Pradesh",
+    status: "active",
   },
   {
-    id: "u-rtu",
-    slug: "rtu",
-    name: "Rajasthan Technical University",
-    shortName: "RTU",
-    description: "A state technical university based in Rajasthan.",
-    location: "Kota, Rajasthan",
+    id: "u-ccsu",
+    slug: "ccsu",
+    name: "Chaudhary Charan Singh University",
+    shortName: "CCSU",
+    description: "A state university based in Meerut, Uttar Pradesh.",
+    location: "Meerut, Uttar Pradesh",
     status: "coming-soon",
   },
 ];

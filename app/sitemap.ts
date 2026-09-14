@@ -3,7 +3,7 @@ import { siteConfig } from "@/lib/seo";
 import { getCourses, getUniversitiesForCourse, getAllProjectSlugs, getTools, getUniversities } from "@/lib/data";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const staticRoutes = ["", "/courses", "/projects", "/notes", "/tools", "/universities", "/about", "/contact", "/privacy", "/terms"].map(
+  const staticRoutes = ["", "/courses", "/projects", "/notes", "/tools", "/universities", "/about", "/contact", "/privacy", "/terms", "/disclaimer", "/recommendations"].map(
     (path) => ({
       url: `${siteConfig.url}${path}`,
       lastModified: new Date(),

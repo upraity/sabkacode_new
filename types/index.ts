@@ -71,6 +71,9 @@ export interface Subject {
   universitySlug: string;
   branchSlug: string;
   semester: number;
+  // Unit-wise syllabus text, shown as its own section on the subject page.
+  // Left undefined when a syllabus hasn't been added for that subject yet.
+  syllabus?: string;
 }
 
 // A single downloadable/viewable resource item attached to a subject.
@@ -146,4 +149,35 @@ export interface SearchableItem {
   title: string;
   subtitle?: string;
   href: string;
+}
+
+// ---------------------------------------------------------------------------
+// Affiliate Product Management System (Phase 1)
+//
+// One central record per product, keyed by a unique Product Code (e.g.
+// "LAPTOP001"). Pages never hardcode a name/image/link — they only ever
+// reference the code via <AffiliateProduct code="LAPTOP001" />, so updating
+// a product here updates every page that uses it after the next deploy.
+//
+// Fields beyond the required set (price, badge, rating, etc.) are optional
+// so new attributes can be added later without breaking existing products.
+// ---------------------------------------------------------------------------
+export interface AffiliateProductData {
+  code: string;
+  name: string;
+  image: string;
+  description: string;
+  affiliateLink: string;
+  buttonText: string;
+  category: string;
+  active: boolean;
+
+  // Optional, future-proof fields — add more here as needed.
+  shortDescription?: string;
+  price?: string;
+  originalPrice?: string;
+  badge?: string;
+  rating?: number;
+  brand?: string;
+  asin?: string;
 }
