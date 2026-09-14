@@ -114,10 +114,39 @@ export async function getAllSubjects(): Promise<Subject[]> {
   return subjects;
 }
 
+export async function getSubjectsForUniversity(universitySlug: string): Promise<Subject[]> {
+  return subjects.filter((s) => s.universitySlug === universitySlug);
+}
+
 // ---------- Resources (notes / pyq / question-bank / practical / viva) ----------
 
 export async function getResourcesForSubject(subjectId: string): Promise<ResourceItem[]> {
   return resources.filter((r) => r.subjectId === subjectId);
+}
+
+// ---------- Previous Year Papers browser (/papers) ----------
+// Powers the University -> Course -> Subject cascading filter page.
+
+export interface PYQRow {
+  subject: Subject;
+  resource: ResourceItem;
+}
+
+export async function getPYQRows(params: {
+  universitySlug: string;
+  courseSlug?: string;
+  subjectId?: string;
+}): Promise<PYQRow[]> {
+  let subs = subjects.filter((s) => s.universitySlug === params.universitySlug);
+  if (params.courseSlug) subs = subs.filter((s) => s.courseSlug === params.courseSlug);
+  if (params.subjectId) subs = subs.filter((s) => s.id === params.subjectId);
+
+  const subjectById = new Map(subs.map((s) => [s.id, s]));
+
+  return resources
+    .filter((r) => r.type === "pyq" && subjectById.has(r.subjectId))
+    .map((r) => ({ subject: subjectById.get(r.subjectId)!, resource: r }))
+    .sort((a, b) => (b.resource.year ?? 0) - (a.resource.year ?? 0));
 }
 
 // ---------- Projects ----------
