@@ -1,13 +1,16 @@
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { Section } from "@/components/ui/Section";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { SubjectCard } from "@/components/resources/SubjectCard";
+import { SpecializationFilter } from "@/components/resources/SpecializationFilter";
 import { getBranchBySlug, getCourseBySlug, getSubjects, getUniversityBySlug } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 
 interface Props {
   params: { course: string; university: string; branch: string; semester: string };
+  searchParams: { specialization?: string };
 }
 
 async function resolveBranchLabel(courseSlug: string, universitySlug: string, branchSlug: string, hasBranches: boolean) {
@@ -26,7 +29,7 @@ export async function generateMetadata({ params }: Props) {
   });
 }
 
-export default async function SubjectsPage({ params }: Props) {
+export default async function SubjectsPage({ params, searchParams }: Props) {
   const course = await getCourseBySlug(params.course);
   const university = await getUniversityBySlug(params.university);
   if (!course || !university) notFound();
@@ -37,12 +40,26 @@ export default async function SubjectsPage({ params }: Props) {
   const branchLabel = await resolveBranchLabel(params.course, params.university, params.branch, course.hasBranches);
   if (!branchLabel) notFound();
 
-  const subjects = await getSubjects({
+  const allSubjects = await getSubjects({
     courseSlug: course.slug,
     universitySlug: university.slug,
     branchSlug: params.branch,
     semester,
   });
+
+  // Only show the specialization filter when this semester actually has
+  // more than one specialization tag in use — otherwise it's just noise.
+  const specializations = Array.from(
+    new Set(allSubjects.map((s) => s.specialization).filter((s): s is string => Boolean(s)))
+  );
+  const activeSpecialization =
+    searchParams.specialization && specializations.includes(searchParams.specialization)
+      ? searchParams.specialization
+      : undefined;
+
+  const subjects = activeSpecialization
+    ? allSubjects.filter((s) => s.specialization === activeSpecialization)
+    : allSubjects;
 
   return (
     <Section title={`Semester ${semester} — Subjects`} description={`${branchLabel} · ${university.shortName}`}>
@@ -56,6 +73,13 @@ export default async function SubjectsPage({ params }: Props) {
           { label: `Semester ${semester}` },
         ]}
       />
+
+      {specializations.length > 1 && (
+        <Suspense fallback={null}>
+          <SpecializationFilter options={specializations} />
+        </Suspense>
+      )}
+
       {subjects.length === 0 ? (
         <EmptyState
           title="No subjects are available for this semester yet."
