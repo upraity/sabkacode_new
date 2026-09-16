@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
 import { ResourceTabs } from "@/components/resources/ResourceTabs";
 import { SyllabusSection } from "@/components/resources/SyllabusSection";
+import { UnitNotesSection } from "@/components/resources/UnitNotesSection";
 import {
   getBranchBySlug,
   getCourseBySlug,
@@ -85,6 +86,7 @@ export default async function SubjectDetailPage({ params }: Props) {
         </div>
       )}
       <SyllabusSection syllabus={subject.syllabus} />
+      <UnitNotesSection unitNotes={subject.unitNotes} />
       <ResourceTabs resources={resources} />
     </Section>
   );
