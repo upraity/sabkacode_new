@@ -1052,7 +1052,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5109`,
-    subjectId: `s-1034`,
+    subjectId: `s-1042`,
     type: `pyq`,
     title: `Business Environment & Legal Aspects of Business — Solved Previous Paper 2022`,
     year: 2022,
@@ -1062,7 +1062,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5110`,
-    subjectId: `s-1034`,
+    subjectId: `s-1042`,
     type: `pyq`,
     title: `Business Environment & Legal Aspects of Business — Solved Previous Paper 2023`,
     year: 2023,
@@ -1072,7 +1072,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5111`,
-    subjectId: `s-1034`,
+    subjectId: `s-1042`,
     type: `pyq`,
     title: `Business Environment & Legal Aspects of Business — Solved Previous Paper 2024`,
     year: 2024,
@@ -1082,7 +1082,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5112`,
-    subjectId: `s-1035`,
+    subjectId: `s-1043`,
     type: `pyq`,
     title: `Business Research Methods — Solved Previous Paper 2024`,
     year: 2024,
@@ -1092,7 +1092,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5113`,
-    subjectId: `s-1036`,
+    subjectId: `s-1044`,
     type: `pyq`,
     title: `Cost & Management Accounting — Solved Previous Paper 2024`,
     year: 2024,
@@ -1102,7 +1102,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5114`,
-    subjectId: `s-1037`,
+    subjectId: `s-1045`,
     type: `pyq`,
     title: `Human Resource Management — Solved Previous Paper 2022`,
     year: 2022,
@@ -1112,7 +1112,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5115`,
-    subjectId: `s-1037`,
+    subjectId: `s-1045`,
     type: `pyq`,
     title: `Human Resource Management — Solved Previous Paper 2023`,
     year: 2023,
@@ -1122,7 +1122,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5116`,
-    subjectId: `s-1037`,
+    subjectId: `s-1045`,
     type: `pyq`,
     title: `Human Resource Management — Solved Previous Paper 2024`,
     year: 2024,
@@ -1132,7 +1132,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5117`,
-    subjectId: `s-1038`,
+    subjectId: `s-1046`,
     type: `pyq`,
     title: `Management Information System — Solved Previous Paper 2022`,
     year: 2022,
@@ -1142,7 +1142,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5118`,
-    subjectId: `s-1038`,
+    subjectId: `s-1046`,
     type: `pyq`,
     title: `Management Information System — Solved Previous Paper 2023`,
     year: 2023,
@@ -1152,7 +1152,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5119`,
-    subjectId: `s-1038`,
+    subjectId: `s-1046`,
     type: `pyq`,
     title: `Management Information System — Solved Previous Paper 2024`,
     year: 2024,
@@ -1162,7 +1162,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5120`,
-    subjectId: `s-1039`,
+    subjectId: `s-1047`,
     type: `pyq`,
     title: `Quantitative Techniques for Management — Solved Previous Paper 2022`,
     year: 2022,
@@ -1172,7 +1172,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5121`,
-    subjectId: `s-1039`,
+    subjectId: `s-1047`,
     type: `pyq`,
     title: `Quantitative Techniques for Management — Solved Previous Paper 2023`,
     year: 2023,
@@ -1182,7 +1182,7 @@ export const resources: ResourceItem[] = [
   },
   {
     id: `r-5122`,
-    subjectId: `s-1039`,
+    subjectId: `s-1047`,
     type: `pyq`,
     title: `Quantitative Techniques for Management — Solved Previous Paper 2024`,
     year: 2024,
