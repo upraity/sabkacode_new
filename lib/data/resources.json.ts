@@ -1301,7 +1301,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
      fileUrl: `https://drive.google.com/file/d/1Aqdvvg2B2jVVYVc0VNF7gvt_C8SKtKMJ/view?usp=drive_link`,
     examType: `Regular`,
-    updatedAt: "",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1312,7 +1312,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1YWop5xoa28FBvKoTO-auHRs5CTgndSO5/view?usp=drive_link`,
     examType: `Regular`,
-    updatedAt: "",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
   {
@@ -1345,7 +1345,7 @@ export const resources: ResourceItem[] = [
     year: 2022,
     fileUrl: `https://drive.google.com/file/d/1EvC8g816OPFdMzcY3g7Mipg3ANkZlrLu/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2023-03-01",
     isDemo: false,
   },
    {
@@ -1356,7 +1356,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1P4QibJSSw_xskWxXSY6Xlsrz9ktv0x2J/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1400,7 +1400,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1b95cnenLCIkGJp3u8gI9CvbnZq2L6N1P/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1444,7 +1444,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1jUOivULk3py-Q1NFFTsJ2ucR_zXzPH2z/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1543,7 +1543,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1Hi0-RwFsLOknfXIfTFJGW7orUBhevNjo/view?usp=sharing`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1576,7 +1576,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1nFcxLfyqJ8TDelec8R2VxNMrDavL6Wl-/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1620,7 +1620,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/11LQyJSZuNTO1U7yA5aSZERKahwWZIo6j/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1653,7 +1653,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/11nzxLS-oqP2kbjG3Faer2EmT5Dz320jA/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1675,7 +1675,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/11nzxLS-oqP2kbjG3Faer2EmT5Dz320jA/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1697,7 +1697,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1wza36J-r-SbH5Umx46nZAIaKmJLM65b_/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
     {
@@ -1708,7 +1708,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1ib2Poc8KyaWoxQzvwNhxTKI_TAs04Jnl/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1730,7 +1730,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/14OM5xQPPo4E7Ex6jUw6qDZdl11lRH5XA/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1763,7 +1763,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1AqJqwkrFJnXQpEWDgZZOkhRZPNuzEZMs/view?usp=sharing`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1796,7 +1796,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/11FmmXNk1Tv8x-RKhoesQZ0qjY95J0mAB/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1830,7 +1830,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1AXqJBqoMnkGGn_vH_zgR4813p4d_napL/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1863,7 +1863,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1e6g6OnW7GWSuZNIBlTLovlmy3Xp0VjfG/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
    {
@@ -1896,7 +1896,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/16VSweKrKEf64KA1EApU5xqy5Nk7yLyoE/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
   {
@@ -1929,7 +1929,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1Cdsp9F_ypvzSLE1fHpLY5zVzgViLmVvh/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
   {
@@ -1973,7 +1973,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1wQJJZ2IJdRHciQNHnbzdtjGszWh5A3Ky/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2026-03-01",
     isDemo: false,
   },
   {
