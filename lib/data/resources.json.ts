@@ -1301,7 +1301,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
      fileUrl: `https://drive.google.com/file/d/1Aqdvvg2B2jVVYVc0VNF7gvt_C8SKtKMJ/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "2025-08-01",
     isDemo: false,
   },
    {
@@ -1312,7 +1312,7 @@ export const resources: ResourceItem[] = [
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1YWop5xoa28FBvKoTO-auHRs5CTgndSO5/view?usp=drive_link`,
     examType: `Regular`,
-    // updatedAt: "2025-08-01",
+    updatedAt: "",
     isDemo: false,
   },
   {
