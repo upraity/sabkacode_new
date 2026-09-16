@@ -15,7 +15,7 @@ export const resources: ResourceItem[] = [
     title: "Unit 1 — Arrays & Linked Lists",
     description: "Handwritten-style notes covering array operations and singly/doubly linked lists.",
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: "r-2",
@@ -23,7 +23,7 @@ export const resources: ResourceItem[] = [
     type: "notes",
     title: "Unit 2 — Stacks & Queues",
     updatedAt: "2025-08-03",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: "r-3",
@@ -33,7 +33,7 @@ export const resources: ResourceItem[] = [
     year: 2024,
     examType: "Regular",
     updatedAt: "2025-01-10",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: "r-4",
@@ -43,7 +43,7 @@ export const resources: ResourceItem[] = [
     year: 2023,
     examType: "Regular",
     updatedAt: "2024-01-12",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: "r-5",
@@ -51,7 +51,7 @@ export const resources: ResourceItem[] = [
     type: "question-bank",
     title: "Important Questions — Trees & Graphs",
     updatedAt: "2025-07-20",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: "r-6",
@@ -59,7 +59,7 @@ export const resources: ResourceItem[] = [
     type: "viva",
     title: "Common Viva Questions — Data Structures Lab",
     updatedAt: "2025-07-22",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: "r-7",
@@ -67,7 +67,7 @@ export const resources: ResourceItem[] = [
     type: "notes",
     title: "Unit 1 — ER Model & Relational Model",
     updatedAt: "2025-08-05",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: "r-8",
@@ -75,7 +75,7 @@ export const resources: ResourceItem[] = [
     type: "practical",
     title: "SQL Lab Programs — Set 1",
     updatedAt: "2025-08-06",
-    isDemo: true,
+    isDemo: false,
   },
 
   {
@@ -1059,7 +1059,7 @@ export const resources: ResourceItem[] = [
     fileUrl: `https://drive.google.com/file/d/1Q__t0Iuplk4nBVx7t5Ctl6PDo5KKZtcg/view?usp=drive_link`,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5110`,
@@ -1070,7 +1070,7 @@ export const resources: ResourceItem[] = [
     fileUrl: `https://drive.google.com/file/d/1-dP0IFatvS7OE3nGW4NyIm_jXy9IdYAW/view?usp=drive_link`,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5111`,
@@ -1079,9 +1079,10 @@ export const resources: ResourceItem[] = [
     title: `Business Environment & Legal Aspects of Business — Solved Previous Paper 2024`,
     year: 2024,
     fileUrl: `https://drive.google.com/file/d/1M2dyNxqQHPEVCNcqxn-Mt-4DEV7S7Szd/view?usp=drive_link`,
+    solutionUrl: `https://drive.google.com/file/d/1M2dyNxqQHPEVCNcqxn-Mt-4DEV7S7Szd/view?usp=drive_lin`,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5112`,
@@ -1091,7 +1092,7 @@ export const resources: ResourceItem[] = [
     year: 2024,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5113`,
@@ -1101,7 +1102,7 @@ export const resources: ResourceItem[] = [
     year: 2024,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5114`,
@@ -1111,7 +1112,7 @@ export const resources: ResourceItem[] = [
     year: 2022,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5115`,
@@ -1121,7 +1122,7 @@ export const resources: ResourceItem[] = [
     year: 2023,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5116`,
@@ -1131,7 +1132,7 @@ export const resources: ResourceItem[] = [
     year: 2024,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5117`,
@@ -1141,7 +1142,7 @@ export const resources: ResourceItem[] = [
     year: 2022,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5118`,
@@ -1151,7 +1152,7 @@ export const resources: ResourceItem[] = [
     year: 2023,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5119`,
@@ -1161,7 +1162,7 @@ export const resources: ResourceItem[] = [
     year: 2024,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5120`,
@@ -1171,7 +1172,7 @@ export const resources: ResourceItem[] = [
     year: 2022,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5121`,
@@ -1181,7 +1182,7 @@ export const resources: ResourceItem[] = [
     year: 2023,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
   {
     id: `r-5122`,
@@ -1191,6 +1192,6 @@ export const resources: ResourceItem[] = [
     year: 2024,
     examType: `Regular`,
     updatedAt: "2025-08-01",
-    isDemo: true,
+    isDemo: false,
   },
 ];
