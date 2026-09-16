@@ -1,4 +1,5 @@
 import { Subject } from "@/types";
+import { strategicManagementUnitNotes } from "./unit-notes/strategic-management";
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
 // DBRAU (BCA) and CSJMU (BCA). DBRAU/CSJMU/MBA/MCA subjects, names and
@@ -1452,6 +1453,7 @@ corporate performance, balance scorecard approach to measure key Performance,
 responsibility centers, Benchmarking, Problems in measuring Performance & Guidelines for 
 proper control. Strategic Audit of a Corporation. Case Studies and Latest Updates. 
 `,
+    unitNotes: strategicManagementUnitNotes,
   },
     {
     id: `s-1053`,
