@@ -80,6 +80,63 @@ export interface Subject {
    // Unit-wise syllabus text, shown as its own section on the subject page.
   // Left undefined when a syllabus hasn't been added for that subject yet.
   syllabus?: string;
+
+  // Full, in-app, unit-wise written notes (not just a download link).
+  // Left undefined until real notes have been authored for a subject —
+  // the UI shows an honest empty state instead of a blank/broken section.
+  // See UnitNote below for the content shape. This is subject-agnostic —
+  // any subject on the platform can populate this the same way.
+  unitNotes?: UnitNote[];
+}
+
+// ---------------------------------------------------------------------------
+// In-app "Detailed Notes" content model.
+//
+// This is intentionally generic (not MBA/Strategic-Management specific) so
+// the same UnitNotesSection component can render notes for ANY subject —
+// only the data differs. A unit's content is a list of typed "blocks" that
+// map 1:1 to bits of UI: a paragraph, a bullet list, a table, a callout
+// box (info/example/case-study), a key-terms glossary, or a diagram
+// (referenced by id — actual diagrams are hand-built React/SVG components
+// registered in components/resources/diagrams/registry.tsx).
+// ---------------------------------------------------------------------------
+
+export type NoteBlock =
+  | { kind: "paragraph"; text: string }
+  | { kind: "bullets"; ordered?: boolean; items: string[] }
+  | {
+      kind: "table";
+      headers: string[];
+      rows: string[][];
+    }
+  | {
+      kind: "callout";
+      tone: "info" | "example" | "case";
+      title: string;
+      text: string;
+    }
+  | {
+      kind: "diagram";
+      // Must match a key registered in
+      // components/resources/diagrams/registry.tsx
+      diagramId: string;
+      caption?: string;
+    };
+
+export interface NoteHeading {
+  id: string; // used for the on-page table of contents anchor
+  title: string;
+  icon?: string; // lucide-react icon name, e.g. "BookOpen"
+  blocks: NoteBlock[];
+}
+
+export interface UnitNote {
+  unitNumber: number;
+  title: string;
+  hours?: number;
+  headings: NoteHeading[];
+  keyTerms?: { term: string; definition: string }[];
+  examQuestions?: string[];
 }
 
 // A single downloadable/viewable resource item attached to a subject.
