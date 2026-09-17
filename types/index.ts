@@ -155,6 +155,13 @@ export interface ResourceItem {
   // exists. Left undefined until a real solution is available — the UI
   // shows "Not available" rather than a broken or fake link.
   solutionUrl?: string;
+  // For type "notes" items that are backed by in-app Detailed Notes
+  // (a UnitNote — see below) rather than a downloadable file: the anchor
+  // id to jump to on the same subject page, e.g. "unit-1". When set, the
+  // Notes tab shows a "View Notes" same-page link instead of a
+  // Download/"coming soon" state. Leave undefined for a normal file-link
+  // notes item.
+  anchor?: string;
   updatedAt: string; // ISO date
   isDemo?: boolean; // marks placeholder/demo content explicitly
 }
