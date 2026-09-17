@@ -1,19 +1,18 @@
-"use client";
-
-import { useState } from "react";
 import * as Icons from "lucide-react";
 import {
   NotebookText,
   ListChecks,
   BookMarked,
-  ChevronDown,
   Clock,
 } from "lucide-react";
 import { UnitNote, NoteBlock } from "@/types";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { diagramRegistry } from "@/components/resources/diagrams/registry";
 
-const calloutStyles: Record<string, { wrap: string; label: string; text: string }> = {
+const calloutStyles: Record<
+  string,
+  { wrap: string; label: string; text: string }
+> = {
   info: {
     wrap: "border-brand-200 bg-brand-50",
     label: "text-brand-700",
@@ -40,10 +39,15 @@ const calloutHeading: Record<string, string> = {
 function NoteBlockView({ block }: { block: NoteBlock }) {
   switch (block.kind) {
     case "paragraph":
-      return <p className="mb-3 text-sm leading-relaxed text-ink-600">{block.text}</p>;
+      return (
+        <p className="mb-3 text-sm leading-relaxed text-ink-600">
+          {block.text}
+        </p>
+      );
 
     case "bullets": {
       const ListTag = block.ordered ? "ol" : "ul";
+
       return (
         <ListTag
           className={`mb-3 space-y-1.5 pl-5 text-sm leading-relaxed text-ink-600 ${
@@ -72,9 +76,15 @@ function NoteBlockView({ block }: { block: NoteBlock }) {
             </thead>
             <tbody>
               {block.rows.map((row, ri) => (
-                <tr key={ri} className={ri % 2 === 1 ? "bg-ink-50" : "bg-white"}>
+                <tr
+                  key={ri}
+                  className={ri % 2 === 1 ? "bg-ink-50" : "bg-white"}
+                >
                   {row.map((cell, ci) => (
-                    <td key={ci} className="px-3 py-2 align-top text-ink-600">
+                    <td
+                      key={ci}
+                      className="px-3 py-2 align-top text-ink-600"
+                    >
                       {cell}
                     </td>
                   ))}
@@ -87,19 +97,26 @@ function NoteBlockView({ block }: { block: NoteBlock }) {
 
     case "callout": {
       const style = calloutStyles[block.tone];
+
       return (
         <div className={`mb-4 rounded-card border-l-4 p-4 ${style.wrap}`}>
-          <p className={`mb-1 text-[11px] font-semibold uppercase tracking-wide ${style.label}`}>
+          <p
+            className={`mb-1 text-[11px] font-semibold uppercase tracking-wide ${style.label}`}
+          >
             {block.title || calloutHeading[block.tone]}
           </p>
-          <p className={`text-sm leading-relaxed ${style.text}`}>{block.text}</p>
+          <p className={`text-sm leading-relaxed ${style.text}`}>
+            {block.text}
+          </p>
         </div>
       );
     }
 
     case "diagram": {
       const Diagram = diagramRegistry[block.diagramId];
+
       if (!Diagram) return null;
+
       return (
         <figure className="mb-4 rounded-card border border-ink-100 bg-ink-50/40 p-5">
           <Diagram />
@@ -126,6 +143,7 @@ function UnitPanel({ unit }: { unit: UnitNote }) {
           <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-400">
             On this page
           </p>
+
           <ul className="space-y-1.5">
             {unit.headings.map((h) => (
               <li key={h.id}>
@@ -137,16 +155,24 @@ function UnitPanel({ unit }: { unit: UnitNote }) {
                 </a>
               </li>
             ))}
+
             {unit.keyTerms && unit.keyTerms.length > 0 && (
               <li>
-                <a href={`#unit-${unit.unitNumber}-key-terms`} className="text-xs text-ink-500 hover:text-brand-600">
+                <a
+                  href={`#unit-${unit.unitNumber}-key-terms`}
+                  className="text-xs text-ink-500 hover:text-brand-600"
+                >
                   Key Terms
                 </a>
               </li>
             )}
+
             {unit.examQuestions && unit.examQuestions.length > 0 && (
               <li>
-                <a href={`#unit-${unit.unitNumber}-exam-qs`} className="text-xs text-ink-500 hover:text-brand-600">
+                <a
+                  href={`#unit-${unit.unitNumber}-exam-qs`}
+                  className="text-xs text-ink-500 hover:text-brand-600"
+                >
                   Exam Questions
                 </a>
               </li>
@@ -159,12 +185,20 @@ function UnitPanel({ unit }: { unit: UnitNote }) {
       <div className="min-w-0">
         {unit.headings.map((h) => {
           const Icon = h.icon ? (Icons as any)[h.icon] : null;
+
           return (
-            <div key={h.id} id={`unit-${unit.unitNumber}-${h.id}`} className="scroll-mt-24 mb-8">
+            <div
+              key={h.id}
+              id={`unit-${unit.unitNumber}-${h.id}`}
+              className="mb-8 scroll-mt-24"
+            >
               <h3 className="mb-3 flex items-center gap-2 text-base font-semibold text-ink-900">
-                {Icon ? <Icon className="h-4.5 w-4.5 text-brand-600" /> : null}
+                {Icon ? (
+                  <Icon className="h-4.5 w-4.5 text-brand-600" />
+                ) : null}
                 {h.title}
               </h3>
+
               {h.blocks.map((block, i) => (
                 <NoteBlockView key={i} block={block} />
               ))}
@@ -173,15 +207,24 @@ function UnitPanel({ unit }: { unit: UnitNote }) {
         })}
 
         {unit.keyTerms && unit.keyTerms.length > 0 && (
-          <div id={`unit-${unit.unitNumber}-key-terms`} className="scroll-mt-24 mb-8">
+          <div
+            id={`unit-${unit.unitNumber}-key-terms`}
+            className="mb-8 scroll-mt-24"
+          >
             <h3 className="mb-3 flex items-center gap-2 text-base font-semibold text-ink-900">
               <BookMarked className="h-4.5 w-4.5 text-brand-600" />
               Key Terms
             </h3>
+
             <div className="grid gap-2 sm:grid-cols-2">
               {unit.keyTerms.map((kt, i) => (
-                <div key={i} className="rounded-card border border-ink-100 bg-white p-3 text-sm">
-                  <span className="font-semibold text-ink-900">{kt.term}:</span>{" "}
+                <div
+                  key={i}
+                  className="rounded-card border border-ink-100 bg-white p-3 text-sm"
+                >
+                  <span className="font-semibold text-ink-900">
+                    {kt.term}:
+                  </span>{" "}
                   <span className="text-ink-600">{kt.definition}</span>
                 </div>
               ))}
@@ -190,11 +233,15 @@ function UnitPanel({ unit }: { unit: UnitNote }) {
         )}
 
         {unit.examQuestions && unit.examQuestions.length > 0 && (
-          <div id={`unit-${unit.unitNumber}-exam-qs`} className="scroll-mt-24">
+          <div
+            id={`unit-${unit.unitNumber}-exam-qs`}
+            className="scroll-mt-24"
+          >
             <h3 className="mb-3 flex items-center gap-2 text-base font-semibold text-ink-900">
               <ListChecks className="h-4.5 w-4.5 text-brand-600" />
               Important Exam Questions
             </h3>
+
             <ol className="list-decimal space-y-2 rounded-card border border-rose-200 bg-rose-50/40 p-4 pl-9 text-sm leading-relaxed text-ink-700">
               {unit.examQuestions.map((q, i) => (
                 <li key={i}>{q}</li>
@@ -207,13 +254,16 @@ function UnitPanel({ unit }: { unit: UnitNote }) {
   );
 }
 
-export function UnitNotesSection({ unitNotes }: { unitNotes?: UnitNote[] }) {
-  const [activeUnit, setActiveUnit] = useState<number>(unitNotes?.[0]?.unitNumber ?? 1);
-
+export function UnitNotesSection({
+  unitNotes,
+}: {
+  unitNotes?: UnitNote[];
+}) {
   return (
-    <div className="mb-8">
+    <div className="mb-8" id="detailed-notes">
       <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold text-ink-900">
-        <NotebookText className="h-5 w-5 text-brand-600" /> Detailed Notes
+        <NotebookText className="h-5 w-5 text-brand-600" />
+        Detailed Notes
       </h2>
 
       {!unitNotes || unitNotes.length === 0 ? (
@@ -223,40 +273,43 @@ export function UnitNotesSection({ unitNotes }: { unitNotes?: UnitNote[] }) {
         />
       ) : (
         <div>
-          <div className="mb-6 flex flex-wrap gap-2 border-b border-ink-100 pb-3">
+          {/* Quick-jump nav — plain anchors allow links from the Notes tab
+              or anywhere else to land on the corresponding unit. */}
+          <div className="mb-8 flex flex-wrap gap-2 border-b border-ink-100 pb-4">
             {unitNotes.map((u) => (
-              <button
+              <a
                 key={u.unitNumber}
-                onClick={() => setActiveUnit(u.unitNumber)}
-                className={`flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
-                  activeUnit === u.unitNumber
-                    ? "bg-brand-600 text-white"
-                    : "bg-ink-50 text-ink-600 hover:bg-ink-100"
-                }`}
+                href={`#unit-${u.unitNumber}`}
+                className="flex items-center gap-1.5 rounded-md bg-ink-50 px-3 py-1.5 text-sm font-medium text-ink-600 transition-colors hover:bg-brand-600 hover:text-white"
               >
                 Unit {u.unitNumber}
+
                 {u.hours && (
-                  <span
-                    className={`flex items-center gap-0.5 text-[11px] ${
-                      activeUnit === u.unitNumber ? "text-brand-100" : "text-ink-400"
-                    }`}
-                  >
+                  <span className="flex items-center gap-0.5 text-[11px] text-ink-400">
                     <Clock className="h-3 w-3" />
                     {u.hours}h
                   </span>
                 )}
-              </button>
+              </a>
             ))}
           </div>
 
-          {unitNotes
-            .filter((u) => u.unitNumber === activeUnit)
-            .map((u) => (
-              <div key={u.unitNumber}>
-                <h3 className="mb-5 text-lg font-semibold text-ink-900">{u.title}</h3>
-                <UnitPanel unit={u} />
-              </div>
-            ))}
+          {/* Render all units so every quick-jump anchor is present in the DOM. */}
+          {unitNotes.map((u, i) => (
+            <div
+              key={u.unitNumber}
+              id={`unit-${u.unitNumber}`}
+              className={`scroll-mt-20 ${
+                i > 0 ? "mt-12 border-t border-ink-100 pt-10" : ""
+              }`}
+            >
+              <h3 className="mb-5 text-lg font-semibold text-ink-900">
+                Unit {u.unitNumber} — {u.title}
+              </h3>
+
+              <UnitPanel unit={u} />
+            </div>
+          ))}
         </div>
       )}
     </div>
