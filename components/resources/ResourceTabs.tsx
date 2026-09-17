@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FileText, Download, HelpCircle, FlaskConical, MessageCircleQuestion } from "lucide-react";
+import { FileText, Download, HelpCircle, FlaskConical, MessageCircleQuestion, ArrowRight } from "lucide-react";
 import { ResourceItem, ResourceType } from "@/types";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Badge } from "@/components/ui/Badge";
@@ -62,6 +62,9 @@ export function ResourceTabs({
               >
                 <div className="min-w-0">
                   <p className="truncate font-medium text-ink-900">{item.title}</p>
+                  {item.description && (
+                    <p className="mt-0.5 line-clamp-2 text-sm text-ink-500">{item.description}</p>
+                  )}
                   <div className="mt-1 flex flex-wrap items-center gap-2 text-xs text-ink-400">
                     {item.year && <span>{item.year}</span>}
                     {item.examType && <span>{item.examType}</span>}
@@ -69,7 +72,14 @@ export function ResourceTabs({
                     {item.isDemo && <Badge tone="muted">Demo data</Badge>}
                   </div>
                 </div>
-                {item.fileUrl ? (
+                {item.anchor ? (
+                  <a
+                    href={`#${item.anchor}`}
+                    className="flex shrink-0 items-center gap-1.5 rounded-md bg-brand-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-brand-700"
+                  >
+                    View Notes <ArrowRight className="h-3.5 w-3.5" />
+                  </a>
+                ) : item.fileUrl ? (
                   <a
                     href={item.fileUrl}
                     className="flex shrink-0 items-center gap-1.5 rounded-md bg-brand-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-brand-700"
