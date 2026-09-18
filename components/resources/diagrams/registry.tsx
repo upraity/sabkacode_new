@@ -13,6 +13,22 @@ import { McKinsey7SDiagram } from "./McKinsey7SDiagram";
 import { GeNineCellDiagram } from "./GeNineCellDiagram";
 import { MatrixStructureDiagram } from "./MatrixStructureDiagram";
 import { BalancedScorecardDiagram } from "./BalancedScorecardDiagram";
+import { ManagementLevelsPyramidDiagram } from "./ManagementLevelsPyramidDiagram";
+import { MaslowHierarchyDiagram } from "./MaslowHierarchyDiagram";
+import { JohariWindowDiagram } from "./JohariWindowDiagram";
+import { LeadershipSituationalDiagram } from "./LeadershipSituationalDiagram";
+import { TuckmanModelDiagram } from "./TuckmanModelDiagram";
+import { KurtLewinChangeDiagram } from "./KurtLewinChangeDiagram";
+import { PlanningProcessDiagram } from "./PlanningProcessDiagram";
+import { DecisionMakingProcessDiagram } from "./DecisionMakingProcessDiagram";
+import { MboProcessDiagram } from "./MboProcessDiagram";
+import { RecruitmentSelectionProcessDiagram } from "./RecruitmentSelectionProcessDiagram";
+import { ControlProcessDiagram } from "./ControlProcessDiagram";
+import { ObModelDiagram } from "./ObModelDiagram";
+import { PerceptionProcessDiagram } from "./PerceptionProcessDiagram";
+import { ExpectancyTheoryDiagram } from "./ExpectancyTheoryDiagram";
+import { HerzbergTwoFactorDiagram } from "./HerzbergTwoFactorDiagram";
+import { TransactionalAnalysisDiagram } from "./TransactionalAnalysisDiagram";
 
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
@@ -34,4 +50,20 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "ge-nine-cell": GeNineCellDiagram,
   "matrix-structure": MatrixStructureDiagram,
   "balanced-scorecard": BalancedScorecardDiagram,
+  "management-levels-pyramid": ManagementLevelsPyramidDiagram,
+  "maslow-hierarchy": MaslowHierarchyDiagram,
+  "johari-window": JohariWindowDiagram,
+  "leadership-situational": LeadershipSituationalDiagram,
+  "tuckman-model": TuckmanModelDiagram,
+  "kurt-lewin-change": KurtLewinChangeDiagram,
+  "planning-process": PlanningProcessDiagram,
+  "decision-making-process": DecisionMakingProcessDiagram,
+  "mbo-process": MboProcessDiagram,
+  "recruitment-selection-process": RecruitmentSelectionProcessDiagram,
+  "control-process": ControlProcessDiagram,
+  "ob-model": ObModelDiagram,
+  "perception-process": PerceptionProcessDiagram,
+  "expectancy-theory": ExpectancyTheoryDiagram,
+  "herzberg-two-factor": HerzbergTwoFactorDiagram,
+  "transactional-analysis": TransactionalAnalysisDiagram,
 };
