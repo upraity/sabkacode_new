@@ -86,8 +86,9 @@ export default async function SubjectDetailPage({ params }: Props) {
         </div>
       )}
       <SyllabusSection syllabus={subject.syllabus} />
-      <UnitNotesSection unitNotes={subject.unitNotes} />
       <ResourceTabs resources={resources} />
+      <UnitNotesSection unitNotes={subject.unitNotes} />
+
     </Section>
   );
 }
