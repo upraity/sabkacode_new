@@ -476,7 +476,8 @@ UNIT-II Organising & Staffing- Types of organization, Organization structure, de
 UNIT III Fundamentals of individual behavior: Concepts of OB,OB Model, Components of OB, Personality, types of personality, Personal effectiveness, meaning of Attitudes, Types, Components, attitude formation and attitude change. Meaning & Type of Group Behaviour, Interpersonal skills, Transactional Analysis, Johari Window, Meaning of Perception, process, behavioral applications of perception. Case Studies. 
 UNIT IV Motivation:, Theory of Motivation: Maslow’s, Herzberg’s, McClelland, Contemporary theories of Motivation: Self Determination Theory, Self Efficacy Theory, Vroom’s Expectancy Theory, Equity Theory, Reinforcement Theory. 
 UNIT V: Leadership: What is leadership, types of leaders and leadership styles, traits and qualities of effective leader, trait theory, LSM – Leadership Situational Model, Team Building, Tuckman Model of Team Development. Organizational Change: Meaning of organizational change approaches to managing organizational change, creating a culture for change, implementing the change, Kurt Lewin Model of change. Case Studies`,
-  },
+   unitNotes: mcobUnitNotes;
+    },
     {
     id: `s-1035`,
     slug: `me`,
