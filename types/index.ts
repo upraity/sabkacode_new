@@ -23,6 +23,7 @@ export type ProjectCategory =
   | "android"
   | "cyber-security"
   | "iot"
+  | "HTML, CSS, JS"
   | "final-year";
 
 export type ProjectType =
