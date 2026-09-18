@@ -11,6 +11,7 @@ const categoryLabels: Record<Project["category"], string> = {
   "cyber-security": "Cyber Security",
   iot: "IoT",
   "final-year": "Final Year",
+  "html-css-js": "HTML, CSS, JS",
 };
 
 export function ProjectCard({ project }: { project: Project }) {
