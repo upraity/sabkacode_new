@@ -1,5 +1,6 @@
 import { Subject } from "@/types";
 import { strategicManagementUnitNotes } from "./unit-notes/strategic-management";
+import { mcobUnitNotes } from "./unit-notes/mcob";
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
 // DBRAU (BCA) and CSJMU (BCA). DBRAU/CSJMU/MBA/MCA subjects, names and
