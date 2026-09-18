@@ -1,6 +1,9 @@
 import { Subject } from "@/types";
 import { strategicManagementUnitNotes } from "./unit-notes/strategic-management";
 import { mcobUnitNotes } from "./unit-notes/mcob";
+import { mcobUnitNotes } from "./unit-notes/consumer-behaviour-neuromarketing";
+import { mcobUnitNotes } from "./unit-notes/marketing-web-analytics";
+import { mcobUnitNotes } from "./unit-notes/sales-distribution-management";
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
 // DBRAU (BCA) and CSJMU (BCA). DBRAU/CSJMU/MBA/MCA subjects, names and
@@ -476,7 +479,7 @@ UNIT-II Organising & Staffing- Types of organization, Organization structure, de
 UNIT III Fundamentals of individual behavior: Concepts of OB,OB Model, Components of OB, Personality, types of personality, Personal effectiveness, meaning of Attitudes, Types, Components, attitude formation and attitude change. Meaning & Type of Group Behaviour, Interpersonal skills, Transactional Analysis, Johari Window, Meaning of Perception, process, behavioral applications of perception. Case Studies. 
 UNIT IV Motivation:, Theory of Motivation: Maslow’s, Herzberg’s, McClelland, Contemporary theories of Motivation: Self Determination Theory, Self Efficacy Theory, Vroom’s Expectancy Theory, Equity Theory, Reinforcement Theory. 
 UNIT V: Leadership: What is leadership, types of leaders and leadership styles, traits and qualities of effective leader, trait theory, LSM – Leadership Situational Model, Team Building, Tuckman Model of Team Development. Organizational Change: Meaning of organizational change approaches to managing organizational change, creating a culture for change, implementing the change, Kurt Lewin Model of change. Case Studies`,
-   unitNotes: mcobUnitNotes;
+   unitNotes: mcobUnitNotes,
     },
     {
     id: `s-1035`,
@@ -770,6 +773,7 @@ Unit 2 Psychological factors: Perception, learning, motivation, attitude formati
 Unit 3 Consumer Behaviour in Digital Age Online and mobile consumer behaviour, Influence of social media, peer reviews, and digital communities. Role of AI, machine learning, and big data in understanding consumers. Behavioural targeting and personalization strategies. Consumer privacy and data protection in digital marketing. Emerging trends in digital consumption patterns. Case Discussions and Industry Practices. 
 Unit 4 Introduction to Neuromarketing: Meaning and scope of neuromarketing. Principles of neuroscience relevant to marketing: Brain functions, emotions, and decision-making. Neuromarketing techniques: Eye-tracking, fMRI, EEG, biometrics, facial coding. Applications of neuromarketing in advertising, branding, packaging, and pricing strategies. Benefits and limitations of neuromarketing. Ethical issues, criticisms, and regulatory frameworks related to neuromarketing. Case Studies. 
 Unit 5 Consumer Behaviour and Neuromarketing Strategies: Translating consumer insights into marketing strategy. Designing customer experiences using neuromarketing findings. Sensory marketing and subconscious consumer triggers. Role of neuromarketing in retail, FMCG, luxury brands, and service sectors. Developing integrated consumer behaviour and neuromarketing strategies for real-world challenges. Case Study.`,
+ unitNotes: consumerBehaviourNeuroMarketingUnitNotes,
   },
    {
     id: `s-1054`,
@@ -787,7 +791,8 @@ Unit 2: (8 Hours) Pricing Analytics: Pricing Policy & Objectives, Demand Estimat
 Unit 3: (7 Hours) Sales Forecasting & Customer Analytics: Linear & Multiple Regression for Forecasting, Seasonality & Special Events Modeling, Ratio to Moving Average Methods-Curve Forecasting for New Products, Customer Lifetime Value (CLV): Concept, Estimation & Business Implication, Market Segmentation: STP Framework, Clustering for Segment Derivation, Describing Market Segments 
 Unit 4: (8 Hours) Retailing, Advertising & Web Analytics Retail Analytics: Market Basket Analysis (2-way & 3 way lift), RFM Analysis, Retail Space & Sales Resource Allocation. Advertising Analytics: Advertising Effectiveness, PPC, Online Ads. Introduction to Web Analytics: Key Terms, Process, Offsite vs. Onsite Web Analytics, Web Analytics Tools & Metrics: Hits, Page Views, Bounce Rate, Traffic Source Google Analytics Overview KPIs: Need, Characteristics, Perspective & Usage Custom Campaigns & Content Reports 
 Unit 5: (9 Hours) Social Media, Web Analytics Tools & Qualitative Analysis: Facebook Analytics: Demographics, Engagement & Post Performance, Social Campaign Analysis: Goals & Outcomes Analytics for Instagram, Twitter, LinkedIn, YouTube Organic vs. Paid Traffic, Benchmarking Web Analytics Tools: A/B Testing, Online Surveys, Web Crawling & Indexing, NLP Techniques for Micro-text Analysis Google Website Optimizer: Working & Implementation. Qualitative Techniques: Heuristic Evaluation, Site Visits, Surveys (Post-visit & Online)Web Analytics 2.0 vs. 1.0,Competitive Intelligence, Website Traffic Trends & Overlap.` ,
-  },
+unitNotes: marketingWebAnalyticsUnitNotes,  
+},
   {
     id: `s-1055`,
     slug: `sdm`,
@@ -804,6 +809,7 @@ UNIT 2: (8 Hours) Sales Force Management: Types of sales organizations and their
 Unit 3: (8 Hours) Sales Planning and Control: Sales Forecasting Methods and Techniques, Sales Budgeting and Resource Allocation, Sales Strategy and Sales Planning Process, Sales Call Planning and Time Management, Role of Technology in Sales Planning (CRM, Sales force Automation),Ethics in Selling and Legal Aspects 
 Unit 4: (10 Hours) Distribution Channel Management: Types of Marketing Channels, Channel Design and Selection, Channel Conflict and its Management, Channel Partner Selection, Motivation, and Performance Appraisal, Retailing and Wholesaling: Trends and Practices. Managing Vertical and Horizontal Marketing Systems 
 Unit 5: (10 Hours) Logistics and Emerging Trends in Distribution: Introduction to Logistics and Supply Chain Management, Order Processing, Warehousing, Inventory Management, Transportation and Distribution Cost Control ,E-commerce and Omnichannel Distribution, Role of IT in Distribution (ERP, SCM Tools), Emerging Trends: Green Logistics, Reverse Logistics, Direct-to-Consumer (D2C) Channels, Role of IT in retailing: ERP, CRM, analytics-retailing and Omni channel strategies, Mobile retailing, Social commerce, AI/ML in retail, Ethical and legal issues in retail, Sustainability in retailing, Future trends`,
+  unitNotes: salesDistributionManagementUnitNotes,
   },
   {
     id: `s-1056`,
