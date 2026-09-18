@@ -1,9 +1,9 @@
 import { Subject } from "@/types";
 import { strategicManagementUnitNotes } from "./unit-notes/strategic-management";
 import { mcobUnitNotes } from "./unit-notes/mcob";
-import { mcobUnitNotes } from "./unit-notes/consumer-behaviour-neuromarketing";
-import { mcobUnitNotes } from "./unit-notes/marketing-web-analytics";
-import { mcobUnitNotes } from "./unit-notes/sales-distribution-management";
+import { consumerBehaviourNeuroMarketingUnitNotes } from "./unit-notes/consumer-behaviour-neuromarketing";
+import { marketingWebAnalyticsUnitNotes } from "./unit-notes/marketing-web-analytics";
+import { salesDistributionManagementUnitNotes } from "./unit-notes/sales-distribution-management";
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
 // DBRAU (BCA) and CSJMU (BCA). DBRAU/CSJMU/MBA/MCA subjects, names and
