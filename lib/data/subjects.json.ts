@@ -4,6 +4,7 @@ import { mcobUnitNotes } from "./unit-notes/mcob";
 import { consumerBehaviourNeuroMarketingUnitNotes } from "./unit-notes/consumer-behaviour-neuromarketing";
 import { marketingWebAnalyticsUnitNotes } from "./unit-notes/marketing-web-analytics";
 import { salesDistributionManagementUnitNotes } from "./unit-notes/sales-distribution-management";
+import { talentAcquisitionManagementUnitNotes } from "./unit-notes/talent-acquisition-management";
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
 // DBRAU (BCA) and CSJMU (BCA). DBRAU/CSJMU/MBA/MCA subjects, names and
@@ -827,6 +828,7 @@ Unit 2: Talent Acquisition & Retention Strategies Talent Acquisition lifecycle: 
 Unit 3: Talent Development for Global Leadership Talent development methods: Coaching, Mentoring, Training; Global Leadership Competencies (GLOBE study, case analysis); Integrated Talent Management Process Succession Planning and Career Development; Use of Meta-Analysis & Talent Analytics; Cases on succession planning; Exercises on leadership assessment. 
 Unit 4: Performance Management & Rewards Performance Appraisal Systems (MBO, 360-degree feedback); Compensation and Reward Strategies; Motivating Star Employees and High Potentials; Cultural aspects in talent mobility; Coaching with Compassion (Daniel Goleman framework); Cases on the evaluation of reward policies with latest updates; Exercises on performance reviews and rewards mapping. 
 Unit 5: Strategic Talent Management & Contemporary Issues Strategic Workforce Planning; Talent Success Drivers & Talent-Powered Organizations; Big Data, AI & Talent Analytics; Talent Management Challenges; Ethical considerations & Future of Work (employment-to-consultation shifts); Cases and latest updates; Exercises on the talent strategy design using analytics.`,
+ unitNotes: talentAcquisitionManagementUnitNotes,  
   },
   {
     id: `s-1057`,
