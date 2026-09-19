@@ -2305,7 +2305,7 @@ export const resources: ResourceItem[] = [
 // These entries use `anchor` to jump to the in-app Detailed Notes section.
 
 {
-  id: "r-hr01-01",
+  id: "r-5240",
   subjectId: "BMB-HR-01",
   type: "notes",
   title: "Unit 1 — Talent Management Foundations & Strategic Importance",
