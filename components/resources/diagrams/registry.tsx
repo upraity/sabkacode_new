@@ -30,6 +30,30 @@ import { ExpectancyTheoryDiagram } from "./ExpectancyTheoryDiagram";
 import { HerzbergTwoFactorDiagram } from "./HerzbergTwoFactorDiagram";
 import { TransactionalAnalysisDiagram } from "./TransactionalAnalysisDiagram";
 
+
+import { DemandSupplyCurveDiagram } from "./DemandSupplyCurveDiagram";
+import { CostCurvesDiagram } from "./CostCurvesDiagram";
+import { ProductLifeCycleDiagram } from "./ProductLifeCycleDiagram";
+import { NormalDistributionDiagram } from "./NormalDistributionDiagram";
+import { CircularFlowDiagram } from "./CircularFlowDiagram";
+import { AccountingEquationDiagram } from "./AccountingEquationDiagram";
+import { BusinessCycleDiagram } from "./BusinessCycleDiagram";
+import { AccountingCycleDiagram } from "./AccountingCycleDiagram";
+import { StpProcessDiagram } from "./StpProcessDiagram";
+import { AidaModelDiagram } from "./AidaModelDiagram";
+import { ConsumerBuyingProcessDiagram } from "./ConsumerBuyingProcessDiagram";
+import { DistributionChannelDiagram } from "./DistributionChannelDiagram";
+import { CommunicationProcessDiagram } from "./CommunicationProcessDiagram";
+import { WritingProcessDiagram } from "./WritingProcessDiagram";
+import { EntrepreneurialProcessDiagram } from "./EntrepreneurialProcessDiagram";
+import { HypothesisTestingProcessDiagram } from "./HypothesisTestingProcessDiagram";
+import { MarketingMixDiagram } from "./MarketingMixDiagram";
+import { CommunicationBarriersDiagram } from "./CommunicationBarriersDiagram";
+import { InnovationTypesDiagram } from "./InnovationTypesDiagram";
+import { RatioCategoriesDiagram } from "./RatioCategoriesDiagram";
+import { HardwareCategoriesDiagram } from "./HardwareCategoriesDiagram";
+
+
 // HR-02 — Employee Relations and Labor Laws
 import { IndustrialRelationsSystemDiagram } from "./IndustrialRelationsSystemDiagram";
 import { TradeUnionFunctionsDiagram } from "./TradeUnionFunctionsDiagram";
@@ -101,6 +125,27 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "expectancy-theory": ExpectancyTheoryDiagram,
   "herzberg-two-factor": HerzbergTwoFactorDiagram,
   "transactional-analysis": TransactionalAnalysisDiagram,
+  "demand-supply-curve": DemandSupplyCurveDiagram,
+  "cost-curves": CostCurvesDiagram,
+  "product-life-cycle": ProductLifeCycleDiagram,
+  "normal-distribution": NormalDistributionDiagram,
+  "circular-flow": CircularFlowDiagram,
+  "accounting-equation": AccountingEquationDiagram,
+  "business-cycle": BusinessCycleDiagram,
+  "accounting-cycle": AccountingCycleDiagram,
+  "stp-process": StpProcessDiagram,
+  "aida-model": AidaModelDiagram,
+  "consumer-buying-process": ConsumerBuyingProcessDiagram,
+  "distribution-channel": DistributionChannelDiagram,
+  "communication-process": CommunicationProcessDiagram,
+  "writing-process": WritingProcessDiagram,
+  "entrepreneurial-process": EntrepreneurialProcessDiagram,
+  "hypothesis-testing-process": HypothesisTestingProcessDiagram,
+  "marketing-mix": MarketingMixDiagram,
+  "communication-barriers": CommunicationBarriersDiagram,
+  "innovation-types": InnovationTypesDiagram,
+  "ratio-categories": RatioCategoriesDiagram,
+  "hardware-categories": HardwareCategoriesDiagram,
 
   // HR-02 — Employee Relations and Labor Laws
   "industrial-relations-system": IndustrialRelationsSystemDiagram,
