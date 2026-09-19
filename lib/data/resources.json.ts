@@ -2306,7 +2306,7 @@ export const resources: ResourceItem[] = [
 
 {
   id: "r-5240",
-  subjectId: "BMB-HR-01",
+  subjectId: "1056",
   type: "notes",
   title: "Unit 1 — Talent Management Foundations & Strategic Importance",
   description: "Meaning and scope of talent management, talent as a strategic resource, talent management cycle, competitive advantage, and strategic alignment.",
@@ -2316,7 +2316,7 @@ export const resources: ResourceItem[] = [
 },
 {
   id: "r-hr01-02",
-  subjectId: "BMB-HR-01",
+  subjectId: "1056",
   type: "notes",
   title: "Unit 2 — Talent Acquisition & Workforce Planning",
   description: "Talent acquisition process, workforce planning, sourcing, recruitment strategy, selection, employer branding, and strategic workforce requirements.",
@@ -2326,7 +2326,7 @@ export const resources: ResourceItem[] = [
 },
 {
   id: "r-hr01-03",
-  subjectId: "BMB-HR-01",
+  subjectId: "1056",
   type: "notes",
   title: "Unit 3 — Talent Development & Performance Management",
   description: "Talent development, learning and development, career development, performance management cycle, employee growth, and capability building.",
@@ -2336,7 +2336,7 @@ export const resources: ResourceItem[] = [
 },
 {
   id: "r-hr01-04",
-  subjectId: "BMB-HR-01",
+  subjectId: "1056",
   type: "notes",
   title: "Unit 4 — Succession Planning & Talent Retention",
   description: "Succession planning, identifying critical positions, talent pools, career paths, retention strategies, and continuity of leadership.",
@@ -2346,7 +2346,7 @@ export const resources: ResourceItem[] = [
 },
 {
   id: "r-hr01-05",
-  subjectId: "BMB-HR-01",
+  subjectId: "1056",
   type: "notes",
   title: "Unit 5 — Strategic Talent Management & Organizational Outcomes",
   description: "Strategic talent management, integration of acquisition and development, talent metrics, employee engagement, organizational performance, and long-term talent strategy.",
