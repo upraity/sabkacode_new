@@ -14,7 +14,7 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "Communication is the process of exchanging information, ideas, and meaning between two or more parties, so that the message is understood as intended.",
+            text: "Communication is a systematic process in which two or more persons exchange information, ideas, facts, opinions, feelings, or instructions with the purpose of creating shared understanding. In business, communication is successful only when the receiver interprets the message substantially as the sender intended. It involves a sender, encoding, message, channel, receiver, decoding, feedback, and possible noise. In an organisation, communication connects managers, employees, customers, suppliers, and other stakeholders and supports coordination, decision-making, problem-solving, and relationship building.",
           },
           {
             kind: "paragraph",
@@ -38,7 +38,7 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "The purpose of business communication includes informing, persuading, instructing, motivating, and building relationships with internal and external stakeholders.",
+            text: "Business communication serves several purposes. It informs employees and stakeholders about facts, policies, decisions, performance, and changes. It persuades customers, employees, investors, or other stakeholders to accept an idea, proposal, product, or course of action. It instructs people through directions, procedures, standards, and operating information. It motivates employees by communicating goals, recognition, expectations, and encouragement. It also builds relationships by creating trust, cooperation, goodwill, and mutual understanding among internal and external stakeholders.",
           },
           { kind: "diagram", diagramId: "communication-process", caption: "Fig 1.1 — The Communication Process" },
           {
@@ -63,7 +63,7 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "Characteristics of successful communication are often summarised as the 7 C's: Clarity, Conciseness, Concreteness, Correctness, Completeness, Courtesy, and Consideration.",
+            text: "The characteristics of successful communication are commonly explained through the 7 C's. Clarity means that the purpose and meaning should be easy to understand. Conciseness means avoiding unnecessary words and repetition while retaining essential information. Concreteness requires specific and definite language rather than vague statements. Correctness means that facts, grammar, spelling, terminology, and other details should be accurate. Completeness requires providing the information needed to understand the message or take action. Courtesy means communicating respectfully and professionally. Consideration means viewing the message from the receiver's perspective and adapting language, tone, and content to the audience.",
           },
           {
             kind: "paragraph",
@@ -71,7 +71,7 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
           },
           {
             kind: "paragraph",
-            text: "Communication structure in an organisation typically follows the formal hierarchy (matching the organisation chart), supplemented by informal networks that carry information faster but less reliably.",
+            text: "Organisational communication operates through both formal and informal structures. Formal communication follows officially recognised channels and the organisational hierarchy, such as instructions from managers to subordinates, reports from employees to managers, and coordination between departments. Informal communication develops naturally through interpersonal relationships and is often called the grapevine. It can spread information quickly, but its accuracy is not always guaranteed. Organisations therefore use formal channels for authoritative information while recognising that informal networks also influence information flow.",
           },
         ],
       },
@@ -82,7 +82,7 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "Crisis communication requires speed, transparency, and consistency — organisations that communicate proactively and honestly during a crisis (a product recall, a data breach) generally preserve more stakeholder trust than those that delay or appear to hide information.",
+            text: "Crisis communication refers to planned and timely communication when an organisation faces an event that may threaten its operations, reputation, employees, customers, or other stakeholders. Important principles include speed, transparency, consistency, accuracy, empathy, and regular updates. The organisation should communicate verified facts quickly, explain what is being done, identify what is known and unknown, and provide practical guidance. Messages should remain consistent across official channels and be updated as new facts become available. Delayed, contradictory, or misleading communication can increase uncertainty and damage stakeholder confidence.",
           },
           { kind: "diagram", diagramId: "communication-barriers", caption: "Fig 1.2 — Common barriers to communication" },
           {
@@ -138,15 +138,15 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "Principles of successful oral communication: clarity of speech, appropriate tone/pace, active listening, and adapting the message to the audience.",
+            text: "Successful oral communication depends on both what is said and how it is delivered. Clarity of speech makes ideas understandable. Appropriate tone and pace help communicate confidence, seriousness, friendliness, or urgency according to the situation. Active listening requires attention, understanding, relevant questions, and suitable responses. The message should also be adapted to the audience because technical or professional information may require different language for a specialist, customer, senior manager, or new employee.",
           },
           {
             kind: "bullets",
             items: [
-              "Conversation control: managing the flow and direction of a conversation without dominating it — includes turn-taking and steering back to the topic when needed.",
+              "Conversation control: managing the flow and direction of a conversation without dominating it. It includes appropriate turn-taking, asking relevant questions, and bringing the discussion back to the main topic when it moves away from the purpose. Good conversation control keeps communication orderly while allowing other participants to contribute.",
               "Reflection and empathy: the \"two sides\" of effective oral communication — reflection means genuinely thinking about and responding to what the other person said (not just waiting to speak); empathy means understanding and acknowledging the other person's feelings/perspective.",
-              "Effective listening: active listening (fully concentrating, not interrupting, asking clarifying questions) versus passive listening (just hearing words without real engagement).",
-              "Non-verbal communication: body language, facial expressions, eye contact, posture, and tone of voice — often communicates more than the actual words used.",
+              "Effective listening: active listening requires full concentration, avoiding unnecessary interruption, asking clarifying questions, observing relevant non-verbal signals, and responding appropriately to demonstrate understanding. Passive listening mainly involves hearing the words without meaningful engagement. Active listening is particularly important in managerial communication because it helps identify problems, clarify expectations, and build trust.",
+              "Non-verbal communication includes body language, facial expressions, eye contact, posture, gestures, physical distance, and aspects of voice such as tone and pace. These signals can support, modify, or sometimes contradict the spoken message. Effective oral communication therefore requires attention to both verbal content and non-verbal behaviour.",
             ],
           },
         ],
@@ -158,7 +158,7 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "The purpose of writing in business is to create a clear, permanent, and reviewable record of information, decisions, or instructions.",
+            text: "Business writing communicates information, decisions, instructions, proposals, requests, reports, and other organisational messages in a clear and lasting form. Written communication creates a record that can be reviewed, stored, referred to later, and shared with authorised persons. It is therefore important for formal instructions, business decisions, client communication, policies, reports, and documentation. Effective business writing should be reader-oriented, logically organised, accurate, concise, and appropriate to its purpose and audience.",
           },
           {
             kind: "paragraph",
@@ -172,14 +172,14 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
           {
             kind: "bullets",
             items: [
-              "Pre-writing: analyse the purpose and audience, gather ideas, and outline the structure before writing a single sentence.",
-              "Writing: draft the actual content, following the outline, focusing on getting ideas down rather than perfecting wording yet.",
-              "Revising: edit for clarity, conciseness, correctness (grammar/spelling), and overall coherence — often the most important stage for quality.",
+              "Pre-writing: analyse the purpose, audience, and expected outcome; gather relevant information and ideas; select necessary material; and prepare an outline. This stage reduces unnecessary content and helps the writer decide what the reader needs to know before drafting.",
+              "Writing: prepare the first draft by converting planned ideas into organised paragraphs and sentences. The writer should follow the outline and focus first on communicating the complete message rather than spending excessive time perfecting individual words during the initial draft.",
+              "Revising: critically review the draft for clarity, conciseness, correctness, completeness, tone, grammar, spelling, and overall coherence. The writer should check whether the message achieves its purpose, whether the sequence of ideas is logical, and whether the reader can easily identify required actions or conclusions.",
             ],
           },
           {
             kind: "paragraph",
-            text: "Specific writing features for business communication include coherence (logical flow between sentences/paragraphs, using transition words) and adapting tone/format for electronic writing (emails, chat messages) — typically shorter, more direct, and scannable than traditional printed business writing.",
+            text: "Effective business writing requires coherence, meaning that ideas are connected logically so the reader can move smoothly from one point to the next. Transition words, headings, appropriate paragraphing, and logical sequencing help create coherence. Electronic communication also requires adaptation of tone and format. Business emails and professional messages are generally shorter, more direct, and easier to scan than lengthy printed documents, but they must still use professional language, correct grammar, suitable subject lines, and clear action points.",
           },
         ],
       },
@@ -243,7 +243,7 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "A report is a structured, objective document that presents information, analysis, and often recommendations, on a specific matter, for a specific audience.",
+            text: "A report is a systematic and structured business document prepared to present information, findings, analysis, conclusions, and, where appropriate, recommendations about a specific subject. Reports are normally prepared for a defined audience and purpose. Depending on its purpose, a report may describe a situation, investigate a problem, compare alternatives, evaluate performance, or support management decision-making. Objectivity, clarity, accuracy, and logical organisation are important qualities of report writing.",
           },
           {
             kind: "bullets",
@@ -262,7 +262,7 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "A presentation is an oral communication of information (often supported by visual aids) to an audience, for a specific purpose (informing, persuading, or training).",
+            text: "A business presentation is a planned oral communication delivered to an audience for a specific purpose such as informing, persuading, training, explaining a proposal, or reporting results. An effective presentation combines content, organisation, delivery, and supporting visual aids. The presenter should understand the audience, define the objective, arrange ideas logically, use suitable examples or evidence, and deliver the message confidently. Visual aids should reinforce the central message rather than compete with the speaker.",
           },
           {
             kind: "paragraph",
@@ -313,7 +313,7 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "A CV (Curriculum Vitae) or resume is a structured summary of a candidate's education, experience, skills, and achievements, designed to secure an interview.",
+            text: "A CV or resume is a structured professional document presenting a candidate's education, qualifications, experience, skills, projects, certifications, and relevant achievements. Its employment purpose is to communicate the candidate's suitability for a position and encourage the employer to consider the candidate for an interview. An effective CV should be accurate, well organised, easy to read, relevant to the job, and free from spelling or factual errors.",
           },
           {
             kind: "bullets",
@@ -331,11 +331,11 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "A Group Discussion (GD) evaluates a candidate's communication skills, knowledge, teamwork, and leadership in a group setting — assessors typically look for clarity of thought, ability to listen and build on others' points, and not just dominating the conversation.",
+            text: "A Group Discussion (GD) is a structured group activity used to observe how candidates communicate and interact while discussing a topic or problem. It can assess clarity of thought, subject awareness, listening ability, reasoning, teamwork, confidence, leadership behaviour, and the ability to respond constructively to different viewpoints. Effective participation is not the same as speaking the most. A strong participant contributes relevant points, listens to others, builds on useful ideas, disagrees respectfully when necessary, and helps keep the discussion productive.",
           },
           {
             kind: "paragraph",
-            text: "Interview skills: preparation (researching the company/role), clear and structured answers (e.g., using the STAR method — Situation, Task, Action, Result — for behavioural questions), confident body language, and thoughtful questions to ask the interviewer.",
+            text: "Effective interview performance begins before the interview. Candidates should research the organisation, understand the job description, review their CV, and prepare examples demonstrating relevant skills and achievements. During the interview, answers should be clear, relevant, structured, and supported by examples. For behavioural questions, the STAR method—Situation, Task, Action, Result—helps present an experience logically. Professional body language, attentive listening, appropriate eye contact, confident but respectful communication, and thoughtful questions also contribute to effective interview communication.",
           },
         ],
       },
@@ -396,11 +396,11 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "Effective meetings require careful planning around: objectives (why is this meeting happening at all), participants (who genuinely needs to be there), timing, and venue (physical or virtual).",
+            text: "An effective meeting begins with clear planning. The objective should be defined so participants understand why the meeting is necessary and what outcome is expected. Only relevant participants should be invited because unnecessary attendance increases time and cost. The date and duration should suit the participants and purpose. The physical or virtual venue and required technology should be arranged in advance. Proper preparation helps the meeting remain focused and increases the likelihood of achieving its intended outcome.",
           },
           {
             kind: "paragraph",
-            text: "Leading a meeting effectively involves: circulating a clear agenda in advance, starting/ending on time, keeping the discussion focused on the agenda, ensuring all voices are heard, and closing with clear action items and owners.",
+            text: "Effective meeting leadership requires active control of both time and discussion. A clear agenda should be circulated in advance so participants can prepare. The meeting should start and finish as scheduled, and the leader should keep discussion related to the stated objectives. Participants should receive a reasonable opportunity to contribute, while irrelevant or repetitive discussion should be redirected. At the conclusion, decisions, action items, responsible persons, and expected deadlines should be clearly recorded. Follow-up communication is important because a meeting is successful only when agreed actions are implemented.",
           },
         ],
       },
@@ -435,7 +435,7 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
           },
           {
             kind: "paragraph",
-            text: "Business etiquette covers the professional norms expected in workplace interactions — punctuality, appropriate dress, respectful communication, professional email/phone conduct, and cultural sensitivity, especially important in cross-cultural or client-facing business settings.",
+            text: "Business etiquette refers to accepted standards of professional behaviour that guide communication and interaction in the workplace. It includes punctuality, appropriate professional appearance, respectful language, attentive listening, proper email and telephone conduct, appropriate meeting behaviour, and sensitivity to cultural differences. Good etiquette helps create a professional environment and supports positive relationships with colleagues, customers, suppliers, and other stakeholders. In cross-cultural and client-facing situations, awareness of differences in communication style, greetings, formality, and business practices becomes especially important.",
           },
         ],
       },
