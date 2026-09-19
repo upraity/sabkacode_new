@@ -5,6 +5,13 @@ import { consumerBehaviourNeuroMarketingUnitNotes } from "./unit-notes/consumer-
 import { marketingWebAnalyticsUnitNotes } from "./unit-notes/marketing-web-analytics";
 import { salesDistributionManagementUnitNotes } from "./unit-notes/sales-distribution-management";
 import { talentAcquisitionManagementUnitNotes } from "./unit-notes/talent-acquisition-management";
+import { managerialEconomicsUnitNotes } from "./unit-notes/managerial-economics";
+import { financialAccountingUnitNotes } from "./unit-notes/financial-accounting";
+import { businessStatisticsUnitNotes } from "./unit-notes/business-statistics";
+import { marketingManagementUnitNotes } from "./unit-notes/marketing-management";
+import { creativityInnovationEntrepreneurshipUnitNotes } from "./unit-notes/creativity-innovation-entrepreneurship";
+import { businessCommunicationUnitNotes } from "./unit-notes/business-communication";
+import { itSkills1UnitNotes } from "./unit-notes/it-skills-1";
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
 // DBRAU (BCA) and CSJMU (BCA). DBRAU/CSJMU/MBA/MCA subjects, names and
@@ -497,7 +504,8 @@ UNIT –II Demand and Supply Analysis: Theory of Demand, Types of Demand. Determ
 UNIT –III Production and cost Analysis: Production concepts & analysis; Production function, Types of production function, Laws of production: Law of diminishing returns, Law of returns to scale. Cost concept and analysis: Cost, Types of costs, Cost output relationship in the short-run. Cost output relationship in the Long-run. Estimation of revenue. Average Revenue, Marginal Revenue . Case Studies 
 UNIT –IV Market structures: Perfect and Imperfect Market Structures, Perfect Competition, features, determination of price under perfect competition. Monopoly: Feature, pricing under monopoly, Price Discrimination. Monopolistic: Features, pricing under monopolistic competition, product differentiation. Oligopoly: Features, kinked demand curve, cartels, price leadership. Case Studies 
 UNIT –V National Income; Concepts and various methods of its measurement, Circular flows in 2 sector, 3 sector, 4 sector economies, Inflation, types and causes, Business Cycle & its phases.`,
-  },
+      unitNotes: managerialEconomicsUnitNotes,
+    },
     {
     id: `s-1036`,
     slug: `faa`,
@@ -513,6 +521,7 @@ UNIT II Mechanics of Accounting: Accounting Standards and IFRS: International Ac
 UNIT III Presentation of Financial Statement: Preparation of final accounts (Profit & Loss Account and Balance Sheet) according to companies act 2013 (vertical format), Excel Application to make Balance sheet, Case studies and Workshops, Preparation of Cash Flow Statement and its analysis. 
 UNIT IV Analysis of financial statement: Ratio Analysis- Solvency ratios, Profitability ratios, activity ratios, liquidity ratios, Market capitalization ratios; leverage Ratio, Detailed Analysis using excel application. 
 UNIT V Financial Statement Analysis and Recent Types of Accounting: Common Size Statement; Comparative Balance Sheet and Trend Analysis of manufacturing, Service & banking organizations, Case Study and Workshops in analysing Balance sheet. Human Resource Accounting, Forensic Accounting, Accounting for corporate social responsibility.`,
+unitNotes: financialAccountingUnitNotes,
   },
     {
     id: `s-1037`,
@@ -529,7 +538,8 @@ Unit II:Time Series & Index Number Time series analysis: Concept, Additive and M
 Unit III: Correlation & Regression Analysis Correlation Analysis: Rank Method & Karl Pearson's Coefficient of Correlation and Properties of Correlation. Regression Analysis: Fitting of a Regression Line and Interpretation of Results, Properties of Regression Coefficients and Relationship between Regression and Correlation. 
 Unit IV: Probability Thoery & Distribution Probability: Theory of Probability, Addition and Multiplication Law, Baye’s Theorem Probability Theoretical Distributions: Concept and application of Binomial; Poisson and Normal distributions. Introduction to bivariate and multivariate data analysis( Cluster and Factor analysis) 
 Unit V: Hypothesis Testing& Business Analytics Hypothesis Testing: Null and Alternative Hypotheses; Type I and Type II errors; Testing of Hypothesis: Large Sample Tests, Small Sample test, (t, F, Z Test and Chi Square Test) Concept of Business Analytics- Meaning types and application of Business Analytics, Use of Spread Sheet to anlayze data-Descriptive analytics and Predictive analytics.`,
-  },
+        unitNotes: businessStatisticsUnitNotes,
+    },
     {
     id: `s-1038`,
     slug: `mm`,
@@ -545,7 +555,8 @@ Unit 2 Market segmentation, Targeting and Positioning: Meaning, Factors influenc
 Unit 3 Product Decisions: Concept, Product Hierarchy, New Product Development, Diffusion process, Product Life cycle, Product mix strategies. Packaging / Labeling: Packaging as a marketing tool, requirement of good packaging, Role of labeling in packaging. Pricing Decisions: Pricing concepts for establishing value, Pricing Strategies-Value based, Cost based, Market based, Competitor based, New product pricing – Price Skimming & Penetration pricing 
 Unit 4 Place Decision: Meaning, Purpose, Channel alternatives, Factors affecting channel choice, Channel design and Channel management decisions, Channel conflict, Retailing & Types of Retailers. Advertising: Advertising Objectives, Advertising Budget, Advertising Copy, AIDA model, Public Relation: Meaning, Objectives, Types, and Functions of Public Relations. Sales Promotion: Sales Promotion Mix, Kinds of promotion, Tools and Techniques of sales promotion, Push-pull strategies of promotion, Personal Selling: Concept, Features, Functions, Steps/process involved in Personal Selling, Direct Marketing: Meaning, Features, Functions, Growth and benefits of direct marketing, different forms. 
 Unit 5 CRM: Meaning, Relationship Marketing Vs. Relationship Management, Types of Relationship Management, Significance of Customer Relationship Management. Global Marketing: current scenario, Global Marketing environment, Entry strategies, Global P’s of Marketing., Recent trends and Innovation in Marketing- Green Marketing, Agile Marketing`,
-  },
+    unitNotes: marketingManagementUnitNotes,
+    },
     {
     id: `s-1039`,
     slug: `cie`,
@@ -560,7 +571,7 @@ Unit 5 CRM: Meaning, Relationship Marketing Vs. Relationship Management, Types o
 Unit 2 Entrepreneurship: Meaning, definition and concept, Factors affecting entrepreneurship, characteristics and skills of an entrepreneur, entrepreneur v/s manager. Types of entrepreneurs, functions of an entrepreneur, entrepreneurial decision-process. Social, rural and women Entrepreneurship, Case Studies of Successful Entrepreneurs, Entrepreneurial Failure 
 Unit 3 Entrepreneurial Eco-System in India: Overview of MSME, Role of Central Govt & State Govt in supporting SMEs, subsidies, grants, export-oriented units - fiscal & tax concessions, other government initiatives and inclusive entrepreneurial growth Government e Market place (GeM), Zero effect Zero defect, Lean Manufacturing., Startup India, Stand Up India, Make in India, Innovate in India. Entrepreneurial Finance: Estimating financial requirements; Sources of finance — banks & financial institutions; Bootstrapping, Crowdfunding. Angel investing Venture Capital; IPO Role of agencies assisting entrepreneurship: DICs, SSIs, NSICs, NISBUD, Entrepreneurship Development Institute of India (EDII). New initiatives taken by the government to promote entrepreneurship. State Startup Ranking by DIPIT, State Innovation Ranking by NITI AAYOG (India Innovation Index), 
 Unit 4 From Idea to Opportunity: Idea generation- sources and methods, identification and classification of ideas. Individual creativity: idea to business opportunity Process of New Venture and its Challenges. Developing a Business Plan: Business Planning Process: elements of business planning, preparation of project plan, components of an ideal business plan: market plan, financial plan, operational plan, and Feasibility Analysis — aspects and methods: Economic analysis, financial analysis, market-, and technological feasibility, Business Model Launching a new venture, Growth and Sustainability.`,
-  },
+    unitNotes: creativityInnovationEntrepreneurshipUnitNotes, },
     {
     id: `s-1040`,
     slug: `it1`,
@@ -576,6 +587,7 @@ UNIT II : Windows and Users Interface (Lab Work) Windows operating System: Intro
 UNIT III: Word Processor Software (Lab Work) – 8 hours Word processing concepts: Opening, Saving, Closing the file, Opening an existing document, Selecting text, Editing text, Finding and replacing text, printing documents, Creating and Printing Merged Documents, Character and Paragraph Formatting, Page Design and Layout. Editing and Profiling Tools: Checking and correcting spellings. Using Graphics, Tables, Charts, Document Templates and Wizards. 
 UNIT IV: Spreadsheet Software (Lab Work) Spreadsheet Package Spreadsheet: Concept and Working Interface, Creating, Saving and Editing a Workbook, Inserting, Deleting Work Sheets, entering data in a cell / formula Copying and Moving from selected cells, handling operators in Formulae. Functions in Spreadsheet: Mathematical, Logical, statistical, text, financial, Date and Time functions, Using Function Wizard. Formatting a Worksheet and Cell: changing data alignment, changing date, number, character or currency format, changing font, adding borders and colors. Printing worksheets, Charts and Graphs – Creating, Previewing, and Modifying Charts. Integrating word processor, spread sheets, web pages. 
 UNIT V: Presentation Software (lab Work) Interface of the Presentation Package: Creating, Opening and Saving Presentations. Professional Look of the Presentation: Working in different Design & Views, Working with Slides. Formatting and Editing: Text, Image and Paragraph formatting, Checking Spelling and Correcting Typing Mistakes, Making Notes Pages and Handouts, Drawing and Working with Objects, Adding Clip Art and other pictures, Designing Slide Shows, Running and Controlling a Slide Show, Printing Presentations.`,
+    unitNotes: itSkills1UnitNotes,
     },
     {
     id: `s-1041`,
