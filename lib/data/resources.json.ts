@@ -2455,7 +2455,6 @@ export const resources: ResourceItem[] = [
   { id: "r-5292", subjectId: "s-1040", type: "notes", title: "Unit 3 — Word Processor Software", description: "Document operations, text formatting, page layout, templates, spell-check.", anchor: "unit-3", updatedAt: "2026-09-19", isDemo: false },
   { id: "r-5293", subjectId: "s-1040", type: "notes", title: "Unit 4 — Spreadsheet Software", description: "Workbook operations, formulas & functions, cell formatting, charts, integration.", anchor: "unit-4", updatedAt: "2026-09-19", isDemo: false },
   { id: "r-5294", subjectId: "s-1040", type: "notes", title: "Unit 5 — Presentation Software", description: "Presentation views, slide design/editing, notes/handouts, running a slide show.", anchor: "unit-5", updatedAt: "2026-09-19", isDemo: false },
-];
 
   
 ];
