@@ -14,7 +14,15 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "Communication is a systematic process in which two or more persons exchange information, ideas, facts, opinions, feelings, or instructions with the purpose of creating shared understanding. In business, communication is successful only when the receiver interprets the message substantially as the sender intended. It involves a sender, encoding, message, channel, receiver, decoding, feedback, and possible noise. In an organisation, communication connects managers, employees, customers, suppliers, and other stakeholders and supports coordination, decision-making, problem-solving, and relationship building.",
+            text: "Communication is a systematic process in which two or more persons exchange information, ideas, facts, opinions, feelings, or instructions with the pu" +
+                  "rpose of creating shared understanding. In business, communication is successful only when the receiver interprets the message substantially as the se" +
+                  "nder intended. It involves a sender, encoding, message, channel, receiver, decoding, feedback, and possible noise. In an organisation, communication c" +
+                  "onnects managers, employees, customers, suppliers, and other stakeholders and supports coordination, decision-making, problem-solving, and relationshi" +
+                  "p building. For examination purposes, communication should be understood as a complete process rather than a one-way transfer of words. The sender mus" +
+                  "t select an appropriate message and medium, while the receiver must interpret the message in the intended context. In business organisations, effectiv" +
+                  "e communication reduces uncertainty, coordinates activities, supports relationships, and helps employees understand what is expected from them. A stro" +
+                  "ng answer should also distinguish between communication and mere information: information becomes effective communication when it is transmitted, inte" +
+                  "rpreted, and understood by the intended receiver.",
           },
           {
             kind: "paragraph",
@@ -38,7 +46,14 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "Business communication serves several purposes. It informs employees and stakeholders about facts, policies, decisions, performance, and changes. It persuades customers, employees, investors, or other stakeholders to accept an idea, proposal, product, or course of action. It instructs people through directions, procedures, standards, and operating information. It motivates employees by communicating goals, recognition, expectations, and encouragement. It also builds relationships by creating trust, cooperation, goodwill, and mutual understanding among internal and external stakeholders.",
+            text: "Business communication serves several purposes. It informs employees and stakeholders about facts, policies, decisions, performance, and changes. It p" +
+                  "ersuades customers, employees, investors, or other stakeholders to accept an idea, proposal, product, or course of action. It instructs people through" +
+                  " directions, procedures, standards, and operating information. It motivates employees by communicating goals, recognition, expectations, and encourage" +
+                  "ment. It also builds relationships by creating trust, cooperation, goodwill, and mutual understanding among internal and external stakeholders. In man" +
+                  "agerial situations, the purpose determines the form of communication. For example, an instruction may require a direct and unambiguous channel, while " +
+                  "persuasion may require supporting evidence and explanation. Feedback is particularly important because it tells the sender whether the receiver has un" +
+                  "derstood the message and whether corrective clarification is necessary. Thus, the communication process is continuous and interactive rather than a si" +
+                  "mple movement of information from one person to another.",
           },
           { kind: "diagram", diagramId: "communication-process", caption: "Fig 1.1 — The Communication Process" },
           {
@@ -63,15 +78,29 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "The characteristics of successful communication are commonly explained through the 7 C's. Clarity means that the purpose and meaning should be easy to understand. Conciseness means avoiding unnecessary words and repetition while retaining essential information. Concreteness requires specific and definite language rather than vague statements. Correctness means that facts, grammar, spelling, terminology, and other details should be accurate. Completeness requires providing the information needed to understand the message or take action. Courtesy means communicating respectfully and professionally. Consideration means viewing the message from the receiver's perspective and adapting language, tone, and content to the audience.",
+            text: "The characteristics of successful communication are commonly explained through the 7 C's. Clarity means that the purpose and meaning should be easy to" +
+                  " understand. Conciseness means avoiding unnecessary words and repetition while retaining essential information. Concreteness requires specific and def" +
+                  "inite language rather than vague statements. Correctness means that facts, grammar, spelling, terminology, and other details should be accurate. Compl" +
+                  "eteness requires providing the information needed to understand the message or take action. Courtesy means communicating respectfully and professional" +
+                  "ly. Consideration means viewing the message from the receiver's perspective and adapting language, tone, and content to the audience. The 7 C's are es" +
+                  "pecially useful as an examination framework because each principle addresses a different source of communication failure. Clarity reduces ambiguity, c" +
+                  "onciseness reduces unnecessary information, concreteness reduces vagueness, correctness improves reliability, completeness prevents missing informatio" +
+                  "n, courtesy supports relationships, and consideration makes the message receiver-oriented. Managers who apply these principles can communicate policie" +
+                  "s, instructions, decisions, and feedback more effectively.",
           },
           {
             kind: "paragraph",
-            text: "Importance of communication in management: it is the thread that connects all managerial functions from Unit 1 of MCOB — planning, organising, staffing, directing, and controlling all depend on effective communication to work at all. Poor communication is one of the most commonly cited reasons for strategy implementation failure.",
+            text: "Importance of communication in management: it is the thread that connects all managerial functions from Unit 1 of MCOB — planning, organising, staffin" +
+                  "g, directing, and controlling all depend on effective communication to work at all. Poor communication is one of the most commonly cited reasons for s" +
+                  "trategy implementation failure.",
           },
           {
             kind: "paragraph",
-            text: "Organisational communication operates through both formal and informal structures. Formal communication follows officially recognised channels and the organisational hierarchy, such as instructions from managers to subordinates, reports from employees to managers, and coordination between departments. Informal communication develops naturally through interpersonal relationships and is often called the grapevine. It can spread information quickly, but its accuracy is not always guaranteed. Organisations therefore use formal channels for authoritative information while recognising that informal networks also influence information flow.",
+            text: "Organisational communication operates through both formal and informal structures. Formal communication follows officially recognised channels and the" +
+                  " organisational hierarchy, such as instructions from managers to subordinates, reports from employees to managers, and coordination between department" +
+                  "s. Informal communication develops naturally through interpersonal relationships and is often called the grapevine. It can spread information quickly," +
+                  " but its accuracy is not always guaranteed. Organisations therefore use formal channels for authoritative information while recognising that informal " +
+                  "networks also influence information flow.",
           },
         ],
       },
@@ -82,7 +111,15 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "Crisis communication refers to planned and timely communication when an organisation faces an event that may threaten its operations, reputation, employees, customers, or other stakeholders. Important principles include speed, transparency, consistency, accuracy, empathy, and regular updates. The organisation should communicate verified facts quickly, explain what is being done, identify what is known and unknown, and provide practical guidance. Messages should remain consistent across official channels and be updated as new facts become available. Delayed, contradictory, or misleading communication can increase uncertainty and damage stakeholder confidence.",
+            text: "Crisis communication refers to planned and timely communication when an organisation faces an event that may threaten its operations, reputation, empl" +
+                  "oyees, customers, or other stakeholders. Important principles include speed, transparency, consistency, accuracy, empathy, and regular updates. The or" +
+                  "ganisation should communicate verified facts quickly, explain what is being done, identify what is known and unknown, and provide practical guidance. " +
+                  "Messages should remain consistent across official channels and be updated as new facts become available. Delayed, contradictory, or misleading communi" +
+                  "cation can increase uncertainty and damage stakeholder confidence. Barriers can occur at any stage of the communication process. A message may be phys" +
+                  "ically interrupted, interpreted differently because of language, affected by emotions, or delayed by organisational procedures. Overcoming barriers re" +
+                  "quires identifying their source, selecting a suitable channel, using simple and precise language, encouraging feedback, reducing unnecessary hierarchy" +
+                  ", and creating an environment in which people can communicate concerns openly. In a long-answer question, barriers should ideally be explained categor" +
+                  "y-wise with examples and suitable remedies.",
           },
           { kind: "diagram", diagramId: "communication-barriers", caption: "Fig 1.2 — Common barriers to communication" },
           {
@@ -106,7 +143,23 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
             kind: "callout",
             tone: "case",
             title: "Case study — Tylenol crisis communication (Johnson & Johnson)",
-            text: "Johnson & Johnson's handling of the 1982 Tylenol poisoning crisis — immediately pulling all product off shelves nationwide and communicating transparently with the public — is still taught globally as the gold standard of crisis communication, versus companies that delay or downplay a crisis and suffer far greater long-term reputational damage.",
+            text: "Johnson & Johnson's handling of the 1982 Tylenol poisoning crisis — immediately pulling all product off shelves nationwide and communicating transpare" +
+                  "ntly with the public — is still taught globally as the gold standard of crisis communication, versus companies that delay or downplay a crisis and suf" +
+                  "fer far greater long-term reputational damage. The meeting example demonstrates that efficiency depends more on purpose and management than on simply " +
+                  "scheduling a gathering. A poorly planned meeting can consume organisational time without producing a decision or action. A well-run meeting establishe" +
+                  "s a clear objective, uses an agenda, manages time, encourages relevant participation, records decisions, and assigns responsibility for follow-up. Thi" +
+                  "s makes meeting management an important practical application of business communication principles. The case demonstrates the role of crisis communica" +
+                  "tion in protecting stakeholder confidence. In an exam answer, explain that the value of the example lies in its communication principles: prompt actio" +
+                  "n, clear public information, consistency, responsibility, and attention to stakeholder safety and trust. This workplace example demonstrates the pract" +
+                  "ical value of the 3x3 writing process. A well-planned message is more likely to have a clear purpose, logical organisation, appropriate tone, and a sp" +
+                  "ecific action request. The example can be used to show why revision is not merely proofreading but an essential stage of effective business writing. T" +
+                  "he presentation example illustrates the principle of matching visual design to the communication objective. Minimal slides can support a narrative, wh" +
+                  "ile analytical presentations may require more detailed charts and tables. The important requirement is that visual aids should improve comprehension a" +
+                  "nd should not overload the audience. The placement example shows that employment communication is continuous across the recruitment process. Each stag" +
+                  "e communicates different information: the CV communicates qualifications, the GD demonstrates interaction and reasoning, and the interview provides de" +
+                  "eper evidence of suitability and professional behaviour. The meeting example shows that meeting effectiveness depends on planning, leadership, partici" +
+                  "pation, time management, and follow-up. The central lesson is that a meeting should produce a useful communication outcome such as a decision, solutio" +
+                  "n, allocation of responsibility, or agreed next step.",
           },
         ],
       },
@@ -118,12 +171,12 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
       { term: "Grapevine", definition: "The informal communication network within an organisation." },
     ],
     examQuestions: [
-      "Explain the process of communication with a diagram. (Long)",
-      "Discuss the classification of communication with examples. (Medium)",
-      "Explain the characteristics of successful communication (7 C's). (Medium)",
-      "Discuss the importance of communication in management. (Medium)",
-      "Explain the barriers to communication with examples. (Long)",
-      "What principles should guide communication during a crisis? (Medium)",
+      "Explain the process of communication with a diagram. (Long Explain the sender, encoding, message, channel, receiver, decoding, feedback, and noise in sequence and relate each element to a business example.)",
+      "Discuss the classification of communication with examples. (Medium Cover classification by direction, mode, and formality, with at least one organisational example for each.)",
+      "Explain the characteristics of successful communication (7 C's). (Medium Define all seven C's and explain how each improves message effectiveness.)",
+      "Discuss the importance of communication in management. (Medium Link communication with planning, organising, staffing, directing, controlling, coordination, decision-making, and employee relations.)",
+      "Explain the barriers to communication with examples. (Long Classify barriers and explain physical, semantic, psychological, and organisational causes with examples and remedies.)",
+      "What principles should guide communication during a crisis? (Medium Explain speed, transparency, accuracy, consistency, empathy, responsibility, and regular stakeholder updates.)",
     ],
   },
   {
@@ -138,7 +191,14 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "Successful oral communication depends on both what is said and how it is delivered. Clarity of speech makes ideas understandable. Appropriate tone and pace help communicate confidence, seriousness, friendliness, or urgency according to the situation. Active listening requires attention, understanding, relevant questions, and suitable responses. The message should also be adapted to the audience because technical or professional information may require different language for a specialist, customer, senior manager, or new employee.",
+            text: "Successful oral communication depends on both what is said and how it is delivered. Clarity of speech makes ideas understandable. Appropriate tone and" +
+                  " pace help communicate confidence, seriousness, friendliness, or urgency according to the situation. Active listening requires attention, understandin" +
+                  "g, relevant questions, and suitable responses. The message should also be adapted to the audience because technical or professional information may re" +
+                  "quire different language for a specialist, customer, senior manager, or new employee. Oral communication is particularly useful when a message require" +
+                  "s immediate interaction, clarification, negotiation, discussion, or emotional understanding. Its effectiveness depends on both verbal and non-verbal e" +
+                  "lements. A speaker should organise the message before speaking, use understandable language, maintain suitable pace and tone, listen carefully to resp" +
+                  "onses, and modify the explanation when the receiver appears confused. In business settings, meetings, interviews, presentations, telephone calls, coun" +
+                  "selling, negotiations, and day-to-day managerial conversations all depend on effective oral communication.",
           },
           {
             kind: "bullets",
@@ -158,7 +218,14 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "Business writing communicates information, decisions, instructions, proposals, requests, reports, and other organisational messages in a clear and lasting form. Written communication creates a record that can be reviewed, stored, referred to later, and shared with authorised persons. It is therefore important for formal instructions, business decisions, client communication, policies, reports, and documentation. Effective business writing should be reader-oriented, logically organised, accurate, concise, and appropriate to its purpose and audience.",
+            text: "Business writing communicates information, decisions, instructions, proposals, requests, reports, and other organisational messages in a clear and las" +
+                  "ting form. Written communication creates a record that can be reviewed, stored, referred to later, and shared with authorised persons. It is therefore" +
+                  " important for formal instructions, business decisions, client communication, policies, reports, and documentation. Effective business writing should " +
+                  "be reader-oriented, logically organised, accurate, concise, and appropriate to its purpose and audience. Written communication is preferred when accur" +
+                  "acy, permanence, detailed explanation, or a formal record is important. The writer must consider the reader before choosing vocabulary, structure, ton" +
+                  "e, and level of detail. Business writing should normally answer three questions: why is the message being written, what does the reader need to know, " +
+                  "and what action is expected? A document that contains correct information but fails to present it in a logical and reader-friendly manner may still be" +
+                  " ineffective.",
           },
           {
             kind: "paragraph",
@@ -179,7 +246,10 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
           },
           {
             kind: "paragraph",
-            text: "Effective business writing requires coherence, meaning that ideas are connected logically so the reader can move smoothly from one point to the next. Transition words, headings, appropriate paragraphing, and logical sequencing help create coherence. Electronic communication also requires adaptation of tone and format. Business emails and professional messages are generally shorter, more direct, and easier to scan than lengthy printed documents, but they must still use professional language, correct grammar, suitable subject lines, and clear action points.",
+            text: "Effective business writing requires coherence, meaning that ideas are connected logically so the reader can move smoothly from one point to the next. " +
+                  "Transition words, headings, appropriate paragraphing, and logical sequencing help create coherence. Electronic communication also requires adaptation " +
+                  "of tone and format. Business emails and professional messages are generally shorter, more direct, and easier to scan than lengthy printed documents, b" +
+                  "ut they must still use professional language, correct grammar, suitable subject lines, and clear action points.",
           },
         ],
       },
@@ -192,7 +262,8 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
             kind: "callout",
             tone: "case",
             title: "Common workplace scenario",
-            text: "A manager drafting an important client email without following the 3x3 process (skipping pre-writing) often produces a disorganised, overly long message — a common, avoidable communication failure that structured business writing training specifically targets.",
+            text: "A manager drafting an important client email without following the 3x3 process (skipping pre-writing) often produces a disorganised, overly long messa" +
+                  "ge — a common, avoidable communication failure that structured business writing training specifically targets.",
           },
         ],
       },
@@ -232,7 +303,11 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
           },
           {
             kind: "paragraph",
-            text: "Memos are brief, internal written communications used for routine internal matters (announcements, internal requests, short updates) — less formal than a letter, since they stay within the organisation.",
+            text: "Memos are brief, internal written communications used for routine internal matters (announcements, internal requests, short updates) — less formal tha" +
+                  "n a letter, since they stay within the organisation. Business letters remain important when communication requires a formal written record with a clea" +
+                  "r sender, receiver, purpose, and professional format. The choice of letter type depends on the objective. Routine and positive messages generally comm" +
+                  "unicate the main point directly, while persuasive messages emphasise reasons and benefits, and negative messages require careful organisation so that " +
+                  "the decision is communicated clearly without unnecessary offence. The tone should remain professional even when the content is unfavourable.",
           },
         ],
       },
@@ -243,7 +318,13 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "A report is a systematic and structured business document prepared to present information, findings, analysis, conclusions, and, where appropriate, recommendations about a specific subject. Reports are normally prepared for a defined audience and purpose. Depending on its purpose, a report may describe a situation, investigate a problem, compare alternatives, evaluate performance, or support management decision-making. Objectivity, clarity, accuracy, and logical organisation are important qualities of report writing.",
+            text: "A report is a systematic and structured business document prepared to present information, findings, analysis, conclusions, and, where appropriate, re" +
+                  "commendations about a specific subject. Reports are normally prepared for a defined audience and purpose. Depending on its purpose, a report may descr" +
+                  "ibe a situation, investigate a problem, compare alternatives, evaluate performance, or support management decision-making. Objectivity, clarity, accur" +
+                  "acy, and logical organisation are important qualities of report writing. Report writing differs from ordinary business correspondence because a report" +
+                  " normally organises information in a systematic manner for a defined purpose and audience. Depending on the assignment, the writer may need to collect" +
+                  " evidence, classify information, analyse findings, draw conclusions, and make recommendations. The report should therefore distinguish facts from inte" +
+                  "rpretation and recommendations. A well-structured report helps management understand a situation and take an informed decision.",
           },
           {
             kind: "bullets",
@@ -262,15 +343,23 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "A business presentation is a planned oral communication delivered to an audience for a specific purpose such as informing, persuading, training, explaining a proposal, or reporting results. An effective presentation combines content, organisation, delivery, and supporting visual aids. The presenter should understand the audience, define the objective, arrange ideas logically, use suitable examples or evidence, and deliver the message confidently. Visual aids should reinforce the central message rather than compete with the speaker.",
+            text: "A business presentation is a planned oral communication delivered to an audience for a specific purpose such as informing, persuading, training, expla" +
+                  "ining a proposal, or reporting results. An effective presentation combines content, organisation, delivery, and supporting visual aids. The presenter " +
+                  "should understand the audience, define the objective, arrange ideas logically, use suitable examples or evidence, and deliver the message confidently." +
+                  " Visual aids should reinforce the central message rather than compete with the speaker. Presentation effectiveness depends on the relationship between" +
+                  " content, structure, delivery, and visual support. A presenter should first establish the objective and audience, then organise the material into a lo" +
+                  "gical sequence. Delivery should include appropriate voice modulation, pace, posture, eye contact, and confidence. Visual aids should simplify complex " +
+                  "information, highlight important data, and support memory rather than forcing the audience to read large amounts of text while the presenter speaks.",
           },
           {
             kind: "paragraph",
-            text: "Key elements of an effective presentation: a clear structure (introduction, body, conclusion), strong opening/closing, confident delivery (voice, eye contact, pace), and well-designed supporting visual aids.",
+            text: "Key elements of an effective presentation: a clear structure (introduction, body, conclusion), strong opening/closing, confident delivery (voice, eye " +
+                  "contact, pace), and well-designed supporting visual aids.",
           },
           {
             kind: "paragraph",
-            text: "Advanced visual aid support for business presentations: well-designed slides (minimal text, strong visuals), charts/graphs for data, and increasingly, interactive tools/live demos — all should support the speaker's message, not replace or distract from it.",
+            text: "Advanced visual aid support for business presentations: well-designed slides (minimal text, strong visuals), charts/graphs for data, and increasingly," +
+                  " interactive tools/live demos — all should support the speaker's message, not replace or distract from it.",
           },
         ],
       },
@@ -283,7 +372,8 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
             kind: "callout",
             tone: "case",
             title: "Case study — Steve Jobs' presentation style",
-            text: "Steve Jobs' Apple product launch presentations are widely studied for their minimal, visual-first slide design (often just one image or a few words per slide) — letting the speaker's narrative carry the message, rather than overloading the audience with text-heavy slides.",
+            text: "Steve Jobs' Apple product launch presentations are widely studied for their minimal, visual-first slide design (often just one image or a few words pe" +
+                  "r slide) — letting the speaker's narrative carry the message, rather than overloading the audience with text-heavy slides.",
           },
         ],
       },
@@ -313,7 +403,13 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "A CV or resume is a structured professional document presenting a candidate's education, qualifications, experience, skills, projects, certifications, and relevant achievements. Its employment purpose is to communicate the candidate's suitability for a position and encourage the employer to consider the candidate for an interview. An effective CV should be accurate, well organised, easy to read, relevant to the job, and free from spelling or factual errors.",
+            text: "A CV or resume is a structured professional document presenting a candidate's education, qualifications, experience, skills, projects, certifications," +
+                  " and relevant achievements. Its employment purpose is to communicate the candidate's suitability for a position and encourage the employer to consider" +
+                  " the candidate for an interview. An effective CV should be accurate, well organised, easy to read, relevant to the job, and free from spelling or fact" +
+                  "ual errors. A CV should be treated as a targeted communication document rather than a complete autobiography. The employer should be able to identify " +
+                  "the candidate's relevant qualifications, experience, skills, and achievements quickly. Information should be arranged in a logical order, and importan" +
+                  "t achievements should be supported by measurable outcomes where possible. Tailoring the CV to the job description also helps the candidate emphasise t" +
+                  "he capabilities most relevant to the position.",
           },
           {
             kind: "bullets",
@@ -331,11 +427,22 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "A Group Discussion (GD) is a structured group activity used to observe how candidates communicate and interact while discussing a topic or problem. It can assess clarity of thought, subject awareness, listening ability, reasoning, teamwork, confidence, leadership behaviour, and the ability to respond constructively to different viewpoints. Effective participation is not the same as speaking the most. A strong participant contributes relevant points, listens to others, builds on useful ideas, disagrees respectfully when necessary, and helps keep the discussion productive.",
+            text: "A Group Discussion (GD) is a structured group activity used to observe how candidates communicate and interact while discussing a topic or problem. It" +
+                  " can assess clarity of thought, subject awareness, listening ability, reasoning, teamwork, confidence, leadership behaviour, and the ability to respon" +
+                  "d constructively to different viewpoints. Effective participation is not the same as speaking the most. A strong participant contributes relevant poin" +
+                  "ts, listens to others, builds on useful ideas, disagrees respectfully when necessary, and helps keep the discussion productive. Both GDs and interview" +
+                  "s test communication in different ways. A GD emphasises interaction among several participants, so listening, turn-taking, reasoning, teamwork, and co" +
+                  "nstructive disagreement are important. An interview is more individual and requires the candidate to answer questions directly while demonstrating sui" +
+                  "tability for the role. In both situations, preparation, clarity, confidence, professional body language, and evidence-based examples improve the quali" +
+                  "ty of communication.",
           },
           {
             kind: "paragraph",
-            text: "Effective interview performance begins before the interview. Candidates should research the organisation, understand the job description, review their CV, and prepare examples demonstrating relevant skills and achievements. During the interview, answers should be clear, relevant, structured, and supported by examples. For behavioural questions, the STAR method—Situation, Task, Action, Result—helps present an experience logically. Professional body language, attentive listening, appropriate eye contact, confident but respectful communication, and thoughtful questions also contribute to effective interview communication.",
+            text: "Effective interview performance begins before the interview. Candidates should research the organisation, understand the job description, review their" +
+                  " CV, and prepare examples demonstrating relevant skills and achievements. During the interview, answers should be clear, relevant, structured, and sup" +
+                  "ported by examples. For behavioural questions, the STAR method—Situation, Task, Action, Result—helps present an experience logically. Professional bod" +
+                  "y language, attentive listening, appropriate eye contact, confident but respectful communication, and thoughtful questions also contribute to effectiv" +
+                  "e interview communication.",
           },
         ],
       },
@@ -366,7 +473,8 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
             kind: "callout",
             tone: "case",
             title: "Common placement scenario",
-            text: "In most Indian campus placement processes, candidates go through exactly this sequence — CV shortlisting, a Group Discussion round, and one or more personal interview rounds — making this unit's content directly applicable to a student's own upcoming placement preparation.",
+            text: "In most Indian campus placement processes, candidates go through exactly this sequence — CV shortlisting, a Group Discussion round, and one or more pe" +
+                  "rsonal interview rounds — making this unit's content directly applicable to a student's own upcoming placement preparation.",
           },
         ],
       },
@@ -396,11 +504,21 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
         blocks: [
           {
             kind: "paragraph",
-            text: "An effective meeting begins with clear planning. The objective should be defined so participants understand why the meeting is necessary and what outcome is expected. Only relevant participants should be invited because unnecessary attendance increases time and cost. The date and duration should suit the participants and purpose. The physical or virtual venue and required technology should be arranged in advance. Proper preparation helps the meeting remain focused and increases the likelihood of achieving its intended outcome.",
+            text: "An effective meeting begins with clear planning. The objective should be defined so participants understand why the meeting is necessary and what outc" +
+                  "ome is expected. Only relevant participants should be invited because unnecessary attendance increases time and cost. The date and duration should sui" +
+                  "t the participants and purpose. The physical or virtual venue and required technology should be arranged in advance. Proper preparation helps the meet" +
+                  "ing remain focused and increases the likelihood of achieving its intended outcome. Meetings are useful when interaction, discussion, coordination, pro" +
+                  "blem-solving, consultation, or collective decision-making is required. A meeting should have a clear purpose and an expected outcome. Before the meeti" +
+                  "ng, the organiser should prepare the agenda, relevant documents, participants, time, venue, and technology. During the meeting, the leader should mana" +
+                  "ge discussion and participation. After the meeting, decisions and responsibilities should be communicated so that discussion is converted into action.",
           },
           {
             kind: "paragraph",
-            text: "Effective meeting leadership requires active control of both time and discussion. A clear agenda should be circulated in advance so participants can prepare. The meeting should start and finish as scheduled, and the leader should keep discussion related to the stated objectives. Participants should receive a reasonable opportunity to contribute, while irrelevant or repetitive discussion should be redirected. At the conclusion, decisions, action items, responsible persons, and expected deadlines should be clearly recorded. Follow-up communication is important because a meeting is successful only when agreed actions are implemented.",
+            text: "Effective meeting leadership requires active control of both time and discussion. A clear agenda should be circulated in advance so participants can p" +
+                  "repare. The meeting should start and finish as scheduled, and the leader should keep discussion related to the stated objectives. Participants should " +
+                  "receive a reasonable opportunity to contribute, while irrelevant or repetitive discussion should be redirected. At the conclusion, decisions, action i" +
+                  "tems, responsible persons, and expected deadlines should be clearly recorded. Follow-up communication is important because a meeting is successful onl" +
+                  "y when agreed actions are implemented.",
           },
         ],
       },
@@ -435,7 +553,15 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
           },
           {
             kind: "paragraph",
-            text: "Business etiquette refers to accepted standards of professional behaviour that guide communication and interaction in the workplace. It includes punctuality, appropriate professional appearance, respectful language, attentive listening, proper email and telephone conduct, appropriate meeting behaviour, and sensitivity to cultural differences. Good etiquette helps create a professional environment and supports positive relationships with colleagues, customers, suppliers, and other stakeholders. In cross-cultural and client-facing situations, awareness of differences in communication style, greetings, formality, and business practices becomes especially important.",
+            text: "Business etiquette refers to accepted standards of professional behaviour that guide communication and interaction in the workplace. It includes punct" +
+                  "uality, appropriate professional appearance, respectful language, attentive listening, proper email and telephone conduct, appropriate meeting behavio" +
+                  "ur, and sensitivity to cultural differences. Good etiquette helps create a professional environment and supports positive relationships with colleague" +
+                  "s, customers, suppliers, and other stakeholders. In cross-cultural and client-facing situations, awareness of differences in communication style, gree" +
+                  "tings, formality, and business practices becomes especially important. Seminars, workshops, and conferences differ mainly in scale, purpose, and degre" +
+                  "e of participant interaction. A seminar generally focuses on learning about a defined topic, a workshop emphasises practical participation and skill d" +
+                  "evelopment, and a conference brings together a larger professional or academic community around a broader theme. Business etiquette applies across all" +
+                  " these settings because professional communication, punctuality, respectful behaviour, appropriate appearance, and cultural awareness affect the quali" +
+                  "ty of professional relationships.",
           },
         ],
       },
@@ -448,7 +574,9 @@ export const businessCommunicationUnitNotes: UnitNote[] = [
             kind: "callout",
             tone: "case",
             title: "Case study — Poorly planned vs. well-run meetings",
-            text: "A frequently studied workplace problem is the \"meeting that could have been an email\" — a meeting held without a clear objective or agenda, wasting participants' time; contrasted with a well-run meeting with a circulated agenda, time-boxed discussion, and clear follow-up actions — illustrating exactly the planning principles taught in this unit.",
+            text: "A frequently studied workplace problem is the \"meeting that could have been an email\" — a meeting held without a clear objective or agenda, wasting " +
+                  "participants' time; contrasted with a well-run meeting with a circulated agenda, time-boxed discussion, and clear follow-up actions — illustrating exa" +
+                  "ctly the planning principles taught in this unit.",
           },
         ],
       },
