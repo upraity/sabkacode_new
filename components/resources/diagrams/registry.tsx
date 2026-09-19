@@ -39,6 +39,23 @@ import { WorkplaceSafetyCycleDiagram } from "./WorkplaceSafetyCycleDiagram";
 import { GratuityProcessDiagram } from "./GratuityProcessDiagram";
 import { HrLabourComplianceCycleDiagram } from "./HrLabourComplianceCycleDiagram";
 
+// MBA Semester 3 — Marketing Specialization diagrams
+import { CBDecisionJourneyDiagram } from "./CBDecisionJourneyDiagram";
+import { ConsumerDecisionProcessDiagram } from "./ConsumerDecisionProcessDiagram";
+import { ConsumerPerceptionProcessDiagram } from "./ConsumerPerceptionProcessDiagram";
+import { DigitalConsumerJourneyDiagram } from "./DigitalConsumerJourneyDiagram";
+import { NeuromarketingFrameworkDiagram } from "./NeuromarketingFrameworkDiagram";
+import { ConsumerInsightLoopDiagram } from "./ConsumerInsightLoopDiagram";
+import { MarketingAnalyticsFrameworkDiagram } from "./MarketingAnalyticsFrameworkDiagram";
+import { ProductFunnelDiagram } from "./ProductFunnelDiagram";
+import { RegressionModelDiagram } from "./RegressionModelDiagram";
+import { WebAnalyticsCycleDiagram } from "./WebAnalyticsCycleDiagram";
+import { PersonalSellingProcessDiagram } from "./PersonalSellingProcessDiagram";
+import { SalesForceRecruitmentDiagram } from "./SalesForceRecruitmentDiagram";
+import { SalesPlanningControlDiagram } from "./SalesPlanningControlDiagram";
+import { DistributionChannelLevelsDiagram } from "./DistributionChannelLevelsDiagram";
+import { LogisticsFlowDiagram } from "./LogisticsFlowDiagram";
+
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
 //   2. Registering it here under a stable, kebab-case id.
@@ -86,4 +103,26 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "workplace-safety-cycle": WorkplaceSafetyCycleDiagram,
   "gratuity-process": GratuityProcessDiagram,
   "hr-labour-compliance-cycle": HrLabourComplianceCycleDiagram,
+
+  // MBA MK 01 — Consumer Behaviour & Neuro Marketing
+  "cb-decision-journey": CBDecisionJourneyDiagram,
+  "consumer-decision-process": ConsumerDecisionProcessDiagram,
+  "consumer-perception-process": ConsumerPerceptionProcessDiagram,
+  "digital-consumer-journey": DigitalConsumerJourneyDiagram,
+  "neuromarketing-framework": NeuromarketingFrameworkDiagram,
+  "consumer-insight-loop": ConsumerInsightLoopDiagram,
+
+  // MBA MK 02 — Marketing & Web Analytics
+  "marketing-analytics-framework": MarketingAnalyticsFrameworkDiagram,
+  "product-funnel": ProductFunnelDiagram,
+  "regression-model": RegressionModelDiagram,
+  "web-analytics-cycle": WebAnalyticsCycleDiagram,
+
+  // MBA MK 03 — Sales & Distribution Management
+  "personal-selling-process": PersonalSellingProcessDiagram,
+  "sales-force-recruitment": SalesForceRecruitmentDiagram,
+  "sales-planning-control": SalesPlanningControlDiagram,
+  "distribution-channel-levels": DistributionChannelLevelsDiagram,
+  "logistics-flow": LogisticsFlowDiagram,
+
 };
