@@ -2354,6 +2354,109 @@ export const resources: ResourceItem[] = [
   updatedAt: "2026-09-19",
   isDemo: false,
 },
+
+
+  // Management Concept & Organisational Behaviour (BMB101, s-1034) — Detailed Notes index.
+  {
+    id: "r-5220",
+    subjectId: "s-1034",
+    type: "notes",
+    title: "Unit 1 — Fundamentals of Management & Planning",
+    description: "Evolution of management, levels of management, managerial skills/functions, planning process, MBO, decision-making.",
+    anchor: "unit-1",
+    updatedAt: "2026-09-18",
+    isDemo: false,
+  },
+  {
+    id: "r-5221",
+    subjectId: "s-1034",
+    type: "notes",
+    title: "Unit 2 — Organising, Staffing, Directing & Controlling",
+    description: "Types of organization, delegation & decentralization, staffing process, directing principles, control techniques.",
+    anchor: "unit-2",
+    updatedAt: "2026-09-18",
+    isDemo: false,
+  },
+  {
+    id: "r-5222",
+    subjectId: "s-1034",
+    type: "notes",
+    title: "Unit 3 — Fundamentals of Individual Behaviour",
+    description: "OB model, personality, attitudes, group behaviour, Transactional Analysis, Johari Window, perception.",
+    anchor: "unit-3",
+    updatedAt: "2026-09-18",
+    isDemo: false,
+  },
+  {
+    id: "r-5223",
+    subjectId: "s-1034",
+    type: "notes",
+    title: "Unit 4 — Motivation",
+    description: "Maslow, Herzberg, McClelland, Self-Determination & Self-Efficacy theory, Vroom's Expectancy theory, Equity & Reinforcement theory.",
+    anchor: "unit-4",
+    updatedAt: "2026-09-18",
+    isDemo: false,
+  },
+  {
+    id: "r-5224",
+    subjectId: "s-1034",
+    type: "notes",
+    title: "Unit 5 — Leadership & Organizational Change",
+    description: "Leadership styles, trait theory, Situational Leadership Model, Tuckman's model, Kurt Lewin's change model.",
+    anchor: "unit-5",
+    updatedAt: "2026-09-18",
+    isDemo: false,
+  },
+
+  // Managerial Economics (BMB102, s-1035) — Detailed Notes index.
+  { id: "r-5230", subjectId: "s-1035", type: "notes", title: "Unit 1 — Basic Concepts and Principles", description: "Incremental/marginal/opportunity-cost principles, discounting, equi-marginal principle, utility analysis.", anchor: "unit-1", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5231", subjectId: "s-1035", type: "notes", title: "Unit 2 — Demand and Supply Analysis", description: "Law of demand, elasticity types, demand forecasting, supply analysis, price determination.", anchor: "unit-2", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5232", subjectId: "s-1035", type: "notes", title: "Unit 3 — Production and Cost Analysis", description: "Production function, laws of production, cost concepts, short-run cost curves, revenue estimation.", anchor: "unit-3", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5233", subjectId: "s-1035", type: "notes", title: "Unit 4 — Market Structures", description: "Perfect competition, monopoly, monopolistic competition, oligopoly, kinked demand curve, cartels.", anchor: "unit-4", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5234", subjectId: "s-1035", type: "notes", title: "Unit 5 — National Income", description: "GDP/GNP/NNP, national income measurement, circular flow, inflation types, business cycle phases.", anchor: "unit-5", updatedAt: "2026-09-19", isDemo: false },
+
+  // Financial Accounting & Analysis (BMB103, s-1036) — Detailed Notes index.
+  { id: "r-5240", subjectId: "s-1036", type: "notes", title: "Unit 1 — Meaning and Scope of Accounting", description: "Accounting terminologies, concepts & conventions, accounting equation, depreciation, GAAP.", anchor: "unit-1", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5241", subjectId: "s-1036", type: "notes", title: "Unit 2 — Mechanics of Accounting", description: "Accounting standards & IFRS/Ind AS, double-entry system, journal, ledger, trial balance.", anchor: "unit-2", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5242", subjectId: "s-1036", type: "notes", title: "Unit 3 — Presentation of Financial Statements", description: "Final accounts, Companies Act 2013 vertical format, cash flow statement.", anchor: "unit-3", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5243", subjectId: "s-1036", type: "notes", title: "Unit 4 — Analysis of Financial Statements", description: "Liquidity, solvency, profitability, activity, market cap and leverage ratios.", anchor: "unit-4", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5244", subjectId: "s-1036", type: "notes", title: "Unit 5 — Financial Statement Analysis & Recent Types of Accounting", description: "Common size statement, comparative/trend analysis, HR & forensic accounting, CSR accounting.", anchor: "unit-5", updatedAt: "2026-09-19", isDemo: false },
+
+  // Business Statistics & Analytics (BMB104, s-1037) — Detailed Notes index.
+  { id: "r-5250", subjectId: "s-1037", type: "notes", title: "Unit 1 — Descriptive Statistics", description: "Central tendency, dispersion, coefficient of variation, skewness and kurtosis.", anchor: "unit-1", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5251", subjectId: "s-1037", type: "notes", title: "Unit 2 — Time Series & Index Number", description: "Time series components, trend fitting, index numbers, fixed base and chain base methods.", anchor: "unit-2", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5252", subjectId: "s-1037", type: "notes", title: "Unit 3 — Correlation & Regression Analysis", description: "Karl Pearson's & Spearman's correlation, regression line fitting and interpretation.", anchor: "unit-3", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5253", subjectId: "s-1037", type: "notes", title: "Unit 4 — Probability Theory & Distribution", description: "Addition/multiplication laws, Bayes' theorem, Binomial/Poisson/Normal distributions.", anchor: "unit-4", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5254", subjectId: "s-1037", type: "notes", title: "Unit 5 — Hypothesis Testing & Business Analytics", description: "Null/alternative hypotheses, Type I/II errors, t/F/Z/Chi-square tests, business analytics.", anchor: "unit-5", updatedAt: "2026-09-19", isDemo: false },
+
+  // Marketing Management (BMB105, s-1038) — Detailed Notes index.
+  { id: "r-5260", subjectId: "s-1038", type: "notes", title: "Unit 1 — Introduction to Marketing & Consumer Behaviour", description: "Marketing orientations, marketing mix, consumer buying decision process.", anchor: "unit-1", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5261", subjectId: "s-1038", type: "notes", title: "Unit 2 — Segmentation, Targeting, Positioning & Branding", description: "STP process, bases for segmentation, targeting strategies, branding and brand equity.", anchor: "unit-2", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5262", subjectId: "s-1038", type: "notes", title: "Unit 3 — Product and Pricing Decisions", description: "NPD, diffusion of innovation, Product Life Cycle, packaging, pricing strategies.", anchor: "unit-3", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5263", subjectId: "s-1038", type: "notes", title: "Unit 4 — Place and Promotion Decisions", description: "Distribution channels, AIDA model, sales promotion, personal selling, direct marketing.", anchor: "unit-4", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5264", subjectId: "s-1038", type: "notes", title: "Unit 5 — CRM and Global Marketing", description: "Relationship marketing, CRM significance, global market entry strategies, green/agile marketing.", anchor: "unit-5", updatedAt: "2026-09-19", isDemo: false },
+
+  // Creativity, Innovation & Entrepreneurship (BMB106, s-1039) — Detailed Notes index.
+  { id: "r-5270", subjectId: "s-1039", type: "notes", title: "Unit 1 — Creativity and Innovation", description: "Creativity vs. innovation, innovation types, sources of innovation, creative destruction.", anchor: "unit-1", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5271", subjectId: "s-1039", type: "notes", title: "Unit 2 — Entrepreneurship", description: "Types of entrepreneurs, entrepreneur vs. manager, entrepreneurial decision process, failure causes.", anchor: "unit-2", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5272", subjectId: "s-1039", type: "notes", title: "Unit 3 — Entrepreneurial Eco-System in India & Finance", description: "MSME support, Startup India, sources of entrepreneurial finance, support agencies (EDII, NSIC).", anchor: "unit-3", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5273", subjectId: "s-1039", type: "notes", title: "Unit 4 — From Idea to Opportunity & Business Plan", description: "Idea generation, feasibility analysis, business plan components, launching a venture.", anchor: "unit-4", updatedAt: "2026-09-19", isDemo: false },
+
+  // Business Communication (BMB107, s-1033) — Detailed Notes index.
+  { id: "r-5280", subjectId: "s-1033", type: "notes", title: "Unit 1 — Introduction to Communication", description: "Communication process, barriers, crisis communication, importance in management.", anchor: "unit-1", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5281", subjectId: "s-1033", type: "notes", title: "Unit 2 — Oral and Written Communication", description: "Effective listening, empathy, the 3x3 writing process, electronic writing.", anchor: "unit-2", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5282", subjectId: "s-1033", type: "notes", title: "Unit 3 — Business Letters and Reports", description: "Routine/persuasive letters, memos, report writing, presentation skills.", anchor: "unit-3", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5283", subjectId: "s-1033", type: "notes", title: "Unit 4 — Employment Communication", description: "CV writing, group discussions, interview skills (STAR method), communication technology.", anchor: "unit-4", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5284", subjectId: "s-1033", type: "notes", title: "Unit 5 — Group Communication", description: "Planning and leading meetings, media management, seminars/conferences, business etiquette.", anchor: "unit-5", updatedAt: "2026-09-19", isDemo: false },
+
+  // IT Skills-1 (BMB151, s-1040) — Detailed Notes index.
+  { id: "r-5290", subjectId: "s-1040", type: "notes", title: "Unit 1 — Conceptual Framework of Computers", description: "Hardware, software types, operating systems, networks, internet services, multimedia.", anchor: "unit-1", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5291", subjectId: "s-1040", type: "notes", title: "Unit 2 — Windows and User Interface", description: "Windows OS characteristics, File Explorer, Control Panel, window settings.", anchor: "unit-2", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5292", subjectId: "s-1040", type: "notes", title: "Unit 3 — Word Processor Software", description: "Document operations, text formatting, page layout, templates, spell-check.", anchor: "unit-3", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5293", subjectId: "s-1040", type: "notes", title: "Unit 4 — Spreadsheet Software", description: "Workbook operations, formulas & functions, cell formatting, charts, integration.", anchor: "unit-4", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5294", subjectId: "s-1040", type: "notes", title: "Unit 5 — Presentation Software", description: "Presentation views, slide design/editing, notes/handouts, running a slide show.", anchor: "unit-5", updatedAt: "2026-09-19", isDemo: false },
+];
+
   
 ];
 
