@@ -471,6 +471,7 @@ UNIT II: Oral communication: What is oral Communication – principles of succes
 UNIT III: Business letters and reports: Introduction to business letters – writing routine and persuasive letters – positive and negative messages- writing memos – what is a report purpose, kinds and objectives of report writing. Presentation skills: What is a presentation – elements of presentation – designing a presentation. Advanced visual support for business presentation types of visual aid 
 UNITIV: Employment communication: Introduction – writing CVs – Group discussions – interview skills Impact of Technological Advancement on Business Communication networks – Intranet – Internet – e mails – SMS – teleconferencing – video conferencing. Case Studies 
 UNITV : Group communication: Meetings – Planning meetings – objectives – participants – timing – venue of meetings – leading meetings. Media management – the press release press conference – media interviews Seminars – workshop – conferences. Business etiquettes. Case Studies`,
+  unitNotes: businessCommunicationUnitNotes,
   },
     {
     id: `s-1034`,
