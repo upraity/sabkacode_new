@@ -56,6 +56,13 @@ import { SalesPlanningControlDiagram } from "./SalesPlanningControlDiagram";
 import { DistributionChannelLevelsDiagram } from "./DistributionChannelLevelsDiagram";
 import { LogisticsFlowDiagram } from "./LogisticsFlowDiagram";
 
+import { TalentManagementCycleDiagram } from "./TalentManagementCycleDiagram";
+import { TalentCompetitiveAdvantageDiagram } from "./TalentCompetitiveAdvantageDiagram";
+import { TalentAcquisitionLifecycleDiagram } from "./TalentAcquisitionLifecycleDiagram";
+import { TalentDevelopmentCycleDiagram } from "./TalentDevelopmentCycleDiagram";
+import { SuccessionPlanningDiagram } from "./SuccessionPlanningDiagram";
+import { PerformanceManagementCycleDiagram } from "./PerformanceManagementCycleDiagram";
+import { StrategicWorkforcePlanningDiagram } from "./StrategicWorkforcePlanningDiagram";
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
 //   2. Registering it here under a stable, kebab-case id.
@@ -125,4 +132,12 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "distribution-channel-levels": DistributionChannelLevelsDiagram,
   "logistics-flow": LogisticsFlowDiagram,
 
+  // HR-01 — Talent Acquisition Management
+    "talent-management-cycle": TalentManagementCycleDiagram,
+  "talent-competitive-advantage": TalentCompetitiveAdvantageDiagram,
+  "talent-acquisition-lifecycle": TalentAcquisitionLifecycleDiagram,
+  "talent-development-cycle": TalentDevelopmentCycleDiagram,
+  "succession-planning": SuccessionPlanningDiagram,
+  "performance-management-cycle": PerformanceManagementCycleDiagram,
+  "strategic-workforce-planning": StrategicWorkforcePlanningDiagram,
 };
