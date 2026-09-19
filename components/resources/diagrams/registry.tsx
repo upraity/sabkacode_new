@@ -30,6 +30,15 @@ import { ExpectancyTheoryDiagram } from "./ExpectancyTheoryDiagram";
 import { HerzbergTwoFactorDiagram } from "./HerzbergTwoFactorDiagram";
 import { TransactionalAnalysisDiagram } from "./TransactionalAnalysisDiagram";
 
+// HR-02 — Employee Relations and Labor Laws
+import { IndustrialRelationsSystemDiagram } from "./IndustrialRelationsSystemDiagram";
+import { TradeUnionFunctionsDiagram } from "./TradeUnionFunctionsDiagram";
+import { CollectiveBargainingProcessDiagram } from "./CollectiveBargainingProcessDiagram";
+import { DisciplinaryEnquiryDiagram } from "./DisciplinaryEnquiryDiagram";
+import { WorkplaceSafetyCycleDiagram } from "./WorkplaceSafetyCycleDiagram";
+import { GratuityProcessDiagram } from "./GratuityProcessDiagram";
+import { HrLabourComplianceCycleDiagram } from "./HrLabourComplianceCycleDiagram";
+
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
 //   2. Registering it here under a stable, kebab-case id.
@@ -50,6 +59,8 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "ge-nine-cell": GeNineCellDiagram,
   "matrix-structure": MatrixStructureDiagram,
   "balanced-scorecard": BalancedScorecardDiagram,
+
+  // MCOB — Management Concept & Organisational Behaviour
   "management-levels-pyramid": ManagementLevelsPyramidDiagram,
   "maslow-hierarchy": MaslowHierarchyDiagram,
   "johari-window": JohariWindowDiagram,
@@ -66,4 +77,13 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "expectancy-theory": ExpectancyTheoryDiagram,
   "herzberg-two-factor": HerzbergTwoFactorDiagram,
   "transactional-analysis": TransactionalAnalysisDiagram,
+
+  // HR-02 — Employee Relations and Labor Laws
+  "industrial-relations-system": IndustrialRelationsSystemDiagram,
+  "trade-union-functions": TradeUnionFunctionsDiagram,
+  "collective-bargaining-process": CollectiveBargainingProcessDiagram,
+  "disciplinary-enquiry": DisciplinaryEnquiryDiagram,
+  "workplace-safety-cycle": WorkplaceSafetyCycleDiagram,
+  "gratuity-process": GratuityProcessDiagram,
+  "hr-labour-compliance-cycle": HrLabourComplianceCycleDiagram,
 };
