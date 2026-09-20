@@ -4562,7 +4562,7 @@ Introduction to Complexity Theory: The class P and NP, Polynomial reduction, NP-
     syllabus: `Major project in the sixth semester involving planning, implementation, documentation and presentation of a substantial BCA project.`,
      notesCta: {
       label: "Browse Final Year Projects",
-      url: "https://sabkacode-new.vercel.app/projects?category=final-year",
+      url: "https://sabkacode-new.vercel.app/projects",
       description: "Looking for project ideas or a ready reference? Check out our final-year project catalog instead.",
     },
   },
