@@ -17,9 +17,11 @@ const tabs: { type: ResourceType; label: string; icon: JSX.Element }[] = [
 export function ResourceTabs({
   resources,
   defaultTab,
+    notesCta,
 }: {
   resources: ResourceItem[];
   defaultTab?: ResourceType;
+  notesCta?: { label: string; url: string; description?: string };
 }) {
   const [active, setActive] = useState<ResourceType>(defaultTab ?? "notes");
   const items = resources.filter((r) => r.type === active);
@@ -49,6 +51,21 @@ export function ResourceTabs({
 
       <div className="py-6">
         {items.length === 0 ? (
+          active === "notes" && notesCta ? (
+            <div className="rounded-card border border-brand-100 bg-brand-50 p-6 text-center">
+              <FolderKanban className="mx-auto mb-3 h-8 w-8 text-brand-600" />
+              <p className="mb-1 font-semibold text-ink-900">Written notes aren't available for this subject.</p>
+              {notesCta.description && (
+                <p className="mb-4 text-sm text-ink-600">{notesCta.description}</p>
+              )}
+              <a
+                href={notesCta.url}
+                className="inline-flex items-center gap-1.5 rounded-md bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700"
+              >
+                {notesCta.label} <ArrowRight className="h-3.5 w-3.5" />
+              </a>
+            </div>
+          ) : (
           <EmptyState
             title="No resources are available for this subject yet."
             description="Check back later — this section is updated regularly."
