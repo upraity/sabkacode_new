@@ -58,10 +58,10 @@ export function ResourceTabs({
             {items.map((item) => (
               <li
                 key={item.id}
-                className="flex items-center justify-between gap-3 rounded-card border border-ink-100 bg-white p-4"
+                className="flex flex-col gap-3 rounded-card border border-ink-100 bg-white p-4 sm:flex-row sm:items-center sm:justify-between"
               >
                 <div className="min-w-0">
-                  <p className="truncate font-medium text-ink-900">{item.title}</p>
+                  <p className="line-clamp-2 break-words font-medium text-ink-900">{item.title}</p>
                   {item.description && (
                     <p className="mt-0.5 line-clamp-2 text-sm text-ink-500">{item.description}</p>
                   )}
@@ -75,19 +75,19 @@ export function ResourceTabs({
                 {item.anchor ? (
                   <a
                     href={`#${item.anchor}`}
-                    className="flex shrink-0 items-center gap-1.5 rounded-md bg-brand-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-brand-700"
+                    className="flex w-full shrink-0 items-center justify-center gap-1.5 rounded-md bg-brand-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-brand-700 sm:w-auto"
                   >
                     View Notes <ArrowRight className="h-3.5 w-3.5" />
                   </a>
                 ) : item.fileUrl ? (
                   <a
                     href={item.fileUrl}
-                    className="flex shrink-0 items-center gap-1.5 rounded-md bg-brand-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-brand-700"
+                    className="flex w-full shrink-0 items-center justify-center gap-1.5 rounded-md bg-brand-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-brand-700 sm:w-auto"
                   >
                     <Download className="h-3.5 w-3.5" /> Download
                   </a>
                 ) : (
-                  <span className="shrink-0 rounded-md bg-ink-100 px-3 py-1.5 text-xs text-ink-500">
+                  <span className="block w-full shrink-0 rounded-md bg-ink-100 px-3 py-1.5 text-center text-xs text-ink-500 sm:w-auto">
                     File coming soon
                   </span>
                 )}
