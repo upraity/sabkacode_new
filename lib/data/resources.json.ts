@@ -2134,7 +2134,7 @@ export const resources: ResourceItem[] = [
       year: 2024,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1xYC-E7hlQIYM5pPPIA4cA2kP4M0FmXFu/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
    {
@@ -2255,7 +2255,7 @@ export const resources: ResourceItem[] = [
       year: 2024,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1jfLU_Tniz6ovwtIgnyTE3Adaa6q_d1K5/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
     {
@@ -2266,7 +2266,7 @@ export const resources: ResourceItem[] = [
       year: 2023,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/13lGZi6htwF6fucEKg3a9ItA4Q78MOlEe/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2277,7 +2277,7 @@ export const resources: ResourceItem[] = [
       year: 2022,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1niYqJaYUevOe_Sfoi0wsMBLmzcHl7o0h/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2288,7 +2288,7 @@ export const resources: ResourceItem[] = [
       year: 2021,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1LE0tcy6l1KeIb1EA8DMr9pmUWyxZ-P-i/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2299,7 +2299,7 @@ export const resources: ResourceItem[] = [
       year: 2020,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1nQWfTiGnvqqEWny1pfvhnKWImD2WZtYk/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2310,7 +2310,7 @@ export const resources: ResourceItem[] = [
       year: 2016,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1bSGS7587Cdk9XopKGw_px7Em80rQ8ynV/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2321,7 +2321,7 @@ export const resources: ResourceItem[] = [
       year: 2015,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1CIBTH-zf8omfn5MmxXiiBOG9ebjPKLII/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2332,7 +2332,7 @@ export const resources: ResourceItem[] = [
       year: 2014,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1nZ3P88jlxDv72IweCDZzh7_DHaK99i-X/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2343,7 +2343,7 @@ export const resources: ResourceItem[] = [
       year: 2012,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1QMaLeP6hFzKsoHaOivo1-tHXUlOdihh-/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
    {
@@ -2354,7 +2354,7 @@ export const resources: ResourceItem[] = [
       year: 2025,
       examType: "Regular",
       fileUrl: "",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2365,7 +2365,7 @@ export const resources: ResourceItem[] = [
       year: 2024,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1TdThzJza1acmpVeIERPC5xAOin7bbKq4/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
     {
@@ -2376,7 +2376,7 @@ export const resources: ResourceItem[] = [
       year: 2023,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1RqNkcgY4bfOsouy9CAX57X4Z-iC9J0eZ/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2387,7 +2387,7 @@ export const resources: ResourceItem[] = [
       year: 2022,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1lPsHrcTZJwgzzJnsFcmItw6eEQt5MPMc/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2398,7 +2398,7 @@ export const resources: ResourceItem[] = [
       year: 2021,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1TDqILGlkdGlpMWTy0BKmwrx2zFV03o6T/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2409,7 +2409,7 @@ export const resources: ResourceItem[] = [
       year: 2020,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1eTu82eouxSM_YUGwTiE3m7wd4bkcrM6k/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2420,7 +2420,7 @@ export const resources: ResourceItem[] = [
       year: 2019,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1VJqRDIw7niE87RJtxUObyPzFopmQhf7f/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
   {
@@ -2429,7 +2429,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Introduction to HTML-CSS-XML (C-104) — MCQs",
       fileUrl: "https://drive.google.com/file/d/1Fot61HCAzmLZFMR0SPJl7e3kFbQ0Jle9/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
    {
@@ -2438,7 +2438,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Introduction to HTML-CSS-XML (C-104) — Book",
       fileUrl: "https://drive.google.com/file/d/11ybDwogu5q4lfoG3-OYxpWU4K_FpMGyD/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2447,7 +2447,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Introduction to HTML-CSS-XML (C-104) — Notes",
       fileUrl: "https://drive.google.com/file/d/1GhHOJd6ZLtDUyH63PRG4AZVYYTU4jcWi/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
    {
@@ -2456,7 +2456,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Introduction to HTML-CSS-XML (C-104) — Book",
       fileUrl: "https://drive.google.com/file/d/1YBbLSaxk8reCQLqtLz90tplQfktcpRn3/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2478,7 +2478,7 @@ export const resources: ResourceItem[] = [
        year: 2024,
       examType: "Regular",
       fileUrl: "",
-      updatedAt: "2025-09-16",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
     {
@@ -2489,7 +2489,7 @@ export const resources: ResourceItem[] = [
        year: 2023,
       examType: "Regular",
       fileUrl: "",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2500,7 +2500,7 @@ export const resources: ResourceItem[] = [
        year: 2025,
       examType: "Regular",
       fileUrl: "",
-      updatedAt: "2025-09-16",
+      updatedAt: "2025-09-21",
       isDemo: false,
     },
         {
@@ -2511,7 +2511,7 @@ export const resources: ResourceItem[] = [
        year: 2024,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1fUDY1QR8Cg5Vb8FTJwyU-NzvxdbAUbAv/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
         {
@@ -2522,7 +2522,7 @@ export const resources: ResourceItem[] = [
        year: 2023,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1JGKZkZF1dOjKYWa5RBYMys9-QWdFYXKi/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
         {
@@ -2533,7 +2533,7 @@ export const resources: ResourceItem[] = [
        year: 2022,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1-A1N_TgtS_QkBYkWexEKnV2yeSRyWvw_/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
         {
@@ -2544,7 +2544,7 @@ export const resources: ResourceItem[] = [
        year: 2018,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1lvo38zjHIyf_1ab93McJqXFbsbBraEVw/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
         {
@@ -2555,7 +2555,7 @@ export const resources: ResourceItem[] = [
        year: 2017,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1_54bXgnnkWaxN0-8oknWyTn0pjvETl68/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2566,7 +2566,7 @@ export const resources: ResourceItem[] = [
        year: 2016,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/15-fzE2gycocQYwevNilOeUUSziyioDW-/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2575,7 +2575,18 @@ export const resources: ResourceItem[] = [
       type: "question-bank",
       title: "Java Programming (C-201) — Question Bank",
       fileUrl: "https://drive.google.com/file/d/11Q9pGVlmDjRIkRfB81q9D1B6HEauVe-P/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
+      isDemo: false,
+    },
+  {
+      id: "r-5371",
+      subjectId: "s-1284",
+      type: "pyq",
+      title: "Java Programming (C-201) — Previous Year Paper 2026",
+       year: 2026,
+      examType: "Regular",
+      fileUrl: "https://drive.google.com/file/d/14sX1QGL98CzjF3eWhWSy9ldVD3oVXTpY/view?usp=drive_link",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
    {
@@ -2585,8 +2596,8 @@ export const resources: ResourceItem[] = [
       title: "Java Programming (C-201) — Previous Year Paper 2025",
        year: 2025,
       examType: "Regular",
-      fileUrl: "",
-      updatedAt: "2025-09-16",
+      fileUrl: "https://drive.google.com/file/d/1vyWQqNxl8x_tGP-ktff-KW0HK5f-wpFT/view?usp=drive_link",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
      {
@@ -2597,7 +2608,7 @@ export const resources: ResourceItem[] = [
        year: 2024,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1dqSQgIFGghLlKCmwRZurjshOCz-ZGBdy/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
    {
@@ -2608,7 +2619,7 @@ export const resources: ResourceItem[] = [
        year: 2024,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1QJy5O2H4HJpi0_eK8uFMLFdcZlWd2WsF/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
      {
@@ -2619,7 +2630,7 @@ export const resources: ResourceItem[] = [
        year: 2023,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/17GfWGaGQZvumUsaBs1_JormJ5mqUc_Xd/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
        {
@@ -2630,7 +2641,7 @@ export const resources: ResourceItem[] = [
        year: 2022,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/17Ih5Gi9YZL2JSUEDsWdtDL2ywfxJpUyD/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
        {
@@ -2639,7 +2650,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Java Programming (C-201) — Book",
       fileUrl: "https://drive.google.com/file/d/1W0tJSULG-sWQxQkdkbM8pgxXE-pup7_-/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
          {
@@ -2648,7 +2659,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Java Programming (C-201) — Notes",
       fileUrl: "https://drive.google.com/file/d/1WVQRavEYpWCIwy-cVIl1iOefzB2o-hM4/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2657,7 +2668,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Java Programming (C-201) — MCQs",
       fileUrl: "https://drive.google.com/file/d/1598T5Yij89BmwTcZZ_ZxqNDs2UO6_etD/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2689,8 +2700,8 @@ export const resources: ResourceItem[] = [
       title: "Database Management System (C-202) — Previous Year Paper 2024",
       year: 2024,
       examType: "regular",
-      fileUrl: "",
-      updatedAt: "2025-09-16",
+      fileUrl: "https://drive.google.com/file/d/1-kn5hJWGmn1_LTyPzmKMi5mmkRJ568GS/view?usp=drive_link",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
     {
@@ -2701,7 +2712,7 @@ export const resources: ResourceItem[] = [
       year: 2023,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1P0E55Xj7z8ZbV8E2LTVNEeVpXGdQn5Fv/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2712,7 +2723,7 @@ export const resources: ResourceItem[] = [
       year: 2022,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1HkaKfXOYiXPBSN3b1xKiwCBPVgUlpLiC/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2723,7 +2734,7 @@ export const resources: ResourceItem[] = [
       year: 2021,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1MHzqfXYqHnKGxOjpO6h7-7_Nu1l8z47c/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2734,7 +2745,7 @@ export const resources: ResourceItem[] = [
       year: 2020,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1eNzJLw4deIZiom4kH3pi3lADJhyDCtX3/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2745,7 +2756,7 @@ export const resources: ResourceItem[] = [
       year: 2018,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/13wahaMngkqXLZ1LuEigUefciUC_0_YwT/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2756,7 +2767,7 @@ export const resources: ResourceItem[] = [
       year: 2017,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1caZijoOmwufmLNqyHlungRaaVRybbZ--/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2767,7 +2778,7 @@ export const resources: ResourceItem[] = [
       year: 2016,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1G2qszMo0ghqWLFWoBJt5J0vVXXRbPkcn/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2778,7 +2789,7 @@ export const resources: ResourceItem[] = [
       year: 2015,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1rkiTzLkeURIgfkJH8bOKQYSC72FQhPbG/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
     {
@@ -2787,7 +2798,7 @@ export const resources: ResourceItem[] = [
       type: "question-bank",
       title: "Database Management System (C-202) — Question Bank",
       fileUrl: "https://drive.google.com/file/d/1az9g-E0alUvAHCG3LM_tk3VtavOIOm8Y/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2796,7 +2807,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Database Management System (C-202) — Notes (Extra)",
       fileUrl: "https://drive.google.com/file/d/127g3CsmBPmNKNe8LNTL3lJFAlFVQ_cGr/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2805,7 +2816,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Notes (Intro)",
       fileUrl: "https://drive.google.com/file/d/1Baxisdtd7z-nfviC1q-nZMU01FZcsq8b/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2814,7 +2825,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Notes (Classification of Data Structure)",
       fileUrl: "https://drive.google.com/file/d/1EYMTCcSCZvqUSG7JxE-McgkaRy9VkcUj/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2823,7 +2834,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Notes (Operations on Data Structure)",
       fileUrl: "https://drive.google.com/file/d/1Vq4ETQnIJtjrrKzNGzNac4Cf3llNSD0N/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2832,7 +2843,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Notes (Array Calculating)",
       fileUrl: "https://drive.google.com/file/d/1caxUBarVw4lR6XOC4pzbLHlRqektnUQm/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
    {
@@ -2841,7 +2852,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Notes (Limitation of Array)",
       fileUrl: "https://drive.google.com/file/d/1bLobiF18fIAN6cnFtMuggot_aAAKB_GA/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2850,7 +2861,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Notes (Recursion)",
       fileUrl: "https://drive.google.com/file/d/1o_HyagX9NLFTfpGm-IDVczcRrBKZC2nW/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
      {
@@ -2859,7 +2870,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Notes (Stack)",
       fileUrl: "https://drive.google.com/file/d/1S0fkQwuWiuyRRiYH2dDg5qD_muRI73Cr/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2868,7 +2879,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Notes (Operation of Stack)",
       fileUrl: "https://drive.google.com/file/d/1CGZ4j6qcJ9CM-kE0ysuc-eZ8OZY_NFFt/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
      {
@@ -2877,7 +2888,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Notes (Queue)",
       fileUrl: "https://drive.google.com/file/d/110Pb6CL_sN5Np6SmjO13C7o3lULB7cAB/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2886,7 +2897,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Notes (Algorithm of Queue)",
       fileUrl: "https://drive.google.com/file/d/1BhoSnd8X9SVm4gkBIXc_5LpDZLifK6XC/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
         {
@@ -2895,7 +2906,18 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Notes (Tower of Hanoi)",
       fileUrl: "https://drive.google.com/file/d/1H-tgXawyxe1gUfT9h8R1c63xU3wlj9CB/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
+      isDemo: false,
+    },
+   {
+      id: "r-5380",
+      subjectId: "s-1290",
+      type: "pyq",
+      title: "Data Structure Using C (C-203) — Previous Year Paper 2026",
+      year: 2026,
+      examType: "regular",
+      fileUrl: "https://drive.google.com/file/d/1VxIM4rd6APtDSdI_n66hXYVOQNzAzg0J/view?usp=drive_link",
+      updatedAt: "2026-09-16",
       isDemo: false,
     },
     {
@@ -2905,8 +2927,8 @@ export const resources: ResourceItem[] = [
       title: "Data Structure Using C (C-203) — Previous Year Paper 2025",
       year: 2025,
       examType: "regular",
-      fileUrl: "",
-      updatedAt: "2025-09-16",
+      fileUrl: "https://drive.google.com/file/d/1g51fTCs7XBVW_JjSVvOlO5O0OFsCa8tM/view?usp=drive_link",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2916,8 +2938,8 @@ export const resources: ResourceItem[] = [
       title: "Data Structure Using C (C-203) — Previous Year Paper 2024",
       year: 2024,
       examType: "regular",
-      fileUrl: "",
-      updatedAt: "2025-09-16",
+      fileUrl: "https://drive.google.com/file/d/1Dmr7duCPL17RsggNf9Kbl91NAS0ElcdT/view?usp=drive_link",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
       {
@@ -2928,7 +2950,7 @@ export const resources: ResourceItem[] = [
       year: 2023,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1l5U91X_x7I1U9vUOPyP5DUCIUUEGRP9g/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2939,7 +2961,7 @@ export const resources: ResourceItem[] = [
       year: 2022,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1SIAS-FjV4G-b0Kwobb3fhGd3iIVA9Ynl/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2950,7 +2972,7 @@ export const resources: ResourceItem[] = [
       year: 2018,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1pyVdPvuCaKV147-XJuuMkeRY5UyIOxkW/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
         {
@@ -2961,7 +2983,7 @@ export const resources: ResourceItem[] = [
       year: 2017,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1GGAzxqFw45Lbmqa6cQ4uEMu-ST2PFIfz/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
       {
@@ -2972,7 +2994,7 @@ export const resources: ResourceItem[] = [
       year: 2015,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1BUF7j7mMxXMYypOqgagPpVeiwO5AtMgr/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
         {
@@ -2981,7 +3003,7 @@ export const resources: ResourceItem[] = [
       type: "notes",
       title: "Data Structure Using C (C-203) — Practicle File",
       fileUrl: "https://drive.google.com/file/d/1xdFVw71WASItcnrBkD9ihOniDaYcmpE4/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
    {
@@ -3003,7 +3025,7 @@ export const resources: ResourceItem[] = [
       year: 2025,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1wfJzzXCxwzD4jGpZyaB8IX1aFCXiSH2D/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
      {
@@ -3014,7 +3036,7 @@ export const resources: ResourceItem[] = [
       year: 2024,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1T7T-vRFYS-H8NdxF4JqSGswzJOY58EnS/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
      {
@@ -3025,18 +3047,95 @@ export const resources: ResourceItem[] = [
       year: 2023,
       examType: "regular",
       fileUrl: "https://drive.google.com/file/d/1VYtP0SSwfF9YDOg4lJ5JF_aopwyHchJg/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
        {
       id: "r-5378",
       subjectId: "s-1292",
       type: "pyq",
-      title: "Mathematics-I (C-205) — Previous Year Paper 202",
+      title: "Mathematics-I (C-205) — Previous Year Paper 2026",
+      year: 2026,
+      examType: "regular",
+      fileUrl: "https://drive.google.com/file/d/1yyt4JCwP7MOQLPFqoupBuCusn0cKHxR9/view?usp=drive_link",
+      updatedAt: "2026-09-16",
+      isDemo: false,
+    },
+    {
+      id: "r-5382",
+      subjectId: "s-1294",
+      type: "pyq",
+      title: "Digital Electronics (C-301) — Previous Year Paper 2025",
+      year: 2025,
+      examType: "regular",
+      fileUrl: "https://drive.google.com/file/d/1wzofxwkryv6hAP32gNNYbjrxAFIYlw5T/view?usp=drive_link",
+      updatedAt: "2026-09-16",
+      isDemo: false,
+    },
+      {
+      id: "r-5383",
+      subjectId: "s-1294",
+      type: "pyq",
+      title: "Digital Electronics (C-301) — Previous Year Paper 2024",
+      year: 2024,
+      examType: "regular",
+      fileUrl: "https://drive.google.com/file/d/1wzofxwkryv6hAP32gNNYbjrxAFIYlw5T/view?usp=drive_link",
+      updatedAt: "2024-09-21",
+      isDemo: false,
+    },
+      {
+      id: "r-5384",
+      subjectId: "s-1294",
+      type: "pyq",
+      title: "Digital Electronics (C-301) — Previous Year Paper 2023",
       year: 2023,
       examType: "regular",
-      fileUrl: "https://drive.google.com/file/d/1VYtP0SSwfF9YDOg4lJ5JF_aopwyHchJg/view?usp=drive_link",
-      updatedAt: "2025-09-16",
+      fileUrl: "https://drive.google.com/file/d/1l7dobUZQLXP7XKdFzgUQR_kWBtW3Ynjx/view?usp=drive_link",
+      updatedAt: "2023-09-21",
+      isDemo: false,
+    },
+  {
+      id: "r-5385",
+      subjectId: "s-1294",
+      type: "pyq",
+      title: "Digital Electronics (C-301) — Previous Year Paper 2022",
+      year: 2022,
+      examType: "regular",
+      fileUrl: "https://drive.google.com/file/d/1W9AOv57Fjq-pHBIhAuBCboJpVwkHpxyi/view?usp=drive_link",
+      updatedAt: "2023-09-21",
+      isDemo: false,
+    },
+      {
+      id: "r-5386",
+      subjectId: "s-1294",
+      type: "pyq",
+      title: "Digital Electronics (C-301) — Previous Year Paper 2019",
+      year: 2019,
+      examType: "regular",
+      fileUrl: "https://drive.google.com/file/d/1uADgH31HdixpMu5ooiyTa4E09k4T9YN-/view?usp=drive_link",
+      updatedAt: "2023-09-21",
+      isDemo: false,
+    },
+  {
+      id: "r-5387",
+      subjectId: "s-1294",
+      type: "pyq",
+      title: "Digital Electronics (C-301) — Previous Year Paper 2017",
+      year: 2017,
+      examType: "regular",
+      fileUrl: "https://drive.google.com/file/d/10tsKO02P3C-0Bm71o3D0358aEkPij877/view?usp=drive_link",
+      updatedAt: "2023-09-21",
+      isDemo: false,
+    },
+      {
+      id: "r-5388",
+      subjectId: "s-1294",
+      type: "pyq",
+      title: "Digital Electronics (C-301) — Previous Year Paper 2014",
+      year: 2014,
+      examType: "regular",
+      fileUrl: "https://drive.google.com/file/d/12_0IvOvBtn9fkzOL0cNWEUc1dSYCJOud/view?usp=drive_link",
+      updatedAt: "2023-09-21",
       isDemo: false,
     },
   
