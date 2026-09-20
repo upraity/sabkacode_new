@@ -88,6 +88,12 @@ export interface Subject {
   // See UnitNote below for the content shape. This is subject-agnostic —
   // any subject on the platform can populate this the same way.
   unitNotes?: UnitNote[];
+
+    // An optional call-to-action shown in place of the empty "Notes" tab —
+  // for subjects that don't have written notes but should point the user
+  // somewhere else instead (e.g. a "Major/Mini Project" subject pointing
+  // to the Projects catalog). Leave undefined for the normal empty state.
+  notesCta?: { label: string; url: string; description?: string };
 }
 
 // ---------------------------------------------------------------------------
