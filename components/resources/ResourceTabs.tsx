@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FileText, Download, HelpCircle, FlaskConical, MessageCircleQuestion, ArrowRight } from "lucide-react";
+import { FileText, Download, HelpCircle, FlaskConical, MessageCircleQuestion, ArrowRight, FolderKanban } from "lucide-react";
 import { ResourceItem, ResourceType } from "@/types";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Badge } from "@/components/ui/Badge";
@@ -17,7 +17,7 @@ const tabs: { type: ResourceType; label: string; icon: JSX.Element }[] = [
 export function ResourceTabs({
   resources,
   defaultTab,
-    notesCta,
+  notesCta,
 }: {
   resources: ResourceItem[];
   defaultTab?: ResourceType;
@@ -66,10 +66,10 @@ export function ResourceTabs({
               </a>
             </div>
           ) : (
-          <EmptyState
-            title="No resources are available for this subject yet."
-            description="Check back later — this section is updated regularly."
-          />
+            <EmptyState
+              title="No resources are available for this subject yet."
+              description="Check back later — this section is updated regularly."
+            />
           )
         ) : (
           <ul className="space-y-2">
