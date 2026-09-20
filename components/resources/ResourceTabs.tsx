@@ -70,6 +70,7 @@ export function ResourceTabs({
             title="No resources are available for this subject yet."
             description="Check back later — this section is updated regularly."
           />
+          )
         ) : (
           <ul className="space-y-2">
             {items.map((item) => (
