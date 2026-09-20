@@ -6,9 +6,11 @@ import { MobileMenu } from "./MobileMenu";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/courses", label: "Courses" },
-  { href: "/projects", label: "Projects" },
   { href: "/notes", label: "Notes" },
+  { href: "/papers", label: "Papers" },
+  { href: "/projects", label: "Projects" },
   { href: "/tools", label: "Tools" },
+  
 ];
 
 export function Navbar() {
