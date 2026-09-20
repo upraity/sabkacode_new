@@ -72,19 +72,32 @@ export const subjects: Subject[] = [
     id: `s-1001`,
     slug: `c`,
     name: `C Language`,
-    code: `BCA01`,
+    code: `C-102`,
     description: `C Language — BCA syllabus, notes and study material for DBRAU.`,
     courseSlug: `bca`,
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 1,
-    syllabus: `C basics: C character set, Identifiers and keywords, Data type, Constants, Variables and Arrays, Declarations, Expressions statements, Symbolic constants, Compound statements, Arithmetic operators, Unary operators, Relational and Logical operators, Assignment operators, Conditional operators, Bit operators. Decision Control Structures: If statement, If-else statement, Nested if(), If ladder, Switch, case statement, Iterative statements:For loop, While loop, Do-while loop, Conditional statements: Break, Continue, Storage Classes, Array: Declaration of an Array, Initialization of Array, Types of Array: Single Dimension Array, Two, Dimensional Array, Address Calculation of an Element of a 2-D Array. Functions: Library Functions, User Defined Functions, Function Declaration, Prototype Declaration, Types of Arguments: Actual Arguments, Formal Arguments, Function Definition, Passing Arrays as Parameters, Methods to Call a Function: Call by Value, Call by Reference. Pointers: Declaration of Pointer Variables, Pointer Arithmetic, Returning Multiple Output Values through a Function Strings. Structures, Unions, Array of Structures, Enumerations, File Handling: Opening a file, Closing a file, File Opening Modes, Reading from and writing to a file, Copying Content of an existing file to another, Command line arguments, argc and argv Parameters, Pre-processor directives.`,
+    syllabus: `Unit-I
+Set Theory, Relations and Functions: Elements of set theory, methods of describing sets, types of sets, Venn diagrams, operations on sets (union, intersection, difference), and applications. Properties of relations, equivalence relations, partial order relations, functions (domain, range, onto, into, one-to-one), composite and inverse functions, trigonometric, logarithmic and exponential functions. Basic Concept of Graph Theory.
+
+Unit-II
+Determinants and Matrices: Definition, Minors, Cofactors and Properties of Determinants. Introduction to matrices, types of matrices (row, column, rectangular, square, diagonal, etc.), scalar multiplication, matrix addition and subtraction, matrix multiplication, and transpose of a matrix. Inverse and Rank of Matrix, Linear dependence of Vectors, Eigen Values and Eigen vectors of a Matrix, Cayley-Hamilton Theorem (without proof).
+
+Unit-III
+Probability: Introduction, sample space and events, Axioms of probability, Addition and multiplication theorems, conditional probability, Bayes' Theorem, problems.
+
+Unit-IV
+Statistics: Classification of data, Tabulation of data, Preparation of frequency distribution, Presentation of data through histogram, frequency polygon and frequency curve. Computation of Arithmetic mean, median and mode for ungrouped data and grouped data.
+
+Unit-V
+Measures of dispersion and Correlation: Computation of Range, Quartile-deviation, mean-deviation and Standard-deviation, coefficient of variation. (Numerical Applications Only). Meaning of Correlation, types of correlation, correlation coefficient, Karl Pearson, Spearman's rank correlation coefficient. (Numerical Applications Only).`,
   },
   {
     id: `s-1002`,
     slug: `maths`,
-    name: `Mathematics`,
-    code: `BCA02`,
+    name: `Elementary Mathematics`,
+    code: `C-105`,
     description: `Mathematics — BCA syllabus, notes and study material for DBRAU.`,
     courseSlug: `bca`,
     universitySlug: `dbrau`,
