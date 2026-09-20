@@ -142,246 +142,246 @@ Statistics: Classification of data, Tabulation of data, Preparation of frequency
 Unit-V
 Measures of dispersion and Correlation: Computation of Range, Quartile-deviation, mean-deviation and Standard-deviation, coefficient of variation. (Numerical Applications Only). Meaning of Correlation, types of correlation, correlation coefficient, Karl Pearson, Spearman's rank correlation coefficient. (Numerical Applications Only).`,
  },
-  {
-    id: `s-1003`,
-    slug: `de`,
-    name: `Digital Electronics`,
-    code: `BCA03`,
-    description: `Digital Electronics — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 3,
-    syllabus: `Logic gates and circuit: Gates (OR, AND, NOR, NAND, XOR & XNOR); Demogran’s laws; Boolean laws, Circuit designing techniques (SOP, POS, K-Map). Combinational Building Blocks: Multiplexes; Decoder; Encoder; Adder and Subtracter. Memories: ROMs, PROMs, EPROMs, RAMs, Hard Disk, Floppy Disk and CD-ROM. Sequential Building Blocks: Flip-Flop (RS, D, JK, Master-slave & & T flip-flops); Registers & Shift registers; Counters; Synchronous and Asynchronous Designing method. Memory Organization: Basic cell of static and dynamic RAM; Building large memories using chips; Associative memory; Cache memory organization and Virtual memory organization.`,
-  },
-  {
-    id: `s-1004`,
-    slug: `cpp`,
-    name: `C++ Language`,
-    code: `BCA04`,
-    description: `C++ Language — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 2,
-    syllabus: `Introduction: Introducing Object Oriented Approach, Procedural Programing Language Vs. Object Oriented Language, Basic concept of OOPS, Operators, Tokens, Variables, Keywords, Data types, Identifiers, Characters, Type def statement, Constants, Enumerated data type. Control Flow: If statement, If else statement, Nested If, Else, Statements, For Loop, While Loop, While Loop, Break, Switch, Continue, goto. Classes and Objects, Encapsulation, information hiding, abstract data types, object & classes, attributes, methods, C++ class declaration, Constructors and destructors, Default parameter value, object types, C++ garbage collection, dynamic memory allocation, Metaclass/abstract classes. Array: Array Illustration, Multi, Dimensional arrays, Strings, Array of strings, function prototype, function return data type, parameter passing, default argument, Inline function, Function Overloading, Array Function, Operator Overloading. Pointers: Pointer to Derived Class, array of pointers, Inheritance and Polymorphism: Inheritance, Class hierarchy, derivation, public, private & protected, abstract classes, Single, Multilevel, Multiple, Hierarchical, Hybrid, benefits of Inheritance. Files and Exception Handling: Streams and files, Namespaces, Exception handling.`,
-  },
-  {
-    id: `s-1005`,
-    slug: `stats`,
-    name: `Statistics`,
-    code: `BCA05`,
-    description: `Statistics — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 2,
-    syllabus: `Classification of data, Tabulation of data, preparation of frequency distribution, presentation of data through histogram, frequency polygon curve. Measures of Central Tendency: Computer of Arithemetic Mean, Median and Mode for ungrouped data grouped data, verification of median through ogives. Measures of Dispersion: Computation of Range, Quartile deviation, mean deviation and standard deviation, coefficient of variation.(Numerical Application Only). Concept of skewness, Karl Pearson's and Bowley's Cofficients of skewness (Numerical Application only). Meaning of Correlation, Type of correlation, Correlation Coefficients, Karl Pearson, Spearman's rank correlation coefficient.(Numerical Application Only).`,
-  },
-  {
-    id: `s-1006`,
-    slug: `html`,
-    name: `HTML & Web Design`,
-    code: `BCA06`,
-    description: `HTML & Web Design — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 2,
-    syllabus: `Basics of INternet and Web: The Basics of internet, World Wide Web, Web page, Home page, Web site, Static, Dynamic and Active webpage. Overview of protocols, Simple Mail Transfer Protocol, Gopher, Telnet, Emails, TFTP, Simple Network Management Protocol, Hyper Text Transfer Protocol. Client Server Computing Concepts. Web Client and Web Server, Web Browser, Browser e.g., Netscape Navigator, Internet Explorer, Morzilla Firefox, Client Side Scripting Language, VB Script and Java Script, Active X Control and Plug-ins, Web Server Architecture, IMage maps, CGI, API Web database connectivity, DBC, ODBC. Dynamic Html: Dynamic Html, Cocument Object Model, Features, DHTML, CSSP(Cascading Style Sheet Positioning) and JSSS(Java Script assisted Style Sheet), Layers of Netscape, The ID Attribute, DHTML Events. Introduction to HTML: Editors, Basics, Elements, Attribute, Heading, Paragraphs, Styles, Formatting, Quotaions, Comments, CSS Links, Images, Tables, Lists, Blocks, Classess, ID, Frames, File Paths Head, Layout , Computer Code, Entities, Symbols, Char set, Color and Background of Web Pages, Hypertext, Hyperlink, and Hypermedia, Links, Anchors and URLs, Links to External Documents, Differnet Section of a page and graphics, Footnote, and E-malling, Creating Table, Frame, Form and Style Sheet. CSS: Introduction, Syntax, Color, Background, Border, Margins, Padding, Height/Width, Box Model, Outline, Text, Fonts, Icons, Links, Lists, Tables, Display, Max, Width, Position, Overflow, Float, Inline, Block, Align, Combinators, Pseudo Class, Pseudo Elements, Opacity, Navigation Bar, Dropdowns, Image Gallery, Image Sprites, Attr Selectors, Forms, Counters, WEbsite Layout, Units, Specificity. XML: Introduction, Tree, Synatx, Elements, Attributes, Namespaces, Display, HTTp request, Parser, DOM, XPath, XSLT, XQuerry, XLink, Validator, DTD, Schema, Server.`,
-  },
-  {
-    id: `s-1007`,
-    slug: `dsa`,
-    name: `Data Structures & Algorithms`,
-    code: `BCA07`,
-    description: `Data Structures & Algorithms — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 3,
-    syllabus: `Classification of Data Structure: Operations on Data Structure, Address Calculating, Application of Array, Limitation of Array, Array as parameters, Sparse Matrix. Continuous Implementation(Stack): Array Representation, Operations of Stacks, Push & Pop, Applications of Stack, Conversation of Infix to Prefix and Post Expressions, Evaluation of Postfix expression using stack, Recursion:Recursive Defination and process, Principles of Recursion, Tower of Hanoi problem, Recursion Vs Iteration Continuous, Implementation(Queue): Array representation and implementation of queues, Operation on Queue: Create, Add, Delete, Full and empty queue, circular queue, De-queue and Priority queue. Non Continuous Implementation Link Lists: Linear list concept, Linked List Terminology representation of Linked List in Memory, Type of Linked List, Single Linked List, Doubly Linked List, Single Circular List, Circular Doubly Linked List, Operation on Linked List: Create list insert node(empty list beginning, middle, end), Delete node(first, general case). Traversing node, Searching node, Print list, Count nodes, Sort lists. Tree: Introduction to tree & it Terminology binary trees, Type of Binary tree, representation of Binary tree, Traversals(inorder, preorder, postorder), Tree Expression, Binary Search Tree, Insertion and Deletion in BST. Sorting & Searching Techniques: Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Merge Sort, Sequential Sort, Binary Search.`,
-  },
-  {
-    id: `s-1008`,
-    slug: `os`,
-    name: `Operating System`,
-    code: `BCA08`,
-    description: `Operating System — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 3,
-    syllabus: `Introduction: What is an operating system, Simple Batch Systems, Multi, Programmed Batch System, Time. Sharing System, Personal. Computer systems, Parallel Systems, Distributed Systems, Real, Time Sysiems, Memory Organization: Fixed memory , variable memory. Memory Management: Background, Logical versus physical Address space, swapping. Contiguous allocation, paging, Segmentation Virtual memory: Denand Paging. Page Replacement, Page replacement Algorithms, Performance of Demand Paging, Allocation of Frames, thrashing. Processes: Process Con cept, Process Scheduling, operation on processes, CPU Scheduling: Basic Concepts, Scheduling Criteria, Scheduling Algorithms, Multiple,Processor Scheduling, Process Synchronization: Background, the critical, section problem, synchronization Hardware, Semaphores, Cassical Problems of synchronization. Deadlocks: system Model, Deadlock Characterization, Methods for Handling Deadlocks, Deadlock Prevention, Deadlock Avoidance, Deadlock Detection, Recovery from Deadlock. Device Management: Techniques for Device Management, Dedicated Devices, Shared Devices, Virtual Devices, Input or Output Devices. Storage Devices, Buffering Secondary Storage Structure: Disk Structure, Disk Scheduling, Disk Management, Swap, Space Management, Disk Reiability Information Management: Introduction, A simple file system General Model of a File system, Symbolic File System, Basic File System, Access Control Verification, Logical File System, Physical File System File Syster. Interface, File Concept,Access Methods, Directory Structure, Protection. Consistency Semantics File, System Implementation: File, System Structure. Allocation Methods, Free Space Management. Unix: A Sample Login Session, Logging On, Using the on - line Man pages, Logging Off, Directory and File Structure, File Names. Directories, The dfProgram, Your Login Directory, Subdirectories, Specifying Files, Protecting Files and Directoreis, Text Editors, Files as Output and Log files, Logging Your Actions to a File, Comparing Files, Searching Through Files, The Systems and Dealing with Multiple Users. Windows: Features of windows desktop, start menu, contro. Windows, panel, my computer, windows explorer, accessories, Managing Multipis managing arranging icons on the desktop, creating and managing folders. files and drivers, logging ofi and shutting down windows Control. Entertainment CD player, VD Player, media player, Sound recorder, volume control.`,
-  },
-  {
-    id: `s-1009`,
-    slug: `coa`,
-    name: `Computer Organization and Architecture`,
-    code: `BCA09`,
-    description: `Computer Organization and Architecture — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 3,
-    syllabus: `Computer Evolution: Briefhistory ofComputer, Classification of computer, Structure of a computer system, Arithmetic Logic Unit, Control Unit, Von Neumann Architecture, Integer Addition and Subtraction, Floating point representation, Signed numbers, Binary Arithmetic 1's and 2's Complements, Booths Algorithm, Hardware Implementation, IEEE Standards, Floating Point Arithmetic, The accumulator, shifts, carry and overflow instruction Characteristics, CPU with single BUS, Types of operands, Types of operations, Addressing Modes, instruction Formats. Processor Organization: Parallelism and Computer arithmetic, Computer arithmetic associatively, Floating Point in the 8086, Programmers Model of 8086, Register Organization 8086 Registers, Instruction Cycles, Addressing Modes, Micro operations, The instruction cycle, Control of the CPU, Functional Requirements, Single, Two, three bus structure Execution of a complete instruction, Branching, Sequencing of Control Signals, Hardwired Control Unit, Micro- Programmed Control. Memory Organization: Characteristics ofMemory Systems, Main Memory, Types of memory, Memory system considerations, Design of memory subsystem using Static, Dynamic Memory Chips, Memory interleaving High Speed Memories: Cache Memory, Structure of cache and main memory, Elements of Cache Design, Mapping functions, Replacement algorithms, External Memory, Virtual memory. I/O Organization: Input/ Output Module: Need, Techniques, Interrupt Driven I/O, Basic concepts of an Interrupt, Response of CPU to an Interrupt, Design issues, Priorities, interrupt handling, Types of interrupts. Data transfer Techniques, Data memory Acces, Buses, Types of buses., /O interface, synchronous and Asynchronous Data Transfer, serial l/O Input Devices, Output Devices, Multi-programming vs. Multiprocessing, Comparison between closely coupled and closely coupled multiprocessor. Micro-programming: Basic Principles, Features, Hardwired VS. MicrO programmed computers, Applications and advantages of micro programming, Limitations of microprogramming Computer Clock Micro instructions and its Contro! Path. Microcode. Machine instruction. Paralie! ganization, Instruction Set Architecture (1SA), RISC and CISC. Characteristics of CISC. Characteristics ofRISC. RISC versus CISC. Vector Processing requirements and characteristics ofvector processing.`,
-  },
-  {
-    id: `s-1010`,
-    slug: `dbms`,
-    name: `Database Management System`,
-    code: `BCA10`,
-    description: `Database Management System — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 4,
-    syllabus: `Introduction: Database system concepts, Database Users, and Architecture Introduction to Database System with example, Introduction to Traditional File Oriented System, Characteristics of the Database Approach, Components of Database System, Database users, Advantages and disadvantages of using a DBMS, structure of DBMS, Database Schemas and Instances, DBMS Architecture, Data Independence, Database Languages and Interfaces, Classification of Database Management Systems. Data Modeling & Relational: Database Management System Data Modeling using the Entity Relationship Model: Entity Types, Entity Sets, Attributes, Key Relationships, Relationship Types, Role and Structural, Constraints, weak Entity Types, ER Diagrams, Naming Conventions, Design issues. The Relational Data model: Relational Constraints and the Relational Algebra: Relational Model Concepts, Relational Constraints and Relational database Schemas update Operations and Dealing with Constraint Violations, Basic Relational Algebra Operations, Additional Relational Operations, and Examples ofQueries in Relational Algebra. SQL: SQL. and Database Design Theory and Methodology Structured Query Language The Relational Database Standard: Data Definition, Constraints and schema Changes in SQL, Types of SQL Commands, SQL, Operators and their Procedure, insert, Delete, and Update Statements in SQL. Queries and Sub Queries, Aggregate Functions, Join Unions, Intersection, Minus Views (Virtual Tables) in SQL. Functional Dependencies and Normalization of Relational Database: Informal Design Guidelines for Relation Schemas. Functional Dependencies, Armstrong Rules, Closure of Attributes, Normal Forms Based on Primary Keys, General Definitions of Second and Third Normal Forms, Boyce Codd Normal Form. Transaction Processing: Concurrency Control and Distributed Database Transaction Processing Concepts: Introduction to Transaction Processing Transaction and system concepts, Desirable Properties of Transactions, Concurrency Control Techniques, Locking Techniques for concurrency Control, Concurrency Control Based on Timestamp Ordering.`,
-  },
-  {
-    id: `s-1011`,
-    slug: `cn`,
-    name: `Computer Networks`,
-    code: `BCA11`,
-    description: `Computer Networks — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 4,
-    syllabus: `Basic Concepts: Components of data communication, distributed processing, standards and organizations. Line configuration, topology, Transmission mode, and categories of networks.OSI and TCP/IP Models: Layers and their functions, comparison of models. Digital Transmission: Interfaces and Modems: DTE-DCE Interface, Modems, Cable modems. Transmission Media: Guided and unguided, Attenuation, distortion, noise, throughput, propagation speed and time, wavelength, Shannon capacity, comparison of media. Telephony: Multiplexing, error detection and correction: Many to one, One to many, WDM, TDM, FDM, Circuit switching, packet switching and message switching. Data link control protocols: Line discipline, flow control, error control, synchronous and asynchronous protocols, character and bit oriented protocols, Link access procedures.Point to point controls: Transmission states, PPP layers, LCP, Authentication, NCP.ISDN: Services, Historical outline, subscriber’s access, ISDN Layers and broadcast ISDN. Devices: Repeaters, bridges, gateways, routers, The Network Layer; Design issues, Routing algorithms, Congestion control Algorithms, Quality of service, Internetworking, Network-Layer in the internet. Transport and upper layers in OSI Model: Transport layer functions, connection management, functions of session layers, presentation layer and application layer.`,
-  },
-  {
-    id: `s-1012`,
-    slug: `java`,
-    name: `Java Programming`,
-    code: `BCA12`,
-    description: `Java Programming — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 4,
-    syllabus: `Number System & Boolean Algebra: Number system: Binary, Octal, Decimal, Hexadecimal, Conversion of Number System, Binary Arith- metic & Complement,, Binary Codes: Weighted & Non Weighted, Gray Code, Excess-3 Code. Error Detection Codes, Hamming Code, Boolean Function, Boolean Postulates, De-Morgan's Theorem, Boolean Expressions: Sum of Product, Product of Sum, Minimization of Boolean Expressions, using K- Map, Logic Gates: AND, OR, NOT, NAND, NOR, XOR, XNOR, Implemen- tations of Logic Functions using Gates, NAND, NOR, Implementations, Mul- tilevel gate Implementations. Combinational Circuits: Adders & Subtractors: Half adder, full adder, binary adder, half subtractor, full subtractor, magnitude compara- tor: Two Bit comparator, three Bit Magnitude comparator, multiplexer & De -multiplexer: 4*1 Multiplexer, 8*1 Multiplexer, Decoder && Encoder, par- ity Checker & Generator, code converter. Sequential Circuit: Introduction to flip flops: SR, JK, T, D master Slave flip, conversion of flip flops, characteristics table & Equation, edge triggering & Level Triggering, excitation table. Registers: Introduction of Registers, classification of Registers, register with parallel load, shift registers, bidirectional shift register with parallel load. Counters: Introduction of counter, Asynchronous/Ripple counter, synchronous counters, BCD counter, 4 bit binary counter with parallel load, design of synchronous counters, ring counter, Johnson counter`,
-  },
-  {
-    id: `s-1013`,
-    slug: `php`,
-    name: `PHP Programming`,
-    code: `BCA13`,
-    description: `PHP Programming — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 5,
-    syllabus: `PHP: Introduction to PHP Evaluation of PHP, Basic Syntax, Defining variable and constant, PHP data type, Operator and Expression, Decisions and loop making decisions, Doing repetitive task with looping, Mixing decisions and looping with KTML, Function: Define a function, Call by value and call by reference, Recursive function, String Creating and accessing, String Searching & Replacing string, Formatting string, String related Library function. Array: Anatomy of an Array, Creating index based an Associative array Accessing array Element Looping with index based array, looping with associative array using each () and Foreach (), Some useful library function, Handling HTML Form PHP capturing Form Data dealing with multi -value filled, and generating file uploaded form, redirecting a form after submission. Working with file and Directories: Understanding file & directory, opening and closing, a file, coping, renaming and deleting a file, working with directories, creating and delecting folder, file uploading & Downloading. Session and Cookie: Introduction to Session Control, Session Functionality what is a Cookie, Setting Cookies with PHP, using Cookies with Sessions, Deleting Cookies, Registering Session Variables, Destroying the variable and Session 8 Database Connectivity with MySQL: Introduction to RDBMS, Connection with MySQL Database, Performing basic database operation (DML) (insert, Delete, update, Select), Setting query Parameter, Executing query join (Cross joins, inner joins, outer joins, self joins) Exception Handling Understanding Exception and error, Try, Catch, Throw, Error tracking and debuting.`,
-  },
-  {
-    id: `s-1014`,
-    slug: `ai`,
-    name: `Artificial Intelligence`,
-    code: `BCA14`,
-    description: `Artificial Intelligence — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 5,
-    syllabus: `AI Concepts, Various definitions of Al, Knowledge, Knowledge Pyramid, People and Computers; What computers can do better than people, what people can do better than computers, Characteristics of Al Problems, Problem Representation in Al, Components of AI, AI evolution, Application Areas of AI, History of o AI, The Turing Test and The Revised Turing Test. Expert System: Components of Expert System; Knowledge Base, Inference Engine, User Interface, Features of Expert System, Expert System Life Cycle, Categories of Expert System, Rulee Based vs Model Based Expert System, Advantages/Limitations of Expert System, Developing an Expert System; Identification, n Conceptualization, Formalization, Implementation, Testing, Using an Expert System, Application Areas of Expert System. AI and Search Process: Brute Force Search, Depth First/Breadth First Search, Heuristic Search Hill Climbing, Constraint Satisfaction, Mean End Analysis, Best First Seach, A* Algorithm, AO* Algorithm, Beam Search. Natural Language Processing: Introduction, Need, Goal, Fundamental Problems in Natural Language Understanding, How People Overcome Natural Language Problems, Speech Recognition Introduction, Advantages and Approaches, I Introduction to Robotics, Parts of a Robot Controlling. Applications: Communication, Communication as action, Formal grammar for a fragment of English, Syntactic Analysis,s Augmented Grammars, Semantic interpretation, Ambiguity andnd disambiguation, Discourse understanding, Grammar induction, Probabilistic language processing, Probabilistic language models, s Information retrieval, Information Extraction, Machine Translation.`,
-  },
-  {
-    id: `s-1015`,
-    slug: `daa`,
-    name: `Design and Analysis of Algorithms`,
-    code: `BCA15`,
-    description: `Design and Analysis of Algorithms — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 5,
-    syllabus: ``,
-  },
-  {
-    id: `s-1016`,
-    slug: `ec`,
-    name: `E-Commerce`,
-    code: `BCA16`,
-    description: `E-Commerce — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 5,
-    syllabus: `Introduction to E-Commerce: The Scope of Electronic Commerce, Definition of Electronic Commerce, Electronic E-commerce and the Trade Cycle, Electronic Markets, Electronic Data Interchange, Internet Commerce, E-Commerce in Perspective. Business Strategy in an Electronic Age: Supply Chains, Porter’s Value Chain Model, Inter Organizational Value Chains, Competitive Strategy, Porter’s Model, First Mover Advantage Sustainable Competitive Advantage, Competitive Advantage using E -Commerce, Business Strategy, Introduction to Business Strategy, Strategic Implications of IT, Technology, Business Environment, Business Capability, Exiting Business Strategy, Strategy Formulation & Implementation Planning, E-Commerce Implementation, E-Commerce Evaluation. Business-to-Business Electronic Commerce: Characteristics of B2B EC, Models of B2B Ec, Procurement Management Using the Buyer’s Internal Marketplace, Just in Time Delivery, Other B2B Models, Auctions and Services from Traditional to Internet Based EDI, Intergration with Back-end Information System, The Role of Software Agents for B2B EC, Electronic marketing in B2B, Solutions of B2B EC, Managerial Issues, Electronic Data Interchange (EDI), EDI: The Nuts and Bolts, EDI & Business. Internet and Extranet: Automotive Network Exchange, The Largest Extranet, Architecture of the Internet, Intranet and Extranet, Intranet software, Applications of Intranets, Intranet Application Case Studies, Considerations in Intranet Deployment, The Extranets, The structures of Extranets, Extranet products & services, Applications of Extranets, Business Models of Extranet Applications, Managerial Issues. Electronic Payment Systems: Is SET a failure, Electronic Payments & Protocols, Security Schemes in Electronic payment systems, Electronic Credit card system on the Internet, Electronic Fund transfer and Debit cards on the Internet, Stored –value Cards and E- Cash, Electronic Check Systems, Prospect of Electronic Payment Systems, Managerial Issues. Public Policy: From Legal Issues to Privacy: EC- Related Legal Incidents, Legal Incidents, Ethical & Other Public Policy Issues, Protecting Privacy, Protecting Intellectual Property, Free speech, Internet Indecency & Censorship, Taxation & Encryption Policies, Other Legal Issues: Contracts, Gambling & More, Consumer & Seller Protection In EC. Infrastructure For EC: It takes more than Technology, A Network Of Networks, Internet Protocols, Web- Based client/ Server, Internet Security, selling on the web, Chatting on the Web, Multimedia delivery, Analyzing Web Visits, Managerial Issues.`,
-  },
-  {
-    id: `s-1017`,
-    slug: `cg`,
-    name: `Computer Graphics`,
-    code: `BCA17`,
-    description: `Computer Graphics — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 6,
-    syllabus: `Introduction: The Advantages of Interactive Graphics, Representative Uses of Computer Graphics, Classification of Application Development of Hardware and software for computer Graphics, Conceptual Framework for Interactive Graphics, Overview, Scan: Converting Lines, Scan Converting Circles, Scan Converting Ellipses. Hardcopy Technologies, Display Technologies, Raster-Scan Display System, Video Controller, Random-Scan Display processor, Input Devices for Operator Interaction, Image Scanners, Working exposure on graphics tools like Dream Weaver, 3D Effects etc. Clipping Southland- Cohen Algorithm, Cyrus-Beck Algorithm, Midpoint Subdivision Algorithm. Geometrical Transformation 2D Transformation, Homogeneous Coordinates and Matrix Representation of 2D Transformations, composition of 2D Transformations, the Window-to-Viewport Transformations, Introduction to 3D Transformations Matrix. Representing Curves & Surfaces Polygon meshes parametric, Cubic Curves, Quadric Surface; Solid Modeling Representing Solids, Regularized Boolean Set Operation primitive Instancing Sweep Representations, Boundary Representations, Spatial Partitioning Representations and Constructive Solid Geometry Comparison of Representations. Introductory Concepts: Multimedia Definition, CD-ROM and the multimedia highway, Computer Animation (Design, types of animation, using different functions) Uses of Multimedia, Introduction to making multimedia – The stage of Project, hardware & software requirements to make good multimedia skills and Training opportunities in Multimedia Motivation for Multimedia usage.`,
-  },
-  {
-    id: `s-1018`,
-    slug: `sad`,
-    name: `System Analysis and Design`,
-    code: `BCA18`,
-    description: `System Analysis and Design — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 6,
-    syllabus: `Overview of Systems Concepts, Analysis and Design Life cycle, Introduction to System Concept: Characteristics of the system, Elements of a System, Types of Systems, Physical and Abstract System, Open and Closed System, Formal and Informal System, Introduction to Data and Information; Types of Information System, Categories of Information System, Needs of Informations Systems, Qualities of Information System, Software Development Life Cycle (SDLC), Role and Attributes of System Analyst. System Planning and Requirements Determination System planning and initial Investigation Strategic Plan for Information processing, Tools for Planning, Problems in Planning, Need for requirement definition. Information gathering tools: Review of Literature, pracedures and forms, Methodologies, Tools and Techniques of Analysis Systems Analysis and Design; Decision Tree, Data Dictionary, Decision Table. Structured English, Data Flow Diagram, Components of a DFD, Zero Level DFD, DFD Transformation and. Decomposition, Context Diagram Levelling a DFD, Feasibility Study Economic Feasibility (Cost & Benefit Analysis), Organizational Feasibility, Technical Feasibility, Behavioural Feasibility study. System Design and implementation Process of Design: Logical and Physical Design, Design Methodologies, Elements of Form Design, Design of Output, Design of Input, Design of File, Design of procedure, Audit Trail, System implementation and Testing: Operational and Test Environment, Conversion Preparation, Database installation, Users Training and Final Report to Management, Creating a new System, Test Plan: Activity Network for system Testing, Types of Testing. System Quality Assurance, IT infrastructure Selection and Evaluation of Processing and Maintenance Quality Assurance: Quality factors specification, Levels of Quality Assurance, Computer Hardware and Software Selection, Computer Configuration Determination, Requesting Proposal from Vendors, Evaluation of Vendor's Proposals, Acceptance of system, Evaluation of Processing, Need of Maintenance.`,
-  },
-  {
-    id: `s-1019`,
-    slug: `ns`,
-    name: `Network Security`,
-    code: `BCA19`,
-    description: `Network Security — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 6,
-    syllabus: ``,
-  },
-  {
-    id: `s-1020`,
-    slug: `nm`,
-    name: `Numerical Methods`,
-    code: `BCA20`,
-    description: `Numerical Methods — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 6,
-    syllabus: `Roots of Equations:Bisections Method, False Position Method, Newton's Raphson Method, Rate of convergence of Newton's Method. Interpolation and Extrapolation: Finite Differences, The operator E, Newton's Forward and Backward Differences, Newton's dividend differences formulae, Lagrange's Interpolation formula for unequal INtervals, Gauss's Interpolation formula, Starling formula, Bessel's formula, Laplace Everett formula. Numerical Differentiation Numerical Integration: Introduction, direct methods, maxima and minima of a tabulated function, General Quadratic formula, Trapezoidal rule, Simpson's One third rule, Simpson's three-eight rule. Solution of Linear Equation: Gauss's Elimination method and Gauss's Siedel iterative method. Solution of Differential Equations: Euler's method, Picard method, Fourth-order Ranga-Kutta method.`,
-  },
-  {
-    id: `s-1021`,
-    slug: `ot`,
-    name: `Optimization Techniques`,
-    code: `BCA21`,
-    description: `Optimization Techniques — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 6,
-    syllabus: `Basic of operation research (OR): Characteristics of OR, Necessity of OR in industry, OR and decision making, role of computers in OR. Linear programming: Formulations and graphical solution of (2 variables) canonical and standard terms of linear programming problem. Algebraic solution: Simplex methods, Charnes method of penalties, two phase simplex method. Transportation model: Definition, Formulation and solution of transportation models, the row, minima column, minima, matrix, minima and Vogel's approximation methods. Assignment model: Definition of assignment model, comparison with transportation model, formulation and solution of assignment model. Sequencing Problem: Processing of n jobs through 2 machines, processing n jobs through 3 machines, processing 2 jobs through m machines. Game theory: Characteristics of games, maxima, - minimax criteria of optimality, dominance property, algebraic and graphical method of solution of solving 2× 2 games.`,
-  },
-  {
-    id: `s-1022`,
-    slug: `vb`,
-    name: `Visual Basic .NET`,
-    code: `BCA22`,
-    description: `Visual Basic .NET — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 6,
-    syllabus: ``,
-  },
+  // {
+  //   id: `s-1003`,
+  //   slug: `de`,
+  //   name: `Digital Electronics`,
+  //   code: `BCA03`,
+  //   description: `Digital Electronics — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 3,
+  //   syllabus: `Logic gates and circuit: Gates (OR, AND, NOR, NAND, XOR & XNOR); Demogran’s laws; Boolean laws, Circuit designing techniques (SOP, POS, K-Map). Combinational Building Blocks: Multiplexes; Decoder; Encoder; Adder and Subtracter. Memories: ROMs, PROMs, EPROMs, RAMs, Hard Disk, Floppy Disk and CD-ROM. Sequential Building Blocks: Flip-Flop (RS, D, JK, Master-slave & & T flip-flops); Registers & Shift registers; Counters; Synchronous and Asynchronous Designing method. Memory Organization: Basic cell of static and dynamic RAM; Building large memories using chips; Associative memory; Cache memory organization and Virtual memory organization.`,
+  // },
+  // {
+  //   id: `s-1004`,
+  //   slug: `cpp`,
+  //   name: `C++ Language`,
+  //   code: `BCA04`,
+  //   description: `C++ Language — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 2,
+  //   syllabus: `Introduction: Introducing Object Oriented Approach, Procedural Programing Language Vs. Object Oriented Language, Basic concept of OOPS, Operators, Tokens, Variables, Keywords, Data types, Identifiers, Characters, Type def statement, Constants, Enumerated data type. Control Flow: If statement, If else statement, Nested If, Else, Statements, For Loop, While Loop, While Loop, Break, Switch, Continue, goto. Classes and Objects, Encapsulation, information hiding, abstract data types, object & classes, attributes, methods, C++ class declaration, Constructors and destructors, Default parameter value, object types, C++ garbage collection, dynamic memory allocation, Metaclass/abstract classes. Array: Array Illustration, Multi, Dimensional arrays, Strings, Array of strings, function prototype, function return data type, parameter passing, default argument, Inline function, Function Overloading, Array Function, Operator Overloading. Pointers: Pointer to Derived Class, array of pointers, Inheritance and Polymorphism: Inheritance, Class hierarchy, derivation, public, private & protected, abstract classes, Single, Multilevel, Multiple, Hierarchical, Hybrid, benefits of Inheritance. Files and Exception Handling: Streams and files, Namespaces, Exception handling.`,
+  // },
+  // {
+  //   id: `s-1005`,
+  //   slug: `stats`,
+  //   name: `Statistics`,
+  //   code: `BCA05`,
+  //   description: `Statistics — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 2,
+  //   syllabus: `Classification of data, Tabulation of data, preparation of frequency distribution, presentation of data through histogram, frequency polygon curve. Measures of Central Tendency: Computer of Arithemetic Mean, Median and Mode for ungrouped data grouped data, verification of median through ogives. Measures of Dispersion: Computation of Range, Quartile deviation, mean deviation and standard deviation, coefficient of variation.(Numerical Application Only). Concept of skewness, Karl Pearson's and Bowley's Cofficients of skewness (Numerical Application only). Meaning of Correlation, Type of correlation, Correlation Coefficients, Karl Pearson, Spearman's rank correlation coefficient.(Numerical Application Only).`,
+  // },
+  // {
+  //   id: `s-1006`,
+  //   slug: `html`,
+  //   name: `HTML & Web Design`,
+  //   code: `BCA06`,
+  //   description: `HTML & Web Design — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 2,
+  //   syllabus: `Basics of INternet and Web: The Basics of internet, World Wide Web, Web page, Home page, Web site, Static, Dynamic and Active webpage. Overview of protocols, Simple Mail Transfer Protocol, Gopher, Telnet, Emails, TFTP, Simple Network Management Protocol, Hyper Text Transfer Protocol. Client Server Computing Concepts. Web Client and Web Server, Web Browser, Browser e.g., Netscape Navigator, Internet Explorer, Morzilla Firefox, Client Side Scripting Language, VB Script and Java Script, Active X Control and Plug-ins, Web Server Architecture, IMage maps, CGI, API Web database connectivity, DBC, ODBC. Dynamic Html: Dynamic Html, Cocument Object Model, Features, DHTML, CSSP(Cascading Style Sheet Positioning) and JSSS(Java Script assisted Style Sheet), Layers of Netscape, The ID Attribute, DHTML Events. Introduction to HTML: Editors, Basics, Elements, Attribute, Heading, Paragraphs, Styles, Formatting, Quotaions, Comments, CSS Links, Images, Tables, Lists, Blocks, Classess, ID, Frames, File Paths Head, Layout , Computer Code, Entities, Symbols, Char set, Color and Background of Web Pages, Hypertext, Hyperlink, and Hypermedia, Links, Anchors and URLs, Links to External Documents, Differnet Section of a page and graphics, Footnote, and E-malling, Creating Table, Frame, Form and Style Sheet. CSS: Introduction, Syntax, Color, Background, Border, Margins, Padding, Height/Width, Box Model, Outline, Text, Fonts, Icons, Links, Lists, Tables, Display, Max, Width, Position, Overflow, Float, Inline, Block, Align, Combinators, Pseudo Class, Pseudo Elements, Opacity, Navigation Bar, Dropdowns, Image Gallery, Image Sprites, Attr Selectors, Forms, Counters, WEbsite Layout, Units, Specificity. XML: Introduction, Tree, Synatx, Elements, Attributes, Namespaces, Display, HTTp request, Parser, DOM, XPath, XSLT, XQuerry, XLink, Validator, DTD, Schema, Server.`,
+  // },
+  // {
+  //   id: `s-1007`,
+  //   slug: `dsa`,
+  //   name: `Data Structures & Algorithms`,
+  //   code: `BCA07`,
+  //   description: `Data Structures & Algorithms — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 3,
+  //   syllabus: `Classification of Data Structure: Operations on Data Structure, Address Calculating, Application of Array, Limitation of Array, Array as parameters, Sparse Matrix. Continuous Implementation(Stack): Array Representation, Operations of Stacks, Push & Pop, Applications of Stack, Conversation of Infix to Prefix and Post Expressions, Evaluation of Postfix expression using stack, Recursion:Recursive Defination and process, Principles of Recursion, Tower of Hanoi problem, Recursion Vs Iteration Continuous, Implementation(Queue): Array representation and implementation of queues, Operation on Queue: Create, Add, Delete, Full and empty queue, circular queue, De-queue and Priority queue. Non Continuous Implementation Link Lists: Linear list concept, Linked List Terminology representation of Linked List in Memory, Type of Linked List, Single Linked List, Doubly Linked List, Single Circular List, Circular Doubly Linked List, Operation on Linked List: Create list insert node(empty list beginning, middle, end), Delete node(first, general case). Traversing node, Searching node, Print list, Count nodes, Sort lists. Tree: Introduction to tree & it Terminology binary trees, Type of Binary tree, representation of Binary tree, Traversals(inorder, preorder, postorder), Tree Expression, Binary Search Tree, Insertion and Deletion in BST. Sorting & Searching Techniques: Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Merge Sort, Sequential Sort, Binary Search.`,
+  // },
+  // {
+  //   id: `s-1008`,
+  //   slug: `os`,
+  //   name: `Operating System`,
+  //   code: `BCA08`,
+  //   description: `Operating System — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 3,
+  //   syllabus: `Introduction: What is an operating system, Simple Batch Systems, Multi, Programmed Batch System, Time. Sharing System, Personal. Computer systems, Parallel Systems, Distributed Systems, Real, Time Sysiems, Memory Organization: Fixed memory , variable memory. Memory Management: Background, Logical versus physical Address space, swapping. Contiguous allocation, paging, Segmentation Virtual memory: Denand Paging. Page Replacement, Page replacement Algorithms, Performance of Demand Paging, Allocation of Frames, thrashing. Processes: Process Con cept, Process Scheduling, operation on processes, CPU Scheduling: Basic Concepts, Scheduling Criteria, Scheduling Algorithms, Multiple,Processor Scheduling, Process Synchronization: Background, the critical, section problem, synchronization Hardware, Semaphores, Cassical Problems of synchronization. Deadlocks: system Model, Deadlock Characterization, Methods for Handling Deadlocks, Deadlock Prevention, Deadlock Avoidance, Deadlock Detection, Recovery from Deadlock. Device Management: Techniques for Device Management, Dedicated Devices, Shared Devices, Virtual Devices, Input or Output Devices. Storage Devices, Buffering Secondary Storage Structure: Disk Structure, Disk Scheduling, Disk Management, Swap, Space Management, Disk Reiability Information Management: Introduction, A simple file system General Model of a File system, Symbolic File System, Basic File System, Access Control Verification, Logical File System, Physical File System File Syster. Interface, File Concept,Access Methods, Directory Structure, Protection. Consistency Semantics File, System Implementation: File, System Structure. Allocation Methods, Free Space Management. Unix: A Sample Login Session, Logging On, Using the on - line Man pages, Logging Off, Directory and File Structure, File Names. Directories, The dfProgram, Your Login Directory, Subdirectories, Specifying Files, Protecting Files and Directoreis, Text Editors, Files as Output and Log files, Logging Your Actions to a File, Comparing Files, Searching Through Files, The Systems and Dealing with Multiple Users. Windows: Features of windows desktop, start menu, contro. Windows, panel, my computer, windows explorer, accessories, Managing Multipis managing arranging icons on the desktop, creating and managing folders. files and drivers, logging ofi and shutting down windows Control. Entertainment CD player, VD Player, media player, Sound recorder, volume control.`,
+  // },
+  // {
+  //   id: `s-1009`,
+  //   slug: `coa`,
+  //   name: `Computer Organization and Architecture`,
+  //   code: `BCA09`,
+  //   description: `Computer Organization and Architecture — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 3,
+  //   syllabus: `Computer Evolution: Briefhistory ofComputer, Classification of computer, Structure of a computer system, Arithmetic Logic Unit, Control Unit, Von Neumann Architecture, Integer Addition and Subtraction, Floating point representation, Signed numbers, Binary Arithmetic 1's and 2's Complements, Booths Algorithm, Hardware Implementation, IEEE Standards, Floating Point Arithmetic, The accumulator, shifts, carry and overflow instruction Characteristics, CPU with single BUS, Types of operands, Types of operations, Addressing Modes, instruction Formats. Processor Organization: Parallelism and Computer arithmetic, Computer arithmetic associatively, Floating Point in the 8086, Programmers Model of 8086, Register Organization 8086 Registers, Instruction Cycles, Addressing Modes, Micro operations, The instruction cycle, Control of the CPU, Functional Requirements, Single, Two, three bus structure Execution of a complete instruction, Branching, Sequencing of Control Signals, Hardwired Control Unit, Micro- Programmed Control. Memory Organization: Characteristics ofMemory Systems, Main Memory, Types of memory, Memory system considerations, Design of memory subsystem using Static, Dynamic Memory Chips, Memory interleaving High Speed Memories: Cache Memory, Structure of cache and main memory, Elements of Cache Design, Mapping functions, Replacement algorithms, External Memory, Virtual memory. I/O Organization: Input/ Output Module: Need, Techniques, Interrupt Driven I/O, Basic concepts of an Interrupt, Response of CPU to an Interrupt, Design issues, Priorities, interrupt handling, Types of interrupts. Data transfer Techniques, Data memory Acces, Buses, Types of buses., /O interface, synchronous and Asynchronous Data Transfer, serial l/O Input Devices, Output Devices, Multi-programming vs. Multiprocessing, Comparison between closely coupled and closely coupled multiprocessor. Micro-programming: Basic Principles, Features, Hardwired VS. MicrO programmed computers, Applications and advantages of micro programming, Limitations of microprogramming Computer Clock Micro instructions and its Contro! Path. Microcode. Machine instruction. Paralie! ganization, Instruction Set Architecture (1SA), RISC and CISC. Characteristics of CISC. Characteristics ofRISC. RISC versus CISC. Vector Processing requirements and characteristics ofvector processing.`,
+  // },
+  // {
+  //   id: `s-1010`,
+  //   slug: `dbms`,
+  //   name: `Database Management System`,
+  //   code: `BCA10`,
+  //   description: `Database Management System — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 4,
+  //   syllabus: `Introduction: Database system concepts, Database Users, and Architecture Introduction to Database System with example, Introduction to Traditional File Oriented System, Characteristics of the Database Approach, Components of Database System, Database users, Advantages and disadvantages of using a DBMS, structure of DBMS, Database Schemas and Instances, DBMS Architecture, Data Independence, Database Languages and Interfaces, Classification of Database Management Systems. Data Modeling & Relational: Database Management System Data Modeling using the Entity Relationship Model: Entity Types, Entity Sets, Attributes, Key Relationships, Relationship Types, Role and Structural, Constraints, weak Entity Types, ER Diagrams, Naming Conventions, Design issues. The Relational Data model: Relational Constraints and the Relational Algebra: Relational Model Concepts, Relational Constraints and Relational database Schemas update Operations and Dealing with Constraint Violations, Basic Relational Algebra Operations, Additional Relational Operations, and Examples ofQueries in Relational Algebra. SQL: SQL. and Database Design Theory and Methodology Structured Query Language The Relational Database Standard: Data Definition, Constraints and schema Changes in SQL, Types of SQL Commands, SQL, Operators and their Procedure, insert, Delete, and Update Statements in SQL. Queries and Sub Queries, Aggregate Functions, Join Unions, Intersection, Minus Views (Virtual Tables) in SQL. Functional Dependencies and Normalization of Relational Database: Informal Design Guidelines for Relation Schemas. Functional Dependencies, Armstrong Rules, Closure of Attributes, Normal Forms Based on Primary Keys, General Definitions of Second and Third Normal Forms, Boyce Codd Normal Form. Transaction Processing: Concurrency Control and Distributed Database Transaction Processing Concepts: Introduction to Transaction Processing Transaction and system concepts, Desirable Properties of Transactions, Concurrency Control Techniques, Locking Techniques for concurrency Control, Concurrency Control Based on Timestamp Ordering.`,
+  // },
+  // {
+  //   id: `s-1011`,
+  //   slug: `cn`,
+  //   name: `Computer Networks`,
+  //   code: `BCA11`,
+  //   description: `Computer Networks — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 4,
+  //   syllabus: `Basic Concepts: Components of data communication, distributed processing, standards and organizations. Line configuration, topology, Transmission mode, and categories of networks.OSI and TCP/IP Models: Layers and their functions, comparison of models. Digital Transmission: Interfaces and Modems: DTE-DCE Interface, Modems, Cable modems. Transmission Media: Guided and unguided, Attenuation, distortion, noise, throughput, propagation speed and time, wavelength, Shannon capacity, comparison of media. Telephony: Multiplexing, error detection and correction: Many to one, One to many, WDM, TDM, FDM, Circuit switching, packet switching and message switching. Data link control protocols: Line discipline, flow control, error control, synchronous and asynchronous protocols, character and bit oriented protocols, Link access procedures.Point to point controls: Transmission states, PPP layers, LCP, Authentication, NCP.ISDN: Services, Historical outline, subscriber’s access, ISDN Layers and broadcast ISDN. Devices: Repeaters, bridges, gateways, routers, The Network Layer; Design issues, Routing algorithms, Congestion control Algorithms, Quality of service, Internetworking, Network-Layer in the internet. Transport and upper layers in OSI Model: Transport layer functions, connection management, functions of session layers, presentation layer and application layer.`,
+  // },
+  // {
+  //   id: `s-1012`,
+  //   slug: `java`,
+  //   name: `Java Programming`,
+  //   code: `BCA12`,
+  //   description: `Java Programming — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 4,
+  //   syllabus: `Number System & Boolean Algebra: Number system: Binary, Octal, Decimal, Hexadecimal, Conversion of Number System, Binary Arith- metic & Complement,, Binary Codes: Weighted & Non Weighted, Gray Code, Excess-3 Code. Error Detection Codes, Hamming Code, Boolean Function, Boolean Postulates, De-Morgan's Theorem, Boolean Expressions: Sum of Product, Product of Sum, Minimization of Boolean Expressions, using K- Map, Logic Gates: AND, OR, NOT, NAND, NOR, XOR, XNOR, Implemen- tations of Logic Functions using Gates, NAND, NOR, Implementations, Mul- tilevel gate Implementations. Combinational Circuits: Adders & Subtractors: Half adder, full adder, binary adder, half subtractor, full subtractor, magnitude compara- tor: Two Bit comparator, three Bit Magnitude comparator, multiplexer & De -multiplexer: 4*1 Multiplexer, 8*1 Multiplexer, Decoder && Encoder, par- ity Checker & Generator, code converter. Sequential Circuit: Introduction to flip flops: SR, JK, T, D master Slave flip, conversion of flip flops, characteristics table & Equation, edge triggering & Level Triggering, excitation table. Registers: Introduction of Registers, classification of Registers, register with parallel load, shift registers, bidirectional shift register with parallel load. Counters: Introduction of counter, Asynchronous/Ripple counter, synchronous counters, BCD counter, 4 bit binary counter with parallel load, design of synchronous counters, ring counter, Johnson counter`,
+  // },
+  // {
+  //   id: `s-1013`,
+  //   slug: `php`,
+  //   name: `PHP Programming`,
+  //   code: `BCA13`,
+  //   description: `PHP Programming — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 5,
+  //   syllabus: `PHP: Introduction to PHP Evaluation of PHP, Basic Syntax, Defining variable and constant, PHP data type, Operator and Expression, Decisions and loop making decisions, Doing repetitive task with looping, Mixing decisions and looping with KTML, Function: Define a function, Call by value and call by reference, Recursive function, String Creating and accessing, String Searching & Replacing string, Formatting string, String related Library function. Array: Anatomy of an Array, Creating index based an Associative array Accessing array Element Looping with index based array, looping with associative array using each () and Foreach (), Some useful library function, Handling HTML Form PHP capturing Form Data dealing with multi -value filled, and generating file uploaded form, redirecting a form after submission. Working with file and Directories: Understanding file & directory, opening and closing, a file, coping, renaming and deleting a file, working with directories, creating and delecting folder, file uploading & Downloading. Session and Cookie: Introduction to Session Control, Session Functionality what is a Cookie, Setting Cookies with PHP, using Cookies with Sessions, Deleting Cookies, Registering Session Variables, Destroying the variable and Session 8 Database Connectivity with MySQL: Introduction to RDBMS, Connection with MySQL Database, Performing basic database operation (DML) (insert, Delete, update, Select), Setting query Parameter, Executing query join (Cross joins, inner joins, outer joins, self joins) Exception Handling Understanding Exception and error, Try, Catch, Throw, Error tracking and debuting.`,
+  // },
+  // {
+  //   id: `s-1014`,
+  //   slug: `ai`,
+  //   name: `Artificial Intelligence`,
+  //   code: `BCA14`,
+  //   description: `Artificial Intelligence — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 5,
+  //   syllabus: `AI Concepts, Various definitions of Al, Knowledge, Knowledge Pyramid, People and Computers; What computers can do better than people, what people can do better than computers, Characteristics of Al Problems, Problem Representation in Al, Components of AI, AI evolution, Application Areas of AI, History of o AI, The Turing Test and The Revised Turing Test. Expert System: Components of Expert System; Knowledge Base, Inference Engine, User Interface, Features of Expert System, Expert System Life Cycle, Categories of Expert System, Rulee Based vs Model Based Expert System, Advantages/Limitations of Expert System, Developing an Expert System; Identification, n Conceptualization, Formalization, Implementation, Testing, Using an Expert System, Application Areas of Expert System. AI and Search Process: Brute Force Search, Depth First/Breadth First Search, Heuristic Search Hill Climbing, Constraint Satisfaction, Mean End Analysis, Best First Seach, A* Algorithm, AO* Algorithm, Beam Search. Natural Language Processing: Introduction, Need, Goal, Fundamental Problems in Natural Language Understanding, How People Overcome Natural Language Problems, Speech Recognition Introduction, Advantages and Approaches, I Introduction to Robotics, Parts of a Robot Controlling. Applications: Communication, Communication as action, Formal grammar for a fragment of English, Syntactic Analysis,s Augmented Grammars, Semantic interpretation, Ambiguity andnd disambiguation, Discourse understanding, Grammar induction, Probabilistic language processing, Probabilistic language models, s Information retrieval, Information Extraction, Machine Translation.`,
+  // },
+  // {
+  //   id: `s-1015`,
+  //   slug: `daa`,
+  //   name: `Design and Analysis of Algorithms`,
+  //   code: `BCA15`,
+  //   description: `Design and Analysis of Algorithms — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 5,
+  //   syllabus: ``,
+  // },
+  // {
+  //   id: `s-1016`,
+  //   slug: `ec`,
+  //   name: `E-Commerce`,
+  //   code: `BCA16`,
+  //   description: `E-Commerce — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 5,
+  //   syllabus: `Introduction to E-Commerce: The Scope of Electronic Commerce, Definition of Electronic Commerce, Electronic E-commerce and the Trade Cycle, Electronic Markets, Electronic Data Interchange, Internet Commerce, E-Commerce in Perspective. Business Strategy in an Electronic Age: Supply Chains, Porter’s Value Chain Model, Inter Organizational Value Chains, Competitive Strategy, Porter’s Model, First Mover Advantage Sustainable Competitive Advantage, Competitive Advantage using E -Commerce, Business Strategy, Introduction to Business Strategy, Strategic Implications of IT, Technology, Business Environment, Business Capability, Exiting Business Strategy, Strategy Formulation & Implementation Planning, E-Commerce Implementation, E-Commerce Evaluation. Business-to-Business Electronic Commerce: Characteristics of B2B EC, Models of B2B Ec, Procurement Management Using the Buyer’s Internal Marketplace, Just in Time Delivery, Other B2B Models, Auctions and Services from Traditional to Internet Based EDI, Intergration with Back-end Information System, The Role of Software Agents for B2B EC, Electronic marketing in B2B, Solutions of B2B EC, Managerial Issues, Electronic Data Interchange (EDI), EDI: The Nuts and Bolts, EDI & Business. Internet and Extranet: Automotive Network Exchange, The Largest Extranet, Architecture of the Internet, Intranet and Extranet, Intranet software, Applications of Intranets, Intranet Application Case Studies, Considerations in Intranet Deployment, The Extranets, The structures of Extranets, Extranet products & services, Applications of Extranets, Business Models of Extranet Applications, Managerial Issues. Electronic Payment Systems: Is SET a failure, Electronic Payments & Protocols, Security Schemes in Electronic payment systems, Electronic Credit card system on the Internet, Electronic Fund transfer and Debit cards on the Internet, Stored –value Cards and E- Cash, Electronic Check Systems, Prospect of Electronic Payment Systems, Managerial Issues. Public Policy: From Legal Issues to Privacy: EC- Related Legal Incidents, Legal Incidents, Ethical & Other Public Policy Issues, Protecting Privacy, Protecting Intellectual Property, Free speech, Internet Indecency & Censorship, Taxation & Encryption Policies, Other Legal Issues: Contracts, Gambling & More, Consumer & Seller Protection In EC. Infrastructure For EC: It takes more than Technology, A Network Of Networks, Internet Protocols, Web- Based client/ Server, Internet Security, selling on the web, Chatting on the Web, Multimedia delivery, Analyzing Web Visits, Managerial Issues.`,
+  // },
+  // {
+  //   id: `s-1017`,
+  //   slug: `cg`,
+  //   name: `Computer Graphics`,
+  //   code: `BCA17`,
+  //   description: `Computer Graphics — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 6,
+  //   syllabus: `Introduction: The Advantages of Interactive Graphics, Representative Uses of Computer Graphics, Classification of Application Development of Hardware and software for computer Graphics, Conceptual Framework for Interactive Graphics, Overview, Scan: Converting Lines, Scan Converting Circles, Scan Converting Ellipses. Hardcopy Technologies, Display Technologies, Raster-Scan Display System, Video Controller, Random-Scan Display processor, Input Devices for Operator Interaction, Image Scanners, Working exposure on graphics tools like Dream Weaver, 3D Effects etc. Clipping Southland- Cohen Algorithm, Cyrus-Beck Algorithm, Midpoint Subdivision Algorithm. Geometrical Transformation 2D Transformation, Homogeneous Coordinates and Matrix Representation of 2D Transformations, composition of 2D Transformations, the Window-to-Viewport Transformations, Introduction to 3D Transformations Matrix. Representing Curves & Surfaces Polygon meshes parametric, Cubic Curves, Quadric Surface; Solid Modeling Representing Solids, Regularized Boolean Set Operation primitive Instancing Sweep Representations, Boundary Representations, Spatial Partitioning Representations and Constructive Solid Geometry Comparison of Representations. Introductory Concepts: Multimedia Definition, CD-ROM and the multimedia highway, Computer Animation (Design, types of animation, using different functions) Uses of Multimedia, Introduction to making multimedia – The stage of Project, hardware & software requirements to make good multimedia skills and Training opportunities in Multimedia Motivation for Multimedia usage.`,
+  // },
+  // {
+  //   id: `s-1018`,
+  //   slug: `sad`,
+  //   name: `System Analysis and Design`,
+  //   code: `BCA18`,
+  //   description: `System Analysis and Design — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 6,
+  //   syllabus: `Overview of Systems Concepts, Analysis and Design Life cycle, Introduction to System Concept: Characteristics of the system, Elements of a System, Types of Systems, Physical and Abstract System, Open and Closed System, Formal and Informal System, Introduction to Data and Information; Types of Information System, Categories of Information System, Needs of Informations Systems, Qualities of Information System, Software Development Life Cycle (SDLC), Role and Attributes of System Analyst. System Planning and Requirements Determination System planning and initial Investigation Strategic Plan for Information processing, Tools for Planning, Problems in Planning, Need for requirement definition. Information gathering tools: Review of Literature, pracedures and forms, Methodologies, Tools and Techniques of Analysis Systems Analysis and Design; Decision Tree, Data Dictionary, Decision Table. Structured English, Data Flow Diagram, Components of a DFD, Zero Level DFD, DFD Transformation and. Decomposition, Context Diagram Levelling a DFD, Feasibility Study Economic Feasibility (Cost & Benefit Analysis), Organizational Feasibility, Technical Feasibility, Behavioural Feasibility study. System Design and implementation Process of Design: Logical and Physical Design, Design Methodologies, Elements of Form Design, Design of Output, Design of Input, Design of File, Design of procedure, Audit Trail, System implementation and Testing: Operational and Test Environment, Conversion Preparation, Database installation, Users Training and Final Report to Management, Creating a new System, Test Plan: Activity Network for system Testing, Types of Testing. System Quality Assurance, IT infrastructure Selection and Evaluation of Processing and Maintenance Quality Assurance: Quality factors specification, Levels of Quality Assurance, Computer Hardware and Software Selection, Computer Configuration Determination, Requesting Proposal from Vendors, Evaluation of Vendor's Proposals, Acceptance of system, Evaluation of Processing, Need of Maintenance.`,
+  // },
+  // {
+  //   id: `s-1019`,
+  //   slug: `ns`,
+  //   name: `Network Security`,
+  //   code: `BCA19`,
+  //   description: `Network Security — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 6,
+  //   syllabus: ``,
+  // },
+  // {
+  //   id: `s-1020`,
+  //   slug: `nm`,
+  //   name: `Numerical Methods`,
+  //   code: `BCA20`,
+  //   description: `Numerical Methods — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 6,
+  //   syllabus: `Roots of Equations:Bisections Method, False Position Method, Newton's Raphson Method, Rate of convergence of Newton's Method. Interpolation and Extrapolation: Finite Differences, The operator E, Newton's Forward and Backward Differences, Newton's dividend differences formulae, Lagrange's Interpolation formula for unequal INtervals, Gauss's Interpolation formula, Starling formula, Bessel's formula, Laplace Everett formula. Numerical Differentiation Numerical Integration: Introduction, direct methods, maxima and minima of a tabulated function, General Quadratic formula, Trapezoidal rule, Simpson's One third rule, Simpson's three-eight rule. Solution of Linear Equation: Gauss's Elimination method and Gauss's Siedel iterative method. Solution of Differential Equations: Euler's method, Picard method, Fourth-order Ranga-Kutta method.`,
+  // },
+  // {
+  //   id: `s-1021`,
+  //   slug: `ot`,
+  //   name: `Optimization Techniques`,
+  //   code: `BCA21`,
+  //   description: `Optimization Techniques — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 6,
+  //   syllabus: `Basic of operation research (OR): Characteristics of OR, Necessity of OR in industry, OR and decision making, role of computers in OR. Linear programming: Formulations and graphical solution of (2 variables) canonical and standard terms of linear programming problem. Algebraic solution: Simplex methods, Charnes method of penalties, two phase simplex method. Transportation model: Definition, Formulation and solution of transportation models, the row, minima column, minima, matrix, minima and Vogel's approximation methods. Assignment model: Definition of assignment model, comparison with transportation model, formulation and solution of assignment model. Sequencing Problem: Processing of n jobs through 2 machines, processing n jobs through 3 machines, processing 2 jobs through m machines. Game theory: Characteristics of games, maxima, - minimax criteria of optimality, dominance property, algebraic and graphical method of solution of solving 2× 2 games.`,
+  // },
+  // {
+  //   id: `s-1022`,
+  //   slug: `vb`,
+  //   name: `Visual Basic .NET`,
+  //   code: `BCA22`,
+  //   description: `Visual Basic .NET — BCA syllabus, notes and study material for DBRAU.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 6,
+  //   syllabus: ``,
+  // },
   {
     id: `s-1023`,
     slug: `maths2`,
@@ -4133,18 +4133,18 @@ Integration: Integral as Limit of Sum, Fundamental Theorem of Calculus (without 
 UNIT-V
 Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple Scalar and Vector Product and physical interpretation of area and volume.`,
     },
-  {
-    id: `s-1293`,
-    slug: `practical-sem2`,
-    name: `Practical based on above papers`,
-    code: `C-206`,
-    description: `Practical based on above papers — BCA syllabus, DBRAU University Agra.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 2,
-    syllabus: `Practical work based on the second-semester papers, including Java, DBMS, data structures and related exercises.`,
-  },
+  // {
+  //   id: `s-1293`,
+  //   slug: `practical-sem2`,
+  //   name: `Practical based on above papers`,
+  //   code: `C-206`,
+  //   description: `Practical based on above papers — BCA syllabus, DBRAU University Agra.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 2,
+  //   syllabus: `Practical work based on the second-semester papers, including Java, DBMS, data structures and related exercises.`,
+  // },
   {
     id: `s-1294`,
     slug: `digital-electronics`,
@@ -4155,7 +4155,21 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 3,
-    syllabus: `Number systems and conversions, binary arithmetic and complements, binary codes, Boolean algebra and De Morgan theorem. Boolean expressions, minimization using K-map and logic gates. Combinational circuits including adders, subtractors, magnitude comparators, multiplexers, demultiplexers, decoders and encoders. Sequential circuits and flip-flops, characteristic/excitation tables, state diagrams and design. Registers and shift registers. Counters including asynchronous, synchronous, BCD, ring and Johnson counters.`,
+    syllabus: `UNIT-I
+Number System & Boolean Algebra: Number System: Binary, Octal, Decimal, Hexadecimal, Conversion of Number System, Binary Arithmetic & Complement (1’s and 2’s), Binary Codes: Weighted & Non-Weighted, Gray Code, Excess-3 Code, Cyclic Codes, Hamming Code, Boolean Function, Boolean Postulates, De-Morgan’s Theorem.
+Boolean Expressions: Sum of Product, Product of Sum, Minimization of Boolean Expressions using K-Map, Logic Gates: AND, OR, NOT, NAND, NOR, XOR, XNOR, Implementations of Logic Functions using Gates, NAND, NOR Implementations.
+
+UNIT-II
+Combinational Circuits: Adders & Subtractors: Half Adder, Full Adder, Binary Adder, Half Subtractor, Full Subtractor. Magnitude Comparator: Two Bit Magnitude Comparator, Three Bit Magnitude Comparator, Multiplexer & De-Multiplexer: 41 Multiplexer, 81 Multiplexer, Decoder & Encoder.
+
+UNIT-III
+Sequential Circuit: Introduction to Flip Flops: SR, JK, T, D, Master Slave Flip Flops, Characteristic Table & Equation, Edge Triggering & Level Triggering, Excitation Table, State Diagram, State Table, State Reduction, Design of Sequential Circuits.
+
+UNIT-IV
+Registers: Introduction of Registers, Classification of Registers, Register with Parallel Load, Shift Registers, Bidirectional Shift Register with Parallel Load.
+
+UNIT-V
+Counters: Introduction of Counter, Asynchronous/Ripple Counters, Synchronous Counters, BCD Counter, 4-bit Binary Counter with Parallel Load, Design of Synchronous Counters, Ring Counter, Johnson Counter.`,
   },
   {
     id: `s-1295`,
@@ -4167,7 +4181,20 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 3,
-    syllabus: `Python basics, features, applications, interpreter, data types, identifiers, keywords, literals, variables and operators. Input/output, conditional statements, loops, break/continue/pass and nested loops. Strings, indexing, slicing and built-in functions; lists, tuples and dictionaries. Functions, arguments, return values and variable scope. File manipulation, opening/closing files, modes, reading/writing, renaming and deleting files.`,
+    syllabus: `UNIT-I
+Basic of Python, Features, Application, Python interpreter, Interpreters vs Compilers, Data Types, Identifiers and keywords, Literals, Strings, Assigning Values to Variables, Multiple Assignment, Basic Operators in Python: Arithmetic, Comparison, Assignment, Bitwise, Logical, Membership Operators (in, not in), Identity Operators (is, is not), Operators Precedence.
+
+UNIT-II
+Creating Python Programs: Input and Output Statements, Conditional Statement- if...else, Difference between break, continue and pass, Control statements (Looping- while Loop, for Loop, Loop Control, nested loops).
+
+UNIT-III
+Python Strings, Accessing Values in Strings, String Special Operators, String Formatting Operator, Triple Quotes, Indexing and Slicing, Built-in String functions. Python Lists - Accessing Values in Lists, Updating Lists, Basic List Operations, Indexing, Slicing, and Matrixes, Built-in List Functions & Methods. Python Tuples - Accessing Values in Tuples, Updating Tuples, Delete Tuple Elements, Basic Tuples Operations, Indexing, Slicing, Built-in Tuple Functions. Python Dictionary - Accessing Values in Dictionary, Updating Dictionary Python Programming, Delete Dictionary Elements, Built-in Dictionary Functions & Methods.
+
+UNIT-IV
+Functions: Defining a Function, Syntax, calling a Function, call by value and call by reference, pass by reference vs value, Function Arguments, required arguments, Keyword arguments, Default arguments, Variable-length arguments, The return Statement, Scope of Variable.
+
+UNIT-V
+File Manipulation, Opening Text File, Working with a File on Python, The open function, File modes, the file object attributes, close() method, write() method, read() method, Files: Input, Files: Output, Reading files, Renaming & deleting files, Writing into a file, remove() method.`,
   },
   {
     id: `s-1296`,
@@ -4179,8 +4206,20 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 3,
-    syllabus: `Software definitions, types, characteristics, quality attributes, software engineering, costs and challenges; system engineering and requirements, SRS and specification techniques. Software development life cycle models including waterfall, V&V, spiral, iterative/incremental, Big Bang, RAD, Agile, Extreme Programming and prototype models. Design concepts such as abstraction, architecture, patterns, modularity, cohesion, coupling, information hiding and UI design. Verification, validation, black-box/white-box testing, inspections, levels of testing, test cases and quality management including CMM. Software cost estimation and maintenance cost estimation.`,
-  },
+    syllabus: `UNIT-I
+Introduction: Definition of Software, Type of Software, Characteristic of Software, Attributes of Good Software, Definition of Software Engineering, Software Engineering Costs, Key Challenges that Software Engineering faces, System Engineering and Software Engineering, Requirements Definition - Software Requirements Specification - Specification Techniques - Languages and Processors for Requirements.
+
+UNIT-II
+System Development Life Cycle: The Waterfall Model, Verification & Validation Model, Spiral Model, Iterative Incremental Model, Big Bang Model, Rapid Application Model, Agile Model, Extreme Programming, Prototype Model: Evolutionary Development of Software.
+
+UNIT-III
+Design Concept: Abstraction, Architecture, Patterns, Modularity: Cohesion, coupling, Information Hiding, Functional Independence Model, User Interface Design: Information Presentation, Interface Evaluation, Design Notation.
+
+UNIT-IV
+Software Testing and Quality Assurance: Verification and Validation, Techniques of Testing: Black-Box and White Box Testing, Inspections. Level of Testing: Unit Testing, Integration Testing, Interface testing, System Testing, Alpha and Beta Testing, Regression Testing. Design of test Cases, Quality Management activities, Product and process quality, capability Maturity Model (CMM).
+
+UNIT-V
+Software Cost Estimation: Introduction - Software Cost Factors - Software Cost Estimation Techniques - Stating Level estimation - Estimating Software Maintenance Costs Software.`,  },
   {
     id: `s-1297`,
     slug: `computer-network`,
@@ -4191,7 +4230,23 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 3,
-    syllabus: `Data communication fundamentals, Fourier analysis, bandwidth and channel data rate, transmission impairments, modes of transmission and media including twisted pair, coaxial, fiber and wireless. Computer networks, LAN/MAN/WAN, topologies, OSI and TCP/IP models, multiplexing. Data link layer services, framing, error/flow control, sliding-window protocols and LAN/channel access. Network layer services, routing algorithms, congestion control, IPv4/IPv6 and transport layer with UDP. Session, presentation and application layers, RPC, file transfer, email, virtual terminals and other applications.`,
+    syllabus: `UNIT-I
+Data Communications: Introduction: Theoretical basis for communication, Fourier analysis, Band limited signals, Maximum data rate of a channel: Transmission impairments, Attenuation distortion, Delay distortion, Dispersion, Noise: Data transmission modes, Serial & Parallel, Simplex, Half duplex & full duplex, Synchronous & Asynchronous transmission.
+Transmission Medium: Introduction: Transmission medium, Guided & Unguided, Twisted pair, Coaxial cable, Optical fiber, Comparison of fiber optics and copper wire: Wireless transmission.
+
+UNIT-II
+Computer Network: Introduction: Definition of a Computer Network, Components of a computer network, Types of Network: (LAN, MAN, WAN). Network topologies, OSI Reference Model, TCP /IP Model, Multiplexing, FDM, Frequency division multiplexing, WDM, Wavelength division multiplexing, TDM, Time division multiplexing.
+
+UNIT-III
+Data Link Layer: Services provided to the Upper Layer, Framing, Error Control, Flow Control, sliding window protocols. Medium Access Sub Layer: Medium access sub layer - Channel allocations, LAN protocols – aloha protocols.
+
+UNIT-IV
+Network Layer: Introduction, Services provided to the Upper Layer: Routing Algorithms (Centralized, Distributed), Congestion Control (Token Based and Non-Token Based), Internet working, IP packet, IP address, IPv4 and IPV6. Transport Layer: Introduction, Design, connection management, UDP.
+
+UNIT-V
+Session Layer: Introduction, Design and remote procedure call.
+Presentation Layer: Introduction, Design.
+Application Layer: Introduction, File transfer, access and management, electronic mail, virtual terminals, other application.`,
   },
   {
     id: `s-1298`,
@@ -4203,20 +4258,33 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 3,
-    syllabus: `Roots of equations using bisection, false position and Newton-Raphson methods. Interpolation and extrapolation using finite differences, Newton forward/backward, divided differences, Lagrange, Gauss, Stirling, Bessel and Laplace-Everett formulae. Numerical differentiation and integration including trapezoidal and Simpson rules. Linear equations using Gauss elimination and Gauss-Seidel methods. Differential equations using Euler, Picard and fourth-order Runge-Kutta methods.`,
+    syllabus: `UNIT-I
+Roots of Equations: Bisections Method, False Position Method, Newton’s Raphson Method, Rate of convergence of Newton’s method.
+
+UNIT-II
+Interpolation and Extrapolation: Finite Differences, The operator E-Newton’s Forward and Backward Differences, Newton’s dividend differences formula, Lagrange’s Interpolation formula for unequal Intervals, Gauss’s Interpolation formula, Starling formula, Bessel’s formula, Laplace, Everett formula.
+
+UNIT-III
+Numerical Differentiation Numerical Integration: Introduction, direct methods, maxima and minima of a tabulated function, General Quadratic formula, Trapezoidal rule, Simpson’s One third rule, Simpson’s three, eight rule.
+
+UNIT-IV
+Solution of Linear Equation: Gauss’s Elimination method and Gauss’s Siedel iterative method.
+
+UNIT-V
+Solution of Differential Equations: Euler’s method, Picard’s method, Fourth-order Ranga Kutta method.`,
   },
-  {
-    id: `s-1299`,
-    slug: `practical-sem3`,
-    name: `Practical based on above papers`,
-    code: `C-306`,
-    description: `Practical based on above papers — BCA syllabus, DBRAU University Agra.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 3,
-    syllabus: `Practical work based on the third-semester papers, including digital electronics, Python, software engineering/networking exercises and numerical methods.`,
-  },
+  // {
+  //   id: `s-1299`,
+  //   slug: `practical-sem3`,
+  //   name: `Practical based on above papers`,
+  //   code: `C-306`,
+  //   description: `Practical based on above papers — BCA syllabus, DBRAU University Agra.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 3,
+  //   syllabus: `Practical work based on the third-semester papers, including digital electronics, Python, software engineering/networking exercises and numerical methods.`,
+  // },
   {
     id: `s-1300`,
     slug: `web-technology-php-mysql`,
@@ -4227,8 +4295,20 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 4,
-    syllabus: `PHP introduction, syntax, variables, constants, data types, operators, expressions, decisions and loops, functions, strings and string functions. Arrays including indexed and associative arrays and HTML form handling. Files and directories, file operations, uploads and downloads. Sessions and cookies, session variables and control. MySQL/RDBMS, database connectivity, DML operations, parameters, joins, exception handling and debugging.`,
-  },
+    syllabus: `UNIT-I
+PHP: Introduction to PHP, Evaluation of PHP, Basic Syntax, Defining variable and constant, PHP Data type, Operator and Expression. Decisions and loop Making Decisions, Doing Repetitive task with looping, Mixing Decisions and looping with Html. Function: Define a function, Call by value and Call by reference, Recursive function, String Creating and accessing, String Searching & Replacing String, Formatting String, String Related Library function.
+
+UNIT-II
+Array: Anatomy of an Array, Creating index based and Associative array, Accessing array, Element Looping with Index based array, Looping with associative array using each () and foreach(), Some useful Library function, Handling Html Form with PHP Capturing Form, Data Dealing with Multi-value field, and Generating File uploaded form, redirecting a form after submission.
+
+UNIT-III
+Working with file and Directories: Understanding file & directory, Opening and closing, a file, Coping, renaming and deleting a file, working with directories, Creating and deleting folder, File Uploading & Downloading.
+
+UNIT-IV
+Session and Cookie: Introduction to Session Control, Session Functionality What is a Cookie, Setting Cookies with PHP. Using Cookies with Sessions, Deleting Cookies, Registering Session variables, Destroying variables and session. 8. Database Connectivity with.
+
+UNIT-V
+MySQL: Introduction to RDBMS, Connection with MySQL Database, Performing basic database operation (DML) (Insert, Delete, Update, Select), Setting query parameter, Executing query Join (Cross joins, Inner joins, Outer Joins, Self joins). Exception Handling Understanding Exception and error, Try, catch, throw. Error tracking and debugging.`,  },
   {
     id: `s-1301`,
     slug: `operating-system`,
@@ -4239,8 +4319,20 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 4,
-    syllabus: `Operating system concepts, batch, multiprogramming, time-sharing, personal computer, parallel, distributed and real-time systems. Process management, scheduling, cooperating processes, threads, IPC and CPU scheduling algorithms. Process synchronization, critical sections, semaphores, monitors and deadlocks with prevention, avoidance, detection and recovery. Memory management, address spaces, swapping, allocation, paging, segmentation, virtual memory, page replacement and thrashing. File management, file systems and secondary storage. Disk structure, scheduling algorithms, swap-space management and reliability.`,
-  },
+    syllabus: `UNIT-I
+Introduction: What is an operating system, Simple Batch Systems, Multi, programmed Batch systems, Time, Sharing Systems, Personal, Computer Systems, Parallel systems, Distributed systems, Real Time Systems. Process Management: Process Concept, Process Scheduling, Cooperating Processes, Threads, Inter process Communication, CPU Scheduling Criteria, Scheduling Algorithms, Multiple-Processor Scheduling.
+
+UNIT-II
+Process Synchronization and Deadlocks: The Critical-Section Problem, Synchronization Hardware, Semaphores, Classical Problems of Synchronization, Critical Regions, Monitors, Deadlocks: System Model, Deadlock Characterization, Methods for Handling Deadlocks, Deadlock prevention, Deadlock Avoidance, Deadlock Detection, Recovery from Deadlock.
+
+UNIT-III
+Memory Management: Logical and Physical Address Space, Swapping, Contiguous Allocation, Paging, Segmentation with Paging, Virtual Memory, Demand Paging and its performance, Page Replacement Algorithms, Allocation of Frames, Thrashing, Page Size and other considerations, Demand Segmentation.
+
+UNIT-IV
+File Management: File Systems, Secondary Storage Structure, File concept, Access methods, Directory implementation, Efficiency and performance, Recovery.
+
+UNIT-V
+Disk Management: Disk Structure, Disk scheduling, Disk scheduling algorithm: FCFS, SSTF, SCAN, Recovery, Swap-Space Management, Disk Reliability.`,  },
   {
     id: `s-1302`,
     slug: `cloud-computing`,
@@ -4251,8 +4343,20 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 4,
-    syllabus: `Introduction, definition, evolution and characteristics of cloud computing; elasticity and on-demand provisioning. Cloud-enabling technologies including service-oriented architecture and virtualization, virtualization levels, structures, tools, CPU/memory/I/O virtualization and disaster recovery. Cloud architecture and service models IaaS, PaaS and SaaS, public/private/hybrid clouds and cloud storage. Resource management, provisioning and cloud security challenges. Hadoop, MapReduce, VirtualBox and Google App Engine.`,
-  },
+    syllabus: `UNIT-I
+Introduction: Introduction to Cloud Computing, Definition of Cloud, Evolution of Cloud Computing, Underlying Principles of Parallel and Distributed Computing, Cloud Characteristics, Elasticity in Cloud, On-demand Provisioning.
+
+UNIT-II
+Cloud enabling technologies: Service Oriented Architecture, Basics of Virtualization, Types of Virtualization, Implementation Levels of Virtualization, Virtualization Structures, Tools and Mechanisms, Virtualization of CPU, Memory – I/O Devices, Virtualization Support and Disaster Recovery.
+
+UNIT-III
+Cloud architecture, services and storage: Layered Cloud Architecture Design, Cloud Architecture, Public, Private and Hybrid Clouds, IaaS, PaaS, SaaS, Architectural Design Challenges, Cloud Storage: Storage as-a-Service, Advantages of Cloud Storage, Cloud Storage Providers – S3.
+
+UNIT-IV
+Resource management and security in cloud: Inter Cloud Resource Management, Resource Provisioning and Resource Provisioning Methods, Security Overview, Cloud Security Challenges, Software-as-a-Service Security, Security Governance.
+
+UNIT-V
+Cloud technologies and advancements: Hadoop, MapReduce, Virtual Box, Google App Engine – Programming Environment for Google App Engine.`,  },
   {
     id: `s-1303`,
     slug: `computer-organization-architecture`,
@@ -4263,8 +4367,20 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 4,
-    syllabus: `Von Neumann architecture, computer structure and operational concepts, binary arithmetic, Booth algorithm, IEEE floating-point standards, CPU, instruction characteristics, operands, operations, addressing modes and formats. Processor organization, 8086 programmer model, registers, instruction cycles, micro-operations, hardwired and microprogrammed control. Memory organization, static/dynamic memory, interleaving, cache structure, mapping and replacement algorithms, external memory. I/O modules, interrupts, data transfer, DMA, buses and interfaces; multiprogramming/multiprocessing. Microprogramming, instruction-set architecture, RISC and CISC.`,
-  },
+    syllabus: `UNIT-I
+Von Neumann Architecture, Basic structure of Computers Operational concepts, Introduction to Binary Arithmetic, Booths Algorithm, IEEE Standards, Floating Point Arithmetic, The accumulator, Shifts, Carry and Overflow. Instruction Characteristics, CPU with Single BUS, Types of Operands, Types of Operations, Addressing Modes, Instruction Formats.
+
+UNIT-II
+Processor Organization: Parallelism and Computer arithmetic, Computer arithmetic associatively. Floating Point in the 8086, Programmers Model of 8086, Register Organization, 8086 Registers, Instruction Cycles, Addressing Modes, Micro operations, The Instruction cycle, Control of the CPU, Functional Requirements, Single, Two, Three bus structure, Execution of a complete instruction, Branching, Sequencing of Control Signals, Hardwired Control Unit, Micro-Programmed Control.
+
+UNIT-III
+Memory Organization: Concept of Memory: Memory system considerations, Design of memory subsystem using Static, Dynamic Memory Chips, Memory interleaving. High Speed Memories: Cache Memory, Structure of cache memory and main memory, Elements of Cache Design, Mapping functions, Replacement algorithms, External Memory.
+
+UNIT-IV
+I/O Organization: Input / Output Module: Need, Techniques, Interrupt Driven I/O, Basic concepts of an Interrupt, Response of CPU to an Interrupt, Design Issues, Priorities, Interrupt handling, Types of Interrupts. Data Transfer Techniques, Data Memory Access, Buses, Types of buses, I/O Interface, Synchronous and Asynchronous Data Transfer, Serial I/O, Input Devices, Output Devices, Multiprogramming vs. Multiprocessing, Comparison between closely coupled and loosely coupled Multiprocessor.
+
+UNIT-V
+Microprogramming: Basic Principles, Features, Hardwired vs. micro programmed computers, Applications and advantages of microprogramming, Limitations of microprogramming, Computer Clock. Parallel Organization, Instruction Set Architecture (ISA), RISC and CISC, Characteristics of CISC, Characteristics of RISC, RISC versus CISC.`,  },
   {
     id: `s-1304`,
     slug: `optimization-techniques`,
@@ -4275,20 +4391,32 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 4,
-    syllabus: `Operations research basics, characteristics and role in decision making. Linear programming formulation and graphical solution. Simplex methods, Charnes penalty method and two-phase simplex. Transportation models and solution methods including row/column/matrix minima and Vogel approximation; assignment model. Sequencing problems for multiple jobs and machines. Game theory, characteristics of games, maximin/minimax, dominance and algebraic/graphical solution of 2x2 games.`,
-  },
-  {
-    id: `s-1305`,
-    slug: `practical-sem4`,
-    name: `Practical based on above papers`,
-    code: `C-406`,
-    description: `Practical based on above papers — BCA syllabus, DBRAU University Agra.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 4,
-    syllabus: `Practical work based on the fourth-semester papers, including PHP/MySQL, operating systems, cloud, computer organization and optimization exercises.`,
-  },
+    syllabus: `UNIT-I
+Basics of operation research (OR): Characteristics of OR, Necessity of OR in industry, OR and decision making, role of computers in OR. Linear Programming: Formulations and graphical solution of (2 variables) canonical and standard terms of linear programming problem.
+
+UNIT-II
+Algebraic solution: Simplex methods, Charnes method of penalties, two phase simplex method.
+
+UNIT-III
+Transportation Model: Definition, formulation and solution of transportation models, The row, minima, column, minima, matrix, minima and Vogel’s approximation methods. Assignment model: Definition of assignment model, comparison with transportation model, formulation and solution of assignment model.
+
+UNIT-IV
+Sequencing Problem: Processing of n jobs through 2 machines, processing n jobs through 3 machines, processing 2 jobs through m machines.
+
+UNIT-V
+Game Theory: Characteristics of games, maxima, minimax criteria of optimality, dominance property, algebraic and graphical method of solution of solving 2 x 2 games.`,  },
+  // {
+  //   id: `s-1305`,
+  //   slug: `practical-sem4`,
+  //   name: `Practical based on above papers`,
+  //   code: `C-406`,
+  //   description: `Practical based on above papers — BCA syllabus, DBRAU University Agra.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 4,
+  //   syllabus: `Practical work based on the fourth-semester papers, including PHP/MySQL, operating systems, cloud, computer organization and optimization exercises.`,
+  // },
   {
     id: `s-1306`,
     slug: `network-security`,
@@ -4299,8 +4427,20 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 5,
-    syllabus: `OSI security architecture, classical encryption, cipher principles, DES, block-cipher design and modes. Number theory, modular arithmetic, primes, Euclidean algorithm, Fermat/Euler theorems, primality testing, Chinese remainder theorem and discrete logarithms. Public-key cryptography, key management, Diffie-Hellman, elliptic curves and RSA. Authentication requirements, MACs, hash functions, MD5, SHA, RIPEMD, HMAC and digital signatures. Kerberos, X.509, email security, PGP, S/MIME, IP/web security, intrusion detection, password management, viruses, firewalls and trusted systems.`,
-  },
+    syllabus: `UNIT-I
+Network Security: Introduction: OSI Security Architecture - Classical Encryption techniques Cipher Principles, Data Encryption Standard, Block Cipher Design Principles and Modes of Operation.
+
+UNIT-II
+Introduction to Number Theory: modular arithmetic, prime and relative prime numbers, Extended Euclidean Algorithm, Fermat’s and Euler’s theorem, Primality testing, Chinese Remainder theorem, Discrete Logarithmic Problem. Public Key Cryptography: Key Management, Diffie Hellman key exchange-Elliptic Curve. Confidentiality using Symmetric Encryption, Public Key Cryptography and RSA.
+
+UNIT-III
+Authentication and Hash Function: Authentication requirements, Authentication functions – Message Authentication Codes, Hash Functions, Security of Hash Functions and MACs, MD5 message Digest algorithm, Secure Hash Algorithm, RIPEMD, HMAC Digital Signatures, Authentication Protocols, Digital Signature Standard.
+
+UNIT-IV
+Network Security: Authentication Applications: Kerberos, X.509 Authentication Service, Electronic Mail Security, PGP, S/MIME, IP Security, Web Security.
+
+UNIT-V
+System Level Security: Intrusion detection, password management, Viruses and related Threats, Virus Counter measures, Firewall Design Principles, Trusted Systems.`,  },
   {
     id: `s-1307`,
     slug: `visual-basic-net`,
@@ -4311,8 +4451,20 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 5,
-    syllabus: `.NET Framework, CLR, FCL, Visual Studio .NET IDE, supported languages and VB.NET features. Data types, keywords, variables, constants, scope, conditional and looping statements, arrays. Functions, menus, toolbars, dialog boxes and built-in/user-defined functions. Forms and controls including labels, text boxes, list/combo boxes, radio/check boxes, progress bars, date/time, picture boxes and timers. OOP, classes, objects, constructors/destructors, exception handling and file handling with streams. Database access using ADO.NET, Server Explorer, DataAdapter/DataSet, SQL and database-backed applications.`,
-  },
+    syllabus: `UNIT-I
+Visual Basic .NET and the .NET Framework: Introduction to .net framework, Features, Common Language Runtime (CLR), Framework Class Library(FCL). Visual Studio .Net - IDE, Languages Supported, Components, Visual Programming, VB.net, Features, IDE, Menu System, Toolbars, Solution Explorer, Object Browser, Toolbox, Class View Window, Properties Window, Server Explorer, Task List, Output Window, Command Window.
+
+UNIT-II
+Programming in Visual basic .net: Data Types, Keywords, Declaring Variables and Constants, Operators, Understanding Scope and accessibility of variables, Conditional Statements, If-then, If- then- else, Nested If, Select Case, Looping Statement, Do loop, For Loop, For Each, Next Loop, While Loop, Arrays, Static and Dynamic.
+
+UNIT-III
+Functions, Built-In Dialog Boxes, Menus and Toolbar: Menus and toolbars, Menu Strip, Tool Strip, Status Strip, Built-In Dialog Boxes –Open File Dialogs, Save File Dialogs, Font Dialogs, Print Dialogs, Input Box, Msg box, Interfacing with End user, Creating MDI Parent and Child, Functions and Procedures, Built-In Functions, Mathematical and String Functions, User Defined Functions and Procedures.
+
+UNIT-IV
+Elements of Visual Basic .Net: Properties, Events and Methods of Form, Label, Text Box, List Box, Combo Box, Radio Button, Button, Check Box, Progress Bar, Date Time Picker, Calendar, Picture Box, Hscroll bar, VScroll Bar, Group Box, ToolTip, Timer.
+
+UNIT-V
+Advanced Concepts in VB.Net: Object Oriented Programming, Creating Classes, Objects, Fields, Properties, Methods, Events, Constructors and destructors, Exception Handling, Models, Statements, File Handling, Using File Stream Class, File Mode, File Share, Opening or Creating Files with File Stream Class, Reading and Writing to File with Stream Reader and Stream Writer Classes, Data Access with ADO.NET -- What are Databases? Data Access with Server Explorer, Data Adapter and Data Sets, ADO.NET Objects and Basic SQL. Creating Windows/Web Applications with the help of databases.`,  },
   {
     id: `s-1308`,
     slug: `computer-graphics`,
@@ -4323,8 +4475,20 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 5,
-    syllabus: `Computer graphics concepts, interactive graphics, applications, display and hardcopy technologies, raster/random scan displays and image scanners. Scan conversion of lines, circles and ellipses; point and line clipping algorithms. 2D transformations including translation, rotation, scaling, reflection and shearing, homogeneous coordinates and window-to-viewport transformation; introduction to 3D transformations. Curves, surfaces, polygon meshes, spline curves, solid modelling and representations. Computer animation, morphing, keyframe systems and animation design.`,
-  },
+    syllabus: `UNIT-I
+Introduction: Concept of Computer Graphics, Interactive Graphics, Advantages of Interactive Graphics, Uses of Computer Graphics, Hardcopy Technologies, Display Technologies, Raster Scan Display System, Video Controller, Random, Scan Display processor, Image Scanners.
+
+UNIT-II
+Scan Conversion: Scan Converting Lines, Scan Converting Circles, Scan Converting Ellipses. Line Clipping: Point clipping, Cohen-Sutherland line clipping Algorithm, Midpoint Subdivision Algorithm, Cyrus Beck Algorithm.
+
+UNIT-III
+Geometrical Transformation: Introduction, types of transformation, 2D Transformation: (translation, rotation, scaling, reflection and shearing), Homogeneous Coordinates and Matrix Representation of 2D Transformations, Successive and composition of 2D Transformations, the Window to Viewport Transformations, Introduction to 3D Transformations Matrix.
+
+UNIT-IV
+Curves & Surfaces: Polygon Surfaces and polygon meshes, Quadratic and super quadratics surfaces, Spline curve and representation. Solid Modeling: Characteristics, Representation, primitive Instancing, Sweep Representations, Boundary Representations, Constructive Solid Geometry, Spatial Partitioning Representations: Cell Decomposition, Enumeration of Space Occupation, Octree representation.
+
+UNIT-V
+Computer Animation: Introduction, Application of animation, Morphing, Keyframe system, Motion specifications in Animation, Types of animation, Sequencing of Animation Design and Fundamental principles of animation.`,  },
   {
     id: `s-1309`,
     slug: `ai-machine-learning`,
@@ -4335,8 +4499,20 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 5,
-    syllabus: `AI concepts, definitions, knowledge representation, knowledge pyramid, characteristics and problem areas. Expert systems, components, life cycle, advantages, limitations and applications. Search processes including brute force, DFS/BFS, hill climbing, constraint satisfaction, means-end analysis, best-first, A*, AO* and beam search. Natural language processing, language understanding, text and speech recognition. Machine learning including supervised, unsupervised and reinforcement learning, decision trees, KNN, SVM, Bayes theorem, K-means and K-medoids clustering.`,
-  },
+    syllabus: `UNIT-I
+AI Concepts, Various definitions of AI, Knowledge, Knowledge Pyramid, Characteristics of AI Problems, Problem Representation in AI, Application Areas of AI.
+
+UNIT-II
+Expert System: Components of Expert System: Knowledge Base, Inference Engine, User Interface, Features of Expert System, Expert System Life Cycle, Advantages/Limitations of Expert System, Application Areas of Expert System.
+
+UNIT-III
+AI and Search Process: Brute Force Search, Depth First/Breadth First Search, Heuristic Search: Hill Climbing, Constraint Satisfaction, Mean End Analysis, Best First Search, A* Algorithm, AO* Algorithm, Beam Search.
+
+UNIT-IV
+Natural Language Processing: Introduction, Need, Goal, Fundamental Problems in Natural Language Understanding, Text and Speech Recognition: Introduction, Advantages and Approaches.
+
+UNIT-V
+Machine Learning: Introduction, Supervised, Unsupervised and Reinforcement Learning, Decision Tree, KNN, Support Vector Machines (SVM), Bayes theorem, Clustering: K-Means, K-Medoids.`,  },
   {
     id: `s-1310`,
     slug: `design-analysis-algorithms`,
@@ -4347,20 +4523,32 @@ Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple 
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 5,
-    syllabus: `Algorithm definitions, characteristics, complexity analysis and asymptotic notations. Master theorem, substitution and iteration methods. Divide-and-conquer sorting including maximum/minimum, merge sort, quick sort and heap sort. Greedy methods, knapsack and Huffman coding; dynamic programming, matrix-chain multiplication and longest common subsequence; backtracking, N-Queens and subset-sum. Graph algorithms including BFS, DFS, minimum spanning trees, Kruskal and Prim, Dijkstra, Bellman-Ford and all-pairs shortest path. Complexity theory, P, NP, polynomial reduction, NP-complete and NP-hard problems.`,
-  },
-  {
-    id: `s-1311`,
-    slug: `practical-sem5`,
-    name: `Practical based on above papers`,
-    code: `C-506`,
-    description: `Practical based on above papers — BCA syllabus, DBRAU University Agra.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 5,
-    syllabus: `Practical work based on the fifth-semester papers, including network security, Visual Basic .NET, computer graphics, AI/ML and algorithms.`,
-  },
+    syllabus: `UNIT-I
+Basic Concepts of Algorithms: Definition of algorithm, Characteristic of algorithm, Complexity Analysis techniques, Asymptotic Notations (Growth of Functions). Master theorem, Substitution Method, Iteration Method.
+
+UNIT-II
+Sorting: Divide and conquer Approach: Maximum & Minimum, Merge Sort, Quick Sort, Heap Sort with time complexity.
+
+UNIT-III
+Greedy method: General method, Knapsack Problem, Huffman Codes. Dynamic Programming: Matrix, Chain Multiplications, Longest Common Subsequence. Backtracking: General method, N Queens Problem, Sum of subsets.
+
+UNIT-IV
+Analysis of Graph Algorithms: Elementary Graph Algorithms, Multistage Graphs, Basic Traversals and search techniques, techniques of graphs: BFS, DFS. Minimum Spanning Trees: Kruskal’s & Prim’s Algorithm, Single Source Shortest Path, Dijkstra’s & Bellman Ford, All Pairs Shortest Path: Warshal Algorithm.
+
+UNIT-V
+Introduction to Complexity Theory: The class P and NP, Polynomial reduction, NP-Complete Problems, NP-Hard Problems.`.  },
+  // {
+  //   id: `s-1311`,
+  //   slug: `practical-sem5`,
+  //   name: `Practical based on above papers`,
+  //   code: `C-506`,
+  //   description: `Practical based on above papers — BCA syllabus, DBRAU University Agra.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 5,
+  //   syllabus: `Practical work based on the fifth-semester papers, including network security, Visual Basic .NET, computer graphics, AI/ML and algorithms.`,
+  // },
   {
     id: `s-1312`,
     slug: `major-project`,
