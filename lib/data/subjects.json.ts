@@ -4536,7 +4536,7 @@ UNIT-IV
 Analysis of Graph Algorithms: Elementary Graph Algorithms, Multistage Graphs, Basic Traversals and search techniques, techniques of graphs: BFS, DFS. Minimum Spanning Trees: Kruskal’s & Prim’s Algorithm, Single Source Shortest Path, Dijkstra’s & Bellman Ford, All Pairs Shortest Path: Warshal Algorithm.
 
 UNIT-V
-Introduction to Complexity Theory: The class P and NP, Polynomial reduction, NP-Complete Problems, NP-Hard Problems.`.  },
+Introduction to Complexity Theory: The class P and NP, Polynomial reduction, NP-Complete Problems, NP-Hard Problems.`,  },
   // {
   //   id: `s-1311`,
   //   slug: `practical-sem5`,
