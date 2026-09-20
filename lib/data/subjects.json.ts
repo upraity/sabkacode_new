@@ -67,6 +67,31 @@ export const subjects: Subject[] = [
     branchSlug: "cse",
     semester: 4,
   },
+   {
+    id: `s-1282`,
+    slug: `computer-fundamentals-ms-office`,
+    name: `Computer Fundamentals and MS-Office`,
+    code: `C-101`,
+    description: `Computer Fundamentals and MS-Office — BCA syllabus, DBRAU University Agra.`,
+    courseSlug: `bca`,
+    universitySlug: `dbrau`,
+    branchSlug: `general`,
+    semester: 1,
+    syllabus: `UNIT-I
+Introduction to Computers: Introduction, Characteristics of Computers, Block diagram of computer. Types of computers and features, Mini Computers, Micro Computers, Mainframe Computers, Super Computers. Types of Programming Languages (Machine Languages, Assembly Languages, High Level Languages). Data Organization, Drives, Files, Directories. Types of Memory (Primary and Secondary), RAM, ROM, and EPROM. Secondary Storage Devices (FD, CD, HD, Pen drive) I/O Devices (Scanners, Plotters, LCD, Plasma Display). Number Systems Introduction to Binary, Octal, Hexadecimal system, Conversion, Simple Addition, Subtraction, Multiplication.
+
+UNIT-II
+Algorithm and Flowcharts: Algorithm: Definition, Characteristics, Advantages and disadvantages, Examples. Flowcharts: Definition, Define symbols of flowchart, Advantages and disadvantages, Examples.
+
+UNIT-III
+Operating System and Services: Operating System and Services in O.S., DOS, History, Files and Directories, Internal and External Commands, Batch Files, Types of O.S.
+
+UNIT-IV
+Windows Operating Environment: Features of MS-Windows, Control Panel, Taskbar, Desktop, Windows Application, Icons, Windows Accessories, Notepad, Paintbrush.
+
+UNIT-V
+Editors and Word Processors: Basic Concepts, Examples: MS-Word, Introduction to desktop publishing. Spreadsheets and Database packages Purpose, usage, command, MS-Excel, Creation of files in MS-Access, Switching between application, MS-PowerPoint.`  },
+
 
   {
     id: `s-1001`,
@@ -74,6 +99,30 @@ export const subjects: Subject[] = [
     name: `C Language`,
     code: `C-102`,
     description: `C Language — BCA syllabus, notes and study material for DBRAU.`,
+    courseSlug: `bca`,
+    universitySlug: `dbrau`,
+    branchSlug: `general`,
+    semester: 1,
+    syllabus: `UNIT-I
+C basics: C character set, Identifiers and keywords, Data types, constants, variables and arrays, declarations, expressions statements, symbolic constants, compound statements, arithmetic operators, unary operators, relational and logical operators, assignment operators, conditional operators, bit operators.
+
+UNIT-II
+Decision Control Structures: If Statement, If-else statement, Nested if(), If() ladder, Switch, case statement, Iterative Statements: For loop, While loop, Do while loop, Conditional statements: Break, Continue, Storage Classes, Array: Declaration of an Array, Initialization of Array, Types of Array: Single Dimension Array, Two-Dimension Array, Address Calculation of an Element of a 2-D Array.
+
+UNIT-III
+Functions: Library Functions, User Defined Functions, Function Declaration, Prototype Declaration, Types of Arguments: Actual Arguments, Formal Arguments, Function Definition, Passing Arrays as Parameters, Methods to Call a Function: Call by Value, Call by Reference.
+
+UNIT-IV
+String & Pointers: String: Definition, function of string and Maths Functions (Predefined Functions). Pointers: Declaration of Pointer Variables, Pointer Arithmetic, Returning Multiple Output values through a Function. Strings. Introduction to dynamic memory allocation (malloc, calloc, realloc, free).
+
+UNIT-V
+Structures, Unions, Array of Structures, Enumerations, File Handling: Opening a File, Closing a File, File, Opening Modes, Reading from and Writing to a File, Copying Content of an Existing File to another, Command Line Arguments, argc and argv Parameters, Pre-processor Directives.`  },
+  {
+    id: `s-1002`,
+    slug: `maths`,
+    name: `Elementary Mathematics`,
+    code: `C-105`,
+    description: `Mathematics — BCA syllabus, notes and study material for DBRAU.`,
     courseSlug: `bca`,
     universitySlug: `dbrau`,
     branchSlug: `general`,
@@ -92,19 +141,7 @@ Statistics: Classification of data, Tabulation of data, Preparation of frequency
 
 Unit-V
 Measures of dispersion and Correlation: Computation of Range, Quartile-deviation, mean-deviation and Standard-deviation, coefficient of variation. (Numerical Applications Only). Meaning of Correlation, types of correlation, correlation coefficient, Karl Pearson, Spearman's rank correlation coefficient. (Numerical Applications Only).`,
-  },
-  {
-    id: `s-1002`,
-    slug: `maths`,
-    name: `Elementary Mathematics`,
-    code: `C-105`,
-    description: `Mathematics — BCA syllabus, notes and study material for DBRAU.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 1,
-    syllabus: `Determinants: Definition, Minors, Cofactors, Properties of Determinants MATRICES: Definition, Types of Matrices, Addition, Subtraction, Scalar Multiplication and Multiplication of Matrices, Adjoint, Inverse, Cramers Rule, Rank of Matrix Dependence of Vectors, Eigen Vectors of a Matrix, Caley-Hamilton Theorem (without proof). LIMITS & CONTINUITY: Limit at a Point, Properties of Limit, Computation of Limits of Various Types of Functions, Continuity at a Point, Continuity Over an Interval Intermediate Value Theorem, Type of Discontinuities. Differentiation: Derivation, Derivatives of Sum, Differences, Product & Quotients, Chain Rule, Derivatives of Composite Functions, Logarithmic Differentiation Rolle's Theorem, Mean Value Theorem, Expansion of Functions (Maclaurin's & Taylor's), Indeterminate Forms, L' Hospitals Rule, Maxima & Minima, Curve Tracing, Successive Differentiation & Liebnitz Theorem. INTEGRATION: Integral as Limit of Sum, Fundamental Theorem of Calculus( without proof.), Indefinite Integrals, Methods of Integration Substitution, By Parts Partial Fractions, Reduction Formulae for Trigonometric Functions, Gamma and Beta Functions(definition). VECTOR ALGEBRA: Definition of a vector in 2 and 3 Dimensions; Double and Triple Scalar and Vector Product and physical interpretation of area and volume.`,
-  },
+ },
   {
     id: `s-1003`,
     slug: `de`,
@@ -114,7 +151,7 @@ Measures of dispersion and Correlation: Computation of Range, Quartile-deviation
     courseSlug: `bca`,
     universitySlug: `dbrau`,
     branchSlug: `general`,
-    semester: 1,
+    semester: 3,
     syllabus: `Logic gates and circuit: Gates (OR, AND, NOR, NAND, XOR & XNOR); Demogran’s laws; Boolean laws, Circuit designing techniques (SOP, POS, K-Map). Combinational Building Blocks: Multiplexes; Decoder; Encoder; Adder and Subtracter. Memories: ROMs, PROMs, EPROMs, RAMs, Hard Disk, Floppy Disk and CD-ROM. Sequential Building Blocks: Flip-Flop (RS, D, JK, Master-slave & & T flip-flops); Registers & Shift registers; Counters; Synchronous and Asynchronous Designing method. Memory Organization: Basic cell of static and dynamic RAM; Building large memories using chips; Associative memory; Cache memory organization and Virtual memory organization.`,
   },
   {
@@ -3888,19 +3925,7 @@ UNIT-5 (08 Hours) Implications of the above Holistic Understanding of Harmony on
     semester: 4,
     syllabus: `Sports and Yoga-II / NSS-II — compulsory qualifying audit course; scores are not used for computation, as noted in the AKTU B.Arch Semester IV scheme.`,
   },
-    {
-    id: `s-1282`,
-    slug: `computer-fundamentals-ms-office`,
-    name: `Computer Fundamentals and MS-Office`,
-    code: `C-101`,
-    description: `Computer Fundamentals and MS-Office — BCA syllabus, DBRAU University Agra.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 1,
-    syllabus: `Introduction to computers, characteristics and types of computers, programming language levels, data organization, memory and storage devices, input/output devices, number systems and conversions. Algorithms and flowcharts. Operating systems and DOS basics. Windows environment, control panel, taskbar and accessories. Editors and word processors, MS Word, desktop publishing, spreadsheets, databases and MS Excel, MS Access and MS PowerPoint.`,
-  },
-  // {
+   // {
   //   id: `s-1283`,
   //   slug: `introduction-to-programming-c`,
   //   name: `Introduction to Programming using C`,
@@ -3922,8 +3947,20 @@ UNIT-5 (08 Hours) Implications of the above Holistic Understanding of Harmony on
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 1,
-    syllabus: `Means, process, functions, objectives, importance and barriers of communication. Oral communication, effective speech, listening, written communication, business letters and reports. Drafting enquiries, orders, complaints, sales letters, circulars, employment applications and resumes. IT-enabled communication including email, internet, multimedia, teleconferencing and mobile communication. Self-analysis, SWOT, self-confidence, self-esteem, creativity, attitude, motivation, goal setting, interpersonal skills, leadership, networking and teamwork. Ethics, values, morality, professionalism, Indian values, technology and society, data privacy, intellectual property and cybersecurity ethics.`,
-  },
+    syllabus: `UNIT-I
+Means of Communication: Meaning and Definition, Process, Functions, Objectives, Importance, Essentials of good communication, Communication barriers, 7C's of Communication, Types of Communication: Meaning, nature and scope.
+
+UNIT-II
+Oral communication: Principle of effective oral communication, Techniques of effective speech, Media of oral communication (Face to face conversation, Teleconference, Press Conference, Demonstration, Radio Recording, Dictaphone, Telephone, Rumour, Demonstration and Dramatization, Public address system, Grapevine, Group Discussion, Oral report, Closed circuit TV). Art of listening, Principles of good listening. Written Communication: Purpose of writing, Clarity in Writing, Principle of Effective writing, Writing Techniques, Electronic Writing Process. Business Letters & Notes: Need and functions of business letters, Planning & layout of business letter, Kinds of business letters, Essentials of effective correspondence, Purpose, Kind and Objective of Reports, Writing Reports.
+
+UNIT-III
+Drafting of business letters: Enquiries and replies, Placing and fulfilling orders, Complaints and follow up, Sales Letters, Circular letters Application for employment and resume. Information Technology: Communication: Word Processor, Telex, Facsimile (Fax), E-mail, Voice mail, Internet Multimedia, Teleconferencing, Mobile Phone Conversation, Video Conferencing, SMS, Telephone Answering Machine, Advantages and limitations of these types. Self Analysis: SWOT Analysis, Who am I, Attributes, Importance of Self Confidence, Self Esteem. Creativity: Out of box thinking, Lateral Thinking.
+
+UNIT-IV
+Attitude: Factors influencing Attitude, Challenges and lessons from Attitude, Etiquette. Motivation: Factors of motivation, Self talk, Intrinsic & Extrinsic Motivators. Goal Setting: Wish List, SMART Goals, Blue print for success, Short Term, Long Term Life Goals. Interpersonal Skills: Gratitude: Understanding the relationship between Leadership Networking & Team work. Assessing Interpersonal Skills Situation description of Interpersonal Skill. Team Work: Necessity of Team Work Personally, Socially and Educationally.
+
+UNIT-V
+Introduction to Ethics and Values: Basic Concepts: Defining ethics, values, and morality. Importance of Values: Understanding the role of values in decision-making and behavior. Sources of Values: Exploring different sources of values, including personal, cultural, and societal influences. Professionalism and Professional Ethics: Defining professionalism and its ethical dimensions. Importance of Values: Discussing the significance of values in professional settings, including integrity, honesty, and respect. Indian Values and Ethics: Exploring specific Indian values such as respect for elders, hierarchy, and holistic relationships, and their relevance in the workplace. Ethics in Work Life: Analyzing the role of ethics in maintaining a positive and productive work environment. Values across Cultures: Examining how values differ across cultures and the implications for globalized IT work. Impact of Technology on Society: Examining the social, cultural, and environmental impacts of technology. Ethical Practices in IT: Exploring ethical considerations specific to the IT field, such as data privacy, intellectual property, and cybersecurity.` },
   {
     id: `s-1285`,
     slug: `html-css-xml`,
@@ -3934,32 +3971,44 @@ UNIT-5 (08 Hours) Implications of the above Holistic Understanding of Harmony on
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 1,
-    syllabus: `Internet and World Wide Web basics, static and dynamic web pages, client-server concepts, protocols and browsers. HTML editors, elements, attributes, headings, paragraphs, styles, formatting, images, links, lists, tables, frames, forms and web-page layout. CSS syntax, colors, backgrounds, borders, margins, padding, box model, text, fonts, display, positioning, floats, classes, pseudo-elements, navigation bars, forms and specificity. XML introduction, tree, syntax, elements, attributes, namespaces, HTTP request/response, DOM, XPath, XSLT, XQuery, XLink, validators, DTD and Schema.`,
-  },
-  {
-    id: `s-1286`,
-    slug: `elementary-mathematics`,
-    name: `Elementary Mathematics`,
-    code: `C-105`,
-    description: `Elementary Mathematics — BCA syllabus, DBRAU University Agra.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 1,
-    syllabus: `Set theory, relations and functions; Venn diagrams, set operations, equivalence and partial order relations, domain/range and types of functions, composite and inverse functions, trigonometric, logarithmic and exponential functions, and basic graph theory. Determinants and matrices, operations, inverse and rank, linear dependence, eigenvalues/eigenvectors and Cayley-Hamilton theorem. Probability, sample space, events, probability theorems and Bayes theorem. Statistics, frequency distributions, histogram, mean, median and mode. Measures of dispersion and correlation including Karl Pearson and Spearman rank correlation.`,
-  },
-  {
-    id: `s-1287`,
-    slug: `practical-sem1`,
-    name: `Practical based on above papers`,
-    code: `C-106`,
-    description: `Practical based on above papers — BCA syllabus, DBRAU University Agra.`,
-    courseSlug: `bca`,
-    universitySlug: `dbrau`,
-    branchSlug: `general`,
-    semester: 1,
-    syllabus: `Practical work based on the first-semester papers, including programming, computer applications and web/office exercises.`,
-  },
+    syllabus: `UNIT-I
+Basics of Internet and Web: The basics of Internet, World Wide Web, Web page, Home page, Web site, Static, Dynamic and Active web page, Web Browser, Browser, e.g., Netscape navigator, Internet concept. Web Client and Web Server, Web Browser, Browsers e.g., Netscape navigator, Internet Explorer, Mozilla Firefox, Client Scripting Languages, VB Script and Java Script, Web Server Architecture, Image maps, CGI, API web database connectivity, DBC.
+
+UNIT-II
+Dynamic HTML, Document Object Model: Features of DHTML, CSSP (Cascading Style Sheet Positioning) and JSS (JavaScript assisted Style Sheet), Layers of Netscape, the ID Attribute, DHTML Events.
+
+UNIT-III
+Introduction to HTML: Editors, Basics, Element, Attribute, Headings, Paragraphs, Styles, Formatting, Quotations, Comments, CSS, Links, Images, Lists, Blocks, Classes, ID, frames, File Paths, Head, Layout, Color Code, Entities, Symbols, Character Encoding, Embedded of Web Pages, Hypertext, Hyperlink and Hypermedia, Links, Anchors and URLs, Links to External Documents, Different Section of a Page and Graphics, Footnote and E-Mailing, Creating Table, Frame, Form and Style Sheet.
+
+UNIT-IV
+CSS: Introduction, Syntax, Colors, Backgrounds, Borders, Margins, Padding, Height/Width, Box Model, Outline, Text, Fonts, Icons, Links, Lists, Display, Max, Width, Position, Overflow, Float, Inline, Block, Align, Combinators, Pseudo-Classes, Pseudo Elements, Opacity, Navigation Bar, Float, Inline, Block, Align, Images, Sprites, Attr Selectors, Forms, Counters, Website Layout, Units, Specificity.
+
+UNIT-V
+XML: Introduction, Tree, Syntax, Elements, Attributes, Namespaces, Display, HTTP request, Parser, DOM, XPath, XSLT, XQuery, XLink, Validator, DTD, Schema, Server.`  },
+  // {
+  //   id: `s-1286`,
+  //   slug: `elementary-mathematics`,
+  //   name: `Elementary Mathematics`,
+  //   code: `C-105`,
+  //   description: `Elementary Mathematics — BCA syllabus, DBRAU University Agra.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 1,
+  //   syllabus: `Set theory, relations and functions; Venn diagrams, set operations, equivalence and partial order relations, domain/range and types of functions, composite and inverse functions, trigonometric, logarithmic and exponential functions, and basic graph theory. Determinants and matrices, operations, inverse and rank, linear dependence, eigenvalues/eigenvectors and Cayley-Hamilton theorem. Probability, sample space, events, probability theorems and Bayes theorem. Statistics, frequency distributions, histogram, mean, median and mode. Measures of dispersion and correlation including Karl Pearson and Spearman rank correlation.`,
+  // },
+  // {
+  //   id: `s-1287`,
+  //   slug: `practical-sem1`,
+  //   name: `Practical based on above papers`,
+  //   code: `C-106`,
+  //   description: `Practical based on above papers — BCA syllabus, DBRAU University Agra.`,
+  //   courseSlug: `bca`,
+  //   universitySlug: `dbrau`,
+  //   branchSlug: `general`,
+  //   semester: 1,
+  //   syllabus: `Practical work based on the first-semester papers, including programming, computer applications and web/office exercises.`,
+  // },
   {
     id: `s-1288`,
     slug: `java-programming`,
@@ -3970,8 +4019,20 @@ UNIT-5 (08 Hours) Implications of the above Holistic Understanding of Harmony on
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 2,
-    syllabus: `Java tokens, statements, command-line arguments, constants, variables, data types, type casting, program structure, operators, expressions and control statements; JDK, JRE and JVM. Classes, objects, constructors, methods, overloading, inheritance, interfaces, overriding, final and abstract classes, visibility control, arrays and wrapper classes. Packages, Java API, multithreading, thread life cycle, exceptions, priority and synchronization. String and mathematical functions, streams, keyboard I/O and applets. AWT components, graphics, dialogs, layouts and events; JDBC, SQL connectivity, sockets, Swing, Servlet and JSP.`,
-  },
+    syllabus: `UNIT-I
+Introduction, Java Tokens, Java Statements, Command Line Arguments, Programming Style, Constants, Variables, Data Types, Constants, Variables, Declaration of Variables, Scope of Variables, Symbolic Constants, Type Casting, Java Program Structure, Operators, Expressions, Statements, Decision Statements, Control Structure or statement, JDK, JRE, and JVM (Java Virtual Machine), Class-path, Execution process of Java program.
+
+UNIT-II
+Defining a Class, Creating Objects, Accessing Class Members, Constructors, Methods Overloading, Static Members, Nesting of Methods and Inheritance: Extending a class, interface, super, Overriding & Overloading Methods, final variables and Methods, Classes, Finalize Methods, Abstract Method and Classes, Visibility Control. Arrays, One, Dimensional Arrays, Creating an Array, Two Dimensional Arrays, Wrapper Classes.
+
+UNIT-III
+Packages: Introduction, Java API Packages, Using system packages, Naming Conventions, Creating Packages, Accessing a Packages, Adding a Class to a Package, Hiding Classes. Multithreaded Programming: Introduction, Creating Threads, Extending the Thread Class, Stopping and Blocking a Thread, Life Cycle of a Thread, Using Thread Methods, Thread Exceptions, Thread Priority, and Synchronization and Exception: Introduction, Types of Errors, Exceptions, Syntax of Exception Handling Code, Multiple Catch Statements, Using finally Statement, Throwing Our Own Exceptions, Using Exceptions for Debugging.
+
+UNIT-IV
+Functions: String handling and its functions, Maths Functions. Input/output-basics: Input/output-basics streams and Byte and character streams, Character Reading from Keyboard by Input Stream Reader, Reading a Line/String from a Buffered Reader. Standard Stream: Data Streams to read/write. Applet: Introduction, How Applets Differ from Application, Preparing to Write Applets, Building Applet Code, Applet Life Cycle, Creating an Executable Applet, Designing a Web Page, Applet Tag, Adding Applet to HTML File, Running the Applet.
+
+UNIT-V
+Introduction to AWT programming, Graphics, Dialog Boxes, AWT Components/Controls, Layouts, Event Handling, JDBC architecture Establishing connection and working with connection interface, Working with statements, Creating and executing SQL statements, Working with Result Set, Socket Programming, Introduction to Swing, servlet and JSP.`  },
   {
     id: `s-1289`,
     slug: `dbms`,
@@ -3982,7 +4043,20 @@ UNIT-5 (08 Hours) Implications of the above Holistic Understanding of Harmony on
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 2,
-    syllabus: `Database concepts, users, architecture, traditional file systems, database approach, DBMS components, schemas and instances, data independence, database languages and interfaces. ER modelling, entity sets, attributes, keys, relationships and ER diagrams. Relational model, constraints, relational algebra and query operations. SQL data definition, constraints, insert/delete/update, subqueries, aggregate functions, joins, unions, views, functional dependencies and normalization including 2NF, 3NF and BCNF. Transaction processing, concurrency control, locking and timestamp ordering.`,
+    syllabus: `UNIT-I
+Introduction: Database System Concepts, Database Users and Architecture, Introduction to Traditional File Oriented System, Characteristics of the Database System, Components of Database System, Advantages and disadvantages of Using a DBMS, Database Schemas and Instances, DBMS Architecture, Data Independence, Database Languages and Interfaces, Classification of Database Management Systems.
+
+UNIT-II
+Data Modelling & Relational Database Management System Data Modelling Using the Entity Relationship Model: Entity Types, Entity Sets, Attributes, Keys, Relationships, Relationship Types, Roles, and Structural, Constraints, Weak Entity Types, ER Diagrams, Naming Conventions, Design Issues.
+
+UNIT-III
+The Relational Data Model: Relational Constraints and the Relational Algebra: Relational Model Concepts, Relational Constraints and Relational Database Schemas Update Operations and Dealing with Constraint Violations, Basic Relational Algebra Operations, Additional Relational Operations and Examples of Queries in Relational Algebra.
+
+UNIT-IV
+SQL: SQL and Database Design Theory and Methodology Structured Query Language the Relational Database Standard: Data Definition, Constraints and Schema Changes in SQL, Types of SQL Commands, SQL Operators and their Procedure, Insert, Delete, and Update Statements in SQL Queries and Sub Queries, Aggregate Functions, Joins, Unions, Intersection, Minus, Views (Virtual Tables) in SQL. Functional Dependencies and Normalization for Relational Databases: Informal Design Guidelines for Relation Schemas, Functional Dependencies, Armstrong Rules: Closure of Attributes, Normal Forms Based on Primary Keys, General Definitions of Second and Third Normal Forms, Boyce Codd Normal Form.
+
+UNIT-V
+Transaction Processing: Concurrency Control and Distributed Database Transaction Processing Concepts: Introduction to Transaction Processing, Transaction and System Concepts, Desirable Properties of Transactions, Concurrency Control Techniques, Locking Techniques for Concurrency Control, Concurrency Control Based on Timestamp Ordering.`
   },
   {
     id: `s-1290`,
@@ -3994,7 +4068,20 @@ UNIT-5 (08 Hours) Implications of the above Holistic Understanding of Harmony on
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 2,
-    syllabus: `Classification and operations of data structures, address calculation and arrays including sparse matrices. Stacks with push/pop, applications, expression conversion/evaluation and recursion including Tower of Hanoi. Queues including circular, deque and priority queues. Linked lists: singly, doubly and circular lists with insertion, deletion, traversal, searching and sorting. Trees, binary trees, traversals and binary search trees. Sorting and searching techniques including bubble, selection, insertion, quick and merge sort, sequential/binary search, and graph basics including shortest path.`,
+    syllabus: `UNIT-I
+Classification of Data Structure, Operations on Data Structure, Address Calculation, Application of arrays, Limitation of Array, Application of Arrays, Array as Parameters, Sparse Matrices.
+
+UNIT-II
+Continuous Implementation (Stack): Array Representation, Operations on Stacks: Push & Pop, Applications of stack, Conversion of Infix to Prefix and Postfix Expressions, Evaluation of postfix expression using stack Recursion: Recursive Definition and Processes, Tower of Hanoi Problem, Recursion Vs. Iteration Continuous. Implementation (Queue): Array representation and implementation of Queues, Operations on Queue: Create, Add, Delete, Full and Empty Queue, Circular Queue, Dequeue and Priority Queue.
+
+UNIT-III
+Non-Continuous Implementation: Linked Lists: Linear List concept, Linked List Terminology, Representation of Linked List Memory, Types of Linked List, Single Linked List, Doubly Linked List, Circular Linked List, Circular Doubly Linked List, Operations on Linked List: Create List, Insert node (empty list, beginning, middle, end), Delete node(first, general case), Traversing node, Searching node, Print List, Count Nodes, Sort Lists.
+
+UNIT-IV
+Trees: Introduction to Tree & its Terminology, Binary trees, Types of Binary trees, Representation of Binary Tree, Traversals (Inorder, Preorder, Postorder), Tree Expression, Binary Search Tree, Insertion and Deletion in BST.
+
+UNIT-V
+Sorting & Searching Techniques: Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Merge Sort, Sequential Search, Binary Search. Graph: Introduction and Types of graph, graph representation, Shortest path problem.`
   },
   {
     id: `s-1291`,
@@ -4006,7 +4093,20 @@ UNIT-5 (08 Hours) Implications of the above Holistic Understanding of Harmony on
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 2,
-    syllabus: `Nature, definition, purpose, importance and functions of management; management as art, science and profession; management, administration and organization; evolution of management. Planning, forecasting and decision making. Organizing, delegation, decentralization, staffing, direction, communication, motivation and leadership. Controlling, coordination and strategic management. Recent trends including social responsibility, environment-friendly management, change and crisis management, total quality management, stress management and international management.`,
+    syllabus: `UNIT-I
+Nature of Management: Meaning, Definition, it's nature purpose, importance & Functions. Management as Art, Science & Profession. Management as social System Concepts of management, Administration, Organization, Evolution of Management.
+
+UNIT-II
+Functions of Management: Planning - Meaning - Need & Importance, type's levels, advantages & limitations. Forecasting - Need & Techniques Decision making – Types, Process of rational decision making & techniques of decision-making Organizing.
+
+UNIT-III
+Elements of organizing & processes: Types of organizations, Delegation of authority - Need, difficulties in delegation - Decentralization Staffing - Meaning & Importance Direction, Nature, Principles Communication, Types Interpersonal Motivation, Importance, theories, Leadership - Meaning - styles, qualities & functions of leaders.
+
+UNIT-IV
+Functions of Management: Controlling - Need, importance, Process & Techniques Coordination - Need – Importance. Strategic Management Definition, Classes of Decisions, Levels of Decision, Strategy, Role of different Strategist, Relevance of Strategic Management and its Benefits Strategic Management in India.
+
+UNIT-V
+Recent Trends in Management: Social Responsibility of Management – environment friendly management, Management of Change, Management of Crisis, Total Quality Management, Stress Management, International Management.`
   },
   {
     id: `s-1292`,
@@ -4018,8 +4118,21 @@ UNIT-5 (08 Hours) Implications of the above Holistic Understanding of Harmony on
     universitySlug: `dbrau`,
     branchSlug: `general`,
     semester: 2,
-    syllabus: `Basic trigonometric functions, identities and applications. Limits and continuity, properties and computation of limits, continuity and types of discontinuity. Differentiation including product, quotient and chain rules, logarithmic differentiation, Rolle and Mean Value theorems, Taylor/Maclaurin expansions, indeterminate forms, L-Hospital rule, maxima/minima, curve tracing and successive differentiation. Integration, fundamental theorem, indefinite integrals, substitution, integration by parts, partial fractions, reduction formulae, Gamma and Beta functions. Vector algebra in two and three dimensions and scalar/vector products.`,
-  },
+    syllabus: `UNIT-I
+Basic concept of Trigonometry: Basic trigonometric functions, Evaluating trigonometric functions for common angles, trigonometric identities (Sum, difference and double angle formulas) and their applications.
+
+UNIT-II
+Limits & Continuity: Limit at a Point, Properties of Limit, Computation of Limits of Various Types of Functions, Continuity at a Point, Continuity Over an Interval, Intermediate Value Theorem, Type of Discontinuities.
+
+UNIT-III
+Differentiation: Derivative, Derivatives of Sum, Differences, Product & Quotients, Chain Rule, Derivatives of Composite Functions, Logarithmic Differentiation, Rolle’s Theorem, Mean Value Theorem, Expansion of Functions (Maclaurin’s & Taylor’s), Indeterminate Forms, L-Hospitals Rule, Maxima & Minima, Curve Tracing, Successive Differentiation & Leibnitz Theorem (definition only).
+
+UNIT-IV
+Integration: Integral as Limit of Sum, Fundamental Theorem of Calculus (without proof), Indefinite Integrals, Methods of Integration Substitution, By Parts, Partial Fractions, Reduction Formulae for Trigonometric Functions, Gamma and Beta Functions (definition only).
+
+UNIT-V
+Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple Scalar and Vector Product and physical interpretation of area and volume.`,
+    },
   {
     id: `s-1293`,
     slug: `practical-sem2`,
