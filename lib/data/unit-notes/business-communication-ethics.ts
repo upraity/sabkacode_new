@@ -490,8 +490,8 @@ export const businessCommunicationEthicsUnitNotes: UnitNote[] = [
             ],
           },
           {
-            kind: "paragraph", //kind: "code",
-            language: "report",
+            kind: "code",
+            // language: "report",
             title: "Format of a short formal report",
             code: String.raw`TITLE      : Report on Falling Sales of the Delhi Branch, April-June 2026
 PREPARED BY: Amit Kumar, Sales Analyst        DATE: 5 July 2026
@@ -562,8 +562,8 @@ Signature: Amit Kumar`,
             text: "Drafting means planning and preparing the letter in the correct form. Follow the layout of Unit II: letterhead, reference number, date, inside address, salutation, subject line, body, complimentary close, signature and enclosures. Use the three-paragraph pattern — opening (purpose), middle (details), closing (action and courtesy). The samples below are written in the full-block style.",
           },
           {
-            kind: "code",
-            language: "letter",
+             kind: "code",
+            // language: "letter",
             title: "1(a) Letter of enquiry",
             code: String.raw`ABC Computers, 45 Civil Lines, Saharanpur - 247001
 Ref: ABC/Enq/26/031                                    20 September 2026
