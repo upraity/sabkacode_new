@@ -29,8 +29,6 @@ import { PerceptionProcessDiagram } from "./PerceptionProcessDiagram";
 import { ExpectancyTheoryDiagram } from "./ExpectancyTheoryDiagram";
 import { HerzbergTwoFactorDiagram } from "./HerzbergTwoFactorDiagram";
 import { TransactionalAnalysisDiagram } from "./TransactionalAnalysisDiagram";
-
-
 import { DemandSupplyCurveDiagram } from "./DemandSupplyCurveDiagram";
 import { CostCurvesDiagram } from "./CostCurvesDiagram";
 import { ProductLifeCycleDiagram } from "./ProductLifeCycleDiagram";
@@ -52,41 +50,24 @@ import { CommunicationBarriersDiagram } from "./CommunicationBarriersDiagram";
 import { InnovationTypesDiagram } from "./InnovationTypesDiagram";
 import { RatioCategoriesDiagram } from "./RatioCategoriesDiagram";
 import { HardwareCategoriesDiagram } from "./HardwareCategoriesDiagram";
+import { DecisionTreeDiagram } from "./DecisionTreeDiagram";
+import { LppGraphDiagram } from "./LppGraphDiagram";
+import { NetworkDiagramCpm } from "./NetworkDiagramCpm";
+import { GanttChartDiagram } from "./GanttChartDiagram";
+import { EoqCurveDiagram } from "./EoqCurveDiagram";
+import { BreakEvenChartDiagram } from "./BreakEvenChartDiagram";
+import { WorkingCapitalCycleDiagram } from "./WorkingCapitalCycleDiagram";
+import { EbitEpsChartDiagram } from "./EbitEpsChartDiagram";
+import { MisPyramidDiagram } from "./MisPyramidDiagram";
+import { ServqualGapsDiagram } from "./ServqualGapsDiagram";
+import { HrPlanningProcessDiagram } from "./HrPlanningProcessDiagram";
+import { CompensationStructureDiagram } from "./CompensationStructureDiagram";
+import { LpgModelDiagram } from "./LpgModelDiagram";
+import { PdcaCycleDiagram } from "./PdcaCycleDiagram";
+import { ResearchProcessDiagram } from "./ResearchProcessDiagram";
+import { CompanyFormationDiagram } from "./CompanyFormationDiagram";
+import { VarianceAnalysisDiagram } from "./VarianceAnalysisDiagram";
 
-
-// HR-02 — Employee Relations and Labor Laws
-import { IndustrialRelationsSystemDiagram } from "./IndustrialRelationsSystemDiagram";
-import { TradeUnionFunctionsDiagram } from "./TradeUnionFunctionsDiagram";
-import { CollectiveBargainingProcessDiagram } from "./CollectiveBargainingProcessDiagram";
-import { DisciplinaryEnquiryDiagram } from "./DisciplinaryEnquiryDiagram";
-import { WorkplaceSafetyCycleDiagram } from "./WorkplaceSafetyCycleDiagram";
-import { GratuityProcessDiagram } from "./GratuityProcessDiagram";
-import { HrLabourComplianceCycleDiagram } from "./HrLabourComplianceCycleDiagram";
-
-// MBA Semester 3 — Marketing Specialization diagrams
-import { CBDecisionJourneyDiagram } from "./CBDecisionJourneyDiagram";
-import { ConsumerDecisionProcessDiagram } from "./ConsumerDecisionProcessDiagram";
-import { ConsumerPerceptionProcessDiagram } from "./ConsumerPerceptionProcessDiagram";
-import { DigitalConsumerJourneyDiagram } from "./DigitalConsumerJourneyDiagram";
-import { NeuromarketingFrameworkDiagram } from "./NeuromarketingFrameworkDiagram";
-import { ConsumerInsightLoopDiagram } from "./ConsumerInsightLoopDiagram";
-import { MarketingAnalyticsFrameworkDiagram } from "./MarketingAnalyticsFrameworkDiagram";
-import { ProductFunnelDiagram } from "./ProductFunnelDiagram";
-import { RegressionModelDiagram } from "./RegressionModelDiagram";
-import { WebAnalyticsCycleDiagram } from "./WebAnalyticsCycleDiagram";
-import { PersonalSellingProcessDiagram } from "./PersonalSellingProcessDiagram";
-import { SalesForceRecruitmentDiagram } from "./SalesForceRecruitmentDiagram";
-import { SalesPlanningControlDiagram } from "./SalesPlanningControlDiagram";
-import { DistributionChannelLevelsDiagram } from "./DistributionChannelLevelsDiagram";
-import { LogisticsFlowDiagram } from "./LogisticsFlowDiagram";
-
-import { TalentManagementCycleDiagram } from "./TalentManagementCycleDiagram";
-import { TalentCompetitiveAdvantageDiagram } from "./TalentCompetitiveAdvantageDiagram";
-import { TalentAcquisitionLifecycleDiagram } from "./TalentAcquisitionLifecycleDiagram";
-import { TalentDevelopmentCycleDiagram } from "./TalentDevelopmentCycleDiagram";
-import { SuccessionPlanningDiagram } from "./SuccessionPlanningDiagram";
-import { PerformanceManagementCycleDiagram } from "./PerformanceManagementCycleDiagram";
-import { StrategicWorkforcePlanningDiagram } from "./StrategicWorkforcePlanningDiagram";
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
 //   2. Registering it here under a stable, kebab-case id.
@@ -107,8 +88,6 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "ge-nine-cell": GeNineCellDiagram,
   "matrix-structure": MatrixStructureDiagram,
   "balanced-scorecard": BalancedScorecardDiagram,
-
-  // MCOB — Management Concept & Organisational Behaviour
   "management-levels-pyramid": ManagementLevelsPyramidDiagram,
   "maslow-hierarchy": MaslowHierarchyDiagram,
   "johari-window": JohariWindowDiagram,
@@ -146,43 +125,21 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "innovation-types": InnovationTypesDiagram,
   "ratio-categories": RatioCategoriesDiagram,
   "hardware-categories": HardwareCategoriesDiagram,
-
-  // HR-02 — Employee Relations and Labor Laws
-  "industrial-relations-system": IndustrialRelationsSystemDiagram,
-  "trade-union-functions": TradeUnionFunctionsDiagram,
-  "collective-bargaining-process": CollectiveBargainingProcessDiagram,
-  "disciplinary-enquiry": DisciplinaryEnquiryDiagram,
-  "workplace-safety-cycle": WorkplaceSafetyCycleDiagram,
-  "gratuity-process": GratuityProcessDiagram,
-  "hr-labour-compliance-cycle": HrLabourComplianceCycleDiagram,
-
-  // MBA MK 01 — Consumer Behaviour & Neuro Marketing
-  "cb-decision-journey": CBDecisionJourneyDiagram,
-  "consumer-decision-process": ConsumerDecisionProcessDiagram,
-  "consumer-perception-process": ConsumerPerceptionProcessDiagram,
-  "digital-consumer-journey": DigitalConsumerJourneyDiagram,
-  "neuromarketing-framework": NeuromarketingFrameworkDiagram,
-  "consumer-insight-loop": ConsumerInsightLoopDiagram,
-
-  // MBA MK 02 — Marketing & Web Analytics
-  "marketing-analytics-framework": MarketingAnalyticsFrameworkDiagram,
-  "product-funnel": ProductFunnelDiagram,
-  "regression-model": RegressionModelDiagram,
-  "web-analytics-cycle": WebAnalyticsCycleDiagram,
-
-  // MBA MK 03 — Sales & Distribution Management
-  "personal-selling-process": PersonalSellingProcessDiagram,
-  "sales-force-recruitment": SalesForceRecruitmentDiagram,
-  "sales-planning-control": SalesPlanningControlDiagram,
-  "distribution-channel-levels": DistributionChannelLevelsDiagram,
-  "logistics-flow": LogisticsFlowDiagram,
-
-  // HR-01 — Talent Acquisition Management
-    "talent-management-cycle": TalentManagementCycleDiagram,
-  "talent-competitive-advantage": TalentCompetitiveAdvantageDiagram,
-  "talent-acquisition-lifecycle": TalentAcquisitionLifecycleDiagram,
-  "talent-development-cycle": TalentDevelopmentCycleDiagram,
-  "succession-planning": SuccessionPlanningDiagram,
-  "performance-management-cycle": PerformanceManagementCycleDiagram,
-  "strategic-workforce-planning": StrategicWorkforcePlanningDiagram,
+  "decision-tree": DecisionTreeDiagram,
+  "lpp-graph": LppGraphDiagram,
+  "network-diagram-cpm": NetworkDiagramCpm,
+  "gantt-chart": GanttChartDiagram,
+  "eoq-curve": EoqCurveDiagram,
+  "break-even-chart": BreakEvenChartDiagram,
+  "working-capital-cycle": WorkingCapitalCycleDiagram,
+  "ebit-eps-chart": EbitEpsChartDiagram,
+  "mis-pyramid": MisPyramidDiagram,
+  "servqual-gaps": ServqualGapsDiagram,
+  "hr-planning-process": HrPlanningProcessDiagram,
+  "compensation-structure": CompensationStructureDiagram,
+  "lpg-model": LpgModelDiagram,
+  "pdca-cycle": PdcaCycleDiagram,
+  "research-process": ResearchProcessDiagram,
+  "company-formation": CompanyFormationDiagram,
+  "variance-analysis": VarianceAnalysisDiagram,
 };
