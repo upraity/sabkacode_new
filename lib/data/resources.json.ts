@@ -3577,8 +3577,30 @@ export const resources: ResourceItem[] = [
   { id: "r-5436", subjectId: "s-1001", type: "notes", title: "Unit 2 — Decisioncontrol Structures", description: "If Statement, If-else statement, Nested if(), If() ladder, Switch, case", anchor: "unit-2", updatedAt: "2025-09-20", isDemo: false },
   { id: "r-5437", subjectId: "s-1001", type: "notes", title: "Unit 3 — Functions", description: "Library Functions, User Defined Functions, Function Declaration, Prototype", anchor: "unit-3", updatedAt: "2025-09-20", isDemo: false },
   { id: "r-5438", subjectId: "s-1001", type: "notes", title: "Unit 4 — String and Pointers", description: "Definition, function of string and Maths Functions (Predefined Functions). Pointers:", anchor: "unit-4", updatedAt: "2025-09-20", isDemo: false },
-  { id: "r-5439", subjectId: "s-1001", type: "notes", title: "Unit 5 — Strucute Unions Array", description: "Structures, Unions, Array of Structures, Enumerations, File Handling", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5439", subjectId: "s-1001", type: "notes", title: "Unit 5 — Structure Unions Array", description: "Structures, Unions, Array of Structures, Enumerations, File Handling", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
 
+   //Elementary Mathematics (c-105) — Detailed Notes index.
+  { id: "r-5440", subjectId: "s-1002", type: "notes", title: "Unit 1 — Set Theory, Relations and Functions", description: "Elements of set theory, methods of describing sets, types of sets, Venn diagrams", anchor: "unit-1", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5441", subjectId: "s-1002", type: "notes", title: "Unit 2 — Determinants and Matrices", description: "Definition, Minors, Cofactors and Properties of Determinants. ", anchor: "unit-2", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5442", subjectId: "s-1002", type: "notes", title: "Unit 3 — Probability", description: "Introduction, sample space and events, Axioms of probability,", anchor: "unit-3", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5443", subjectId: "s-1002", type: "notes", title: "Unit 4 — Statistics", description: "Classification of data, Tabulation of data, Preparation of frequency distribution", anchor: "unit-4", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5444", subjectId: "s-1002", type: "notes", title: "Unit 5 — Measures of dispersion and Correlation", description: "Computation of Range, Quartile-deviation, mean-deviation and Standard-deviation, coefficient of variation", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
 
+  // Business Comunication (C-103) — Detailed Notes index.
+  { id: "r-5445", subjectId: "s-1084", type: "notes", title: "Unit 1 — Means of Communication", description: "Meaning and Definition, Process, Functions, Objectives, Importance", anchor: "unit-1", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5446", subjectId: "s-1084", type: "notes", title: "Unit 2 — Oral communication", description: "Principle of effective oral communication, Techniques of effective speech, Media of oral communication", anchor: "unit-2", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5447", subjectId: "s-1084", type: "notes", title: "Unit 3 — Drafting of business letters", description: "Enquiries and replies, Placing and fulfilling orders, Complaints and follow up,", anchor: "unit-3", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5448", subjectId: "s-1084", type: "notes", title: "Unit 4 — Attitude", description: " Factors influencing Attitude, Challenges and lessons from Attitude, Etiquette. Motivation", anchor: "unit-4", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5449", subjectId: "s-1084", type: "notes", title: "Unit 5 — Introduction to Ethics and Values", description: "Basic Concepts: Defining ethics, values, and morality. Importance of Values", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
+
+   // Introduction to HTML (C-104) — Detailed Notes index.
+  { id: "r-5450", subjectId: "s-1285", type: "notes", title: "Unit 1 — Basics of Internet and Web", description: "The basics of Internet, World Wide Web, Web page, Home page, Web site,", anchor: "unit-1", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5451", subjectId: "s-1285", type: "notes", title: "Unit 2 — Dynamic HTML, Document Object Model", description: "Features of DHTML, CSSP and JSS, Layers of Netscape, the ID Attribute, DHTML Events.", anchor: "unit-2", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5452", subjectId: "s-1285", type: "notes", title: "Unit 3 — Introduction to HTML", description: "Editors, Basics, Element, Attribute, Headings, Paragraphs, Styles, Formatting,", anchor: "unit-3", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5453", subjectId: "s-1285", type: "notes", title: "Unit 4 — CSS", description: "Introduction, Syntax, Colors, Backgrounds, Borders, Margins, Padding, Height/Width, Box Model,", anchor: "unit-4", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5454", subjectId: "s-1285", type: "notes", title: "Unit 5 — XML", description: "Introduction, Tree, Syntax, Elements, Attributes, Namespaces, Display, HTTP request, Parser, DOM,", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
+
+  
+  
 ];
 
