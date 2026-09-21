@@ -50,23 +50,59 @@ import { CommunicationBarriersDiagram } from "./CommunicationBarriersDiagram";
 import { InnovationTypesDiagram } from "./InnovationTypesDiagram";
 import { RatioCategoriesDiagram } from "./RatioCategoriesDiagram";
 import { HardwareCategoriesDiagram } from "./HardwareCategoriesDiagram";
-import { DecisionTreeDiagram } from "./DecisionTreeDiagram";
-import { LppGraphDiagram } from "./LppGraphDiagram";
-import { NetworkDiagramCpm } from "./NetworkDiagramCpm";
-import { GanttChartDiagram } from "./GanttChartDiagram";
-import { EoqCurveDiagram } from "./EoqCurveDiagram";
-import { BreakEvenChartDiagram } from "./BreakEvenChartDiagram";
-import { WorkingCapitalCycleDiagram } from "./WorkingCapitalCycleDiagram";
-import { EbitEpsChartDiagram } from "./EbitEpsChartDiagram";
-import { MisPyramidDiagram } from "./MisPyramidDiagram";
-import { ServqualGapsDiagram } from "./ServqualGapsDiagram";
-import { HrPlanningProcessDiagram } from "./HrPlanningProcessDiagram";
-import { CompensationStructureDiagram } from "./CompensationStructureDiagram";
-import { LpgModelDiagram } from "./LpgModelDiagram";
-import { PdcaCycleDiagram } from "./PdcaCycleDiagram";
-import { ResearchProcessDiagram } from "./ResearchProcessDiagram";
-import { CompanyFormationDiagram } from "./CompanyFormationDiagram";
-import { VarianceAnalysisDiagram } from "./VarianceAnalysisDiagram";
+
+// BCA Semester 1 — C-101 (Computer Fundamentals & MS-Office) and C-102 (Programming using C)
+import { ComputerBlockDiagram } from "./ComputerBlockDiagram";
+import { ComputerTypesDiagram } from "./ComputerTypesDiagram";
+import { LanguageTranslatorsDiagram } from "./LanguageTranslatorsDiagram";
+import { DataHierarchyDiagram } from "./DataHierarchyDiagram";
+import { MemoryHierarchyDiagram } from "./MemoryHierarchyDiagram";
+import { FlowchartSymbolsDiagram } from "./FlowchartSymbolsDiagram";
+import { FlowchartEvenOddDiagram } from "./FlowchartEvenOddDiagram";
+import { FlowchartSumNDiagram } from "./FlowchartSumNDiagram";
+import { OsLayersDiagram } from "./OsLayersDiagram";
+import { DosBootProcessDiagram } from "./DosBootProcessDiagram";
+import { DosDirectoryTreeDiagram } from "./DosDirectoryTreeDiagram";
+import { WindowsDesktopDiagram } from "./WindowsDesktopDiagram";
+import { WindowAnatomyDiagram } from "./WindowAnatomyDiagram";
+import { OfficeSuiteDiagram } from "./OfficeSuiteDiagram";
+import { MsWordWindowDiagram } from "./MsWordWindowDiagram";
+import { MsExcelWindowDiagram } from "./MsExcelWindowDiagram";
+import { DtpProcessDiagram } from "./DtpProcessDiagram";
+import { AccessObjectsDiagram } from "./AccessObjectsDiagram";
+import { CProgramStructureDiagram } from "./CProgramStructureDiagram";
+import { CCompilationProcessDiagram } from "./CCompilationProcessDiagram";
+import { IfElseFlowDiagram } from "./IfElseFlowDiagram";
+import { LoopsFlowDiagram } from "./LoopsFlowDiagram";
+import { ArrayMemory1dDiagram } from "./ArrayMemory1dDiagram";
+import { ArrayMemory2dDiagram } from "./ArrayMemory2dDiagram";
+import { FunctionCallFlowDiagram } from "./FunctionCallFlowDiagram";
+import { CallByValueReferenceDiagram } from "./CallByValueReferenceDiagram";
+import { StringMemoryDiagram } from "./StringMemoryDiagram";
+import { PointerDiagram } from "./PointerDiagram";
+import { MemorySegmentsDiagram } from "./MemorySegmentsDiagram";
+import { StructVsUnionDiagram } from "./StructVsUnionDiagram";
+import { FileHandlingFlowDiagram } from "./FileHandlingFlowDiagram";
+
+// BCA Semester 1 — C-103 (Business Communication & Ethical Values) and C-104 (HTML, CSS-XML)
+import { SevenCsDiagram } from "./SevenCsDiagram";
+import { CommunicationFlowDiagram } from "./CommunicationFlowDiagram";
+import { BusinessLetterLayoutDiagram } from "./BusinessLetterLayoutDiagram";
+import { ReportStructureDiagram } from "./ReportStructureDiagram";
+import { SmartGoalsDiagram } from "./SmartGoalsDiagram";
+import { TeamStagesDiagram } from "./TeamStagesDiagram";
+import { ValuesSourcesDiagram } from "./ValuesSourcesDiagram";
+import { UrlAnatomyDiagram } from "./UrlAnatomyDiagram";
+import { ClientServerModelDiagram } from "./ClientServerModelDiagram";
+import { WebArchitectureDiagram } from "./WebArchitectureDiagram";
+import { DhtmlComponentsDiagram } from "./DhtmlComponentsDiagram";
+import { DomTreeDiagram } from "./DomTreeDiagram";
+import { HtmlStructureDiagram } from "./HtmlStructureDiagram";
+import { PageLayoutDiagram } from "./PageLayoutDiagram";
+import { CssRuleAnatomyDiagram } from "./CssRuleAnatomyDiagram";
+import { CssBoxModelDiagram } from "./CssBoxModelDiagram";
+import { XmlTreeDiagram } from "./XmlTreeDiagram";
+import { XsltFlowDiagram } from "./XsltFlowDiagram";
 
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
@@ -125,21 +161,57 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "innovation-types": InnovationTypesDiagram,
   "ratio-categories": RatioCategoriesDiagram,
   "hardware-categories": HardwareCategoriesDiagram,
-  "decision-tree": DecisionTreeDiagram,
-  "lpp-graph": LppGraphDiagram,
-  "network-diagram-cpm": NetworkDiagramCpm,
-  "gantt-chart": GanttChartDiagram,
-  "eoq-curve": EoqCurveDiagram,
-  "break-even-chart": BreakEvenChartDiagram,
-  "working-capital-cycle": WorkingCapitalCycleDiagram,
-  "ebit-eps-chart": EbitEpsChartDiagram,
-  "mis-pyramid": MisPyramidDiagram,
-  "servqual-gaps": ServqualGapsDiagram,
-  "hr-planning-process": HrPlanningProcessDiagram,
-  "compensation-structure": CompensationStructureDiagram,
-  "lpg-model": LpgModelDiagram,
-  "pdca-cycle": PdcaCycleDiagram,
-  "research-process": ResearchProcessDiagram,
-  "company-formation": CompanyFormationDiagram,
-  "variance-analysis": VarianceAnalysisDiagram,
+
+  // BCA Sem 1 — DBRAU
+  "computer-block-diagram": ComputerBlockDiagram,
+  "computer-types": ComputerTypesDiagram,
+  "language-translators": LanguageTranslatorsDiagram,
+  "data-hierarchy": DataHierarchyDiagram,
+  "memory-hierarchy": MemoryHierarchyDiagram,
+  "flowchart-symbols": FlowchartSymbolsDiagram,
+  "flowchart-even-odd": FlowchartEvenOddDiagram,
+  "flowchart-sum-n": FlowchartSumNDiagram,
+  "os-layers": OsLayersDiagram,
+  "dos-boot-process": DosBootProcessDiagram,
+  "dos-directory-tree": DosDirectoryTreeDiagram,
+  "windows-desktop": WindowsDesktopDiagram,
+  "window-anatomy": WindowAnatomyDiagram,
+  "office-suite": OfficeSuiteDiagram,
+  "ms-word-window": MsWordWindowDiagram,
+  "ms-excel-window": MsExcelWindowDiagram,
+  "dtp-process": DtpProcessDiagram,
+  "access-objects": AccessObjectsDiagram,
+  "c-program-structure": CProgramStructureDiagram,
+  "c-compilation-process": CCompilationProcessDiagram,
+  "if-else-flow": IfElseFlowDiagram,
+  "loops-flow": LoopsFlowDiagram,
+  "array-memory-1d": ArrayMemory1dDiagram,
+  "array-memory-2d": ArrayMemory2dDiagram,
+  "function-call-flow": FunctionCallFlowDiagram,
+  "call-by-value-reference": CallByValueReferenceDiagram,
+  "string-memory": StringMemoryDiagram,
+  "pointer-diagram": PointerDiagram,
+  "memory-segments": MemorySegmentsDiagram,
+  "struct-vs-union": StructVsUnionDiagram,
+  "file-handling-flow": FileHandlingFlowDiagram,
+
+  // BCA Sem 1 — C-103 / C-104
+  "seven-cs": SevenCsDiagram,
+  "communication-flow": CommunicationFlowDiagram,
+  "business-letter-layout": BusinessLetterLayoutDiagram,
+  "report-structure": ReportStructureDiagram,
+  "smart-goals": SmartGoalsDiagram,
+  "team-stages": TeamStagesDiagram,
+  "values-sources": ValuesSourcesDiagram,
+  "url-anatomy": UrlAnatomyDiagram,
+  "client-server-model": ClientServerModelDiagram,
+  "web-architecture": WebArchitectureDiagram,
+  "dhtml-components": DhtmlComponentsDiagram,
+  "dom-tree": DomTreeDiagram,
+  "html-structure": HtmlStructureDiagram,
+  "page-layout": PageLayoutDiagram,
+  "css-rule-anatomy": CssRuleAnatomyDiagram,
+  "css-box-model": CssBoxModelDiagram,
+  "xml-tree": XmlTreeDiagram,
+  "xslt-flow": XsltFlowDiagram,
 };
