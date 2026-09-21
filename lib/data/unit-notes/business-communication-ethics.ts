@@ -490,7 +490,7 @@ export const businessCommunicationEthicsUnitNotes: UnitNote[] = [
             ],
           },
           {
-            kind: "code",
+            kind: "paragraph", //kind: "code",
             language: "report",
             title: "Format of a short formal report",
             code: String.raw`TITLE      : Report on Falling Sales of the Delhi Branch, April-June 2026
