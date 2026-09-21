@@ -4258,16 +4258,16 @@ export const resources: ResourceItem[] = [
   { id: "r-5454", subjectId: "s-1285", type: "notes", title: "Unit 5 — XML", description: "Introduction, Tree, Syntax, Elements, Attributes, Namespaces, Display, HTTP request, Parser, DOM,", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
 
   //projects
-  {
-  id: "r-5455",
-  subjectId: "p-1",
-  type: "projectType",
-  sourceCode: "",
-  title: "Student Management System",
-  description: "",
-  fileUrl: "",
-  isDemo: false,
-},
+//   {
+//   id: "r-5455",
+//   subjectId: "p-1",
+//   type: "projectType",
+//   sourceCode: "",
+//   title: "Student Management System",
+//   description: "",
+//   fileUrl: "",
+//   isDemo: false,
+// },
   
 ];
 
