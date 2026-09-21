@@ -2571,7 +2571,7 @@ export const resources: ResourceItem[] = [
     },
     {
       id: "r-5336",
-      subjectId: "s-1284",
+      subjectId: "s-1288",
       type: "question-bank",
       title: "Java Programming (C-201) — Question Bank",
       fileUrl: "https://drive.google.com/file/d/11Q9pGVlmDjRIkRfB81q9D1B6HEauVe-P/view?usp=drive_link",
@@ -2580,7 +2580,7 @@ export const resources: ResourceItem[] = [
     },
   {
       id: "r-5371",
-      subjectId: "s-1284",
+      subjectId: "s-1288",
       type: "pyq",
       title: "Java Programming (C-201) — Previous Year Paper 2026",
        year: 2026,
@@ -2591,7 +2591,7 @@ export const resources: ResourceItem[] = [
     },
    {
       id: "r-5337",
-      subjectId: "s-1284",
+      subjectId: "s-1288",
       type: "pyq",
       title: "Java Programming (C-201) — Previous Year Paper 2025",
        year: 2025,
@@ -2602,7 +2602,7 @@ export const resources: ResourceItem[] = [
     },
      {
       id: "r-5338",
-      subjectId: "s-1284",
+      subjectId: "s-1288",
       type: "pyq",
       title: "Java Programming (C-201) — Previous Year Paper 2024",
        year: 2024,
@@ -2613,7 +2613,7 @@ export const resources: ResourceItem[] = [
     },
    {
       id: "r-5343",
-      subjectId: "s-1284",
+      subjectId: "s-1288",
       type: "pyq",
       title: "Java Programming (C-201) — Previous Year Paper 2024",
        year: 2024,
@@ -2624,7 +2624,7 @@ export const resources: ResourceItem[] = [
     },
      {
       id: "r-5339",
-      subjectId: "s-1284",
+      subjectId: "s-1288",
       type: "pyq",
       title: "Java Programming (C-201) — Previous Year Paper 2023",
        year: 2023,
@@ -2635,7 +2635,7 @@ export const resources: ResourceItem[] = [
     },
        {
       id: "r-5340",
-      subjectId: "s-1284",
+      subjectId: "s-1288",
       type: "pyq",
       title: "Java Programming (C-201) — Previous Year Paper 2022",
        year: 2022,
@@ -2646,7 +2646,7 @@ export const resources: ResourceItem[] = [
     },
        {
       id: "r-5341",
-      subjectId: "s-1284",
+      subjectId: "s-1288",
       type: "notes",
       title: "Java Programming (C-201) — Book",
       fileUrl: "https://drive.google.com/file/d/1W0tJSULG-sWQxQkdkbM8pgxXE-pup7_-/view?usp=drive_link",
@@ -2655,7 +2655,7 @@ export const resources: ResourceItem[] = [
     },
          {
       id: "r-5342",
-      subjectId: "s-1284",
+      subjectId: "s-1288",
       type: "notes",
       title: "Java Programming (C-201) — Notes",
       fileUrl: "https://drive.google.com/file/d/1WVQRavEYpWCIwy-cVIl1iOefzB2o-hM4/view?usp=drive_link",
@@ -2664,7 +2664,7 @@ export const resources: ResourceItem[] = [
     },
     {
       id: "r-5344",
-      subjectId: "s-1284",
+      subjectId: "s-1288",
       type: "notes",
       title: "Java Programming (C-201) — MCQs",
       fileUrl: "https://drive.google.com/file/d/1598T5Yij89BmwTcZZ_ZxqNDs2UO6_etD/view?usp=drive_link",
@@ -3572,7 +3572,7 @@ export const resources: ResourceItem[] = [
   { id: "r-5433", subjectId: "s-1282", type: "notes", title: "Unit 4 — Windows Operating Environment", description: "Features of MS-Windows, Control Panel, Taskbar, Desktop, Windows Application, Icons, Windows Accessories, Notepad, Paintbrush.", anchor: "unit-4", updatedAt: "2025-09-20", isDemo: false },
   { id: "r-5434", subjectId: "s-1282", type: "notes", title: "Unit 5 — Editors and Word Processors", description: "Concepts, Examples: MS-Word, Introduction to desktop publishing.", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
 
-  // Quantitative Techniques for Management (BMB206, s-1047) — Detailed Notes index.
+  // Introduction to Programming using c (C-102) — Detailed Notes index.
   { id: "r-5435", subjectId: "s-1001", type: "notes", title: "Unit 1 — c Basics", description: "C character set, Identifiers and keywords, Data types, constants, variables and array", anchor: "unit-1", updatedAt: "2025-09-20", isDemo: false },
   { id: "r-5436", subjectId: "s-1001", type: "notes", title: "Unit 2 — Decisioncontrol Structures", description: "If Statement, If-else statement, Nested if(), If() ladder, Switch, case", anchor: "unit-2", updatedAt: "2025-09-20", isDemo: false },
   { id: "r-5437", subjectId: "s-1001", type: "notes", title: "Unit 3 — Functions", description: "Library Functions, User Defined Functions, Function Declaration, Prototype", anchor: "unit-3", updatedAt: "2025-09-20", isDemo: false },
