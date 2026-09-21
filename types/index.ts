@@ -122,6 +122,7 @@ export type NoteBlock =
       title: string;
       text: string;
     }
+  | { kind: "code"; language?: string; title?: string; code: string; output?: string }
   | {
       kind: "diagram";
       // Must match a key registered in
