@@ -3503,7 +3503,82 @@ export const resources: ResourceItem[] = [
   { id: "r-5292", subjectId: "s-1040", type: "notes", title: "Unit 3 — Word Processor Software", description: "Document operations, text formatting, page layout, templates, spell-check.", anchor: "unit-3", updatedAt: "2026-09-19", isDemo: false },
   { id: "r-5293", subjectId: "s-1040", type: "notes", title: "Unit 4 — Spreadsheet Software", description: "Workbook operations, formulas & functions, cell formatting, charts, integration.", anchor: "unit-4", updatedAt: "2026-09-19", isDemo: false },
   { id: "r-5294", subjectId: "s-1040", type: "notes", title: "Unit 5 — Presentation Software", description: "Presentation views, slide design/editing, notes/handouts, running a slide show.", anchor: "unit-5", updatedAt: "2026-09-19", isDemo: false },
+ 
+  // Business Environment & Legal Aspects of Business (BMB201, s-1042) — Detailed Notes index.
+  { id: "r-5389", subjectId: "s-1042", type: "notes", title: "Unit 1 — Introduction to Micro Environment", description: "Business types, internal/external environment, Porter's Five Forces, competitive strategies.", anchor: "unit-1", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5390", subjectId: "s-1042", type: "notes", title: "Unit 2 — Macro Factors & International Environment", description: "Economic/socio-cultural/competitive environment, LPG model, global integration.", anchor: "unit-2", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5391", subjectId: "s-1042", type: "notes", title: "Unit 3 — Law of Contract", description: "Essentials of a valid contract, discharge & remedies, Sale of Goods Act.", anchor: "unit-3", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5392", subjectId: "s-1042", type: "notes", title: "Unit 4 — Companies Act", description: "Kinds of companies, formation steps, MOA/AOA, directors, auditors, winding up.", anchor: "unit-4", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5393", subjectId: "s-1042", type: "notes", title: "Unit 5 — Consumer Protection Act & IT Act", description: "Consumer redressal system, digital signatures, IT Act provisions and penalties.", anchor: "unit-5", updatedAt: "2026-09-19", isDemo: false },
 
-  
+  // Human Resource Management (BMB202, s-1045) — Detailed Notes index.
+  { id: "r-5394", subjectId: "s-1045", type: "notes", title: "Unit 1 — Essentials of HRM", description: "HRM functions, HRM vs HRD, Strategic HRM, HR in M&A, technology's impact on HR.", anchor: "unit-1", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5395", subjectId: "s-1045", type: "notes", title: "Unit 2 — HR Planning and Employee Hiring", description: "Job analysis/design, HR planning process, recruitment sources, selection process.", anchor: "unit-2", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5396", subjectId: "s-1045", type: "notes", title: "Unit 3 — Employee Training and Development", description: "Training types/methods, career planning, performance appraisal, job evaluation.", anchor: "unit-3", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5397", subjectId: "s-1045", type: "notes", title: "Unit 4 — Compensation Management and Employee Relations", description: "Compensation components, incentive schemes, industrial relations.", anchor: "unit-4", updatedAt: "2026-09-19", isDemo: false },
+  { id: "r-5398", subjectId: "s-1045", type: "notes", title: "Unit 5 — Employee Safety, Health and International HRM", description: "Workplace safety/health provisions, accident prevention, IHRM staffing approaches.", anchor: "unit-5", updatedAt: "2026-09-19", isDemo: false },
+
+  // Business Research Methods (BMB203, s-1043) — Detailed Notes index.
+  { id: "r-5399", subjectId: "s-1043", type: "notes", title: "Unit 1 — Introduction to Research", description: "Research types, scientific method, research process, management/research/investigative questions.", anchor: "unit-1", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5400", subjectId: "s-1043", type: "notes", title: "Unit 2 — Research Design", description: "Qualitative vs quantitative approaches, exploratory/descriptive/experimental design.", anchor: "unit-2", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5401", subjectId: "s-1043", type: "notes", title: "Unit 3 — Scaling and Measurement Techniques", description: "Validity/reliability, levels of measurement, Likert & other attitude scaling techniques.", anchor: "unit-3", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5402", subjectId: "s-1043", type: "notes", title: "Unit 4 — Sampling", description: "Sampling errors, probability & non-probability sampling methods, sample size determination.", anchor: "unit-4", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5403", subjectId: "s-1043", type: "notes", title: "Unit 5 — Data Analysis and Report Writing", description: "Data tabulation, hypothesis testing, ANOVA, research report structure.", anchor: "unit-5", updatedAt: "2026-09-20", isDemo: false },
+
+  // Cost & Management Accounting (BMB207, s-1044) — Detailed Notes index.
+  { id: "r-5404", subjectId: "s-1044", type: "notes", title: "Unit 1 — Introduction to Management Accounting and Cost Concepts", description: "Cost sheet, classification of costs, methods of costing, overheads, ABC (numerical examples).", anchor: "unit-1", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5405", subjectId: "s-1044", type: "notes", title: "Unit 2 — Cost-Volume-Profit Analysis", description: "Contribution, P/V ratio, break-even point, margin of safety, key factor analysis (numericals).", anchor: "unit-2", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5406", subjectId: "s-1044", type: "notes", title: "Unit 3 — Budgets and Budgetary Control", description: "Fixed/flexible budgets, functional budgets, master budget, zero-based budgeting (numerical).", anchor: "unit-3", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5407", subjectId: "s-1044", type: "notes", title: "Unit 4 — Standard Costing and Variance Analysis", description: "Material/overhead/sales variance with full numerical worked example.", anchor: "unit-4", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5408", subjectId: "s-1044", type: "notes", title: "Unit 5 — Process Costing, Joint Products & Modern Costing", description: "Normal/abnormal loss, equivalent units (FIFO), joint cost allocation, target costing (numericals).", anchor: "unit-5", updatedAt: "2026-09-20", isDemo: false },
+
+  // Financial Management & Corporate Finance (BMB204, s-1049) — Detailed Notes index.
+  { id: "r-5409", subjectId: "s-1049", type: "notes", title: "Unit 1 — Introduction to Finance and Corporate Finance", description: "Agency problem, time value of money, risk-return trade-off (numerical example).", anchor: "unit-1", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5410", subjectId: "s-1049", type: "notes", title: "Unit 2 — Investment and Financing Decision", description: "WACC, NPV, IRR with full worked numerical examples.", anchor: "unit-2", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5411", subjectId: "s-1049", type: "notes", title: "Unit 3 — Financial Decision: Capital Structure", description: "NI/NOI/MM approaches, EBIT-EPS analysis, point of indifference (numerical).", anchor: "unit-3", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5412", subjectId: "s-1049", type: "notes", title: "Unit 4 — Dividend Relevance", description: "Walter & Gordon models, MM hypothesis, dividend payout theories (numerical example).", anchor: "unit-4", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5413", subjectId: "s-1049", type: "notes", title: "Unit 5 — Working Capital Management", description: "Working capital cycle, cash conversion cycle, factoring (numerical example).", anchor: "unit-5", updatedAt: "2026-09-20", isDemo: false },
+
+  // Operation Management (BMB205, s-1048) — Detailed Notes index.
+  { id: "r-5414", subjectId: "s-1048", type: "notes", title: "Unit 1 — Production Concepts", description: "Productivity measurement, work study, manufacturing processes, plant layout (numerical).", anchor: "unit-1", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5415", subjectId: "s-1048", type: "notes", title: "Unit 2 — Operations Concepts (Services)", description: "Product vs service, service blueprinting, SERVQUAL gap model.", anchor: "unit-2", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5416", subjectId: "s-1048", type: "notes", title: "Unit 3 — Material and Inventory Management", description: "PPC, MRP, ABC/VED/FSN analysis, EOQ with full numerical example, JIT & KANBAN.", anchor: "unit-3", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5417", subjectId: "s-1048", type: "notes", title: "Unit 4 — Supply Chain Management", description: "Bullwhip effect, push/pull systems, demand forecasting (moving average numerical).", anchor: "unit-4", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5418", subjectId: "s-1048", type: "notes", title: "Unit 5 — Productivity and Quality", description: "TQM, Deming/Juran, PDCA, KAIZEN, 7 QC tools, ISO 9000, Six Sigma, TPM, 5S.", anchor: "unit-5", updatedAt: "2026-09-20", isDemo: false },
+
+  // Quantitative Techniques for Management (BMB206, s-1047) — Detailed Notes index.
+  { id: "r-5419", subjectId: "s-1047", type: "notes", title: "Unit 1 — Operations Research and Decision-Making", description: "Decision environments, decision tree with EMV numerical example.", anchor: "unit-1", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5420", subjectId: "s-1047", type: "notes", title: "Unit 2 — Linear Programming Problem", description: "LPP formulation, graphical method (fully worked numerical), Simplex method.", anchor: "unit-2", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5421", subjectId: "s-1047", type: "notes", title: "Unit 3 — Transportation Problem and Assignment Model", description: "NWCM, VAM, MODI, Hungarian Algorithm — all with full numerical examples.", anchor: "unit-3", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5422", subjectId: "s-1047", type: "notes", title: "Unit 4 — Sequencing and Queuing Theory", description: "Johnson's Rule and M/M/1 queue model — both with full numerical examples.", anchor: "unit-4", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5423", subjectId: "s-1047", type: "notes", title: "Unit 5 — Project Management: CPM, PERT and Gantt Charts", description: "Network diagram rules, critical path numerical example, Gantt chart.", anchor: "unit-5", updatedAt: "2026-09-20", isDemo: false },
+
+  // Management Information System (BMB208, s-1046) — Detailed Notes index.
+  { id: "r-5424", subjectId: "s-1046", type: "notes", title: "Unit 1 — Introduction to MIS and Information Technology", description: "MIS pyramid (TPS to EIS), IT trends, IT-enabled services.", anchor: "unit-1", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5425", subjectId: "s-1046", type: "notes", title: "Unit 2 — Information, Management and Decision Making", description: "Classical vs Herbert Simon's model, DSS/GDSS/EIS.", anchor: "unit-2", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5426", subjectId: "s-1046", type: "notes", title: "Unit 3 — Managing Data Resources", description: "DBMS concepts, data warehouse, data mining, Business Intelligence, basic SQL.", anchor: "unit-3", updatedAt: "2026-09-20", isDemo: false },
+
+  // IT Skills-2 (BMB251, s-1050) — Detailed Notes index.
+  { id: "r-5427", subjectId: "s-1050", type: "notes", title: "Unit 1 — Pivot Tables, What-If Analysis and Data Validation", description: "Pivot tables, Goal Seek, Solver, Scenario Manager, data validation, macros.", anchor: "unit-1", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5428", subjectId: "s-1050", type: "notes", title: "Unit 2 — Formatting and Creating Charts", description: "Chart types, combined charts, axis scaling, display units, chart formatting.", anchor: "unit-2", updatedAt: "2026-09-20", isDemo: false },
+
+  // Mini Project (BMB252, s-1051) — Detailed Notes index (guideline, not exam units).
+  { id: "r-5429", subjectId: "s-1051", type: "notes", title: "Project Guidelines — Business Idea Validation & Feasibility", description: "Lean Canvas, target market, feasibility analysis (market/technical/financial), report structure.", anchor: "unit-1", updatedAt: "2026-09-20", isDemo: false },
+
+  //Computer Fundamentals and MS-Office (c-101) — Detailed Notes index.
+  { id: "r-5430", subjectId: "s-1282", type: "notes", title: "Unit 1 — Introduction to Computers", description: "Introduction, Characteristics of Computers, Block diagram of computer.", anchor: "unit-1", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5431", subjectId: "s-1282", type: "notes", title: "Unit 2 — Algorithm and Flowcharts", description: "Definition, Characteristics, Advantages and disadvantages, Examples.", anchor: "unit-2", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5432", subjectId: "s-1282", type: "notes", title: "Unit 3 — Operating System and Services", description: "Operating System and Services in O.S., DOS, History, Files and Directories.", anchor: "unit-3", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5433", subjectId: "s-1282", type: "notes", title: "Unit 4 — Windows Operating Environment", description: "Features of MS-Windows, Control Panel, Taskbar, Desktop, Windows Application, Icons, Windows Accessories, Notepad, Paintbrush.", anchor: "unit-4", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5434", subjectId: "s-1282", type: "notes", title: "Unit 5 — Editors and Word Processors", description: "Concepts, Examples: MS-Word, Introduction to desktop publishing.", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
+
+  // Quantitative Techniques for Management (BMB206, s-1047) — Detailed Notes index.
+  { id: "r-5435", subjectId: "s-1001", type: "notes", title: "Unit 1 — c Basics", description: "C character set, Identifiers and keywords, Data types, constants, variables and array", anchor: "unit-1", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5436", subjectId: "s-1001", type: "notes", title: "Unit 2 — Decisioncontrol Structures", description: "If Statement, If-else statement, Nested if(), If() ladder, Switch, case", anchor: "unit-2", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5437", subjectId: "s-1001", type: "notes", title: "Unit 3 — Functions", description: "Library Functions, User Defined Functions, Function Declaration, Prototype", anchor: "unit-3", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5438", subjectId: "s-1001", type: "notes", title: "Unit 4 — String and Pointers", description: "Definition, function of string and Maths Functions (Predefined Functions). Pointers:", anchor: "unit-4", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5439", subjectId: "s-1001", type: "notes", title: "Unit 5 — Strucute Unions Array", description: "Structures, Unions, Array of Structures, Enumerations, File Handling", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
+
+
 ];
 
