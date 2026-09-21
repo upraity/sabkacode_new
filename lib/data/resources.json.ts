@@ -1117,7 +1117,7 @@ export const resources: ResourceItem[] = [
     {
     id: `r-5457`,
     subjectId: `s-1042`,
-    type: `pyq`
+    type: `pyq`,
     title: `Business Environment & Legal Aspects of Business — Solved Previous Paper 2025`,
     year: 2025,
     fileUrl: `https://drive.google.com/file/d/1oN6e2h61gnsPKxW5_LVcSqVyjoGb8DJ6/view?usp=drive_link`,
