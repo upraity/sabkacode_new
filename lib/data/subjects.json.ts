@@ -12,6 +12,20 @@ import { marketingManagementUnitNotes } from "./unit-notes/marketing-management"
 import { creativityInnovationEntrepreneurshipUnitNotes } from "./unit-notes/creativity-innovation-entrepreneurship";
 import { businessCommunicationUnitNotes } from "./unit-notes/business-communication";
 import { itSkills1UnitNotes } from "./unit-notes/it-skills-1";
+import { businessEnvironmentUnitNotes } from "./unit-notes/business-environment";
+import { hrmUnitNotes } from "./unit-notes/hrm";
+import { businessResearchMethodsUnitNotes } from "./unit-notes/business-research-methods";
+import { costManagementAccountingUnitNotes } from "./unit-notes/cost-management-accounting";
+import { financialManagementUnitNotes } from "./unit-notes/financial-management";
+import { operationsManagementUnitNotes } from "./unit-notes/operations-management";
+import { qtmUnitNotes } from "./unit-notes/qtm";
+import { misUnitNotes } from "./unit-notes/mis";
+import { itSkills2UnitNotes } from "./unit-notes/it-skills-2";
+import { miniProject2UnitNotes } from "./unit-notes/mini-project-2";
+import { computerFundamentalsUnitNotes } from "./unit-notes/computer-fundamentals-ms-office";
+import { cProgrammingUnitNotes } from "./unit-notes/c-programming";
+import { businessCommunicationEthicsUnitNotes } from "./unit-notes/business-communication-ethics";
+import { htmlCssXmlUnitNotes } from "./unit-notes/html-css-xml";
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
 // DBRAU (BCA) and CSJMU (BCA). DBRAU/CSJMU/MBA/MCA subjects, names and
@@ -90,7 +104,9 @@ UNIT-IV
 Windows Operating Environment: Features of MS-Windows, Control Panel, Taskbar, Desktop, Windows Application, Icons, Windows Accessories, Notepad, Paintbrush.
 
 UNIT-V
-Editors and Word Processors: Basic Concepts, Examples: MS-Word, Introduction to desktop publishing. Spreadsheets and Database packages Purpose, usage, command, MS-Excel, Creation of files in MS-Access, Switching between application, MS-PowerPoint.`  },
+Editors and Word Processors: Basic Concepts, Examples: MS-Word, Introduction to desktop publishing. Spreadsheets and Database packages Purpose, usage, command, MS-Excel, Creation of files in MS-Access, Switching between application, MS-PowerPoint.`,
+      unitNotes: computerFundamentalsUnitNotes,
+   },
 
 
   {
@@ -116,7 +132,9 @@ UNIT-IV
 String & Pointers: String: Definition, function of string and Maths Functions (Predefined Functions). Pointers: Declaration of Pointer Variables, Pointer Arithmetic, Returning Multiple Output values through a Function. Strings. Introduction to dynamic memory allocation (malloc, calloc, realloc, free).
 
 UNIT-V
-Structures, Unions, Array of Structures, Enumerations, File Handling: Opening a File, Closing a File, File, Opening Modes, Reading from and Writing to a File, Copying Content of an Existing File to another, Command Line Arguments, argc and argv Parameters, Pre-processor Directives.`  },
+Structures, Unions, Array of Structures, Enumerations, File Handling: Opening a File, Closing a File, File, Opening Modes, Reading from and Writing to a File, Copying Content of an Existing File to another, Command Line Arguments, argc and argv Parameters, Pre-processor Directives.`,
+      unitNotes: cProgrammingUnitNotes,
+  },
   {
     id: `s-1002`,
     slug: `maths`,
@@ -667,6 +685,7 @@ Unit II Macro Factors: Economic, Socio-Cultural, Competitive & International Env
 UNIT- III Law of Contract: Definition, essentials and types of contracts, offer definition and essentials, acceptance – definition and essentials, consideration – definition and essentials, exceptions to the rule, no consideration, no contract, doctrine of privity of contract, capacity of parties, free consent, quasi contract, legality of object, performance of contract, termination of contract, remedies for breach of contract. Sale of Goods Act: Essentials, sale v/s agreement to sell. Condition v/s warranties, rights of unpaid seller. 
 UNIT IV Companies Act Definition, characteristics and kinds of companies, steps in formation of company. Memorandum of Association, Articles of Association, prospectus. Directors: appointment, power, duties and liabilities, meeting and resolutions: types of meetings. Auditor: appointment, rights and liabilities, modes of winding up of a company. 
 UNITV Consumer Protection Act: Definitions - Aims and objectives, Consumer protection councils, Redressal agencies and penalties for violation. The Information Technology Act: Definition, Digital Signature, Electronic Governance, Attribution, Acknowledgment and Dispatch of Electronic Records, Sense Electronic Records and Sense Digital Signatures, Regulation of Certifying Authorities, Digital Signature Certificates, Duties of Subscribers, Penalties and Offences.`,
+         unitNotes: businessEnvironmentUnitNotes,
   },
   {
     id: `s-1043`,
@@ -683,6 +702,7 @@ Unit 2 Research design: Concept, Features of a good research design, Use of a go
 Unit 3 Scaling & measurement techniques: Concept of Measurement: Need of Measurement; Problems in measurement in management research – Validity and Reliability. Levels of measurement – Nominal, Ordinal, Interval, Ratio. Attitude Scaling Techniques: Concept of Scale – Rating Scales viz. Likert Scales, Semantic Differential Scales, Constant Sum Scales, Graphic Rating Scales – Ranking Scales – Paired comparison & Forced Ranking – Concept and Application. 
 Unit 4 Sampling:Basic Concepts: Defining the Universe, Concepts of Statistical Population, Sample, Characteristics of a good sample. Sampling Frame (practical approach for determining the sample frame expected), Sampling errors, Non Sampling errors, Methods to reduce the errors, Sample Size constraints, Non Response. Probability Sample: Simple Random Sample, Systematic Sample, Stratified Random Sample, Area Sampling & Cluster Sampling. Non Probability Sample: Judgment Sampling, Convenience Sampling, Purposive Sampling, Quota Sampling & Snowballing Sampling methods. Determining size of the sample – Practical considerations in sampling and sample size, sample size determination. 
 Unit 5 Data Analysis: Editing, Coding, Tabular representation of data, frequency tables, Construction of frequency distributions, Graphical Representation of Data: Appropriate Usage of Bar charts, Pie charts, Histogram. Hypothesis: Qualities of a good Hypothesis –Framing Null Hypothesis & Alternative Hypothesis. Concept of Hypothesis Testing – Logic & Importance. Analysis of Variance: One way and two way Classifications. Mechanism of Report Writing- Report Preparation: Types, Report Structure: preliminary section, main report, interpretation of results, suggestions and recommendations, limitations of the study, Report formulation.`,
+    unitNotes: businessResearchMethodsUnitNotes,
   },
   {
     id: `s-1044`,
@@ -699,6 +719,7 @@ UNIT - II Cost-Volume-Profit Analysis: Marginal cost, Contribution per unit and 
 UNIT - III Budgets and Budgetary Control: Meaning, Types of Budgets, Steps in Budgetary Control, Fixed and Flexible Budgeting, Sales budget, Production Budget, Raw material consumption Budget, Raw Material Purchase Budget, Overhead Budgets, Cash Budget, and Master Budget. Zero based budgeting. 
 UNIT –IV Standard Costing and Variance Analysis: Meaning of Standard Cost and Standard Costing, Advantages, Limitations and Applications; Material Variance, Overhead Variance, Sales Variance, Sales Margin Variance. 
 UNIT –V Process costing, concepts of normal loss, abnormal loss, abnormal effectiveness. Preparation of process accounts, normal loss account, abnormal loss account, abnormal gain account. Process costing with opening and closing WIP; equivalent units (using FIFO) and Cost allocation. Joint and by products : Allocation of joint costs based on Physical units method, Relative market value methods (Sales value at split off method and Net realizable value method). Introduction to the concept of Target Costing, Life Cycle Costing, Quality Costing, and Activity based Costing.`,
+     unitNotes: costManagementAccountingUnitNotes,
   },
   {
     id: `s-1045`,
@@ -715,6 +736,7 @@ UNIT II: Human Resource Planning and Employee Hiring : Meaning of job Analysis, 
 UNIT III: Employee Training & Development: Meaning importance of Training, types and methods and types of training, career planning, promotion, transfer, demotion and separation, Performance Appraisal: Meaning and types of appraisal, Job Evaluation: Meaning and methods of job evaluation. Case Studies 
 UNIT IV: Compensation Management and Employee Relations: Introduction to compensation management, Components and structure of employee compensation, Factors affecting employee compensation, Employee incentive schemes, and recent trends in compensations management, Meaning of employee relation and industrial relations. Case Studies 
 UNIT V: Employee Safety/ Health and International Human Resource Management: Needs and leagal provision of employee health, measures to promote employee health , purpose of employee safety, accidents: causes & prevention, effective safety management ,& legal provisos. basic principles governing International Human Resource Case Studies`,
+     unitNotes: hrmUnitNotes,
   },
   {
     id: `s-1046`,
@@ -729,6 +751,7 @@ UNIT V: Employee Safety/ Health and International Human Resource Management: Nee
     syllabus: `UNIT -1 Management Information Systems - Need, Purpose and Objectives, Contemporary Approaches to MIS, Information as a strategic resource, Use of information for competitive advantage, MIS as an instrument for the organizational change. Information Technology – Characteristics and emerging trends, IT Capabilities and their organizational impact, IT enabled services. Transaction Processing System: Characteristics and its importance 
 UNIT -II Information, Management and Decision Making - Attributes of information and its relevance to Decision Making, Types of information. Models of Decision Making - Classical, Administrative and Herbert Simon's Models. Management Support Systems: Decision Support Systems, Group Decision Support Systems, and Executive Information Systems. 
 UNIT -III Managing Data Resources- The need for data management, Challenges of data management, Data independence, Data redundancy, Data consistency, Data administration. Database Management System – Concepts and types of DBMS, Fields, Records, Table, View, Reports and Queries. Data warehouse and Data mining – Characteristics and uses of Data warehouse, Techniques of Data Mining, Business Intelligence Database Management System (Lab): Creation of Table, View and Reports. Basics of SQL and running queries`,
+     unitNotes: misUnitNotes,
   },
   {
     id: `s-1047`,
@@ -745,6 +768,7 @@ Unit II: Linear Programming Problem Linear programming: Mathematical formulation
 Unit III: Transportation Problem & Assignment model Transportation problem: Various methods of finding Initial basic feasible solution-North West Corner Method, Least Cost Method & VAM Method and optimal solution-Stepping Stone & MODI Method, Maximization Transportation Problem Assignment model: Hungarian Algorithm and its applications, Maximization Assignment Problem. 
 Unit IV: Sequencing & Queuing Theory Sequencing Problem: Johnsons Algorithm for n Jobs and Two machines, n Jobs and Three Machines, Two jobs and m - Machines Problems. Queuing Theory: Characteristics of M/M/I Queue model; Application of Poisson and Exponential distribution in estimating arrival rate and service rate; Applications of Queue model for better service to the customers. 
 Unit V: Project Management Project Management: Rules for drawing the network diagram, Applications of CPM and PERT techniques in Project planning and control; GANTT Char`,
+      unitNotes: qtmUnitNotes,
   },
     {
     id: `s-1048`,
@@ -761,7 +785,8 @@ UNIT –II: Operations Concepts: Services scenario in India, difference between 
 UNIT-III: Material and Inventory Management: Types of production planning, process of production planning and control (PPC) – routing, scheduling and loading. Master production schedule, aggregate production planning. Types of inventories, inventory control techniques- EOQ, ABC, VED, FSN, HML and SDE (Simple numerical problems on Inventory control techniques). Just-in-time (JIT) and KANBAN. Case Studies 
 UNIT-IV: Supply Chain Management: Overview of supply chain management, conceptual model of SCM, supply chain drivers, measuring supply chain performance, core and reverse supply chain, global supply chain, inbound and outbound logistics, Bullwhip effect in SCM, push and pull systems, lean manufacturing, agile manufacturing, role of IT in SCM. Demand forecasting in supply chain— Simple moving average method, weighted moving average method, linear regression and exponential smoothing method. Case Studies 
 UNIT-V: Productivity and Quality: TQM, Deming’s 14 principles, Juran’s quality triology, PDCA cycle, KAIZEN, quality circles, 7QC tools and its 7 new management tools, ISO 9000-2000 clauses, six sigma, Total Productive Maintenance (TPM), 5S. Case Studies`,
-  },
+      unitNotes: operationsManagementUnitNotes,
+    },
     {
     id: `s-1049`,
     slug: `fm`,
@@ -777,7 +802,8 @@ UNIT II Investment and Financing Decision: Capital Budgeting, Nature of investme
 UNIT III Financial Decision: Capital Structure, Relevance and Irrelevancy theory, Leverage analysis – financial, operating and combined leverage along with its implications, EBIT EPS Analysis, Point of Indifference. 
 UNIT IV Dividend Relevance: Factors Affecting Dividend Policy, Forms of Dividends, Types of Dividend Policies, Dividend Models: Walter and Gordon Model, Miller- Modigliani (MM) Hypothesis.Theories of Dividend Payout (Dividend Irreverence Theory, Bird- in hand Theory, Tax Preference Theory. 
 UNIT V Working Capital Management: Concepts & Principles of Working Capital, Need for working capital, Classification and importance of working capital, Working capital cycle, Inventory Management, Cash Management, Accounts receivable Management and Factoring, Credit policy, Financing working capital.`,
-  },
+      unitNotes: financialManagementUnitNotes,
+    },
     {
     id: `s-1050`,
     slug: `it2`,
@@ -790,7 +816,8 @@ UNIT V Working Capital Management: Concepts & Principles of Working Capital, Nee
     semester: 2,
     syllabus: `Unit I ( Lab work on spreadsheet ) Pivot Table: Developing Pivot Table, Analyzing data using goal seek and solver, Scenarios Create named scenarios. Show, edit, delete scenarios, Creating a scenario summary report. Validating and Auditing: Set, edit validation criteria for data entry in a cell range like: whole number, decimal, list, date, time, Trace precedent, dependent cells. Identify cells with missing dependents. Creating applications in Spreadsheet and Macros. 
 Unit II ( Lab work on spreadsheet) Creating and formatting Charts: Understanding chart types, column chart, bar chart, line chart, pie chart, XY Scatter chart , Area chart, surface chart, bubble chart. Create a combined chart like: column and line, column and area. Change the chart type for a defined data series, Add, delete a data series in a chart, Re-position chart title, legend, data labels. Change scale of value axis: minimum, maximum number to display, major interval. Change display units on value axis without changing data source: hundreds, thousands, millions. Format columns, bars, pie slices, plot area, chart area to display an image.`,
-  },
+      unitNotes: itSkills2UnitNotes,
+    },
     {
     id: `s-1051`,
     slug: `mp2`,
@@ -802,7 +829,8 @@ Unit II ( Lab work on spreadsheet) Creating and formatting Charts: Understanding
     branchSlug: `general`,
     semester: 2,
     syllabus: `In second semester, the students are required to validate the idea which was screened in the previous semester & presented. The validation report shall be a detailed analysis considering the market feasibility, select a Lean Canvas for making your assumptions , test yours assumptions around the identified market, the future scope of the selected product or service, test your value proposition, and prepare a project report. Preference should be given to the application of emerging technologies in the selected industry. It may consist of Fintech, Blockchain, Financial Services, Data Science, Social Entrepreneurship or any other suitable area of interest. The report will be prepared individually. The report will be evaluated by one external examiner appointed by university. Feasibility analysis of the idea ( market, technical and financial analysis).`,
-  },
+     unitNotes: miniProject2UnitNotes,
+    },
   {
     id: `s-1052`,
     slug: `sm`,
@@ -3960,7 +3988,9 @@ UNIT-IV
 Attitude: Factors influencing Attitude, Challenges and lessons from Attitude, Etiquette. Motivation: Factors of motivation, Self talk, Intrinsic & Extrinsic Motivators. Goal Setting: Wish List, SMART Goals, Blue print for success, Short Term, Long Term Life Goals. Interpersonal Skills: Gratitude: Understanding the relationship between Leadership Networking & Team work. Assessing Interpersonal Skills Situation description of Interpersonal Skill. Team Work: Necessity of Team Work Personally, Socially and Educationally.
 
 UNIT-V
-Introduction to Ethics and Values: Basic Concepts: Defining ethics, values, and morality. Importance of Values: Understanding the role of values in decision-making and behavior. Sources of Values: Exploring different sources of values, including personal, cultural, and societal influences. Professionalism and Professional Ethics: Defining professionalism and its ethical dimensions. Importance of Values: Discussing the significance of values in professional settings, including integrity, honesty, and respect. Indian Values and Ethics: Exploring specific Indian values such as respect for elders, hierarchy, and holistic relationships, and their relevance in the workplace. Ethics in Work Life: Analyzing the role of ethics in maintaining a positive and productive work environment. Values across Cultures: Examining how values differ across cultures and the implications for globalized IT work. Impact of Technology on Society: Examining the social, cultural, and environmental impacts of technology. Ethical Practices in IT: Exploring ethical considerations specific to the IT field, such as data privacy, intellectual property, and cybersecurity.` },
+Introduction to Ethics and Values: Basic Concepts: Defining ethics, values, and morality. Importance of Values: Understanding the role of values in decision-making and behavior. Sources of Values: Exploring different sources of values, including personal, cultural, and societal influences. Professionalism and Professional Ethics: Defining professionalism and its ethical dimensions. Importance of Values: Discussing the significance of values in professional settings, including integrity, honesty, and respect. Indian Values and Ethics: Exploring specific Indian values such as respect for elders, hierarchy, and holistic relationships, and their relevance in the workplace. Ethics in Work Life: Analyzing the role of ethics in maintaining a positive and productive work environment. Values across Cultures: Examining how values differ across cultures and the implications for globalized IT work. Impact of Technology on Society: Examining the social, cultural, and environmental impacts of technology. Ethical Practices in IT: Exploring ethical considerations specific to the IT field, such as data privacy, intellectual property, and cybersecurity.`,
+      unitNotes: businessCommunicationEthicsUnitNotes,
+  },
   {
     id: `s-1285`,
     slug: `html-css-xml`,
@@ -3984,7 +4014,9 @@ UNIT-IV
 CSS: Introduction, Syntax, Colors, Backgrounds, Borders, Margins, Padding, Height/Width, Box Model, Outline, Text, Fonts, Icons, Links, Lists, Display, Max, Width, Position, Overflow, Float, Inline, Block, Align, Combinators, Pseudo-Classes, Pseudo Elements, Opacity, Navigation Bar, Float, Inline, Block, Align, Images, Sprites, Attr Selectors, Forms, Counters, Website Layout, Units, Specificity.
 
 UNIT-V
-XML: Introduction, Tree, Syntax, Elements, Attributes, Namespaces, Display, HTTP request, Parser, DOM, XPath, XSLT, XQuery, XLink, Validator, DTD, Schema, Server.`  },
+XML: Introduction, Tree, Syntax, Elements, Attributes, Namespaces, Display, HTTP request, Parser, DOM, XPath, XSLT, XQuery, XLink, Validator, DTD, Schema, Server.`,
+      unitNotes: htmlCssXmlUnitNotes,
+  },
   // {
   //   id: `s-1286`,
   //   slug: `elementary-mathematics`,
