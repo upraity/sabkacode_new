@@ -29,6 +29,14 @@ import { htmlCssXmlUnitNotes } from "./unit-notes/html-css-xml";
 import { elementaryMathematicsUnitNotes } from "./unit-notes/elementary-mathematics";
 import { databaseManagementUnitNotes } from "./unit-notes/database-management-system";
 import { javaProgrammingUnitNotes } from "./unit-notes/java-programming";
+import { principlesOfManagementUnitNotes } from "./unit-notes/bba-principles-of-management";
+import { businessMathematicsUnitNotes } from "./unit-notes/bba-business-mathematics";
+import { bbaFinancialAccountingUnitNotes } from "./unit-notes/bba-financial-accounting";
+import { bbaBusinessCommunicationUnitNotes } from "./unit-notes/bba-business-communication";
+import { bbaBusinessEnglishUnitNotes } from "./unit-notes/bba-business-english";
+import { bbaItApplication1UnitNotes } from "./unit-notes/bba-it-application-1";
+import { bbaEnvironmentalScienceUnitNotes } from "./unit-notes/bba-environmental-science";
+
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
 // DBRAU (BCA) and CSJMU (BCA). DBRAU/CSJMU/MBA/MCA subjects, names and
@@ -3195,6 +3203,7 @@ UNIT II: Planning and Organizing (8Hrs) Concept of planning; Objectives of plann
 UNIT III: Recruitment and Selection ( 7Hr) Concept, nature and significance of Staffing; Processes of Recruitment & Selection; Placement & Orientation 
 UNIT IV: Directing and Decision Making (9Hrs) Directing: Concept of Directing, Principles of Directing, Effective Directing, Elements of Directing: Effective Supervision, The Process and Techniques of Decision Making, Management By Exception (MBE); Concept of Leadership and its importance in management. 
 UNIT V: Controlling (9Hrs) Controlling and Coordinating- Elements of Managerial Control, Designing Control Systems, Management Control Techniques, Effective Control Systems, Coordination-Essence, Importance, Principles and Techniques of Coordination.`,
+      unitNotes: principlesOfManagementUnitNotes,
   },
 
   {
@@ -3212,6 +3221,7 @@ UNIT 2: Basics of Set Theory (9Hrs) Fundamental concepts and uses of Set Theory;
 UNIT 3: Fundamentals of Matrix and Determinants (10 Hrs.) Fundament concepts and uses of the matrix; Types of matrices; Algebra of matrices; Determinants and its properties; Adjoint of a matrix; Finding the inverse of a matrix; Rank of a matrix; Solution of a system of linear equations by Cramer‘s Rule and Matrix Inverse Method (including not more than three variables). 
 UNIT 4: Compound Interest and Annuities ( 9Hrs.) Different types of interest rates; Concept of present value and amount of a sum; Types of annuities; Present Value and amount of an annuity including the case of continuous compounding; Valuation of simple loans and debentures; problems relating to Sinking Funds. 
 UNIT 5 Probability ( 6 Hrs.) Concept and uses of probability; Types of probability; Conditional probability and Bayes’ theorem; Simple problems based on addition and multiplication theorems of Probability.`,
+      unitNotes: businessMathematicsUnitNotes,
   },
 
   {
@@ -3229,6 +3239,7 @@ UNIT 2: Basic Accounting Processes (8 Hrs.) Double entry system and its advantag
 UNIT 3: Accounting for Inventory and Partnership (7 Hrs.) Accounting for Depreciation, Significance and Methods, Inventory Valuation Methods and Choice of Methods. Different Types of Reserves, Accounting for Partnership Firm-Introduction, Dissolution of Partnership Firm & Its accounts, Provision for Bad Debts ,Accrued ,prepaid ,outstanding and unearned income and expenditure 
 UNIT 4: Recording and Classification of Transactions (10 Hrs.) Recording and Classification of transactions , Preparation of Financial Statements: Preparing Trading Account and Trial balance, Profit & Loss Account, without & with adjustments and Cash Flow Statement for a Sole Proprietor. Understanding of financial statements of a Joint Stock Company as per the Companies Act 2013. Preparation of Cash flow statements 
 UNIT 5: Accounting Standards (6 Hrs.) Introduction to International Financial Reporting Standards (IFRS) : Need and significance. Ethical Issues in Accounting. The meaning and need for convergence of India accounting standards with IFRS; the benefits of achieving convergence with IFRSs for the economy, investors, industry, and accounting professionals. Concept and procedure of issuing Indian Accounting Standards (Ind AS); Introduction to Ind AS - 7 – Statement of Cash Flows, Ind AS 16 – Property, Plant and equipment and Ind AS 18 – Revenue Recognition;`,
+     unitNotes: bbaFinancialAccountingUnitNotes,
   },
 
   {
@@ -3246,6 +3257,7 @@ Unit 2 Business correspondence (8 Hrs) Business letter writing, Parts, Structure
 Unit 3 Presentation skills and group communication(8Hrs) principles of effective presentation; Making effective presentation; ; Group communication; Group discussion, Interview preparation, conducting meetings, Drafting notices, Agendas and resolutions, Public relations 
 Unit 4 Language and Business writing skills(8Hrs) Letters of Complaints, Claims, Adjustments Sales Letters, promotional leaflets and fliers Consumer Grievance Letters, Letters under Right to Information (RTI) Act. 
 Unit 5 Reports(8Hrs) Layout, types and parts of a report; Feasibility reports, Investigative reports, Summarization: Identification of main and supporting/sub points, Presenting them in a cohesive manner, Use of tables and graphs.`,
+     unitNotes: bbaBusinessCommunicationUnitNotes,
   },
 
   {
@@ -3263,6 +3275,7 @@ UNIT 2: Compositions (10 Hrs) Sentence Types (Simple, Compound, and Complex), Us
 UNIT 3: Paragraph Writing and Vocabulary Building (6Hrs) Mechanics of writing; Features and sub-skills linguistic and discoursal writings (cohesion, coherence, style, context and content); Fundamentals of academic writing, technical writing and content writing. Vocabulary building and concept of word formation – Prefixes, Suffixes, Synonyms, Antonyms, One Word Substitutions; Meaning of important words that are used in business. 
 UNIT 4: Conversational Skills (10 Hrs) Basic English in Face-to-face interaction in formal and informal situations: Greetings, replying to greetings, introducing others, welcoming, bidding farewell; Basic conversations for effective interview: talking about oneself (strengths and weakness, likes and dislikes, future plans, describing one’s family etc.). 
 UNIT 5: Reading Skills (7 Hrs) Introduction to Reading Strategies- Intensive Reading and extensive reading; Fundamentals of Critical Reading and Critical Thinking Skills. Ssuggested Readings: 1. Effective Technical Communication (2020), M. Ashraf Rizvi. Tata Mc Grow Hill. 2. Lesikar RV & Pettit Jr. JD (2018), Basic Business Communication: Theory & Application, Tata Mc Grow Hill. 3. Pal R. (2020) Business Communication, Sultan Chand & Sons Publication. 4. Business Communication (2021). Bovee and Thill. Tata Mc Grow Hill.  BBA Bachelor of Business Administration ( I Year) INTERNAL END SEMESTER PERIODS EVALUATION SCHEME EVALUATION SEM CODE SUBJECT TOTAL CREDIT Type L T P CT TA TOTAL TE PE I`,
+      unitNotes: bbaBusinessEnglishUnitNotes,
   },
 
   {
@@ -3280,6 +3293,7 @@ UNIT 2: MS Word (8Hrs.) Salient features of MS Word; Use of templates; Working w
 UNIT 3: MS PowerPoint (8Hrs.) Concepts and criteria for effective presentation; Use of templates and design; Working with presentations: slides, fonts, drawing, editing; Inserting: tables, images, texts, symbols, hyperlinking and media; Transition, animation, and slideshow. 
 UNIT 4: Basics of MS Excel (8Hrs.) Characteristics of spreadsheet; Managing worksheets: formatting, conditional formatting, entering data, and editing; Printing and protecting worksheets; Handling operators in formulas; Working with multiple worksheets; Controlling worksheet views, naming cells and cell ranges. Customize Options and Views for Worksheets and Workbooks: Hide or unhide worksheets, Hide or unhide columns and rows, Customize the Quick Access toolbar, and Modify document properties. 
 UNIT 5: Data Management and Charts in MS Excel (8Hrs.) Concept of data and data management; Creating an Excel table from a cell range; Converting a table to a cell range; Add or remove table rows and columns; Manage table styles and options; Apply styles to tables; Filter records; Sort data by multiple columns; Change sort order; Remove duplicate records; Working with different types of charts of MS Excel and using various options.`,
+      unitNotes: bbaItApplication1UnitNotes,
   },
 
   {
@@ -3297,6 +3311,7 @@ UNIT 2: Natural Resources (8 Hrs.) Land resources: Land degradation, landslides,
 UNIT 3 Biodiversity and its conservation (8 Hrs.) Basic concepts of biodiversity; Importance of biodiversity in ecosystems; Values of biodiversity: consumptive use, productive use, social, ethical, aesthetic and option values; India as a mega-biodiversity nation; Endangered and endemic species of India; Threats to biodiversity: habitat loss, poaching of wildlife, man-wildlife conflicts. Conservation of biodiversity: In-situ and Ex-situ conservation of biodiversity, Biological Diversity Act, 2002. 
 UNIT 4: Pollution (10Hrs.) Pollution and its types: Air pollution, Water pollution, Soil pollution, Noise pollution; Sources of pollution; Effect of pollution on human health and economy; Preventive measures from pollution; Climate change: causes, impacts and prevention; Environmental Legislation: Introduction to Water (Prevention and Control of Pollution) Act 1974, Introduction to Air (Prevention and Control of Pollution) Act 1981 and Environmental Protection Act 1986, Environmental Impact Assessment (EIA). 
 UNIT 5 Sustainable Development and Business Practices (8Hrs.) Principles and dimensions (economic, social, environmental), Green business practices: reducing waste, energy efficiency, and sustainable sourcing, Environmental management systems (EMS) and certifications (ISO 14001), The triple bottom line: people, planet, profit, Business opportunities in the circular economy, Green marketing and consumer engagement`,
+     unitNotes: bbaEnvironmentalScienceUnitNotes,
   },
 
   {
