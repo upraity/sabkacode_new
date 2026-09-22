@@ -5,7 +5,7 @@ import type { ReactNode } from "react";
 // (ink-100…800, brand-400…800, white) so no tailwind config change is needed.
 
 export type Tone = "dark" | "mid" | "light" | "outline" | "muted";
-export type Size = 10 | 11 | 12;
+export type Size = 9 | 10 | 11 | 12;
 
 const toneClass: Record<Tone, { shape: string; text: string }> = {
   dark: { shape: "fill-brand-700 stroke-brand-800", text: "fill-white" },
@@ -16,6 +16,7 @@ const toneClass: Record<Tone, { shape: string; text: string }> = {
 };
 
 const sizeClass: Record<Size, string> = {
+  9: "text-[9px]",
   10: "text-[10px]",
   11: "text-[11px]",
   12: "text-[12px]",
