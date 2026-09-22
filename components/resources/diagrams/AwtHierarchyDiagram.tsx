@@ -20,7 +20,7 @@ export function AwtHierarchyDiagram() {
       <Box x={220} y={190} w={120} h={30} lines={["Applet"]} tone="outline" />
 
       <Arrow points={[[220, 25], [40, 60]]} />
-      <Box x={10} y={62} w={130} h={54} lines={["Label, Button,", "TextField, Checkbox,", "Choice, List, Canvas"]} tone="light" size={9} />
+      <Box x={10} y={62} w={130} h={54} lines={["Label, Button,", "TextField, Checkbox,", "Choice, List, Canvas"]} tone="light" size={10} />
     </Frame>
   );
 }
