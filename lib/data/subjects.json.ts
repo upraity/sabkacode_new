@@ -26,6 +26,9 @@ import { computerFundamentalsUnitNotes } from "./unit-notes/computer-fundamental
 import { cProgrammingUnitNotes } from "./unit-notes/c-programming";
 import { businessCommunicationEthicsUnitNotes } from "./unit-notes/business-communication-ethics";
 import { htmlCssXmlUnitNotes } from "./unit-notes/html-css-xml";
+import { elementaryMathematicsUnitNotes } from "./unit-notes/elementary-mathematics";
+import { databaseManagementUnitNotes } from "./unit-notes/database-management-system";
+import { javaProgrammingUnitNotes } from "./unit-notes/java-programming";
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
 // DBRAU (BCA) and CSJMU (BCA). DBRAU/CSJMU/MBA/MCA subjects, names and
@@ -159,7 +162,8 @@ Statistics: Classification of data, Tabulation of data, Preparation of frequency
 
 Unit-V
 Measures of dispersion and Correlation: Computation of Range, Quartile-deviation, mean-deviation and Standard-deviation, coefficient of variation. (Numerical Applications Only). Meaning of Correlation, types of correlation, correlation coefficient, Karl Pearson, Spearman's rank correlation coefficient. (Numerical Applications Only).`,
- },
+     unitNotes: elementaryMathematicsUnitNotes,
+  },
   // {
   //   id: `s-1003`,
   //   slug: `de`,
@@ -4064,7 +4068,9 @@ UNIT-IV
 Functions: String handling and its functions, Maths Functions. Input/output-basics: Input/output-basics streams and Byte and character streams, Character Reading from Keyboard by Input Stream Reader, Reading a Line/String from a Buffered Reader. Standard Stream: Data Streams to read/write. Applet: Introduction, How Applets Differ from Application, Preparing to Write Applets, Building Applet Code, Applet Life Cycle, Creating an Executable Applet, Designing a Web Page, Applet Tag, Adding Applet to HTML File, Running the Applet.
 
 UNIT-V
-Introduction to AWT programming, Graphics, Dialog Boxes, AWT Components/Controls, Layouts, Event Handling, JDBC architecture Establishing connection and working with connection interface, Working with statements, Creating and executing SQL statements, Working with Result Set, Socket Programming, Introduction to Swing, servlet and JSP.`  },
+Introduction to AWT programming, Graphics, Dialog Boxes, AWT Components/Controls, Layouts, Event Handling, JDBC architecture Establishing connection and working with connection interface, Working with statements, Creating and executing SQL statements, Working with Result Set, Socket Programming, Introduction to Swing, servlet and JSP.`,
+      unitNotes: javaProgrammingUnitNotes,
+  },
   {
     id: `s-1289`,
     slug: `dbms`,
@@ -4089,6 +4095,7 @@ SQL: SQL and Database Design Theory and Methodology Structured Query Language th
 
 UNIT-V
 Transaction Processing: Concurrency Control and Distributed Database Transaction Processing Concepts: Introduction to Transaction Processing, Transaction and System Concepts, Desirable Properties of Transactions, Concurrency Control Techniques, Locking Techniques for Concurrency Control, Concurrency Control Based on Timestamp Ordering.`
+     unitNotes: databaseManagementUnitNotes,
   },
   {
     id: `s-1290`,
