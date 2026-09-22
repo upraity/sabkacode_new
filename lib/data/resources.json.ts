@@ -2685,6 +2685,59 @@ export const resources: ResourceItem[] = [
     isDemo: false,
   },
 
+  
+  // Principles of Management (BBA101, s-1216) — Detailed Notes index.
+  { id: "r-5514", subjectId: "s-1216", type: "notes", title: "Unit 1 — Fundamentals of Management", description: "Taylor/Fayol contributions, management vs administration, Indian ethos.", anchor: "unit-1", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5515", subjectId: "s-1216", type: "notes", title: "Unit 2 — Planning and Organizing", description: "Planning process, MBO, organization structure, delegation, span of control.", anchor: "unit-2", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5516", subjectId: "s-1216", type: "notes", title: "Unit 3 — Recruitment and Selection", description: "Staffing concept, recruitment & selection process, placement and orientation.", anchor: "unit-3", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5517", subjectId: "s-1216", type: "notes", title: "Unit 4 — Directing and Decision Making", description: "Principles of directing, decision-making process, MBE, leadership.", anchor: "unit-4", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5518", subjectId: "s-1216", type: "notes", title: "Unit 5 — Controlling", description: "Elements of control, control techniques, coordination.", anchor: "unit-5", updatedAt: "2026-09-21", isDemo: false },
+
+  // Business Mathematics (BBA102, s-1217) — Detailed Notes index.
+  { id: "r-5519", subjectId: "s-1217", type: "notes", title: "Unit 1 — Concepts of Algebra", description: "Indices, functions, linear/quadratic equations, AP/GP/HP (numerical examples).", anchor: "unit-1", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5520", subjectId: "s-1217", type: "notes", title: "Unit 2 — Basics of Set Theory", description: "Set operations, Venn diagram, De Morgan's Laws, business applications (numerical).", anchor: "unit-2", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5521", subjectId: "s-1217", type: "notes", title: "Unit 3 — Matrix and Determinants", description: "Types of matrices, determinants, adjoint, inverse, Cramer's Rule (numerical).", anchor: "unit-3", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5522", subjectId: "s-1217", type: "notes", title: "Unit 4 — Compound Interest and Annuities", description: "Compound interest, annuities, sinking funds (numerical examples).", anchor: "unit-4", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5523", subjectId: "s-1217", type: "notes", title: "Unit 5 — Probability", description: "Conditional probability, Bayes' theorem, addition/multiplication theorems (numerical).", anchor: "unit-5", updatedAt: "2026-09-21", isDemo: false },
+
+  // Financial Accounting (BBA103, s-1218) — Detailed Notes index.
+  { id: "r-5524", subjectId: "s-1218", type: "notes", title: "Unit 1 — Fundamentals of Financial Accounting", description: "Accounting conventions, GAAP, accounting equation, capital/revenue expenditure.", anchor: "unit-1", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5525", subjectId: "s-1218", type: "notes", title: "Unit 2 — Basic Accounting Processes", description: "Double-entry system, journal, GST accounting, ledger, trial balance.", anchor: "unit-2", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5526", subjectId: "s-1218", type: "notes", title: "Unit 3 — Inventory and Partnership Accounting", description: "Depreciation, inventory valuation, reserves, partnership dissolution.", anchor: "unit-3", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5527", subjectId: "s-1218", type: "notes", title: "Unit 4 — Recording and Financial Statements", description: "Trading/P&L account, Companies Act balance sheet, cash flow statement.", anchor: "unit-4", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5528", subjectId: "s-1218", type: "notes", title: "Unit 5 — Accounting Standards and IFRS", description: "IFRS, Ind AS convergence, Ind AS 7/16/18.", anchor: "unit-5", updatedAt: "2026-09-21", isDemo: false },
+
+  // Business Communication (BBA104, s-1219) — Detailed Notes index.
+  { id: "r-5529", subjectId: "s-1219", type: "notes", title: "Unit 1 — Theory of Communication", description: "Communication process, barriers, verbal/non-verbal communication.", anchor: "unit-1", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5530", subjectId: "s-1219", type: "notes", title: "Unit 2 — Business Correspondence", description: "Business letter parts/layouts, job application letter and resume.", anchor: "unit-2", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5531", subjectId: "s-1219", type: "notes", title: "Unit 3 — Presentation Skills and Group Communication", description: "Presentation principles, GD, interviews, meetings, public relations.", anchor: "unit-3", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5532", subjectId: "s-1219", type: "notes", title: "Unit 4 — Language and Business Writing Skills", description: "Complaint/claim/sales letters, consumer grievance and RTI letters.", anchor: "unit-4", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5533", subjectId: "s-1219", type: "notes", title: "Unit 5 — Reports", description: "Report layout/types, feasibility & investigative reports, summarization.", anchor: "unit-5", updatedAt: "2026-09-21", isDemo: false },
+
+  // Business English (BBA105, s-1220) — Detailed Notes index.
+  { id: "r-5534", subjectId: "s-1220", type: "notes", title: "Unit 1 — Functional Grammar for Business English", description: "Four language skills (LSRW), parts of speech, common error corrections.", anchor: "unit-1", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5535", subjectId: "s-1220", type: "notes", title: "Unit 2 — Compositions", description: "Sentence types, active-passive & direct-indirect transformation, summary writing.", anchor: "unit-2", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5536", subjectId: "s-1220", type: "notes", title: "Unit 3 — Paragraph Writing and Vocabulary Building", description: "Cohesion/coherence, academic/technical writing, word formation.", anchor: "unit-3", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5537", subjectId: "s-1220", type: "notes", title: "Unit 4 — Conversational Skills", description: "Formal/informal interactions, interview conversation basics.", anchor: "unit-4", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5538", subjectId: "s-1220", type: "notes", title: "Unit 5 — Reading Skills", description: "Intensive vs extensive reading, critical reading and thinking skills.", anchor: "unit-5", updatedAt: "2026-09-21", isDemo: false },
+
+  // IT Application-I (BBA106, s-1221) — Detailed Notes index.
+  { id: "r-5539", subjectId: "s-1221", type: "notes", title: "Unit 1 — IT for Business Intelligence", description: "Hardware/software basics, database, BI concept, intro to AI/ML.", anchor: "unit-1", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5540", subjectId: "s-1221", type: "notes", title: "Unit 2 — MS Word", description: "Templates, formatting, tables, mail merge, printing/protecting.", anchor: "unit-2", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5541", subjectId: "s-1221", type: "notes", title: "Unit 3 — MS PowerPoint", description: "Slide design, animations, transitions, multimedia integration.", anchor: "unit-3", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5542", subjectId: "s-1221", type: "notes", title: "Unit 4 — MS Excel Basics", description: "Workbook operations, formulas/functions, cell formatting, charts.", anchor: "unit-4", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5543", subjectId: "s-1221", type: "notes", title: "Unit 5 — Data Management and Charts in MS Excel", description: "Excel tables, filtering/sorting, removing duplicates, charts.", anchor: "unit-5", updatedAt: "2026-09-21", isDemo: false },
+
+  // Environmental Science (BBA107, s-1222) — Detailed Notes index.
+  { id: "r-5544", subjectId: "s-1222", type: "notes", title: "Unit 1 — Introduction to Environmental Science", description: "Ecosystem concept, food chains, food webs, ecological pyramids.", anchor: "unit-1", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5545", subjectId: "s-1222", type: "notes", title: "Unit 2 — Natural Resources", description: "Land/forest/water/energy resources, global warming, acid rain.", anchor: "unit-2", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5546", subjectId: "s-1222", type: "notes", title: "Unit 3 — Biodiversity and Its Conservation", description: "Biodiversity values, India as mega-biodiversity nation, in-situ/ex-situ conservation.", anchor: "unit-3", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5547", subjectId: "s-1222", type: "notes", title: "Unit 4 — Pollution", description: "Types/sources of pollution, climate change, environmental legislation.", anchor: "unit-4", updatedAt: "2026-09-21", isDemo: false },
+  { id: "r-5548", subjectId: "s-1222", type: "notes", title: "Unit 5 — Sustainable Development and Business Practices", description: "Green business, ISO 14001, Triple Bottom Line, circular economy.", anchor: "unit-5", updatedAt: "2026-09-21", isDemo: false },
+
+
+  
+
   // Strategic Management (BMB301, s-1052) — Detailed Notes index.
   // These entries use `anchor` to jump to the in-app Detailed Notes section.
   {
@@ -2923,7 +2976,7 @@ export const resources: ResourceItem[] = [
       year: 2023,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/13lGZi6htwF6fucEKg3a9ItA4Q78MOlEe/view?usp=drive_link",
-      updatedAt: "2023-09-21",
+      updatedAt: "",
       isDemo: false,
     },
     {
@@ -2934,7 +2987,7 @@ export const resources: ResourceItem[] = [
       year: 2022,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1niYqJaYUevOe_Sfoi0wsMBLmzcHl7o0h/view?usp=drive_link",
-      updatedAt: "2023-09-21",
+      updatedAt: "",
       isDemo: false,
     },
     {
@@ -3011,7 +3064,7 @@ export const resources: ResourceItem[] = [
       year: 2025,
       examType: "Regular",
       fileUrl: "",
-      updatedAt: "2023-09-21",
+      updatedAt: "2026-09-21",
       isDemo: false,
     },
     {
@@ -3033,7 +3086,7 @@ export const resources: ResourceItem[] = [
       year: 2023,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1RqNkcgY4bfOsouy9CAX57X4Z-iC9J0eZ/view?usp=drive_link",
-      updatedAt: "2023-09-21",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
     {
@@ -3146,7 +3199,7 @@ export const resources: ResourceItem[] = [
        year: 2023,
       examType: "Regular",
       fileUrl: "",
-      updatedAt: "2023-09-21",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
       {
@@ -3179,7 +3232,7 @@ export const resources: ResourceItem[] = [
        year: 2023,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1JGKZkZF1dOjKYWa5RBYMys9-QWdFYXKi/view?usp=drive_link",
-      updatedAt: "2023-09-21",
+      updatedAt: "2024-09-21",
       isDemo: false,
     },
         {
@@ -3243,7 +3296,7 @@ export const resources: ResourceItem[] = [
        year: 2026,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/14sX1QGL98CzjF3eWhWSy9ldVD3oVXTpY/view?usp=drive_link",
-      updatedAt: "2023-09-21",
+      updatedAt: "2026-09-21",
       isDemo: false,
     },
    {
@@ -3254,7 +3307,7 @@ export const resources: ResourceItem[] = [
        year: 2025,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1vyWQqNxl8x_tGP-ktff-KW0HK5f-wpFT/view?usp=drive_link",
-      updatedAt: "2023-09-21",
+      updatedAt: "2026-09-21",
       isDemo: false,
     },
      {
@@ -3265,7 +3318,7 @@ export const resources: ResourceItem[] = [
        year: 2024,
       examType: "Regular",
       fileUrl: "https://drive.google.com/file/d/1dqSQgIFGghLlKCmwRZurjshOCz-ZGBdy/view?usp=drive_link",
-      updatedAt: "2023-09-21",
+      updatedAt: "2025-09-21",
       isDemo: false,
     },
    {
@@ -4259,7 +4312,7 @@ export const resources: ResourceItem[] = [
 
   //projects
 //   {
-//   id: "r-5455",
+//   id: "r-",
 //   subjectId: "p-1",
 //   type: "projectType",
 //   sourceCode: "",
