@@ -4244,11 +4244,11 @@ export const resources: ResourceItem[] = [
   { id: "r-5444", subjectId: "s-1002", type: "notes", title: "Unit 5 — Measures of dispersion and Correlation", description: "Computation of Range, Quartile-deviation, mean-deviation and Standard-deviation, coefficient of variation", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
 
   // Business Comunication (C-103) — Detailed Notes index.
-  { id: "r-5445", subjectId: "s-1084", type: "notes", title: "Unit 1 — Means of Communication", description: "Meaning and Definition, Process, Functions, Objectives, Importance", anchor: "unit-1", updatedAt: "2025-09-20", isDemo: false },
-  { id: "r-5446", subjectId: "s-1084", type: "notes", title: "Unit 2 — Oral communication", description: "Principle of effective oral communication, Techniques of effective speech, Media of oral communication", anchor: "unit-2", updatedAt: "2025-09-20", isDemo: false },
-  { id: "r-5447", subjectId: "s-1084", type: "notes", title: "Unit 3 — Drafting of business letters", description: "Enquiries and replies, Placing and fulfilling orders, Complaints and follow up,", anchor: "unit-3", updatedAt: "2025-09-20", isDemo: false },
-  { id: "r-5448", subjectId: "s-1084", type: "notes", title: "Unit 4 — Attitude", description: " Factors influencing Attitude, Challenges and lessons from Attitude, Etiquette. Motivation", anchor: "unit-4", updatedAt: "2025-09-20", isDemo: false },
-  { id: "r-5449", subjectId: "s-1084", type: "notes", title: "Unit 5 — Introduction to Ethics and Values", description: "Basic Concepts: Defining ethics, values, and morality. Importance of Values", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5445", subjectId: "s-1284", type: "notes", title: "Unit 1 — Means of Communication", description: "Meaning and Definition, Process, Functions, Objectives, Importance", anchor: "unit-1", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5446", subjectId: "s-1284", type: "notes", title: "Unit 2 — Oral communication", description: "Principle of effective oral communication, Techniques of effective speech, Media of oral communication", anchor: "unit-2", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5447", subjectId: "s-1284", type: "notes", title: "Unit 3 — Drafting of business letters", description: "Enquiries and replies, Placing and fulfilling orders, Complaints and follow up,", anchor: "unit-3", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5448", subjectId: "s-1284", type: "notes", title: "Unit 4 — Attitude", description: " Factors influencing Attitude, Challenges and lessons from Attitude, Etiquette. Motivation", anchor: "unit-4", updatedAt: "2025-09-20", isDemo: false },
+  { id: "r-5449", subjectId: "s-1284", type: "notes", title: "Unit 5 — Introduction to Ethics and Values", description: "Basic Concepts: Defining ethics, values, and morality. Importance of Values", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
 
    // Introduction to HTML (C-104) — Detailed Notes index.
   { id: "r-5450", subjectId: "s-1285", type: "notes", title: "Unit 1 — Basics of Internet and Web", description: "The basics of Internet, World Wide Web, Web page, Home page, Web site,", anchor: "unit-1", updatedAt: "2025-09-20", isDemo: false },
