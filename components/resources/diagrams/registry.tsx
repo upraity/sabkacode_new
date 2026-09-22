@@ -104,6 +104,47 @@ import { CssBoxModelDiagram } from "./CssBoxModelDiagram";
 import { XmlTreeDiagram } from "./XmlTreeDiagram";
 import { XsltFlowDiagram } from "./XsltFlowDiagram";
 
+
+// HR-02 — Employee Relations and Labor Laws
+import { IndustrialRelationsSystemDiagram } from "./IndustrialRelationsSystemDiagram";
+import { TradeUnionFunctionsDiagram } from "./TradeUnionFunctionsDiagram";
+import { CollectiveBargainingProcessDiagram } from "./CollectiveBargainingProcessDiagram";
+import { DisciplinaryEnquiryDiagram } from "./DisciplinaryEnquiryDiagram";
+import { WorkplaceSafetyCycleDiagram } from "./WorkplaceSafetyCycleDiagram";
+import { GratuityProcessDiagram } from "./GratuityProcessDiagram";
+import { HrLabourComplianceCycleDiagram } from "./HrLabourComplianceCycleDiagram";
+
+// MBA Semester 3 — Marketing Specialization diagrams
+import { CBDecisionJourneyDiagram } from "./CBDecisionJourneyDiagram";
+import { ConsumerDecisionProcessDiagram } from "./ConsumerDecisionProcessDiagram";
+import { ConsumerPerceptionProcessDiagram } from "./ConsumerPerceptionProcessDiagram";
+import { DigitalConsumerJourneyDiagram } from "./DigitalConsumerJourneyDiagram";
+import { NeuromarketingFrameworkDiagram } from "./NeuromarketingFrameworkDiagram";
+import { ConsumerInsightLoopDiagram } from "./ConsumerInsightLoopDiagram";
+import { MarketingAnalyticsFrameworkDiagram } from "./MarketingAnalyticsFrameworkDiagram";
+import { ProductFunnelDiagram } from "./ProductFunnelDiagram";
+import { RegressionModelDiagram } from "./RegressionModelDiagram";
+import { WebAnalyticsCycleDiagram } from "./WebAnalyticsCycleDiagram";
+import { PersonalSellingProcessDiagram } from "./PersonalSellingProcessDiagram";
+import { SalesForceRecruitmentDiagram } from "./SalesForceRecruitmentDiagram";
+import { SalesPlanningControlDiagram } from "./SalesPlanningControlDiagram";
+import { DistributionChannelLevelsDiagram } from "./DistributionChannelLevelsDiagram";
+import { LogisticsFlowDiagram } from "./LogisticsFlowDiagram";
+
+import { TalentManagementCycleDiagram } from "./TalentManagementCycleDiagram";
+import { TalentCompetitiveAdvantageDiagram } from "./TalentCompetitiveAdvantageDiagram";
+import { TalentAcquisitionLifecycleDiagram } from "./TalentAcquisitionLifecycleDiagram";
+import { TalentDevelopmentCycleDiagram } from "./TalentDevelopmentCycleDiagram";
+import { SuccessionPlanningDiagram } from "./SuccessionPlanningDiagram";
+import { PerformanceManagementCycleDiagram } from "./PerformanceManagementCycleDiagram";
+import { StrategicWorkforcePlanningDiagram } from "./StrategicWorkforcePlanningDiagram";
+import { VennDiagramSets } from "./VennDiagramSets";
+import { EcologicalPyramidDiagram } from "./EcologicalPyramidDiagram";
+import { FoodChainDiagram } from "./FoodChainDiagram";
+import { TripleBottomLineDiagram } from "./TripleBottomLineDiagram";
+import { LanguageSkillsDiagram } from "./LanguageSkillsDiagram";
+import { DecisionTreeDiagram } from "./DecisionTreeDiagram";
+
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
 //   2. Registering it here under a stable, kebab-case id.
@@ -214,4 +255,12 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "css-box-model": CssBoxModelDiagram,
   "xml-tree": XmlTreeDiagram,
   "xslt-flow": XsltFlowDiagram,
+
+    // BBA (AKTU) Sem 1
+  "venn-diagram-sets": VennDiagramSets,
+  "ecological-pyramid": EcologicalPyramidDiagram,
+  "food-chain": FoodChainDiagram,
+  "triple-bottom-line": TripleBottomLineDiagram,
+  "language-skills": LanguageSkillsDiagram,
+  "decision-tree": DecisionTreeDiagram,
 };
