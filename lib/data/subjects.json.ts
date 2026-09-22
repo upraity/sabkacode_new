@@ -4094,7 +4094,7 @@ UNIT-IV
 SQL: SQL and Database Design Theory and Methodology Structured Query Language the Relational Database Standard: Data Definition, Constraints and Schema Changes in SQL, Types of SQL Commands, SQL Operators and their Procedure, Insert, Delete, and Update Statements in SQL Queries and Sub Queries, Aggregate Functions, Joins, Unions, Intersection, Minus, Views (Virtual Tables) in SQL. Functional Dependencies and Normalization for Relational Databases: Informal Design Guidelines for Relation Schemas, Functional Dependencies, Armstrong Rules: Closure of Attributes, Normal Forms Based on Primary Keys, General Definitions of Second and Third Normal Forms, Boyce Codd Normal Form.
 
 UNIT-V
-Transaction Processing: Concurrency Control and Distributed Database Transaction Processing Concepts: Introduction to Transaction Processing, Transaction and System Concepts, Desirable Properties of Transactions, Concurrency Control Techniques, Locking Techniques for Concurrency Control, Concurrency Control Based on Timestamp Ordering.`
+Transaction Processing: Concurrency Control and Distributed Database Transaction Processing Concepts: Introduction to Transaction Processing, Transaction and System Concepts, Desirable Properties of Transactions, Concurrency Control Techniques, Locking Techniques for Concurrency Control, Concurrency Control Based on Timestamp Ordering.`,
      unitNotes: databaseManagementUnitNotes,
   },
   {
