@@ -3519,6 +3519,8 @@ export const resources: ResourceItem[] = [
       fileUrl: "https://drive.google.com/file/d/127g3CsmBPmNKNe8LNTL3lJFAlFVQ_cGr/view?usp=drive_link",
       updatedAt: "2023-09-21",
       isDemo: false,
+
+        
     },
       {
       id: "r-5357",
@@ -4309,6 +4311,28 @@ export const resources: ResourceItem[] = [
   { id: "r-5452", subjectId: "s-1285", type: "notes", title: "Unit 3 — Introduction to HTML", description: "Editors, Basics, Element, Attribute, Headings, Paragraphs, Styles, Formatting,", anchor: "unit-3", updatedAt: "2025-09-20", isDemo: false },
   { id: "r-5453", subjectId: "s-1285", type: "notes", title: "Unit 4 — CSS", description: "Introduction, Syntax, Colors, Backgrounds, Borders, Margins, Padding, Height/Width, Box Model,", anchor: "unit-4", updatedAt: "2025-09-20", isDemo: false },
   { id: "r-5454", subjectId: "s-1285", type: "notes", title: "Unit 5 — XML", description: "Introduction, Tree, Syntax, Elements, Attributes, Namespaces, Display, HTTP request, Parser, DOM,", anchor: "unit-5", updatedAt: "2025-09-20", isDemo: false },
+
+  // C-203 Data Structure using C — Detailed Notes index.
+  { id: "r-5455", subjectId: "s-1290", type: "notes", title: "Unit 1 — Introduction to Data Structures and Arrays", description: "Classification of data structures, address calculation for arrays, sparse matrix triplet form.", anchor: "unit-1", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5456", subjectId: "s-1290", type: "notes", title: "Unit 2 — Stacks, Queues and Recursion", description: "Stack push/pop, infix-to-postfix conversion, postfix evaluation, recursion, Tower of Hanoi, queues.", anchor: "unit-2", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5457", subjectId: "s-1290", type: "notes", title: "Unit 3 — Linked Lists", description: "Singly/doubly/circular linked lists: create, insert, delete, search, sort, reverse, traverse.", anchor: "unit-3", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5458", subjectId: "s-1290", type: "notes", title: "Unit 4 — Trees", description: "Binary trees, tree traversals (inorder/preorder/postorder), Binary Search Tree insertion and deletion.", anchor: "unit-4", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5459", subjectId: "s-1290", type: "notes", title: "Unit 5 — Sorting, Searching Techniques and Graphs", description: "Bubble/selection/insertion/quick/merge sort, sequential & binary search, graphs, Dijkstra's algorithm.", anchor: "unit-5", updatedAt: "2025-09-27", isDemo: false },
+
+  // C-204 Principles of Management — Detailed Notes index.
+  { id: "r-5460", subjectId: "s-1291", type: "notes", title: "Unit 1 — Nature of Management", description: "Nature, definitions, functions, art/science/profession debate, evolution of management thought.", anchor: "unit-1", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5461", subjectId: "s-1291", type: "notes", title: "Unit 2 — Functions of Management: Planning, Forecasting and Decision Making", description: "Planning types & levels, forecasting techniques, decision-making process and techniques (EMV).", anchor: "unit-2", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5462", subjectId: "s-1291", type: "notes", title: "Unit 3 — Organizing, Staffing, Direction, Communication, Motivation and Leadership", description: "Organizing structures, delegation & decentralization, staffing, direction, communication, motivation, leadership.", anchor: "unit-3", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5463", subjectId: "s-1291", type: "notes", title: "Unit 4 — Controlling, Coordination and Strategic Management", description: "Controlling process & techniques, coordination, strategic management levels and strategists.", anchor: "unit-4", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5464", subjectId: "s-1291", type: "notes", title: "Unit 5 — Recent Trends in Management", description: "CSR, green management, change/crisis/stress management, Total Quality Management, international management.", anchor: "unit-5", updatedAt: "2025-09-27", isDemo: false },
+
+  // C-205 Mathematics-I — Detailed Notes index.
+  { id: "r-5465", subjectId: "s-1292", type: "notes", title: "Unit 1 — Basic Concepts of Trigonometry", description: "Trigonometric ratios, standard angle values, sum/difference/double-angle identities, applications.", anchor: "unit-1", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5466", subjectId: "s-1292", type: "notes", title: "Unit 2 — Limits of Various Types", description: "Limits, standard limits, factorisation/rationalisation methods, continuity, Intermediate Value Theorem.", anchor: "unit-2", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5467", subjectId: "s-1292", type: "notes", title: "Unit 3 — Differentiation", description: "Differentiation rules, logarithmic differentiation, Rolle's & Mean Value Theorem, Maclaurin series, maxima/minima.", anchor: "unit-3", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5468", subjectId: "s-1292", type: "notes", title: "Unit 4 — Integration", description: "Integration by substitution/parts/partial fractions, reduction formulae, Gamma and Beta functions.", anchor: "unit-4", updatedAt: "2025-09-27", isDemo: false },
+  { id: "r-5469", subjectId: "s-1292", type: "notes", title: "Unit 5 — Vector Algebra", description: "Vector algebra: dot product, cross product, scalar & vector triple product, area and volume applications.", anchor: "unit-5", updatedAt: "2025-09-27", isDemo: false },
+
 
   //projects
 //   {
