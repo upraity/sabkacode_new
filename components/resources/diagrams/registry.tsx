@@ -303,7 +303,7 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "dijkstra-graph": DijkstraGraphDiagram,
   "management-functions": ManagementFunctionsDiagram,
   "evolution-of-management": EvolutionOfManagementDiagram,
-  "decision-making-process": DecisionMakingProcessDiagram,
+  // "decision-making-process": DecisionMakingProcessDiagram,
   "organization-structures": OrganizationStructuresDiagram,
   "maslow-hierarchy-mgmt": MaslowHierarchyMgmtDiagram,
   "controlling-process": ControllingProcessDiagram,
