@@ -2,7 +2,7 @@ import { UnitNote } from "@/types";
 
 // Detailed, in-app notes for Principles of Management (BBA101) — AKTU BBA
 // Sem 1.
-export const principlesOfManagementUnitNotes: UnitNote[] = [
+export const principlesOfManagementUnitNotesbba: UnitNote[] = [
   {
     unitNumber: 1,
     title: "Fundamentals of Management",
