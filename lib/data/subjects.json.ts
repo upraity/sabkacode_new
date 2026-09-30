@@ -36,6 +36,9 @@ import { bbaBusinessCommunicationUnitNotes } from "./unit-notes/bba-business-com
 import { bbaBusinessEnglishUnitNotes } from "./unit-notes/bba-business-english";
 import { bbaItApplication1UnitNotes } from "./unit-notes/bba-it-application-1";
 import { bbaEnvironmentalScienceUnitNotes } from "./unit-notes/bba-environmental-science";
+import { dataStructureUnitNotes } from "./unit-notes/data-structure-using-c";
+import { principlesOfManagementUnitNotes } from "./unit-notes/principles-of-management";
+import { mathematics1UnitNotes } from "./unit-notes/mathematics-1";
 
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
@@ -4135,7 +4138,9 @@ UNIT-IV
 Trees: Introduction to Tree & its Terminology, Binary trees, Types of Binary trees, Representation of Binary Tree, Traversals (Inorder, Preorder, Postorder), Tree Expression, Binary Search Tree, Insertion and Deletion in BST.
 
 UNIT-V
-Sorting & Searching Techniques: Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Merge Sort, Sequential Search, Binary Search. Graph: Introduction and Types of graph, graph representation, Shortest path problem.`
+Sorting & Searching Techniques: Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Merge Sort, Sequential Search, Binary Search. Graph: Introduction and Types of graph, graph representation, Shortest path problem.`,
+        unitNotes: dataStructureUnitNotes,
+  
   },
   {
     id: `s-1291`,
@@ -4160,7 +4165,8 @@ UNIT-IV
 Functions of Management: Controlling - Need, importance, Process & Techniques Coordination - Need – Importance. Strategic Management Definition, Classes of Decisions, Levels of Decision, Strategy, Role of different Strategist, Relevance of Strategic Management and its Benefits Strategic Management in India.
 
 UNIT-V
-Recent Trends in Management: Social Responsibility of Management – environment friendly management, Management of Change, Management of Crisis, Total Quality Management, Stress Management, International Management.`
+Recent Trends in Management: Social Responsibility of Management – environment friendly management, Management of Change, Management of Crisis, Total Quality Management, Stress Management, International Management.`,
+        unitNotes: principlesOfManagementUnitNotes,
   },
   {
     id: `s-1292`,
@@ -4186,6 +4192,7 @@ Integration: Integral as Limit of Sum, Fundamental Theorem of Calculus (without 
 
 UNIT-V
 Vector Algebra: Definition of a vector in 2 and 3 Dimensions, Double and Triple Scalar and Vector Product and physical interpretation of area and volume.`,
+        unitNotes: mathematics1UnitNotes,
     },
   // {
   //   id: `s-1293`,
