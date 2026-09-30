@@ -125,6 +125,7 @@ export function Note({
   size = 10,
   anchor = "middle",
   bold = false,
+  fill = "fill-ink-800",
   pre = false,
 }: {
   x: number;
@@ -133,6 +134,7 @@ export function Note({
   size?: Size;
   anchor?: "start" | "middle" | "end";
   bold?: boolean;
+  fill?: string;
   pre?: boolean;
 }) {
   return <Lines x={x} y={y} lines={lines} size={size} anchor={anchor} bold={bold} fill="fill-ink-600" pre={pre} />;
