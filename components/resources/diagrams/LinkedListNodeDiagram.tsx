@@ -1,4 +1,4 @@
-import { Arrow, Frame, Note } from "./DiagramKit";
+import { Arrow, Frame, Note, Lines } from "./DiagramKit";
 
 export function LinkedListNodeDiagram() {
   return (
