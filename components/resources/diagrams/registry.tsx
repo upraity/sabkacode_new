@@ -161,7 +161,7 @@ import { GraphTypesDiagram } from "./GraphTypesDiagram";
 import { DijkstraGraphDiagram } from "./DijkstraGraphDiagram";
 import { ManagementFunctionsDiagram } from "./ManagementFunctionsDiagram";
 import { EvolutionOfManagementDiagram } from "./EvolutionOfManagementDiagram";
-import { DecisionMakingProcessDiagram } from "./DecisionMakingProcessDiagram";
+// import { DecisionMakingProcessDiagram } from "./DecisionMakingProcessDiagram";
 import { OrganizationStructuresDiagram } from "./OrganizationStructuresDiagram";
 import { MaslowHierarchyMgmtDiagram } from "./MaslowHierarchyMgmtDiagram";
 import { ControllingProcessDiagram } from "./ControllingProcessDiagram";
