@@ -29,7 +29,7 @@ import { htmlCssXmlUnitNotes } from "./unit-notes/html-css-xml";
 import { elementaryMathematicsUnitNotes } from "./unit-notes/elementary-mathematics";
 import { databaseManagementUnitNotes } from "./unit-notes/database-management-system";
 import { javaProgrammingUnitNotes } from "./unit-notes/java-programming";
-import { principlesOfManagementUnitNotes } from "./unit-notes/bba-principles-of-management";
+import { principlesOfManagementUnitNotesbba } from "./unit-notes/bba-principles-of-management";
 import { businessMathematicsUnitNotes } from "./unit-notes/bba-business-mathematics";
 import { bbaFinancialAccountingUnitNotes } from "./unit-notes/bba-financial-accounting";
 import { bbaBusinessCommunicationUnitNotes } from "./unit-notes/bba-business-communication";
@@ -3206,7 +3206,7 @@ UNIT II: Planning and Organizing (8Hrs) Concept of planning; Objectives of plann
 UNIT III: Recruitment and Selection ( 7Hr) Concept, nature and significance of Staffing; Processes of Recruitment & Selection; Placement & Orientation 
 UNIT IV: Directing and Decision Making (9Hrs) Directing: Concept of Directing, Principles of Directing, Effective Directing, Elements of Directing: Effective Supervision, The Process and Techniques of Decision Making, Management By Exception (MBE); Concept of Leadership and its importance in management. 
 UNIT V: Controlling (9Hrs) Controlling and Coordinating- Elements of Managerial Control, Designing Control Systems, Management Control Techniques, Effective Control Systems, Coordination-Essence, Importance, Principles and Techniques of Coordination.`,
-      unitNotes: principlesOfManagementUnitNotes,
+      unitNotes: principlesOfManagementUnitNotesbba,
   },
 
   {
