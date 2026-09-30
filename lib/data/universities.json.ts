@@ -30,7 +30,7 @@ export const universities: University[] = [
     shortName: "CSJMU",
     description: "A state university based in Kanpur, Uttar Pradesh, offering BCA and other programmes.",
     location: "Kanpur, Uttar Pradesh",
-    status: "active",
+    status: "coming-soon",
   },
   {
     id: "u-ccsu",
