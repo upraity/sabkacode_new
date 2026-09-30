@@ -145,6 +145,29 @@ import { TripleBottomLineDiagram } from "./TripleBottomLineDiagram";
 import { LanguageSkillsDiagram } from "./LanguageSkillsDiagram";
 import { DecisionTreeDiagram } from "./DecisionTreeDiagram";
 
+import { DsClassificationDiagram } from "./DsClassificationDiagram";
+import { SparseMatrixDiagram } from "./SparseMatrixDiagram";
+import { StackOperationsDiagram } from "./StackOperationsDiagram";
+import { RecursionStackDiagram } from "./RecursionStackDiagram";
+import { QueueOperationsDiagram } from "./QueueOperationsDiagram";
+import { LinkedListNodeDiagram } from "./LinkedListNodeDiagram";
+import { LinkedListTypesDiagram } from "./LinkedListTypesDiagram";
+import { TreeTerminologyDiagram } from "./TreeTerminologyDiagram";
+import { BinaryTreeTypesDiagram } from "./BinaryTreeTypesDiagram";
+import { TreeTraversalOrdersDiagram } from "./TreeTraversalOrdersDiagram";
+import { BstInsertionDiagram } from "./BstInsertionDiagram";
+import { SortingComplexityDiagram } from "./SortingComplexityDiagram";
+import { GraphTypesDiagram } from "./GraphTypesDiagram";
+import { DijkstraGraphDiagram } from "./DijkstraGraphDiagram";
+import { ManagementFunctionsDiagram } from "./ManagementFunctionsDiagram";
+import { EvolutionOfManagementDiagram } from "./EvolutionOfManagementDiagram";
+import { DecisionMakingProcessDiagram } from "./DecisionMakingProcessDiagram";
+import { OrganizationStructuresDiagram } from "./OrganizationStructuresDiagram";
+import { MaslowHierarchyMgmtDiagram } from "./MaslowHierarchyMgmtDiagram";
+import { ControllingProcessDiagram } from "./ControllingProcessDiagram";
+import { TrigRatiosDiagram } from "./TrigRatiosDiagram";
+import { MvtGeometryDiagram } from "./MvtGeometryDiagram";
+
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
 //   2. Registering it here under a stable, kebab-case id.
@@ -263,4 +286,27 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "triple-bottom-line": TripleBottomLineDiagram,
   "language-skills": LanguageSkillsDiagram,
   "decision-tree": DecisionTreeDiagram,
+
+    "ds-classification": DsClassificationDiagram,
+  "sparse-matrix": SparseMatrixDiagram,
+  "stack-operations": StackOperationsDiagram,
+  "recursion-stack": RecursionStackDiagram,
+  "queue-operations": QueueOperationsDiagram,
+  "linked-list-node": LinkedListNodeDiagram,
+  "linked-list-types": LinkedListTypesDiagram,
+  "tree-terminology": TreeTerminologyDiagram,
+  "binary-tree-types": BinaryTreeTypesDiagram,
+  "tree-traversal-orders": TreeTraversalOrdersDiagram,
+  "bst-insertion": BstInsertionDiagram,
+  "sorting-complexity": SortingComplexityDiagram,
+  "graph-types": GraphTypesDiagram,
+  "dijkstra-graph": DijkstraGraphDiagram,
+  "management-functions": ManagementFunctionsDiagram,
+  "evolution-of-management": EvolutionOfManagementDiagram,
+  "decision-making-process": DecisionMakingProcessDiagram,
+  "organization-structures": OrganizationStructuresDiagram,
+  "maslow-hierarchy-mgmt": MaslowHierarchyMgmtDiagram,
+  "controlling-process": ControllingProcessDiagram,
+  "trig-ratios": TrigRatiosDiagram,
+  "mvt-geometry": MvtGeometryDiagram,
 };
