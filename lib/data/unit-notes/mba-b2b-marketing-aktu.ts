@@ -2,7 +2,7 @@ import { UnitNote } from "@/types";
 
 // Detailed, exam-oriented notes for B2B Marketing (BMB MK 05)
 // — AKTU, MBA IV Semester.
-export const MbaB2bMarketingUnitNotes: UnitNote[] = [
+export const b2bMarketingUnitNotes: UnitNote[] = [
   {
     "unitNumber": 1,
     "title": "Introduction to B2B Marketing",
