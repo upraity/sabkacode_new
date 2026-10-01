@@ -150,7 +150,7 @@ import { TalentCompetitiveAdvantageDiagram } from "./TalentCompetitiveAdvantageD
 import { TalentAcquisitionLifecycleDiagram } from "./TalentAcquisitionLifecycleDiagram";
 import { TalentDevelopmentCycleDiagram } from "./TalentDevelopmentCycleDiagram";
 import { SuccessionPlanningDiagram } from "./SuccessionPlanningDiagram";
-import { PerformanceManagementCycleDiagram } from "./PerformanceManagementCycleDiagram";
+// import { PerformanceManagementCycleDiagram } from "./PerformanceManagementCycleDiagram";
 import { StrategicWorkforcePlanningDiagram } from "./StrategicWorkforcePlanningDiagram";
 import { VennDiagramSets } from "./VennDiagramSets";
 import { EcologicalPyramidDiagram } from "./EcologicalPyramidDiagram";
