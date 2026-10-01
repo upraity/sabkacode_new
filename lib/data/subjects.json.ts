@@ -52,7 +52,7 @@ import { exportimportdocumentationsUnitNotes } from "./unit-notes/export-import-
 import { geopoliticsandtradeUnitNotes } from "./unit-notes/geopolitics-and-trade";
 import { softwareEngineeringAndManagementUnitNotesUnitNotes } from "./unit-notes/software-engineering-and-management";
 import { emergingTechnologiesForBusinessUnitNotesUnitNotes } from "./unit-notes/emerging-technologies-for-business";
-import { databaseManagementSystemUnitNotesUnitNotes } from "./unit-notes/database-management-system";
+import { databaseManagementSystemUnitNotesUnitNotes } from "./unit-notes/itdatabase-management-system";
 import { principlesAndPracticesOfCooperationUnitNotes } from "./unit-notes/principles-and-practices-of-cooperation";
 import { cooperativeLegislationUnitNotes } from "./unit-notes/co-operative-legislation";
 import { creditCooperativesUnitNotes } from "./unit-notes/credit-cooperatives";
