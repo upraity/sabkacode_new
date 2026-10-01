@@ -171,7 +171,7 @@ import { MvtGeometryDiagram } from "./MvtGeometryDiagram";
 //mba 3rd sem HR
 import { EmployeeRelationsFrameworkDiagram } from "./EmployeeRelationsFrameworkDiagram";
 import { TradeUnionParticipativeManagementDiagram } from "./TradeUnionParticipativeManagementDiagram";
-import { CollectiveBargainingProcessDiagram } from "./CollectiveBargainingProcessDiagram";
+// import { CollectiveBargainingProcessDiagram } from "./CollectiveBargainingProcessDiagram";
 import { DomesticEnquiryFlowDiagram } from "./DomesticEnquiryFlowDiagram";
 import { WagePaymentFrameworkDiagram } from "./WagePaymentFrameworkDiagram";
 import { IndustrialDisputeSettlementDiagram } from "./IndustrialDisputeSettlementDiagram";
