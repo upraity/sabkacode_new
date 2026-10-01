@@ -721,7 +721,7 @@ export const MbaServiceOperationsManagementUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "formula",
+            "tone": "info",
             "title": "Basic productivity logic",
             "text": "Productivity = Output ÷ Input. The output and input measures must be defined consistently; for service operations, productivity analysis should be interpreted together with quality and customer outcomes."
           }
