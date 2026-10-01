@@ -59,7 +59,7 @@ import { creditCooperativesUnitNotes } from "./unit-notes/credit-cooperatives";
 
 import { MbaUniversalHumanValuesAndProfessionalEthicsDbrauUnitNotes } from "./unit-notes/mba-universal-human-values-and-professional-ethics-aktu";
 import { MbaServiceAndRetailMarketingUnitNotes } from "./unit-notes/mba-service-and-retail-marketing-aktu";
-import { MbaB2bMarketingUnitNotes } from "./unit-notes/mba-b2b-marketing-aktu";
+import { b2bMarketingUnitNotes } from "./unit-notes/mba-b2b-marketing-aktu";
 import { MbaHrAnalyticsUnitNotes } from "./unit-notes/mba-hr-analytics-aktu";
 import { MbaOrganizationalDevelopmentAndChangeManagementUnitNotes } from "./unit-notes/mba-organizational-development-and-change-management-aktu";
 import { MbaBehaviouralFinanceUnitNotes } from "./unit-notes/mba-behavioural-finance-aktu";
@@ -71,6 +71,7 @@ import { MbaInternationalFinanceUnitNotes } from "./unit-notes/mba-international
 import { MbaEBusinessUnitNotes } from "./unit-notes/mba-e-business-aktu";
 import { MbaBusinessDataWarehouseAndDataMiningUnitNotes } from "./unit-notes/mba-business-data-warehouse-and-data-mining-aktu";
 import { MbaCoOperativeAccountingAndAuditUnitNotes } from "./unit-notes/mba-cooperative-accounting-and-audit-aktu";
+import { MbaNonCreditCooperativesUnitNotes } from "./unit-notes/mba-non-credit-co-operative-aktu";
 
 
 
@@ -1597,6 +1598,7 @@ UNIT II (8 Hrs) Consumer Co-operatives: Need and Importance; Origin and Developm
 UNIT III (8 Hrs) Dairy Co-operatives: Place of Dairy Co-operatives in Indian Economy; Structure of Dairy Co- operatives; NDDB; AMUL Pattern; Working and Functions of National Cooperative Dairy Federation; State Cooperative Milk Producers Federation; District Cooperative Milk Producers Union; and Primary Cooperative Milk Producers Societies; Operation Flood Schemes; Recent developments and problems in dairy Co-operatives. 
 UNIT IV (7Hrs) Sugarcane and Fertilizer Cooperatives: The Uttar Pradesh Sugar Cane Co-operative Societies; Service Regulations 1975; Problems of MSP for sugarcanes growers; IFFCO; KRIBHCO; Functions and role in improved agricultural practices and productivity. 
 UNIT V (9Hrs) Industrial and Processing Co-operatives: Chikankari / Handlooms Weavers Co- operatives Sugar Factories; Tea Producers Co-operative Societies; Constitution and Working; Labour Contract Societies; Co-operative Printing Press; Co-operative Hospitals; Co-operative Publishers and Page 84 Colleges; Fisheries Co-operatives; Forest Produce Co- operatives (LAMPS) and New Generation Cooperatives.`,
+  unitNotes: MbaNonCreditCooperativesUnitNotes,
   },
   {
     id: `s-1091`,
