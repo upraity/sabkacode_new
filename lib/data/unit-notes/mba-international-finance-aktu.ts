@@ -510,7 +510,7 @@ export const MbaInternationalFinanceUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "formula",
+            "tone": "info",
             "title": "Quotation discipline",
             "text": "Always identify the base currency, quote currency and direction of conversion before multiplying or dividing by a quoted exchange rate."
           }
@@ -590,7 +590,7 @@ export const MbaInternationalFinanceUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "formula",
+            "tone": "info",
             "title": "Generic annualized forward premium / discount",
             "text": "For a quotation expressed consistently, a commonly used form is: ((Forward − Spot) / Spot) × (360 or 365 / days) × 100. The appropriate day-count convention depends on the market or problem statement."
           }
@@ -720,7 +720,7 @@ export const MbaInternationalFinanceUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "formula",
+            "tone": "info",
             "title": "IRP calculation discipline",
             "text": "Before applying an IRP formula, identify the domestic/foreign currencies, quotation direction, spot rate, forward rate, interest rates and maturity period. Unit consistency is essential."
           }
@@ -1062,7 +1062,7 @@ export const MbaInternationalFinanceUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "formula",
+            "tone": "info",
             "title": "Practical numerical method",
             "text": "1) Write the exposure and currency. 2) Write the quotation and identify its direction. 3) Convert using units. 4) Apply the relevant hedge or parity formula. 5) Compare outcomes and interpret the result."
           }
