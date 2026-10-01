@@ -4276,7 +4276,7 @@ export const resources: ResourceItem[] = [
 
   // Mini Project (BMB252, s-1051) — Detailed Notes index (guideline, not exam units).
   { id: "r-5429", subjectId: "s-1051", type: "notes", title: "Project Guidelines — Business Idea Validation & Feasibility", description: "Lean Canvas, target market, feasibility analysis (market/technical/financial), report structure.", anchor: "unit-1", updatedAt: "2026-09-20", isDemo: false },
-  { id: "r-5470", subjectId: "s-1051", type: "notes", title: "Project Ideas", description: "Looking for project ideas or a ready reference? Check out our project catalog instead.", anchor: "", updatedAt: "2026-09-20", isDemo: false },
+  { id: "r-5470", subjectId: "s-1051", type: "notes", title: "Project Ideas", description: "Looking for project ideas or a ready reference? Check out our project catalog instead.", FileURL: "https://sabkacode-new.vercel.app/projects", updatedAt: "2026-09-20", isDemo: false },
 
   
   //Computer Fundamentals and MS-Office (c-101) — Detailed Notes index.
