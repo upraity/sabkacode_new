@@ -70,7 +70,7 @@ import { MbaManagingGlobalSupplyChainsUnitNotes } from "./unit-notes/mba-managin
 import { MbaInternationalFinanceUnitNotes } from "./unit-notes/mba-international-finance-aktu";
 import { MbaEBusinessUnitNotes } from "./unit-notes/mba-e-business-aktu";
 import { MbaBusinessDataWarehouseAndDataMiningUnitNotes } from "./unit-notes/mba-business-data-warehouse-and-data-mining-aktu";
-import { MbaCoOperativeAccountingAndAuditUnitNotes } from "./unit-notes/mba-cooperative-accounting-and-audit-aktu";
+import { MbaCooperativeAccountingAndAuditUnitNotes } from "./unit-notes/mba-cooperative-accounting-and-audit-aktu";
 import { MbaNonCreditCooperativesUnitNotes } from "./unit-notes/mba-non-credit-co-operatives-aktu";
 
 
@@ -1616,7 +1616,7 @@ UNIT II (8 Hrs) Accounting of ZSBs: Accounting rules and procedures for the Zila
 UNIT III (8 Hrs) Cooperative Audit: Definition; Objectives; Scope and Advantages of Audit; Internal Check Vs Internal Audit; Audit, Inspection and Supervision; Audit of Co-operative Societies Vs Joint Stock Companies; Administrative set up for Co-operative Audit; Appointment of Auditor; Rights, duties and responsibilities of a Cooperative Auditor; Types of Audit; Mechanical and Administrative Audit; Preparations for Audit and Framing of Audit Programme. 
 UNIT IV (8 Hrs) Audit Certificate and Classification: Commencement of Audit Programme; Routine Checking; Vouching of Cash Transaction; Meaning of Verification; Mode of Valuation of various Assets and Liabilities; Depreciation; Reserve: Meaning, and Definition; Various Reserves; Audit of Final Accounts; Profit and Loss Account; Balance Sheet; Reconciliation of Bank Accounts; Audit Report; Audit Certificate; Audit Classification; Assessment and Levy of Audit Fees. Page 86 
 UNIT V (8 Hrs) Audit Programme for Selected Societies: Various stages of Audit; Audit procedures for Cooperative Credit Institutions; Marketing Societies; Consumer Stores; Housing Societies; Milk Producers Societies; Industrial Cooperatives; Classification on the Reserve Bank of India Standard; Preparation of Final Audit Memorandum and its Enclosures.`,
-     unitNotes: MbaCoOperativeAccountingAndAuditUnitNotes,
+     unitNotes: MbaCooperativeAccountingAndAuditUnitNotes,
   },
   {
     id: `s-1092`,
