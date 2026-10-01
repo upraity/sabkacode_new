@@ -57,10 +57,20 @@ import { principlesAndPracticesOfCooperationUnitNotes } from "./unit-notes/princ
 import { cooperativeLegislationUnitNotes } from "./unit-notes/co-operative-legislation";
 import { creditCooperativesUnitNotes } from "./unit-notes/credit-cooperatives";
 
-
-
-
-
+import { MbaUniversalHumanValuesAndProfessionalEthicsUnitNotes } from "./unit-notes/mba-universal-human-values-and-professional-ethics-aktu";
+import { MbaServiceAndRetailMarketingUnitNotes } from "./unit-notes/mba-service-and-retail-marketing-aktu";
+import { MbaB2bMarketingUnitNotes } from "./unit-notes/mba-b2b-marketing-aktu";
+import { MbaHrAnalyticsUnitNotes } from "./unit-notes/mba-hr-analytics-aktu";
+import { MbaOrganizationalDevelopmentAndChangeManagementUnitNotes } from "./unit-notes/mba-organizational-development-and-change-management-aktu";
+import { MbaBehaviouralFinanceUnitNotes } from "./unit-notes/mba-behavioural-finance-aktu";
+import { MbaStrategicFinancialManagementUnitNotes } from "./unit-notes/mba-strategic-financial-management-aktu";
+import { MbaServiceOperationsManagementUnitNotes } from "./unit-notes/mba-service-operations-management-aktu";
+import { MbaProjectAndSourcingManagementUnitNotes } from "./unit-notes/mba-project-and-sourcing-management-aktu";
+import { MbaManagingGlobalSupplyChainsUnitNotes } from "./unit-notes/mba-managing-global-supply-chains-aktu";
+import { MbaInternationalFinanceUnitNotes } from "./unit-notes/mba-international-finance-aktu";
+import { MbaEBusinessUnitNotes } from "./unit-notes/mba-e-business-aktu";
+import { MbaBusinessDataWarehouseAndDataMiningUnitNotes } from "./unit-notes/mba-business-data-warehouse-and-data-mining-aktu";
+import { MbaCoOperativeAccountingAndAuditUnitNotes } from "./unit-notes/mba-co-operative-accounting-and-audit-aktu";
 
 
 
@@ -1353,6 +1363,7 @@ UNIT-2: Understanding Harmony in the Human Being - Harmony in Myself (8Hours) Un
 UNIT-3: Understanding Harmony in the Family and Society- Harmony in Human-Human Relationship (8 Hours) Understanding harmony in the Family- the basic unit of human interaction , Understanding values in human-human relationship; meaning of Nyaya and program for its fulfillment to ensure Ubhay- tripti; Trust (Vishwas) and Respect (Samman) as the foundational values of relationship, Understanding the meaning of Vishwas; Difference between intention and competence, Understanding the meaning of Samman, Difference between respect and differentiation; the other salient values in relationship, Understanding the harmony in the society (society being an extension of family): Samadhan, Samridhi, Abhay, Sah-astitva as comprehensive Human Goals, Visualizing a universal harmonious order in society- Undivided Society (AkhandSamaj), Universal Order (Sarvabhaum Vyawastha )- from family to world family!. 
 UNIT-4: Understanding Harmony in the Nature and Existence - Whole existence as Co- existence (8 Hours) Understanding the harmony in the Nature, Interconnectedness and mutual fulfilment among the four orders of nature- recyclability and self-regulation in nature, Understanding Existence as Co- existence (Sah-astitva) of mutually interacting units in all-pervasive space, Holistic perception of harmony at all levels of existence. 
 UNIT-5: Implications of the above Holistic Understanding of Harmony on Professional Ethics ( 8 Hours) Natural acceptance of human values, Definitiveness of Ethical Human Conduct, Basis for Humanistic Education, Humanistic Constitution and Humanistic Universal Order, Competence in Professional Ethics: a) Ability to utilize the professional competence for augmenting universal human order, b) Ability to identify the scope and characteristics of people-friendly and eco-friendly production systems, technologies and management models, Case studies of typical holistic technologies, management models and production systems, Strategy for transition from the present state to Universal Human Order: a) At the level of individual: as socially and ecologically responsible engineers, technologists and managers, b) At the level of society: as mutually enriching institutions and organizations Page 57`,
+      unitNotes: MbaUniversalHumanValuesAndProfessionalEthicsUnitNotes,
   },
   {
     id: `s-1078`,
@@ -1370,6 +1381,7 @@ Unit 2 (6 Hours) Understanding Consumer Behavior and Service Design Understandin
 Unit 3 (8 Hours) Delivering Services: Role of Employees and Customers in service delivery;, Service process – Blue printing – Physical evidence. Pricing of Services: Pricing Considerations and Strategies,. Managing Service Promise: Role of Advertising, Personal Selling, Sales Promotion, Publicity and Public Relations. Service Performance. Evaluating Success of Service Offering: Service quality and measurement, Complaint handling, Recovery Management, Service Guarantees, the GAP model of service Quality. 
 Unit 4 (10hrs) Introduction to retailing & Retail Consume behavior : Nature, scope and importance of retailing, Factors Influencing Retailing, Retail Models ,Retail formats: Store-based (department stores, supermarkets, discount stores) and non-store based (e-retail, vending, direct selling), Organized vs Unorganized retail in India, FDI in retail and current policy framework, Understanding retail consumer behavior, Factors influencing in-store and online consumer decisions, Retail marketing mix (6Ps: Product, Price, Place, Promotion, People, Presentation),Retail branding and private labels. Page 59 
 Unit 5 (10) Merchandise Management, Pricing, and Supply Chain: Merchandise planning process, Assortment planning and category management, Retail buying process; vendor selection, Inventory management and stock turnover Pricing objectives and strategies in retail, Supply chain management in retail, Role of technology: barcoding, RFID, POS`,
+     unitNotes: MbaServiceAndRetailMarketingUnitNotes,
   },
   {
     id: `s-1079`,
@@ -1387,6 +1399,7 @@ UNIT II: Organizational Buying and Buyer Behaviour (8 Hours) Organizational Buye
 UNIT III: B2B Marketing Strategy (8 Hours) Strategy Making and Strategy Management in B2B; Industrial Product Strategy; Managing Products and Services for Business Markets; Managing Business Market Channels; Strategic Tools: Growth-Share Matrix, Multifactor Portfolio Matrix, The Balanced Scorecard. Case studies. 
 UNIT IV: Segmentation, Targeting & Positioning (STP) in B2B Markets (8 Hours) Market Segmentation in B2B Context; Basic Framework of Segmentation; Selecting Target Segments; Positioning Strategies in B2B; Pricing Strategies in Business Markets; B2B Advertising Techniques; Competitive Bidding Process; Relationship Marketing and CRM. Case studies. 
 UNIT V: Business Marketing Communication and Channels (8 Hours) B2B Advertising Channels and Communication Strategies; Digital Marketing in B2B; Trade Shows, Exhibitions, and Business Meets; Sales Force Management and Deployment Analysis; Business Marketing Channels and Participants; Channel Design and Management Decisions; B2B Logistics Management. Case studies. Page 61`,
+      unitNotes: MbaB2bMarketingUnitNotes,
   },
   {
     id: `s-1080`,
@@ -1404,6 +1417,7 @@ UNIT 2 8 Hours Human Resource Planning and forecasting: Quantitative and Qualita
 UNIT 3 8 Hours Performance Analysis: Predicting employee performance, Training requirements, evaluating training and development, Optimizing selection and promotion decisions, Analyzing and Classifying training needs, Measuring training effectiveness, Predicting training effectiveness and performance. Designing a Compensation System: Understanding compensation Analytics, quantifiable data, Factors affecting Compensation & Benefits, Analytics for compensation planning, Competency Scorecard. 
 UNIT 4 4 Hours Monitoring impact of Interventions: Tracking impact interventions, Evaluating stress levels and value-change. Formulating evidence based practices and responsible investment, Evaluation mediation process, moderation and interaction analysis. 
 UNIT 5 8 Hours Applications of HR Metrics and Creating HR Dashboards: HR Metrics, Types of HR Metrics, Staffing Metrics, Training and Development Metrics, Application-oriented Exercises : Dashboards: Few Key Excel Add-ins/Functions to Help Create Dashboards, Name Range, The Developer Tab, Form Controls, Important Excel Formulas Useful for Creating Dashboards, VLOOKUP, INDEX, SUMIF, AVERAGEIF and COUNTIF, Application of Excel Functions in Creating HR Dashboards, Storyboarding: Connecting the Dots and Integrating the Findings. Page 63`,
+      unitNotes: MbaHrAnalyticsUnitNotes,
   },
   {
     id: `s-1081`,
@@ -1421,6 +1435,7 @@ Unit 2 Action Research and OD 8hrs Managing OD Process: Diagnosis, Nature of OD 
 Unit 3: Implementation and Assessment of O.D. 7 hrs Implementation conditions for failure and success of efforts. Assessment of O.D. and change in oganisational performance , The impact of O.D, Some key considerations and issues in O.D., Issues in Consultant – Client relationship mechanistic & organic system: and contingency approach, The failure of O.D. 
 Unit 4: STRESS MANAGEMENT & ORGANIZATIONAL CHANGE 10 hrs Stress at Work Four approaches to Stress; The stress response Sources of work stress Occupational Stress Preventive stress management; Occupational Safety and Grievances redressal, Change cycles, Types of change, Readiness and, Resistance to Change and its diagnosis, Levels of Change (Hersey & Blanchard) Organizational change models. Diagnosis ,red flags in diagnosis. Theories and Models of Planned Change: Lewin‘s Change Model, Seven Stage Model 
 Unit 5 : DIVERSITY AND INCLUSION 7 hrs Diversity : Demographic Characteristics Levels of Diversity Discrimination :Stereotype threat, Discrimination at workplace Biographical characteristics – Sex , Race and Ethnicity ,Disabilities , Hidden Disabilities Other Differentiating Characteristics : Tenure, Religion, Sexual Orientation. Page 65`,
+      unitNotes: MbaOrganizationalDevelopmentAndChangeManagementUnitNotes,
   },
   {
     id: `s-1082`,
@@ -1438,6 +1453,7 @@ Unit II Hrs 8 Heuristics and Biases : How the Human mind Works: The Two Systems,
 Unit III Hrs 8 Prospect Theory, Framing and Mental Accounting: Error in Bernoullis Theory, Prospect Theory, SP/A Theory, Framing, Mental Accounting, From theory to practice. Challenge to market efficiency: Theoretical foundations of EMH, Empirical for EMH, Theoretical Challenges for EMH, Noise trading and limits to Arbitrage, Keynes Beauty contest and guess- a number game, Assessment of EMH. 
 UNIT IV Hrs 8 Investor Behaviour: Portrait of an individual investor, what the heuristics and biases mean for Page 67 financial decision making, implications of: emotions and mental accounting. Behavioural portfolio theory, psychographic models, basic ingredients of sound investment philosophy, guidelines for overcoming psychological biases. 
 UNIT V Hrs 8 Market outcomes: Size effect and seasonality, Momentum and reversal, post- earnings announcement drift, value premium, premium puzzle, excessive volatility, Bubbles, Behavioral Asset Pricing Model. Value Investing: Central tenets of value investing, Evidence and prospects of value investing, Strategies of well-known value investors, academic research on value investing. S. Bloom’s`,
+      unitNotes: MbaBehaviouralFinanceUnitNotes,
   },
   {
     id: `s-1083`,
@@ -1455,6 +1471,7 @@ Unit II 8 Hours Capital Structure: factors affecting capital structure, Capital 
 Unit III 8 Hours Dividend policy: Factors affecting dividend decisions. Theories of Dividend polices, corporate dividend behaviour of companies, Legal and procedural aspects. 
 Unit IV 8 Hours Institutional setup for term finance and working capital finance: term lending institutions and commercial banks, NBFCs..Commercial Banking, Working Capital, Venture Capital Venture capital funds: Stages in Venture capital financing, Business plan, elements of a business plan, the process of venture capital financing, methods of venture capital financing, future. Prospects of venture capital financing. 
 Unit V 8 Hours Project planning and analysis: project - Meaning and concept - Project life cycle - generation and screening of ideas - Analysis of market and demand - Technical and Financial Analysis Page 69 S. Bloom’s`,
+     unitNotes: MbaStrategicFinancialManagementUnitNotes,
   },
   {
     id: `s-1084`,
@@ -1472,6 +1489,7 @@ Unit 2: (8 Hours) Service process design: flow diagrams, blueprinting, process a
 Unit 3: (8 Hours) Service Quality and Productivity: Concept of service quality and SERVQUAL model, Gap model of service quality, Techniques for measuring service quality. Productivity in service operations, Balancing productivity and customer satisfaction. Service recovery strategies. Customer retention and service guarantee strategies. Case Study Analysis and Industry Examples. 
 Unit 4: (8 Hours) Technology in Service Operations: Role of Information Technology in service operations. Self- service technologies and automation, E-services and digital service delivery models, Integration of CRM systems in service operations. Cloud computing and IT-enabled services (ITES). Managing back-office and front-office integration. Technology adoption challenges and strategies. Case Discussions. 
 Unit 5: (8 Hours) Service Operations: Service operations strategy formulation and execution. Strategic capacity and facility management. Innovation in service operations. Sustainable service operations and green practices. Benchmarking and continuous improvement in service processes. Performance measurement frameworks in services. Application of service operations strategies in banking, hospitality, healthcare, retail, ITES, and logistics sectors. Page 72`,
+     unitNotes: MbaServiceOperationsManagementUnitNotes,
   },
   {
     id: `s-1085`,
@@ -1489,6 +1507,7 @@ Unit 2 (8 Hours) Evaluating Suppliers' Efficiency: Vendor Rating, Selection and 
 Unit 3 (8 Hours) Price Determination and Negotiation: Objectives of Pricing, Factors Influencing Pricing, Types of Pricing Strategies, Negotiation in sourcing: Meaning of Negotiation, Examples of Negotiation, Types of Negotiations, The Process of Negotiation, Skills for Successful Negotiating, and Obstacles to Negotiation. Case Studies 
 Unit 4(8Hours) Introduction of Project: Characteristics of Project, Types of Projects, Project Life Cycle, Concepts of Deliverables, The Project Management Process, Roles of Project Team & Project Leader, Fundamental components of Project Cost, Types of Costs: Direct, Indirect, Recurring, Non-Recurring, Fixed, Variable, Project Financing and Budgeting: Sources of Finance, Top down Budgeting, Bottom up Budgeting, Activity Based Costing Page 74 
 Unit 5 (8 Hours) Project Scheduling, Network Analysis & Control : Steps in Project Scheduling and Network design, Gantt Chart, Work Breakdown Structure (WBS) , Identifying and application of the Nodes and Activities, Activity on Arrow (AoA) and Activities on Node (AoN) methods, Application of PERT and CPM, Planning- Monitoring and Control Cycle, Tracking through Gantt chart. Earned Value Analysis (EVA): Planned Value (PV), Earned Value (EV), Cost Variance (CV), Schedule Variance (SV), Cost performance Index (CPI), Schedule performance Index (SPI). Project Termination: Types of Terminations, Project Termination Process. Case Studies`,
+      unitNotes: MbaProjectAndSourcingManagementUnitNotes,
   },
   {
     id: `s-1086`,
@@ -1506,6 +1525,7 @@ Unit 2: Supply Chain Design and Network Configuration (10Hrs) Principles of supp
 Unit 3: Supply Chain Operations and Coordination (6Hrs) Coordination mechanisms and collaboration among supply chain partners; Role of Indian logistics infrastructure and regulatory factors; Supply chain performance measurement; Case analysis. 
 Unit 4: Risk Management and Sustainability (8Hrs) Types of risks in global supply chains: geopolitical, operational, financial, environmental; Risk assessment and mitigation frameworks; Sustainability in supply chains: Green Supply Chain Management (GSCM) principles; Corporate social responsibility and ethical sourcing, with case studies from Indian companies. Case analysis on supply chain disruptions and recovery plans; Exercises on the discussion on sustainable practices in Indian industries Page 76 
 Unit 5: Technology and Innovation in Global Supply Chains (8Hrs) Digital transformation in supply chains; Emerging technologies: AI, blockchain, robotics, and their applications in supply chains; Role of Industry 4.0 and latest trends in supply chain innovation; Challenges and opportunities of technology adoption in Indian firms; Case study on digital supply chains in Indian retail and manufacturing sectors`,
+      unitNotes: MbaManagingGlobalSupplyChainsUnitNotes,
   },
   {
     id: `s-1087`,
@@ -1523,6 +1543,7 @@ Unit II: International Financial Institutions (6 Hrs) Overview of International 
 Unit III: Foreign Exchange Management (10 Hrs) Structure of Forex Markets: Wholesale and Domestic Markets; Types of Forex Quotations: Direct, Indirect, Cross Currency; Foreign Exchange Transactions and Settlement Dates; Forward Rates, Swaps, and Merchant Transaction Quotes; Early Delivery, Extension, and Cancellation of Forward Contracts; Introduction to Cryptocurrencies in the International Finance Context; Exchange Rate Determination and Forecasting: Purchasing Power Parity (PPP), Interest Rate Parity (IRP). 
 Unit IV: Foreign Exchange Exposure in International Financial Systems (10 Hrs) Types of Foreign Exchange Exposure: Transaction, Translation, Economic; Managing Transaction and Translation Exposure, Hedging Strategies; Measuring and Managing Economic Exposure and Foreign Exchange Risk; Multinational Financial System: Role and Value in Global Business, Designing Global Remittance Policies, Transfer Pricing and Tax Evasion Issues; International Securities: GDR, ADR, Eurobonds, Foreign Bonds Page 78 
 Unit V: International Investment and Challenges (8 Hrs) International Portfolio Investment: Foreign Investment Analysis, International Bond Investing, Direct Investment Strategies, Optimal International Asset Allocation; International Foreign exchange risk: types of exposure including transaction exposure, translation exposure, and economic exposure; impact of currency volatility on multinational corporations and cross-border cash flows; political and sovereign risk: effects of political instability, abrupt policy changes, and expropriation; regulatory and compliance challenges.`,
+      unitNotes: MbaInternationalFinanceUnitNotes,
   },
   {
     id: `s-1088`,
@@ -1540,6 +1561,7 @@ Unit - II: 8 hrs Setting Up and Managing an E-Business: Launching an E-Business 
 Unit - III: 8 hrs IT Enabled Services and Pervasive Technologies: Introduction to IT Enabled Services (ITES) - Categorization: General Services, Specialized Services, Role of BPO in e-business; ITES in India - Industry size, trends, and global contribution; Mobile Commerce and Pervasive Computing - Mobile payments, omnichannel commerce, IoT integration; Legal Framework - IT Act of India: key provisions and business implications 
 Unit - IV: 6 hrs E-Government and E-Governance: Fundamentals of E-Governance - Definitions, concepts, and objectives, Stages and maturity models of e-governance; National E-Governance Initiatives - National E-Governance Plan (NEGP), Mission Mode Projects and implementation frameworks, Role of ICT in public service delivery. Page 80 
 Unit - V: 12 hrs E-Governance Models and Applications: Categories and Models of E-Governance - Technology policy, infrastructure, training, and consulting funds, Models: Digital Governance, Broadcasting/Wider Dissemination, Critical Flow, Interactive Service, Govt-to-Citizen-to-Govt; Major E-Governance Service Areas: Public grievance redressal (telephone, ration card, land records, police records), Rural and urban digital service delivery Contemporary Issues and Future Trends: Trends in E-Business and E-Governance - Artificial intelligence in e-business, Big data and analytics, Blockchain and smart contracts; Sustainability and Ethical Considerations -Data privacy, green IT, social responsibility`,
+     unitNotes: MbaEBusinessUnitNotes,
   },
   {
     id: `s-1089`,
@@ -1557,6 +1579,7 @@ Unit - II: 7 hrs Data Warehouse Modeling and Implementation: Multidimensional Da
 Unit - III: 7 hrs Data Preprocessing and Exploration: Data Preparation Techniques - Data cleaning, integration, transformation, Data reduction, discretization, concept hierarchy; Feature Engineering -Feature extraction and transformation for mining; Visualization and Statistical Summaries -Data summarization, data visualization for business; Issues and Challenges - High dimensionality, scalability, missing values 
 Unit - IV: 10 hrs Data Mining Methods: Association Rule Mining - Mining frequent patterns, market basket analysis, Apriori algorithm and advanced techniques, Constraint-based and correlation mining; Classification and Prediction - Decision trees, Bayesian classifiers, SVM, rule-based classifiers, Regression, prediction accuracy, and evaluation, Ensemble methods and business use cases; Clustering -Clustering algorithms: k-means, hierarchical, density-based, grid-based, Clustering Page 82 high-dimensional data, outlier detection, Applications in segmentation, targeting, fraud detection 
 Unit - V: 10 hrs Advanced Mining Topics and Applications: Web, Text, and Multimedia Mining - Concepts and business applications; Spatial and Temporal Data Mining - Techniques and relevant uses; Business Intelligence and Case Studies -CRM, financial analytics, marketing, social media, retail, insurance; Trends in Data Mining -Big Data, cloud data warehousing, real-time analytics, AI-driven mining Data Mining Implementation and Ethics: Evaluation and Validation - Accuracy, overfitting, underfitting, cross-validation; Business Integration - Aligning mining outcomes with business strategy, User adoption and deployment; Privacy, Security, and Ethical Issues - Data privacy challenges, security in warehousing/mining, Regulations and best practices, Ethical implications in data analysis and usage`,
+      unitNotes: MbaBusinessDataWarehouseAndDataMiningUnitNotes,
   },
   {
     id: `s-1090`,
@@ -1591,6 +1614,7 @@ UNIT II (8 Hrs) Accounting of ZSBs: Accounting rules and procedures for the Zila
 UNIT III (8 Hrs) Cooperative Audit: Definition; Objectives; Scope and Advantages of Audit; Internal Check Vs Internal Audit; Audit, Inspection and Supervision; Audit of Co-operative Societies Vs Joint Stock Companies; Administrative set up for Co-operative Audit; Appointment of Auditor; Rights, duties and responsibilities of a Cooperative Auditor; Types of Audit; Mechanical and Administrative Audit; Preparations for Audit and Framing of Audit Programme. 
 UNIT IV (8 Hrs) Audit Certificate and Classification: Commencement of Audit Programme; Routine Checking; Vouching of Cash Transaction; Meaning of Verification; Mode of Valuation of various Assets and Liabilities; Depreciation; Reserve: Meaning, and Definition; Various Reserves; Audit of Final Accounts; Profit and Loss Account; Balance Sheet; Reconciliation of Bank Accounts; Audit Report; Audit Certificate; Audit Classification; Assessment and Levy of Audit Fees. Page 86 
 UNIT V (8 Hrs) Audit Programme for Selected Societies: Various stages of Audit; Audit procedures for Cooperative Credit Institutions; Marketing Societies; Consumer Stores; Housing Societies; Milk Producers Societies; Industrial Cooperatives; Classification on the Reserve Bank of India Standard; Preparation of Final Audit Memorandum and its Enclosures.`,
+     unitNotes: MbaCoOperativeAccountingAndAuditUnitNotes,
   },
   {
     id: `s-1092`,
