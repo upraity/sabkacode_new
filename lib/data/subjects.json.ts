@@ -71,7 +71,7 @@ import { MbaInternationalFinanceUnitNotes } from "./unit-notes/mba-international
 import { MbaEBusinessUnitNotes } from "./unit-notes/mba-e-business-aktu";
 import { MbaBusinessDataWarehouseAndDataMiningUnitNotes } from "./unit-notes/mba-business-data-warehouse-and-data-mining-aktu";
 import { MbaCoOperativeAccountingAndAuditUnitNotes } from "./unit-notes/mba-cooperative-accounting-and-audit-aktu";
-import { MbaNonCreditCooperativesUnitNotes } from "./unit-notes/mba-non-credit-co-operative-aktu";
+import { MbaNonCreditCooperativesUnitNotes } from "./unit-notes/mba-non-credit-co-operatives-aktu";
 
 
 
