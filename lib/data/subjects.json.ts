@@ -44,6 +44,21 @@ import { performanceAndRewardManagementUnitNotes } from "./unit-notes/performanc
 import { InvestmentAndPortfolioManagementUnitNotes } from "./unit-notes/investment-and-portfolio-management";
 import { TaxPlanningManagementUnitNotes } from "./unit-notes/tax-planning-and-management";
 import { FinancialCreditAndRiskAnalysisUnitNotes } from "./unit-notes/financial-credit-and-risk-analysis";
+import { SupplyChainLogisticsManagementUnitNotes } from "./unit-notes/supply-chain-logistics-management";
+import { BusinessProcessReEngineeringUnitNotes } from "./unit-notes/business-process-re-engineering";
+import { QualityManagementUnitNotes } from "./unit-notes/quality-management";
+import { internationalbusinessmanagementUnitNotes } from "./unit-notes/international-business-management";
+import { exportimportdocumentationsUnitNotes } from "./unit-notes/export-import-documentations";
+import { geopoliticsandtradeUnitNotes } from "./unit-notes/geopolitics-and-trade";
+import { softwareEngineeringAndManagementUnitNotesUnitNotes } from "./unit-notes/software-engineering-and-management";
+import { emergingTechnologiesForBusinessUnitNotesUnitNotes } from "./unit-notes/emerging-technologies-for-business";
+import { databaseManagementSystemUnitNotesUnitNotes } from "./unit-notes/database-management-system";
+import { principlesAndPracticesOfCooperationUnitNotes } from "./unit-notes/principles-and-practices-of-cooperation";
+import { cooperativeLegislationUnitNotes } from "./unit-notes/co-operative-legislation";
+import { creditCooperativesUnitNotes } from "./unit-notes/credit-cooperatives";
+
+
+
 
 
 
@@ -1056,6 +1071,7 @@ Unit 2 (8 Hours) Logistics :Evolution, Objectives, Components and Functions of L
 Unit 3 (8 Hours) Supply Chain Performance: Bullwhip effect and reduction, Performance measurement: Dimension, Tools of performance measurement, SCOR Model. Demand chain management, Global Supply chain- Challenges in establishing Global Supply Chain, Factors that influences designing Global Supply Chain Network. 
 Unit 4 (8 Hours) Warehousing: Concept and types, Warehousing strategy, Warehouse facility location & network design, Reverse logistics, Outsourcing- Nature and concept, Strategic decision to Outsourcing, Third party logistics(3PL), Fourth party logistics(4PL). 
 Unit 5 (8 Hours) Supply Chain and CRM- Linkage, IT infrastructure used for Supply Chain and CRM, Functional components for CRM, Green supply chain management, Supply Chain sustainability`,
+      unitNotes: SupplyChainLogisticsManagementUnitNotes,
   },
   {
     id: `s-1063`,
@@ -1073,6 +1089,7 @@ Unit 2: (8 Hours) Business Process Mapping and Modeling: Tools and Techniques. P
 Unit 3: (8 Hours) BPR Life Cycle and Methodology: Hammer & Champy, Davenport, and other approaches. Strategic alignment and process prioritization. Role of IT in BPR: Enterprise Resource Planning (ERP), Artificial Intelligence, and Process Automation. Tools supporting BPR: Business Process Management Systems (BPMS), Workflow Automation Tools. Cost-benefit analysis of BPR initiatives. Managing BPR implementation projects. Case Study Discussions. 
 Unit 4: (8 Hours) Change Management and Risk Mitigation in BPR: Organizational change management principles relevant to BPR. Human resource considerations and overcoming resistance to change. Risk identification and mitigation strategies in BPR. Communication strategies for BPR success. Measuring outcomes and impact of re-engineered processes. Learning from BPR failures: Global and Indian corporate examples. 
 Unit 5: (8 Hours) Emerging Trends in Process Reengineering: Digital transformation and BPR. Industry 4.0 and process digitization. Role of Big Data Analytics and Cloud Computing in reengineering processes. Sustainable and green process reengineering. Future directions of BPR in service and manufacturing sectors.`,
+   unitNotes: BusinessProcessReEngineeringUnitNotes,
   },
   {
     id: `s-1064`,
@@ -1090,6 +1107,7 @@ Unit 2 (8 Hours) Quality Management System (QMS) & Process Quality Improvement :
 Unit 3 (7 Hours) Product Quality Improvement: Quality Function Deployment, Robust Design and Taguchi Method, Design Failure Mode & Effect Analysis, Product Reliability Analysis. 
 Unit 4 (9Hours) Total Quality Management: Meaning of TQM, Elements of Total Quality Management, Quality Circles, Six Sigma, Six sigma for Process Improvement, Six Sigma in Product Development & Design. Benchmarking, Quality Function Deployment (QFD), Taguchi’s Quality Engineering, Total Productive Maintenance (TPM) 
 Unit 5 (8 Hours) Quality Standards : ISO-9000 and it concept of Quality management, ISO 14001, ISO 22000, ISO 27001, OHSAS 18001 and QS 9000, Indian Quality standards, Quality Audit, Quality Awards.`,
+   unitNotes: QualityManagementUnitNotes,
   },
    {
     id: `s-1065`,
@@ -1107,7 +1125,8 @@ Unit 2: Trade Policy & Commercial Instruments (6 Hours) Instruments of commercia
 Unit 3: Business Environment & Political Economy (10 Hours) International business environment analysis: PESTEL covering economic, political, cultural, technological factors, cultural dimensions: language, religion, communication styles in business contexts, political and legal frameworks: systems of governance, legal protection, IPR, and national risk factors. Latest updates and cases. 
 Unit 4: International Marketing (8 Hours) Introduction to International Marketing: Definition, scope and importance; Differences between domestic and international marketing; EPRG framework (Ethnocentric, Polycentric, Regiocentric,Geocentric); Environmental factors affecting international marketing – Political, Economic, Social, Cultural, Technological, Legal; Hofstede’s cultural dimensions and their impact on marketing decisions; International market research and segmentation; International product and pricing decisions. Latest updates and cases. 
 Unit 5: International Strategy, Institutions and Operations (8 Hours) Global business strategy: standardization vs localization, international expansion strategies including M&A, alliances, licensing, franchising, international marketing, supply chain and logistics management, use of Incoterms, role of trade promotion bodies in India (EXIM Bank, ECGC), global institutions and trade agreements: WTO, GATT, IMF, World Bank, TRIPS, TRIMS, GATS, regional economic blocs: EU, ASEAN, NAFTA, SAARC, emergence and strategies of multinational firms, Indian export promotion schemes and SEZ policies.`,
-  },
+      unitNotes: internationalbusinessmanagementUnitNotes,
+   },
    {
     id: `s-1066`,
     slug: `eid`,
@@ -1124,7 +1143,8 @@ Unit 2: Commercial and Regulatory Documentation (8Hr) Commercial documents: prof
 Unit 3: Shipping, Logistics & Insurance Documentation (7Hr) Indian logistics infrastructure: Inland Container Depots (ICDs); Container Freight Stations (CFS); Special Economic Zones (SEZs); role of shipping lines and freight forwarders; types of shipments: Full Container Load (FCL) vs Less than Container Load (LCL); types of transport Page 40 documents: bill of lading; airway bill; multimodal transport documents; marine insurance in India. 
 Unit 4: Banking, Payment & Foreign Exchange Documents (9Hr) Payment modes in Indian trade: advance payment; documents against payment (DP); documents against acceptance (DA); letter of credit (LC) process under Uniform Customs and Practice for Documentary Credits (UCPDC) norms; Reserve Bank of India (RBI) and Foreign Exchange Management Act (FEMA) guidelines on foreign exchange (forex) management; Authorized Dealer (AD) bank’s role; banking documents: electronic Bank Realization Certificate (e-BRC); Foreign Inward Remittance Certificate (FIRC); Goods Receipt (GR) form; Shipping Declaration Form (SDF); steps for foreign currency realization and repatriation. 
 Unit 5: Customs Procedures and Digital Trade Platforms (8Hr) Overview of Indian Customs Act; customs clearance process for exports and imports; role of Customs House Agent (CHA); Indian Customs Electronic Gateway (ICEGATE) registration; uploading documents online (shipping bill, electronic Certificate of Origin (e-CoO), electronic Bank Realization Certificate (e-BRC)); Indian Single Window System; trade analytics and compliance monitoring tools.`,
-  },
+      unitNotes: exportimportdocumentationsUnitNotes,
+   },
    {
     id: `s-1067`,
     slug: `gpt`,
@@ -1141,7 +1161,8 @@ Unit 2: Geopolitical Conflicts and Trade Disruptions Strategic use of trade rest
 Unit 3: Resource Geopolitics and Energy Security Global energy politics: pipelines, ports, and control zones, political economy of OPEC+ and fuel pricing, climate politics: carbon tariffs, green subsidies, energy transition diplomacy, competition over water and agricultural trade resources, resource diplomacy: energy aid, extraction deals, infrastructure influence. Latest updates. 
 Unit 4: Power Blocs, Alliances, and Regional Trade Politics (8 Hours) Formation and impact of global power blocs (BRICS, G7, G20, QUAD), strategic trade alignments: Belt and Road Initiative, Indo-Pacific strategy, trade agreements with geopolitical motives (e.g., RCEP, IPEF, EU-African deals), politics behind FTAs, customs unions, economic corridors, soft power, foreign aid, trade missions in foreign policy. Latest updates. 
 Unit 5: Emerging Risks and the Future of Political Trade (8 Hours) Technology and trade tensions: AI, semiconductors, data localization, cybersecurity, digital surveillance, trade infrastructure risk, friend-shoring, near-shoring, supply chain reconfiguration, satellite-based trade surveillance, maritime control, future outlook: multipolar world, global fragmentation, trade resilience strategies. Latest updates.`,
-  },
+      unitNotes: geopoliticsandtradeUnitNotes,
+   },
    {
     id: `s-1068`,
     slug: `sem`,
@@ -1158,7 +1179,8 @@ Unit - II: 8 hrs Analysis Techniques & Tools: Study of Existing Systems - Inform
 Unit - III: 8 hrs Page 44 System Design and Data Management: Principles of System Design; Input-Output Design for Business Applications; Design of Online Catalogues; File Organization and Design Techniques; Database Concepts and Design 
 Unit - IV: 8 hrs Systems Analysis and Design in E-Commerce: E-Commerce Models: B2B, B2C, and C2C; Advantages and Disadvantages of E-Commerce Systems; E-Commerce System Architectures; Security Considerations in E-Commerce 
 Unit - V: 10 hrs Business System Development and Implementation: System Testing and Quality Assurance; Documentation for Systems; Implementation and Development Processes; Hardware and Software Selection Criteria; System Maintenance and Support Security Control and Auditing: Security and Auditing of Information Systems; Objectives and Techniques of Information System Controls; Auditing Information Systems; Disaster Recovery and Business Process Continuity Planning`,
-  },
+  unitNotes: softwareEngineeringAndManagementUnitNotesUnitNotes,
+   },
    {
     id: `s-1069`,
     slug: `etb`,
@@ -1175,7 +1197,8 @@ Unit - II: 8 Hours Data Science, Big Data & Cloud Computing: Understanding data,
 Unit - III: 6 Hours Artificial Intelligence, IoT & Computer Vision: Artificial Intelligence (AI): machine learning, deep learning, business applications; IoT: architecture, devices, enabling networks, and business implementations; Use of IoT in supply chain, healthcare, smart cities, manufacturing; Computer Vision: fundamentals, business applications in quality control, retail, and automation; Integration of AI & IoT for intelligent products and smart services 
 Unit - IV: 12 Hours Blockchain, 3D Printing & Other Disruptive Technologies: Blockchain fundamentals: distributed ledgers, smart contracts, business applications (finance, supply chain, traceability); Real-world challenges and regulatory considerations for blockchain adoption; 3D Printing (Additive Manufacturing): technology, business use cases, supply chain impact, mass customization; Survey of additional emerging technologies (e.g., neuromorphic computing, quantum computing, edge computing) AR, VR, MR & Virtual Try-On in Business: Augmented Reality (AR), Virtual Reality (VR), and Mixed Reality (MR): differences, technologies, and development; Immersive experiences in business: marketing, training, product design, simulation; Virtual Try-On: concepts, enabling technologies (AR/AI), applications in retail, fashion, beauty, home décor; Data-driven personalization and customer engagement via immersive technologies; Challenges and opportunities of implementing immersive solutions 
 Unit - V: 6 Hours Ethics, Security, Sustainability & Leadership in Emerging Tech: Data privacy, security, and compliance (GDPR, other regulations); Cybersecurity issues in cloud, AI, IoT, and blockchain adoption; Ethics and bias in AI, big data, and immersive technologies; Sustainable technology adoption and digital responsibility; Leadership and future workplace skills: managing innovation, change management, digital strategy`,
-  },
+      unitNotes: emergingTechnologiesForBusinessUnitNotesUnitNotes,
+   },
    {
     id: `s-1070`,
     slug: `dbms`,
@@ -1192,7 +1215,8 @@ Unit - II: 8 hrs Data Modelling & Database Design: Entity-Relationship (ER) Mode
 Unit - III: 8 hrs Relational Query Languages: Structured Query Language (SQL) -Data Definition Language (DDL), Data Manipulation Language (DML), Creating, altering, and deleting tables, Data types, constraints, aggregate functions, Joins, sub-queries, views, transaction control commands (commit, rollback); Relational algebra and calculus - Operators: Selection, projection, join, set operations 
 Unit - IV: 8 hrs Database Implementation & Management: Database storage and physical structures - Indexing, B-trees, hashing; Query processing and optimization - Evaluation strategies, query cost analysis; Backup, recovery, and disaster management; Concurrency control: Locking, timestamping, deadlocks; Transaction management and ACID properties 
 Unit - V: 10 hrs Security, Authorization, and Advanced Topics: Database security: Authentication, authorization, privileges, threats; Auditing, access controls, violation handling; Data integrity and constraints; Distributed databases and client-server architecture basics; Introduction to data warehousing, OLAP, OLTP, and data mining concepts Practical Applications & Case Studies: Use of commercial and open-source DBMS (e.g., MySQL, Oracle, SQL Server); Case studies from finance, marketing, HR, retail, and e-commerce sectors; Designing and demonstrating a relational database for a business use case`,
-  },
+   unitNotes: databaseManagementSystemUnitNotesUnitNotes,
+   },
    /*{
     id: `s-1064`,
     slug: `qm`,
@@ -1276,6 +1300,7 @@ UNIT II (8 Hrs) Co-operative Management: Objectives and Functions of Co-operativ
 UNIT III (8 Hrs) Co-operative Administration: Role of State and Union Government in Co -operative Administration; Role, powers and functions of the Registrar; Co-operative Department set up in States; Functional Registrars; Delegation of Powers and Functions of Registrar; Ministry of Cooperation. 
 UNIT IV (9 Hrs) Apex Co-operative Institutions in India; Role and Functions of NABARD, NCDC, NDDB, NAFED, IFFCO, KRIBHCO, and AMUL; Co-operative Education and Training in India; Cooperative Day, Cooperative Week, Cooperative Flag, and Cooperative Journals. 
 UNIT V (6 Hrs) Page 50 Co-operation in Foreign Countries: Co-operative Credit Movement in Germany; Consumer Co- operatives in U.K and Sweden; Dairy Co-operatives in Denmark.`,
+     unitNotes: principlesAndPracticesOfCooperationUnitNotes,
   },
   {
     id: `s-1075`,
@@ -1293,6 +1318,7 @@ UNIT II (9 Hrs) The Uttar Pradesh Cooperative Societies Act, 1965 and Rules, 196
 UNIT III (6 Hrs) Registration of Cooperative Societies: Duties and Privileges of Registered Societies; Properties and funds of Registered Societies; Net Profit Distribution; Audit; Inquiry; Inspection; Settlement of Disputes; Surcharge; Offences and Penalties. 
 UNIT IV (9 Hrs) Arbitration and Liquidation: Arbitration & Supersession of the board; Winding up of Registered Societies; Execution of orders; Co-operative Tribunals; Appeals; Revision; Review; Procedure for Liquidation; Circumstances of Wind up; Appointment; Power of Liquidator; Disposal of records of wound up of society; Cancellation of registration of a society. 
 UNIT V (7 Hrs) Provision Relating to Employees of Co-operatives: Common Cadre; Recruitment Bureau; Selection; Placement; Offences and Penalties to Employees; Provision relating to Appeal; Revision; Review; Cooperative Tribunals. Page 52`,
+     unitNotes: cooperativeLegislationUnitNotes,
   },
   {
     id: `s-1076`,
@@ -1310,6 +1336,7 @@ UNIT II (9 Hrs) Co-operative Development: Meaning; Economic Planning and Coopera
 UNIT III (8 Hrs) DCCB & SCB: Significance of DCCBs and SCBs in ST Cooperative Credit; Constitution and Working; Mobilization of Deposits; Lending Operations; Over Dues and NPA; Apex Banks; Constitution and Working; Functioning of National Federation of State Cooperative Banks, Latest developments in Cooperative Banking. 
 UNIT IV (8 Hrs) L.T. Credit: Need for a Separate Agency to provide L.T. Credit; Constitution and Working of Primary and State Co-operative Agricultural and Rural Development Bank; Debentures- Types; Procedures; Problems and Sinking Fund; National Federation; Single Window Co-operative Credit Delivery System; and Multi Agency Approach. 
 UNIT V (6 Hrs) Non-Agricultural Credit Co-operatives: Constitution and Functions of Co-operative Urban Banks; Employees Co-operative Thrift and Credit Societies; Co-operative Housing Societies; Industrial Co- operative Banks; NABARD and RBI. Page 54`,
+     unitNotes: creditCooperativesUnitNotes,
   },
   {
     id: `s-1077`,
