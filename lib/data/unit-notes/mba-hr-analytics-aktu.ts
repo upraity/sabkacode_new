@@ -1409,7 +1409,7 @@ export const MbaHrAnalyticsUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "formula",
+            "tone": "info",
             "title": "Illustrative Excel formulas",
             "text": "Examples: =SUMIF(B:B,\"Sales\",F:F) to sum column F for Sales; =COUNTIF(D:D,\"Active\") to count Active records; =AVERAGEIF(B:B,\"HR\",F:F) to average F for HR. VLOOKUP and INDEX require a clearly defined lookup/reference range."
           }
