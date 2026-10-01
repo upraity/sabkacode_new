@@ -684,7 +684,12 @@ UNIT V: Presentation Software (lab Work) Interface of the Presentation Package: 
     branchSlug: `general`,
     semester: 1,
     syllabus: `Project/Practical work / Seminar In the first semester, the students (individuals or teams of 2-3) are required to develop an innovative idea for a product or servic and a project report to be prepared on that idea under the guidance of a faculty member. The report will be prepared individually and this report will consist of importance and relevance of the innovative idea, its feasibilities and detailed descriptions. The report will be evaluated by one external examiner appointed by the university. Student has to present his output in a seminar.`,
-  },
+     notesCta: {
+      label: "Browse Your Projects",
+      url: "https://sabkacode-new.vercel.app/projects",
+      description: "Looking for project ideas or a ready reference? Check out our project catalog instead.",
+    },
+    },
   {
     id: `s-1042`,
     slug: `be`,
@@ -1205,18 +1210,18 @@ Unit - V: 10 hrs Security, Authorization, and Advanced Topics: Database security
   // MBA + MBA (Integrated) syllabus additions — AKTU
   // Existing subjects above are preserved; new IDs start at s-1071.
   // ============================================================
-  {
-    id: `s-1071`,
-    slug: `mini-project-1`,
-    name: `Mini Project-1`,
-    code: `BMB152`,
-    description: `Mini Project-1 — MBA Semester 1, AKTU.`,
-    courseSlug: `mba`,
-    universitySlug: `aktu`,
-    branchSlug: `general`,
-    semester: 1,
-    syllabus: `Project/Practical work / Seminar. In the first semester, students (individuals or teams of 2-3) are required to develop an innovative idea for a product or service and prepare a project report under the guidance of a faculty member. The report covers the importance and relevance of the innovative idea, its feasibility and detailed description, and is evaluated by an external examiner appointed by the university. The student presents the output in a seminar.`,
-  },
+  // {
+  //   id: `s-1071`,
+  //   slug: `mini-project-1`,
+  //   name: `Mini Project-1`,
+  //   code: `BMB152`,
+  //   description: `Mini Project-1 — MBA Semester 1, AKTU.`,
+  //   courseSlug: `mba`,
+  //   universitySlug: `aktu`,
+  //   branchSlug: `general`,
+  //   semester: 1,
+  //   syllabus: `Project/Practical work / Seminar. In the first semester, students (individuals or teams of 2-3) are required to develop an innovative idea for a product or service and prepare a project report under the guidance of a faculty member. The report covers the importance and relevance of the innovative idea, its feasibility and detailed description, and is evaluated by an external examiner appointed by the university. The student presents the output in a seminar.`,
+  // },
   {
     id: `s-1072`,
     slug: `sports-and-yoga`,
