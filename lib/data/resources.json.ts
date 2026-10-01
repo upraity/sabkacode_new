@@ -2735,9 +2735,35 @@ export const resources: ResourceItem[] = [
   { id: "r-5547", subjectId: "s-1222", type: "notes", title: "Unit 4 — Pollution", description: "Types/sources of pollution, climate change, environmental legislation.", anchor: "unit-4", updatedAt: "2026-09-21", isDemo: false },
   { id: "r-5548", subjectId: "s-1222", type: "notes", title: "Unit 5 — Sustainable Development and Business Practices", description: "Green business, ISO 14001, Triple Bottom Line, circular economy.", anchor: "unit-5", updatedAt: "2026-09-21", isDemo: false },
 
+  // Performance and Reward Management (BMB HR 03, s-1058) — Detailed Notes index.
+  { id: "r-5550", subjectId: "s-1058", type: "notes", title: "Unit 1 — Introduction to Performance Management", description: "Performance Management concepts, appraisal, challenges, criteria, KRA/KSA/KPI and SMART objectives.", anchor: "unit-1", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5551", subjectId: "s-1058", type: "notes", title: "Unit 2 — Managing Performance", description: "Performance management at different levels, 360-degree appraisal, MBO and performance analysis.", anchor: "unit-2", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5552", subjectId: "s-1058", type: "notes", title: "Unit 3 — Contemporary Issues", description: "Potential appraisal, competency mapping, career development, succession planning and Balanced Scorecard.", anchor: "unit-3", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5553", subjectId: "s-1058", type: "notes", title: "Unit 4 — Reward System and Job Evaluation", description: "Reward systems, compensation, job evaluation methods, inputs and wage differences.", anchor: "unit-4", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5554", subjectId: "s-1058", type: "notes", title: "Unit 5 — Compensation, Pay Structure, Incentives, Benefits and Wage Legislation", description: "Pay and allowances, salary structure, incentives, fringe benefits, equal remuneration and profit sharing.", anchor: "unit-5", updatedAt: "2025-12-31", isDemo: false },
+
+    // Investment and Portfolio Management (BMB FM 01, s-1059) — Detailed Notes index.
+  { id: "r-5555", subjectId: "s-1059", type: "notes", title: "Unit 1 — Investments", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-1", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5556", subjectId: "s-1059", type: "notes", title: "Unit 2 — Portfolio Theory", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-2", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5557", subjectId: "s-1059", type: "notes", title: "Unit 3 — Capital Market & Asset Pricing", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-3", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5558", subjectId: "s-1059", type: "notes", title: "Unit 4 — Bond, Equity and Derivative Analysis", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-4", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5559", subjectId: "s-1059", type: "notes", title: "Unit 5 — Active Portfolio Management", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-5", updatedAt: "2025-12-31", isDemo: false },
+
+  // Tax Planning & Management (BMB FM 02, s-1060) — Detailed Notes index.
+  { id: "r-5560", subjectId: "s-1060", type: "notes", title: "Unit 1 — Fundamental Concepts", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-1", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5561", subjectId: "s-1060", type: "notes", title: "Unit 2 — Heads of Income and Provisions", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-2", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5562", subjectId: "s-1060", type: "notes", title: "Unit 3 — Tax Planning & Management", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-3", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5563", subjectId: "s-1060", type: "notes", title: "Unit 4 — Corporate Tax", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-4", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5564", subjectId: "s-1060", type: "notes", title: "Unit 5 — GST", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-5", updatedAt: "2025-12-31", isDemo: false },
+
+    // Financial Credit and Risk Analysis (BMB FM 03, s-1061) — Detailed Notes index.
+  { id: "r-5565",   subjectId: "s-1061", type: "notes", title: "Unit 1 — Introduction", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-1", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5566", subjectId: "s-1061", type: "notes", title: "Unit 2 — Trade Credit Risk", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-2", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5567", subjectId: "s-1061", type: "notes", title: "Unit 3 — Letter of Credit and Loan Commitments", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-3", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5568", subjectId: "s-1061", type: "notes", title: "Unit 4 — Operational Risk Overview", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-4", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5569", subjectId: "s-1061", type: "notes", title: "Unit 5 — Credit Analysis & Rating", description: "Detailed syllabus-aligned notes, explanations, tables and exam preparation.", anchor: "unit-5", updatedAt: "2025-12-31", isDemo: false },
 
   
-
   // Strategic Management (BMB301, s-1052) — Detailed Notes index.
   // These entries use `anchor` to jump to the in-app Detailed Notes section.
   {
