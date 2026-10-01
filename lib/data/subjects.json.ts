@@ -70,7 +70,7 @@ import { MbaManagingGlobalSupplyChainsUnitNotes } from "./unit-notes/mba-managin
 import { MbaInternationalFinanceUnitNotes } from "./unit-notes/mba-international-finance-aktu";
 import { MbaEBusinessUnitNotes } from "./unit-notes/mba-e-business-aktu";
 import { MbaBusinessDataWarehouseAndDataMiningUnitNotes } from "./unit-notes/mba-business-data-warehouse-and-data-mining-aktu";
-import { MbaCoOperativeAccountingAndAuditUnitNotes } from "./unit-notes/mba-co-operative-accounting-and-audit-aktu";
+import { MbaCoOperativeAccountingAndAuditUnitNotes } from "./unit-notes/mba-cooperative-accounting-and-audit-aktu";
 
 
 
