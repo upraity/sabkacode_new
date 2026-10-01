@@ -168,6 +168,19 @@ import { ControllingProcessDiagram } from "./ControllingProcessDiagram";
 import { TrigRatiosDiagram } from "./TrigRatiosDiagram";
 import { MvtGeometryDiagram } from "./MvtGeometryDiagram";
 
+//mba 3rd sem HR
+import { EmployeeRelationsFrameworkDiagram } from "./EmployeeRelationsFrameworkDiagram";
+import { TradeUnionParticipativeManagementDiagram } from "./TradeUnionParticipativeManagementDiagram";
+import { CollectiveBargainingProcessDiagram } from "./CollectiveBargainingProcessDiagram";
+import { DomesticEnquiryFlowDiagram } from "./DomesticEnquiryFlowDiagram";
+import { WagePaymentFrameworkDiagram } from "./WagePaymentFrameworkDiagram";
+import { IndustrialDisputeSettlementDiagram } from "./IndustrialDisputeSettlementDiagram";
+import { MinimumWageFrameworkDiagram } from "./MinimumWageFrameworkDiagram";
+import { EsiBenefitFrameworkDiagram } from "./EsiBenefitFrameworkDiagram";
+import { LabourLawComplianceCycleDiagram } from "./LabourLawComplianceCycleDiagram";
+import { GratuityProcessDiagram } from "./GratuityProcessDiagram";
+import { EmployeeSocialSecurityBenefitsDiagram } from "./EmployeeSocialSecurityBenefitsDiagram";
+
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
 //   2. Registering it here under a stable, kebab-case id.
@@ -309,4 +322,17 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "controlling-process": ControllingProcessDiagram,
   "trig-ratios": TrigRatiosDiagram,
   "mvt-geometry": MvtGeometryDiagram,
+
+   "employee-relations-framework": EmployeeRelationsFrameworkDiagram,
+  "trade-union-participative-management": TradeUnionParticipativeManagementDiagram,
+  "collective-bargaining-process": CollectiveBargainingProcessDiagram,
+  "domestic-enquiry-flow": DomesticEnquiryFlowDiagram,
+  "wage-payment-framework": WagePaymentFrameworkDiagram,
+  "industrial-dispute-settlement": IndustrialDisputeSettlementDiagram,
+  "minimum-wage-framework": MinimumWageFrameworkDiagram,
+  "esi-benefit-framework": EsiBenefitFrameworkDiagram,
+  "labour-law-compliance-cycle": LabourLawComplianceCycleDiagram,
+  "gratuity-process": GratuityProcessDiagram,
+  "employee-social-security-benefits": EmployeeSocialSecurityBenefitsDiagram,
+
 };
