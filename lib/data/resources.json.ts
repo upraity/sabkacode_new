@@ -4335,6 +4335,12 @@ export const resources: ResourceItem[] = [
   { id: "r-5468", subjectId: "s-1292", type: "notes", title: "Unit 4 — Integration", description: "Integration by substitution/parts/partial fractions, reduction formulae, Gamma and Beta functions.", anchor: "unit-4", updatedAt: "2025-09-27", isDemo: false },
   { id: "r-5469", subjectId: "s-1292", type: "notes", title: "Unit 5 — Vector Algebra", description: "Vector algebra: dot product, cross product, scalar & vector triple product, area and volume applications.", anchor: "unit-5", updatedAt: "2025-09-27", isDemo: false },
 
+   // Employee Relations and Labor Laws (BMB HR 02, s-NEXT) — Detailed Notes index.
+  { id: "r-5471", subjectId: "s-1057", type: "notes", title: "Unit 1 — Employee Relations Management and Industrial Relations", description: "ERM, industrial relations, trade unions, industrial democracy and participative management.", anchor: "unit-1", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5472", subjectId: "s-1057", type: "notes", title: "Unit 2 — Collective Bargaining, Discipline, Grievance Handling and Employee Participation", description: "Collective bargaining, discipline, domestic enquiry, grievances and employee participation and empowerment.", anchor: "unit-2", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5473", subjectId: "s-1057", type: "notes", title: "Unit 3 — Major Labour Laws: Factories, Wages, Establishments, Workmen's Compensation and Industrial Disputes", description: "Factories, wage payment, shop and establishment, compensation and industrial-dispute legislation.", anchor: "unit-3", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5474", subjectId: "s-1057", type: "notes", title: "Unit 4 — Minimum Wages, Contract Labour and Child Labour", description: "Minimum wages, contract labour, child-labour protection and labour-law compliance.", anchor: "unit-4", updatedAt: "2025-12-31", isDemo: false },
+  { id: "r-5475", subjectId: "s-1057", type: "notes", title: "Unit 5 — Bonus, Gratuity, Maternity Benefit and Provident Fund", description: "Bonus, gratuity, maternity benefit, provident fund and employee social security.", anchor: "unit-5", updatedAt: "2025-12-31", isDemo: false },
 
   //projects
 //   {
