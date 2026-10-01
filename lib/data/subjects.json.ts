@@ -39,6 +39,8 @@ import { bbaEnvironmentalScienceUnitNotes } from "./unit-notes/bba-environmental
 import { dataStructureUnitNotes } from "./unit-notes/data-structure-using-c";
 import { principlesOfManagementUnitNotes } from "./unit-notes/principles-of-management";
 import { mathematics1UnitNotes } from "./unit-notes/mathematics-1";
+import { employeeRelationsAndLaborLawsUnitNotes } from "./unit-notes/employee-relations-and-labor-laws";
+
 
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
@@ -957,6 +959,7 @@ Unit2: (8 Hours) Collective Bargaining: Significance, types & procedure of Colle
 Unit 3 (8 Hours) The Factories Act, 1948 & The Factories (Amendment) Bill, 2016 & The shop & Establishment Act 1948, The Payment of Wages Act, 1936 and amendment in 2020, The Workmen’s compensation Act, 1923, The Industrial Disputes Act, 1947 
 Unit 4 (8 Hours) The Payment of Minimum wages act 1948 & its revisions 2019, 2020 & 2021, The Contract Labor (Abolition & regulative) act The ESI Act, 1948 and latest amendments, Child Labour (Prohibition & Regulation) Act, 1986 and its latest amendment, 
 Unit 5 (7 Hours) The payment of Bonus Act, 1965 and amendments, The payment of Gratuity Cat, 1972 and its amendment 2018 ,The Maternity Benefit Act, 1961 and amendments, Employee’s Provident fund & Miscellaneous Provisions Act, 1952 .`,
+      unitNotes: employeeRelationsAndLaborLawsUnitNotes,
   },
   {
     id: `s-1058`,
