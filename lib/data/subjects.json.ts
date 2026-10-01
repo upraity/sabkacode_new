@@ -40,6 +40,12 @@ import { dataStructureUnitNotes } from "./unit-notes/data-structure-using-c";
 import { principlesOfManagementUnitNotes } from "./unit-notes/principles-of-management";
 import { mathematics1UnitNotes } from "./unit-notes/mathematics-1";
 import { employeeRelationsAndLaborLawsUnitNotes } from "./unit-notes/employee-relations-and-labor-laws";
+import { performanceAndRewardManagementUnitNotes } from "./unit-notes/performance-and-reward-management";
+import { InvestmentAndPortfolioManagementUnitNotes } from "./unit-notes/investment-and-portfolio-management";
+import { TaxPlanningManagementUnitNotes } from "./unit-notes/tax-planning-and-management";
+import { FinancialCreditAndRiskAnalysisUnitNotes } from "./unit-notes/financial-credit-and-risk-analysis";
+
+
 
 
 
@@ -977,6 +983,7 @@ Unit2: (9 hours) Managing Performance: Methods of managing performance of all th
 Unit3: (7 hours) Contemporary Issues: Potential appraisal, Competency mapping & its linkage with Career Development and Succession planning, Balance score card: Introduction and Applications, Advantages and limitations. Case Studies 
 Unit 4: (9 hours) Reward System: Compensation- Definition, Function, and significance. Job evaluation: Methods of job evaluation, Inputs to job evaluation, Practical implication for technical/non-technical and executive/managerial positions and significance of wage differentials. Case Studies 
 Unit 5: (8 Hours) Compensation: Method of pay and Allowances, Pay structure: Basic Pay, DA, HRA, Gross Pay, Take home pay etc. Incentive schemes; Methods of payment: Time and piece rate. Fringe benefits & other allowances: Overtime, City compensatory, Travelling etc. Regulatory compliance: Introductions, Wage and Pay commissions, Overview of minimum wages Act- 1948 and Equal Remuneration Act-1976. Profit Sharing options; Case Studies.`,
+      unitNotes: performanceAndRewardManagementUnitNotes,
   },
   {
     id: `s-1059`,
@@ -994,6 +1001,7 @@ Unit II Portfolio Theory (8 Hrs) Risk & Return: Concept of Risk, Component & Mea
 Unit III Capital Market & Asset Pricing (6 Hrs) Technical Analysis: DOW Theory, Support and Resistance level, Type of charts & its interpretations, Trend line, Gap Wave Theory, Relative strength analysis , Technical Versus Fundamental analysis. Nature of Stock Markets: EMH (Efficient Market Hypothesis) and its implications for investment decision. Capital market theorem, CAPM (Capital Asset Pricing Model) and Arbitrage Pricing Theory. Case Studies. 
 Unit IV Bond, Equity and Derivative Analysis (8 Hrs) Valuation of Equity Discounted Cash-flow techniques: Balance sheet valuation, Dividend discount models, Intrinsic value and market price, earnings multiplier approach, P/E ratio, Price/Book value, Price/sales ratio, Economic value added (EVA). Valuation of Debentures/Bonds : nature of bonds, valuation, Bond theorem, Term structure of interest rates. Meaning, features, and types of derivatives, Role and significance of derivatives in financial markets, Participants in derivative markets: hedgers, speculators, and arbitrageurs, Regulatory framework of derivative markets 
 Unit V Active Portfolio Management (8Hrs) Portfolio Management and Performance Evaluation: Performance Evaluation of existing portfolio, Sharpe, Treynor and Jensen measures; Finding alternatives and revision of portfolio; Portfolio Management and Mutual Fund Industry`,
+    unitNotes: InvestmentAndPortfolioManagementUnitNotes,
   },
   {
     id: `s-1060`,
@@ -1011,6 +1019,7 @@ Unit 2 :Heads of Income and provisions (10Hours) Heads of Income – Salaries, I
 Unit 3 : Tax Planning & Management (8 Hours) Tax Avoidance, Planning, & Evasion, Income Tax Authorities- Their appointment- Jurisdiction Powers and functions- Provisions relating to collection and recovery of tax- Refund of tax, Offences, penalties and Prosecutions, Appeals and Revisions, Advance Tax, TDS, Advance Rulings, Avoidance of Double Taxation Agreements. 
 Unit 4 : Corporate Tax (6Hours) Computation of taxable income, Carry-forward and set-off of losses for companies, Minimum Alternative Tax (MAT), Set-off and Carry-forward of Amalgamation Losses, Tax Planning for Amalgamation, Merger and Demerger of Companies, Tax Provisions for Venture Capital Funds. 
 Unit 5 GST (10 Hours) Introduction to GST: GST Concepts –Advantages and Limitations of VAT – GST as the preferred Tax Structure. Model of GST. Need for Tax Reforms, GST Principles – Single GST, Dual GST; Transactions covered under GST; Impact of GST. Registration and Filing: – Rates of Tax – Rates in Foreign Countries – In India; Assessment and Administration of GST.`,
+      unitNotes: TaxPlanningManagementUnitNotes,
   },
   {
     id: `s-1061`,
@@ -1028,6 +1037,8 @@ UNIT II : Trade Credit Risk (8 hours) Sole -Banking Arrangement, Multiple Bankin
 UNIT III : Letter of Credit and Loan Commitments (10 hours) Quasi Credit Facilities: Advantages of Non-Fund Facilities, Various types of NFB Facilities, Various types Letter of Credits, Assessment of LC limits, Bills Purchase/ Discounting under LC, Loan commitments, Un-funded lines of credit and their characteristics Various types of Bank Guarantees: Performance Guarantee, Financial Guarantees, Deferred Payment Guarantees, Types of Performance and Financial Guarantees, Assessment of Bank Guarantees Limit, Period of Claim under Guarantee. 
 UNIT IV : Operational Risk Overview (08 hours) Risk & Uncertainty, Financial Sector, Risk Types, Operational Risk Management- Recruitment & Training, Work flow Design, Work Flow Documentation, Delegation of Authority, Independent Internal Audit, Independent Compliance Function, Independent Risk Management Function, System Audit, Corporate Governance, Whistle Blower Policy, Risk Management Culture. 
 UNIT V : Credit Analysis & Rating (08 hours) Importance of credit analysis, Stages of credit analysis profitability analysis and pricing of loans, Credit risk analysis (Debt ratios and risk of leverage), Analysis of working capital, liquidity , operating and cash cycle risk . Credit Rating: Measurement of Risk, Objective of Rating, Internal & External Rating, Model Credit Rating, Methodology of Rating, Internal & External Comparison, Model Rating Formats.`,
+      unitNotes: FinancialCreditAndRiskAnalysisUnitNotes,
+
   },
   {
     id: `s-1062`,
