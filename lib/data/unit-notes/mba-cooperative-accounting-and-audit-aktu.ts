@@ -934,7 +934,7 @@ export const MbaCooperativeAccountingAndAuditUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "important",
+            "tone": "info",
             "title": "Source boundary",
             "text": "For examination preparation, use the prescribed university text, class material or applicable RBI/co-operative regulatory document if the question asks for the exact standard or classification criteria."
           }
