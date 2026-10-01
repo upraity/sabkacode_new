@@ -192,7 +192,7 @@ export const MbaManagingGlobalSupplyChainsUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "important",
+            "tone": "info",
             "title": "Application perspective",
             "text": "The same supply-chain principle can produce different operating decisions in an Indian company depending on its industry, export exposure, sourcing footprint, customer geography and infrastructure requirements."
           }
@@ -554,7 +554,7 @@ export const MbaManagingGlobalSupplyChainsUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "formula",
+            "tone": "info",
             "title": "Basic landed-cost logic",
             "text": "A simplified landed-cost view may combine purchase price, transportation, insurance, duties/tariffs and other relevant acquisition costs. The exact components depend on the transaction and applicable terms."
           }
