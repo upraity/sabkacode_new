@@ -125,7 +125,7 @@ export const MbaProjectAndSourcingManagementUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "important",
+            "tone": "info",
             "title": "Professional principle",
             "text": "Procurement decisions should be based on defined requirements, appropriate evidence and authorized processes rather than personal preference or undocumented supplier influence."
           }
@@ -822,7 +822,7 @@ export const MbaProjectAndSourcingManagementUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "important",
+            "tone": "info",
             "title": "Total-cost perspective",
             "text": "A lower unit price may not produce a lower overall cost if it causes higher freight, quality failures, inventory, downtime, administration or other lifecycle costs."
           }
