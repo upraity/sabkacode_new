@@ -57,7 +57,7 @@ import { principlesAndPracticesOfCooperationUnitNotes } from "./unit-notes/princ
 import { cooperativeLegislationUnitNotes } from "./unit-notes/co-operative-legislation";
 import { creditCooperativesUnitNotes } from "./unit-notes/credit-cooperatives";
 
-import { mbaUniversalHumanValuesAndProfessionalEthicsUnitNotes } from "./unit-notes/mba-universal-human-values-and-professional-ethics-aktu";
+import { MbaUniversalHumanValuesAndProfessionalEthicsDbrauUnitNotes } from "./unit-notes/mba-universal-human-values-and-professional-ethics-aktu";
 import { MbaServiceAndRetailMarketingUnitNotes } from "./unit-notes/mba-service-and-retail-marketing-aktu";
 import { MbaB2bMarketingUnitNotes } from "./unit-notes/mba-b2b-marketing-aktu";
 import { MbaHrAnalyticsUnitNotes } from "./unit-notes/mba-hr-analytics-aktu";
@@ -1363,7 +1363,7 @@ UNIT-2: Understanding Harmony in the Human Being - Harmony in Myself (8Hours) Un
 UNIT-3: Understanding Harmony in the Family and Society- Harmony in Human-Human Relationship (8 Hours) Understanding harmony in the Family- the basic unit of human interaction , Understanding values in human-human relationship; meaning of Nyaya and program for its fulfillment to ensure Ubhay- tripti; Trust (Vishwas) and Respect (Samman) as the foundational values of relationship, Understanding the meaning of Vishwas; Difference between intention and competence, Understanding the meaning of Samman, Difference between respect and differentiation; the other salient values in relationship, Understanding the harmony in the society (society being an extension of family): Samadhan, Samridhi, Abhay, Sah-astitva as comprehensive Human Goals, Visualizing a universal harmonious order in society- Undivided Society (AkhandSamaj), Universal Order (Sarvabhaum Vyawastha )- from family to world family!. 
 UNIT-4: Understanding Harmony in the Nature and Existence - Whole existence as Co- existence (8 Hours) Understanding the harmony in the Nature, Interconnectedness and mutual fulfilment among the four orders of nature- recyclability and self-regulation in nature, Understanding Existence as Co- existence (Sah-astitva) of mutually interacting units in all-pervasive space, Holistic perception of harmony at all levels of existence. 
 UNIT-5: Implications of the above Holistic Understanding of Harmony on Professional Ethics ( 8 Hours) Natural acceptance of human values, Definitiveness of Ethical Human Conduct, Basis for Humanistic Education, Humanistic Constitution and Humanistic Universal Order, Competence in Professional Ethics: a) Ability to utilize the professional competence for augmenting universal human order, b) Ability to identify the scope and characteristics of people-friendly and eco-friendly production systems, technologies and management models, Case studies of typical holistic technologies, management models and production systems, Strategy for transition from the present state to Universal Human Order: a) At the level of individual: as socially and ecologically responsible engineers, technologists and managers, b) At the level of society: as mutually enriching institutions and organizations Page 57`,
-      unitNotes: mbaUniversalHumanValuesAndProfessionalEthicsUnitNotes,
+      unitNotes: MbaUniversalHumanValuesAndProfessionalEthicsDbrauUnitNotes,
   },
   {
     id: `s-1078`,
