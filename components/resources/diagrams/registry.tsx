@@ -51,6 +51,20 @@ import { InnovationTypesDiagram } from "./InnovationTypesDiagram";
 import { RatioCategoriesDiagram } from "./RatioCategoriesDiagram";
 import { HardwareCategoriesDiagram } from "./HardwareCategoriesDiagram";
 
+import { PerformanceManagementCycleDiagram } from "./PerformanceManagementCycleDiagram";
+import { PerformanceSystemProcessDiagram } from "./PerformanceSystemProcessDiagram";
+import { KraKsaKpiFrameworkDiagram } from "./KraKsaKpiFrameworkDiagram";
+import { ThreeSixtyAppraisalDiagram } from "./ThreeSixtyAppraisalDiagram";
+import { MboCycleDiagram } from "./MboCycleDiagram";
+import { CompetencyMappingCareerLinkDiagram } from "./CompetencyMappingCareerLinkDiagram";
+import { BalancedScorecardPerspectivesDiagram } from "./BalancedScorecardPerspectivesDiagram";
+import { RewardSystemFrameworkDiagram } from "./RewardSystemFrameworkDiagram";
+import { JobEvaluationMethodsDiagram } from "./JobEvaluationMethodsDiagram";
+import { PayStructureBreakdownDiagram } from "./PayStructureBreakdownDiagram";
+import { IncentivePaymentMethodsDiagram } from "./IncentivePaymentMethodsDiagram";
+import { ProfitSharingFrameworkDiagram } from "./ProfitSharingFrameworkDiagram";
+
+
 // BCA Semester 1 — C-101 (Computer Fundamentals & MS-Office) and C-102 (Programming using C)
 import { ComputerBlockDiagram } from "./ComputerBlockDiagram";
 import { ComputerTypesDiagram } from "./ComputerTypesDiagram";
@@ -145,6 +159,14 @@ import { TripleBottomLineDiagram } from "./TripleBottomLineDiagram";
 import { LanguageSkillsDiagram } from "./LanguageSkillsDiagram";
 import { DecisionTreeDiagram } from "./DecisionTreeDiagram";
 
+import { CapitalMarketStructureDiagram } from "./CapitalMarketStructureDiagram";
+import { SecurityAnalysisApproachesDiagram } from "./SecurityAnalysisApproachesDiagram";
+import { PortfolioRiskDiagram } from "./PortfolioRiskDiagram";
+import { PortfolioModelsDiagram } from "./PortfolioModelsDiagram";
+import { DerivativeParticipantsDiagram } from "./DerivativeParticipantsDiagram";
+import { PerformanceMeasuresDiagram } from "./PerformanceMeasuresDiagram";
+import { PortfolioRevisionDiagram } from "./PortfolioRevisionDiagram";
+
 import { DsClassificationDiagram } from "./DsClassificationDiagram";
 import { SparseMatrixDiagram } from "./SparseMatrixDiagram";
 import { StackOperationsDiagram } from "./StackOperationsDiagram";
@@ -180,6 +202,20 @@ import { EsiBenefitFrameworkDiagram } from "./EsiBenefitFrameworkDiagram";
 import { LabourLawComplianceCycleDiagram } from "./LabourLawComplianceCycleDiagram";
 // import { GratuityProcessDiagram } from "./GratuityProcessDiagram";
 import { EmployeeSocialSecurityBenefitsDiagram } from "./EmployeeSocialSecurityBenefitsDiagram";
+import { TaxAssessmentCycleDiagram } from "./TaxAssessmentCycleDiagram";
+import { TaxIncomeComputationDiagram } from "./TaxIncomeComputationDiagram";
+import { TaxPlanningSpectrumDiagram } from "./TaxPlanningSpectrumDiagram";
+import { TaxComplianceDiagram } from "./TaxComplianceDiagram";
+import { CorporateTaxDiagram } from "./CorporateTaxDiagram";
+import { GSTComponentsDiagram } from "./GSTComponentsDiagram";
+import { CreditCycleDiagram } from "./CreditCycleDiagram";
+import { CreditRiskMatrixDiagram } from "./CreditRiskMatrixDiagram";
+import { LetterOfCreditDiagram } from "./LetterOfCreditDiagram";
+import { LoanCommitmentDiagram } from "./LoanCommitmentDiagram";
+import { OperationalRiskDiagram } from "./OperationalRiskDiagram";
+import { IncidentManagementDiagram } from "./IncidentManagementDiagram";
+import { CreditAnalysisDiagram } from "./CreditAnalysisDiagram";
+import { RatingProcessDiagram } from "./RatingProcessDiagram";
 
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
@@ -334,5 +370,42 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "labour-law-compliance-cycle": LabourLawComplianceCycleDiagram,
   "gratuity-process": GratuityProcessDiagram,
   "employee-social-security-benefits": EmployeeSocialSecurityBenefitsDiagram,
+
+    "performance-management-cycle": PerformanceManagementCycleDiagram,
+  "performance-system-process": PerformanceSystemProcessDiagram,
+  "kra-ksa-kpi-framework": KraKsaKpiFrameworkDiagram,
+  "three-sixty-appraisal": ThreeSixtyAppraisalDiagram,
+  "mbo-cycle": MboCycleDiagram,
+  "competency-mapping-career-link": CompetencyMappingCareerLinkDiagram,
+  "balanced-scorecard-perspectives": BalancedScorecardPerspectivesDiagram,
+  "reward-system-framework": RewardSystemFrameworkDiagram,
+  "job-evaluation-methods": JobEvaluationMethodsDiagram,
+  "pay-structure-breakdown": PayStructureBreakdownDiagram,
+  "incentive-payment-methods": IncentivePaymentMethodsDiagram,
+  "profit-sharing-framework": ProfitSharingFrameworkDiagram,
+
+    "fm-capital-market-structure": CapitalMarketStructureDiagram,
+  "fm-security-analysis-approaches": SecurityAnalysisApproachesDiagram,
+  "fm-portfolio-risk": PortfolioRiskDiagram,
+  "fm-portfolio-models": PortfolioModelsDiagram,
+  "fm-derivative-participants": DerivativeParticipantsDiagram,
+  "fm-performance-measures": PerformanceMeasuresDiagram,
+  "fm-portfolio-revision": PortfolioRevisionDiagram,
+
+    "rc-credit-cycle": CreditCycleDiagram,
+  "rc-credit-risk-matrix": CreditRiskMatrixDiagram,
+  "rc-letter-of-credit": LetterOfCreditDiagram,
+  "rc-loan-commitment": LoanCommitmentDiagram,
+  "rc-operational-risk": OperationalRiskDiagram,
+  "rc-incident-management": IncidentManagementDiagram,
+  "rc-credit-analysis": CreditAnalysisDiagram,
+  "rc-rating-process": RatingProcessDiagram,
+
+    "tax-assessment-cycle": TaxAssessmentCycleDiagram,
+  "tax-income-computation": TaxIncomeComputationDiagram,
+  "tax-planning-spectrum": TaxPlanningSpectrumDiagram,
+  "tax-compliance": TaxComplianceDiagram,
+  "corporate-tax": CorporateTaxDiagram,
+  "gst-components": GSTComponentsDiagram
 
 };
