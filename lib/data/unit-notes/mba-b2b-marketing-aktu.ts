@@ -1,8 +1,8 @@
 import { UnitNote } from "@/types";
 
 // Detailed, exam-oriented notes for B2B Marketing (BMB MK 05)
-// — Dr. B. R. Ambedkar University, Agra (DBRAU), MBA IV Semester.
-export const b2bMarketingUnitNotes: UnitNote[] = [
+// — AKTU, MBA IV Semester.
+export const MbaB2bMarketingUnitNotes: UnitNote[] = [
   {
     "unitNumber": 1,
     "title": "Introduction to B2B Marketing",
@@ -224,38 +224,38 @@ export const b2bMarketingUnitNotes: UnitNote[] = [
       }
     ],
     "keyTerms": [
-      [
-        "B2B Marketing",
-        "Marketing of products and services to organizations and institutions."
-      ],
-      [
-        "Business Market",
-        "A market in which organizations purchase for production, resale, operations or institutional purposes."
-      ],
-      [
-        "Derived Demand",
-        "Demand for a business input that results from demand elsewhere in the value chain."
-      ],
-      [
-        "Buying Center",
-        "The group of people participating in an organizational buying decision."
-      ],
-      [
-        "Value Proposition",
-        "A clear statement of the value a supplier intends to create for a target customer."
-      ],
-      [
-        "Key Account",
-        "A strategically important customer requiring focused relationship and account management."
-      ],
-      [
-        "Commercial Enterprise",
-        "An organization engaged in business activity such as manufacturing, distribution, wholesaling or retailing."
-      ],
-      [
-        "Industrial Product",
-        "A product purchased for organizational production, operations, resale or service delivery."
-      ]
+      {
+        "term": "B2B Marketing",
+        "definition": "Marketing of products and services to organizations and institutions."
+      },
+      {
+        "term": "Business Market",
+        "definition": "A market in which organizations purchase for production, resale, operations or institutional purposes."
+      },
+      {
+        "term": "Derived Demand",
+        "definition": "Demand for a business input that results from demand elsewhere in the value chain."
+      },
+      {
+        "term": "Buying Center",
+        "definition": "The group of people participating in an organizational buying decision."
+      },
+      {
+        "term": "Value Proposition",
+        "definition": "A clear statement of the value a supplier intends to create for a target customer."
+      },
+      {
+        "term": "Key Account",
+        "definition": "A strategically important customer requiring focused relationship and account management."
+      },
+      {
+        "term": "Commercial Enterprise",
+        "definition": "An organization engaged in business activity such as manufacturing, distribution, wholesaling or retailing."
+      },
+      {
+        "term": "Industrial Product",
+        "definition": "A product purchased for organizational production, operations, resale or service delivery."
+      }
     ],
     "examQuestions": [
       "Explain the concept of B2B marketing and discuss the nature of business market customers. (Long)",
@@ -488,42 +488,42 @@ export const b2bMarketingUnitNotes: UnitNote[] = [
       }
     ],
     "keyTerms": [
-      [
-        "Organizational Buying",
-        "The process through which an organization acquires goods or services."
-      ],
-      [
-        "Straight Rebuy",
-        "Routine repeat purchase with little or no change."
-      ],
-      [
-        "Modified Rebuy",
-        "Repeat purchase in which specifications, suppliers or terms are changed."
-      ],
-      [
-        "New Task",
-        "A new purchase situation requiring substantial information and evaluation."
-      ],
-      [
-        "User",
-        "Person who directly uses the purchased product or service."
-      ],
-      [
-        "Influencer",
-        "Participant who affects specifications or evaluation."
-      ],
-      [
-        "Buyer",
-        "Participant responsible for purchasing or commercial negotiation."
-      ],
-      [
-        "Decider",
-        "Participant with authority to select or approve the supplier or alternative."
-      ],
-      [
-        "Gatekeeper",
-        "Participant who controls information or access to decision makers."
-      ]
+      {
+        "term": "Organizational Buying",
+        "definition": "The process through which an organization acquires goods or services."
+      },
+      {
+        "term": "Straight Rebuy",
+        "definition": "Routine repeat purchase with little or no change."
+      },
+      {
+        "term": "Modified Rebuy",
+        "definition": "Repeat purchase in which specifications, suppliers or terms are changed."
+      },
+      {
+        "term": "New Task",
+        "definition": "A new purchase situation requiring substantial information and evaluation."
+      },
+      {
+        "term": "User",
+        "definition": "Person who directly uses the purchased product or service."
+      },
+      {
+        "term": "Influencer",
+        "definition": "Participant who affects specifications or evaluation."
+      },
+      {
+        "term": "Buyer",
+        "definition": "Participant responsible for purchasing or commercial negotiation."
+      },
+      {
+        "term": "Decider",
+        "definition": "Participant with authority to select or approve the supplier or alternative."
+      },
+      {
+        "term": "Gatekeeper",
+        "definition": "Participant who controls information or access to decision makers."
+      }
     ],
     "examQuestions": [
       "Explain the organizational buying decision process in detail. (Long)",
@@ -727,42 +727,42 @@ export const b2bMarketingUnitNotes: UnitNote[] = [
       }
     ],
     "keyTerms": [
-      [
-        "B2B Strategy",
-        "A long-term plan for selecting markets, creating value and competing in business markets."
-      ],
-      [
-        "Industrial Product Strategy",
-        "Strategic management of products and solutions designed for organizational users."
-      ],
-      [
-        "Channel Strategy",
-        "Choice and management of routes through which offerings reach business customers."
-      ],
-      [
-        "Growth-Share Matrix",
-        "Portfolio tool using market growth and relative market share."
-      ],
-      [
-        "Star",
-        "High-growth, high-relative-share category in the Growth-Share Matrix."
-      ],
-      [
-        "Cash Cow",
-        "Low-growth, high-relative-share category that may generate substantial cash."
-      ],
-      [
-        "Question Mark",
-        "High-growth, low-relative-share category requiring strategic evaluation."
-      ],
-      [
-        "Balanced Scorecard",
-        "Strategic performance framework covering financial and non-financial perspectives."
-      ],
-      [
-        "Portfolio",
-        "Collection of products, business units or offerings managed as a group."
-      ]
+      {
+        "term": "B2B Strategy",
+        "definition": "A long-term plan for selecting markets, creating value and competing in business markets."
+      },
+      {
+        "term": "Industrial Product Strategy",
+        "definition": "Strategic management of products and solutions designed for organizational users."
+      },
+      {
+        "term": "Channel Strategy",
+        "definition": "Choice and management of routes through which offerings reach business customers."
+      },
+      {
+        "term": "Growth-Share Matrix",
+        "definition": "Portfolio tool using market growth and relative market share."
+      },
+      {
+        "term": "Star",
+        "definition": "High-growth, high-relative-share category in the Growth-Share Matrix."
+      },
+      {
+        "term": "Cash Cow",
+        "definition": "Low-growth, high-relative-share category that may generate substantial cash."
+      },
+      {
+        "term": "Question Mark",
+        "definition": "High-growth, low-relative-share category requiring strategic evaluation."
+      },
+      {
+        "term": "Balanced Scorecard",
+        "definition": "Strategic performance framework covering financial and non-financial perspectives."
+      },
+      {
+        "term": "Portfolio",
+        "definition": "Collection of products, business units or offerings managed as a group."
+      }
     ],
     "examQuestions": [
       "Explain the process of strategy making and strategy management in B2B marketing. (Long)",
@@ -939,38 +939,38 @@ export const b2bMarketingUnitNotes: UnitNote[] = [
       }
     ],
     "keyTerms": [
-      [
-        "Segmentation",
-        "Division of a heterogeneous business market into meaningful customer groups."
-      ],
-      [
-        "Targeting",
-        "Evaluation and selection of market segments to serve."
-      ],
-      [
-        "Positioning",
-        "Designing the desired place of an offering in the target customer's perception relative to alternatives."
-      ],
-      [
-        "Firmographics",
-        "Organizational characteristics such as industry, size and location used for segmentation."
-      ],
-      [
-        "Niche",
-        "A narrowly defined segment with specialized requirements."
-      ],
-      [
-        "Value Proposition",
-        "The specific combination of benefits and value offered to a target customer."
-      ],
-      [
-        "Differentiation",
-        "Creating meaningful differences in an offering that customers can recognize and value."
-      ],
-      [
-        "B2B Advertising",
-        "Paid or controlled communication designed to influence organizational audiences."
-      ]
+      {
+        "term": "Segmentation",
+        "definition": "Division of a heterogeneous business market into meaningful customer groups."
+      },
+      {
+        "term": "Targeting",
+        "definition": "Evaluation and selection of market segments to serve."
+      },
+      {
+        "term": "Positioning",
+        "definition": "Designing the desired place of an offering in the target customer's perception relative to alternatives."
+      },
+      {
+        "term": "Firmographics",
+        "definition": "Organizational characteristics such as industry, size and location used for segmentation."
+      },
+      {
+        "term": "Niche",
+        "definition": "A narrowly defined segment with specialized requirements."
+      },
+      {
+        "term": "Value Proposition",
+        "definition": "The specific combination of benefits and value offered to a target customer."
+      },
+      {
+        "term": "Differentiation",
+        "definition": "Creating meaningful differences in an offering that customers can recognize and value."
+      },
+      {
+        "term": "B2B Advertising",
+        "definition": "Paid or controlled communication designed to influence organizational audiences."
+      }
     ],
     "examQuestions": [
       "Explain the concept and process of market segmentation in B2B markets. (Long)",
@@ -1152,38 +1152,38 @@ export const b2bMarketingUnitNotes: UnitNote[] = [
       }
     ],
     "keyTerms": [
-      [
-        "Trade Show",
-        "Industry event where organizations demonstrate offerings and interact with business customers."
-      ],
-      [
-        "Lead Generation",
-        "Process of identifying potential business customers and opportunities."
-      ],
-      [
-        "Personal Selling",
-        "Direct interaction between sales personnel and organizational buyers."
-      ],
-      [
-        "Consultative Selling",
-        "Selling approach based on diagnosing customer needs and proposing appropriate solutions."
-      ],
-      [
-        "Sales Territory",
-        "Geographic, account-based or industry-based area assigned to a sales role."
-      ],
-      [
-        "Channel Member",
-        "An intermediary or partner participating in the route to the business customer."
-      ],
-      [
-        "Channel Conflict",
-        "Disagreement among channel participants about roles, pricing, territories or customer ownership."
-      ],
-      [
-        "Channel Management",
-        "Planning and controlling relationships and performance within a marketing channel."
-      ]
+      {
+        "term": "Trade Show",
+        "definition": "Industry event where organizations demonstrate offerings and interact with business customers."
+      },
+      {
+        "term": "Lead Generation",
+        "definition": "Process of identifying potential business customers and opportunities."
+      },
+      {
+        "term": "Personal Selling",
+        "definition": "Direct interaction between sales personnel and organizational buyers."
+      },
+      {
+        "term": "Consultative Selling",
+        "definition": "Selling approach based on diagnosing customer needs and proposing appropriate solutions."
+      },
+      {
+        "term": "Sales Territory",
+        "definition": "Geographic, account-based or industry-based area assigned to a sales role."
+      },
+      {
+        "term": "Channel Member",
+        "definition": "An intermediary or partner participating in the route to the business customer."
+      },
+      {
+        "term": "Channel Conflict",
+        "definition": "Disagreement among channel participants about roles, pricing, territories or customer ownership."
+      },
+      {
+        "term": "Channel Management",
+        "definition": "Planning and controlling relationships and performance within a marketing channel."
+      }
     ],
     "examQuestions": [
       "Explain B2B advertising channels and communication strategies. (Long)",
