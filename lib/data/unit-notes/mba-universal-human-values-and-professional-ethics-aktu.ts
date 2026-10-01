@@ -4,7 +4,7 @@ import { UnitNote } from "@/types";
 // — Dr. B. R. Ambedkar University Agra (DBRAU), MBA IV Semester.
 // Syllabus basis: supplied BVE 401 IV Semester syllabus.
 
-export const mbaUniversalHumanValuesAndProfessionalEthicsDbrauUnitNotes: UnitNote[] = [
+export const MbaUniversalHumanValuesAndProfessionalEthicsDbrauUnitNotes: UnitNote[] = [
   {
     unitNumber: 1,
     title: "Course Introduction - Need, Basic Guidelines, Content and Process for Value Education",
