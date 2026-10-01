@@ -178,7 +178,7 @@ import { IndustrialDisputeSettlementDiagram } from "./IndustrialDisputeSettlemen
 import { MinimumWageFrameworkDiagram } from "./MinimumWageFrameworkDiagram";
 import { EsiBenefitFrameworkDiagram } from "./EsiBenefitFrameworkDiagram";
 import { LabourLawComplianceCycleDiagram } from "./LabourLawComplianceCycleDiagram";
-import { GratuityProcessDiagram } from "./GratuityProcessDiagram";
+// import { GratuityProcessDiagram } from "./GratuityProcessDiagram";
 import { EmployeeSocialSecurityBenefitsDiagram } from "./EmployeeSocialSecurityBenefitsDiagram";
 
 // Add a new diagram anywhere on the platform by:
