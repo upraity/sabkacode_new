@@ -1400,7 +1400,7 @@ UNIT II: Organizational Buying and Buyer Behaviour (8 Hours) Organizational Buye
 UNIT III: B2B Marketing Strategy (8 Hours) Strategy Making and Strategy Management in B2B; Industrial Product Strategy; Managing Products and Services for Business Markets; Managing Business Market Channels; Strategic Tools: Growth-Share Matrix, Multifactor Portfolio Matrix, The Balanced Scorecard. Case studies. 
 UNIT IV: Segmentation, Targeting & Positioning (STP) in B2B Markets (8 Hours) Market Segmentation in B2B Context; Basic Framework of Segmentation; Selecting Target Segments; Positioning Strategies in B2B; Pricing Strategies in Business Markets; B2B Advertising Techniques; Competitive Bidding Process; Relationship Marketing and CRM. Case studies. 
 UNIT V: Business Marketing Communication and Channels (8 Hours) B2B Advertising Channels and Communication Strategies; Digital Marketing in B2B; Trade Shows, Exhibitions, and Business Meets; Sales Force Management and Deployment Analysis; Business Marketing Channels and Participants; Channel Design and Management Decisions; B2B Logistics Management. Case studies. Page 61`,
-      unitNotes: MbaB2bMarketingUnitNotes,
+      unitNotes: B2bMarketingUnitNotes,
   },
   {
     id: `s-1080`,
