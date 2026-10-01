@@ -1,0 +1,3 @@
+import { Arrow, Box, Frame, Note } from "./DiagramKit";
+
+export function CRMLinkageDiagram() { return (<Frame w={540} h={230} className="mx-auto w-full max-w-xl">\n  <Box x={30} y={75} w={105} h={48} lines={["Customer Data"]} tone="dark" bold />\n  <Arrow points={[[135,99],[155,99]]} />\n  <Box x={155} y={75} w={105} h={48} lines={["CRM"]} tone="light" bold />\n  <Arrow points={[[260,99],[280,99]]} />\n  <Box x={280} y={75} w={105} h={48} lines={["Demand Planning"]} tone="light" bold />\n  <Arrow points={[[385,99],[405,99]]} />\n  <Box x={405} y={75} w={105} h={48} lines={["Fulfillment"]} tone="mid" bold />\n  <Note x={270} y={175} lines={["Customer information can improve supply-chain planning and service."]} size={10} />\n</Frame>); }
