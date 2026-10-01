@@ -1482,7 +1482,7 @@ export const MbaProjectAndSourcingManagementUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "formula",
+            "tone": "info",
             "title": "PERT formula",
             "text": "Expected activity time te = (a + 4m + b) / 6. PERT uses the most-likely estimate as the dominant component of the weighted average."
           }
