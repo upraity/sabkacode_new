@@ -217,6 +217,73 @@ import { IncidentManagementDiagram } from "./IncidentManagementDiagram";
 import { CreditAnalysisDiagram } from "./CreditAnalysisDiagram";
 import { RatingProcessDiagram } from "./RatingProcessDiagram";
 
+import { SupplyChainFlowDiagram } from "./SupplyChainFlowDiagram";
+import { LogisticsFunctionsDiagram } from "./LogisticsFunctionsDiagram";
+import { CrossDockingDiagram } from "./CrossDockingDiagram";
+import { BullwhipEffectDiagram } from "./BullwhipEffectDiagram";
+import { WarehouseNetworkDiagram } from "./WarehouseNetworkDiagram";
+import { ReverseLogisticsDiagram } from "./ReverseLogisticsDiagram";
+import { CRMLinkageDiagram } from "./CRMLinkageDiagram";
+import { BPRProcessRedesignDiagram } from "./BPRProcessRedesignDiagram";
+import { ProcessMappingDiagram } from "./ProcessMappingDiagram";
+import { HammerChampyDiagram } from "./HammerChampyDiagram";
+import { ChangeManagementDiagram } from "./ChangeManagementDiagram";
+import { DigitalBPRDiagram } from "./DigitalBPRDiagram";
+import { QualityEvolutionDiagram } from "./QualityEvolutionDiagram";
+import { TQMFrameworkDiagram } from "./TQMFrameworkDiagram";
+import { SevenQCToolsDiagram } from "./SevenQCToolsDiagram";
+import { QFDFlowDiagram } from "./QFDFlowDiagram";
+import { DmaicDiagram } from "./DmaicDiagram";
+import { AuditCycleDiagram } from "./AuditCycleDiagram";
+import TradeTheoryComparisonDiagram from "./TradeTheoryComparisonDiagram";
+import TradePolicyInstrumentsDiagram from "./TradePolicyInstrumentsDiagram";
+import PESTELInternationalMarketDiagram from "./PESTELInternationalMarketDiagram";
+import InternationalMarketingMixDiagram from "./InternationalMarketingMixDiagram";
+import EPRGFrameworkDiagram from "./EPRGFrameworkDiagram";
+import InternationalEntryModesDiagram from "./InternationalEntryModesDiagram";
+import ExportImportFrameworkDiagram from "./ExportImportFrameworkDiagram";
+import ExportDocumentationFlowDiagram from "./ExportDocumentationFlowDiagram";
+import ShippingLogisticsChainDiagram from "./ShippingLogisticsChainDiagram";
+import InternationalPaymentMethodsDiagram from "./InternationalPaymentMethodsDiagram";
+import CustomsDigitalTradeDiagram from "./CustomsDigitalTradeDiagram";
+import GeopoliticalTradeOrderDiagram from "./GeopoliticalTradeOrderDiagram";
+import TradeDisruptionRiskDiagram from "./TradeDisruptionRiskDiagram";
+import EnergySecurityDiagram from "./EnergySecurityDiagram";
+import RegionalIntegrationLadderDiagram from "./RegionalIntegrationLadderDiagram";
+import FutureTradeRiskDiagram from "./FutureTradeRiskDiagram";
+import It01InformationSystemLevelsDiagram from "./It01InformationSystemLevelsDiagram";
+import It01AnalysisModelsDiagram from "./It01AnalysisModelsDiagram";
+import It01ApplicationArchitectureDiagram from "./It01ApplicationArchitectureDiagram";
+import It01EcommerceArchitectureDiagram from "./It01EcommerceArchitectureDiagram";
+import It01ImplementationCycleDiagram from "./It01ImplementationCycleDiagram";
+import It01SecurityContinuityDiagram from "./It01SecurityContinuityDiagram";
+import It02Industry40Diagram from "./It02Industry40Diagram";
+import It02DataValueChainDiagram from "./It02DataValueChainDiagram";
+import It02IotArchitectureDiagram from "./It02IotArchitectureDiagram";
+import It02BlockchainFlowDiagram from "./It02BlockchainFlowDiagram";
+import It023DPrintingDiagram from "./It023DPrintingDiagram";
+import It02VirtualTryOnDiagram from "./It02VirtualTryOnDiagram";
+import It03DatabaseArchitectureDiagram from "./It03DatabaseArchitectureDiagram";
+import It03ErModelDiagram from "./It03ErModelDiagram";
+import It03SqlQueryFlowDiagram from "./It03SqlQueryFlowDiagram";
+import It03IndexingDiagram from "./It03IndexingDiagram";
+import It03BackupRecoveryDiagram from "./It03BackupRecoveryDiagram";
+import It03DataWarehouseDiagram from "./It03DataWarehouseDiagram";
+import Cm01CooperativePrinciplesDiagram from "./Cm01CooperativePrinciplesDiagram";
+import Cm01ManagementGovernanceDiagram from "./Cm01ManagementGovernanceDiagram";
+import Cm01AdministrationStructureDiagram from "./Cm01AdministrationStructureDiagram";
+import Cm01ApexInstitutionsDiagram from "./Cm01ApexInstitutionsDiagram";
+import Cm01ForeignModelsDiagram from "./Cm01ForeignModelsDiagram";
+import Cm02LegalTimelineDiagram from "./Cm02LegalTimelineDiagram";
+import Cm02AuditInspectionDiagram from "./Cm02AuditInspectionDiagram";
+import Cm02LiquidationCycleDiagram from "./Cm02LiquidationCycleDiagram";
+import Cm03CreditStructureDiagram from "./Cm03CreditStructureDiagram";
+import Cm03DevelopmentCycleDiagram from "./Cm03DevelopmentCycleDiagram";
+import Cm03DccbScbDiagram from "./Cm03DccbScbDiagram";
+import Cm03LtStructureDiagram from "./Cm03LtStructureDiagram";
+import Cm03NonAgriMapDiagram from "./Cm03NonAgriMapDiagram";
+
+
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
 //   2. Registering it here under a stable, kebab-case id.
@@ -392,6 +459,13 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "fm-performance-measures": PerformanceMeasuresDiagram,
   "fm-portfolio-revision": PortfolioRevisionDiagram,
 
+    "scm-flow": SupplyChainFlowDiagram,
+  "logistics-functions": LogisticsFunctionsDiagram,
+  "cross-docking": CrossDockingDiagram,
+  "bullwhip": BullwhipEffectDiagram,
+  "warehouse-network": WarehouseNetworkDiagram,
+  "reverse-logistics": ReverseLogisticsDiagram,
+  "crm-link": CRMLinkageDiagram,
     "rc-credit-cycle": CreditCycleDiagram,
   "rc-credit-risk-matrix": CreditRiskMatrixDiagram,
   "rc-letter-of-credit": LetterOfCreditDiagram,
@@ -401,6 +475,69 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "rc-credit-analysis": CreditAnalysisDiagram,
   "rc-rating-process": RatingProcessDiagram,
 
+  
+  "bpr-redesign": BPRProcessRedesignDiagram,
+  "process-map": ProcessMappingDiagram,
+  "hammer-champy": HammerChampyDiagram,
+  "change-management": ChangeManagementDiagram,
+  "digital-bpr": DigitalBPRDiagram,
+  
+    "quality-evolution": QualityEvolutionDiagram,
+  "tqm": TQMFrameworkDiagram,
+  "seven-qc-tools": SevenQCToolsDiagram,
+  "qfd": QFDFlowDiagram,
+  "dmaic": DmaicDiagram,
+  "audit-cycle": AuditCycleDiagram,
+
+  
+  "it01-is-levels": It01InformationSystemLevelsDiagram,
+  "it01-analysis-models": It01AnalysisModelsDiagram,
+  "it01-application-architecture": It01ApplicationArchitectureDiagram,
+  "it01-ecommerce-architecture": It01EcommerceArchitectureDiagram,
+  "it01-implementation-cycle": It01ImplementationCycleDiagram,
+  "it01-security-continuity": It01SecurityContinuityDiagram,
+  "it02-industry40": It02Industry40Diagram,
+  "it02-data-value-chain": It02DataValueChainDiagram,
+  "it02-iot-architecture": It02IotArchitectureDiagram,
+  "it02-blockchain-flow": It02BlockchainFlowDiagram,
+  "it02-3d-printing": It023DPrintingDiagram,
+  "it02-virtual-tryon": It02VirtualTryOnDiagram,
+  "it03-database-architecture": It03DatabaseArchitectureDiagram,
+  "it03-er-model": It03ErModelDiagram,
+  "it03-sql-query-flow": It03SqlQueryFlowDiagram,
+  "it03-indexing": It03IndexingDiagram,
+  "it03-backup-recovery": It03BackupRecoveryDiagram,
+  "it03-datawarehouse": It03DataWarehouseDiagram,
+
+    "cm01-cooperative-principles": Cm01CooperativePrinciplesDiagram,
+  "cm01-management-governance": Cm01ManagementGovernanceDiagram,
+  "cm01-administration-structure": Cm01AdministrationStructureDiagram,
+  "cm01-apex-institutions": Cm01ApexInstitutionsDiagram,
+  "cm01-foreign-models": Cm01ForeignModelsDiagram,
+  "cm02-legal-timeline": Cm02LegalTimelineDiagram,
+  "cm02-audit-inspection": Cm02AuditInspectionDiagram,
+  "cm02-liquidation-cycle": Cm02LiquidationCycleDiagram,
+  "cm03-credit-structure": Cm03CreditStructureDiagram,
+  "cm03-development-cycle": Cm03DevelopmentCycleDiagram,
+  "cm03-dccb-scb": Cm03DccbScbDiagram,
+  "cm03-lt-structure": Cm03LtStructureDiagram,
+  "cm03-nonagri-map": Cm03NonAgriMapDiagram,  
+  "ib01-trade-theories": TradeTheoryComparisonDiagram,
+  "ib01-trade-policy-instruments": TradePolicyInstrumentsDiagram,
+  "ib01-pestel": PESTELInternationalMarketDiagram,
+  "ib01-international-marketing-mix": InternationalMarketingMixDiagram,
+  "ib01-eprg-framework": EPRGFrameworkDiagram,
+  "ib01-entry-modes": InternationalEntryModesDiagram,
+  "ib02-exim-framework": ExportImportFrameworkDiagram,
+  "ib02-document-flow": ExportDocumentationFlowDiagram,
+  "ib02-shipping-logistics": ShippingLogisticsChainDiagram,
+  "ib02-payment-methods": InternationalPaymentMethodsDiagram,
+  "ib02-customs-digital": CustomsDigitalTradeDiagram,
+  "ib03-geopolitical-order": GeopoliticalTradeOrderDiagram,
+  "ib03-conflict-disruption": TradeDisruptionRiskDiagram,
+  "ib03-energy-security": EnergySecurityDiagram,
+  "ib03-regional-integration": RegionalIntegrationLadderDiagram,
+  "ib03-future-trade-risks": FutureTradeRiskDiagram,
     "tax-assessment-cycle": TaxAssessmentCycleDiagram,
   "tax-income-computation": TaxIncomeComputationDiagram,
   "tax-planning-spectrum": TaxPlanningSpectrumDiagram,
