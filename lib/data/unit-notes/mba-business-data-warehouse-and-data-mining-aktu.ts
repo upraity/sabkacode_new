@@ -1646,7 +1646,7 @@ export const MbaBusinessDataWarehouseAndDataMiningUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "important",
+            "tone": "info",
             "title": "Exam approach",
             "text": "For a long answer, define the mining area, explain its process or techniques, discuss applications, identify limitations and conclude with implementation, evaluation, privacy or ethical considerations where relevant."
           }
