@@ -283,6 +283,79 @@ import Cm03DccbScbDiagram from "./Cm03DccbScbDiagram";
 import Cm03LtStructureDiagram from "./Cm03LtStructureDiagram";
 import Cm03NonAgriMapDiagram from "./Cm03NonAgriMapDiagram";
 
+//mba sem 4 
+import { ValueEducationDiagram } from "./ValueEducationDiagram";
+import { SelfBodyHarmonyDiagram } from "./SelfBodyHarmonyDiagram";
+import { HumanRelationshipsDiagram } from "./HumanRelationshipsDiagram";
+import { FourOrdersNatureDiagram } from "./FourOrdersNatureDiagram";
+import { ProfessionalEthicsDiagram } from "./ProfessionalEthicsDiagram";
+import { ServiceMarketingMixDiagram } from "./ServiceMarketingMixDiagram";
+import { ServiceConsumerBehaviorDiagram } from "./ServiceConsumerBehaviorDiagram";
+import { ServiceDeliveryQualityDiagram } from "./ServiceDeliveryQualityDiagram";
+import { RetailFormatsDiagram } from "./RetailFormatsDiagram";
+import { MerchandiseSupplyChainDiagram } from "./MerchandiseSupplyChainDiagram";
+import { B2BEnvironmentDiagram } from "./B2BEnvironmentDiagram";
+import { OrganizationalBuyingDiagram } from "./OrganizationalBuyingDiagram";
+import { B2BStrategyDiagram } from "./B2BStrategyDiagram";
+import { B2BSTPDiagram } from "./B2BSTPDiagram";
+import { B2BChannelsCommunicationDiagram } from "./B2BChannelsCommunicationDiagram";
+import { HRAnalyticsEvolutionDiagram } from "./HRAnalyticsEvolutionDiagram";
+import { HRDataPlanningDiagram } from "./HRDataPlanningDiagram";
+import { RecruitmentAnalyticsDiagram } from "./RecruitmentAnalyticsDiagram";
+import { PerformanceCompensationAnalyticsDiagram } from "./PerformanceCompensationAnalyticsDiagram";
+import { HRDashboardDiagram } from "./HRDashboardDiagram";
+import { ODEvolutionDiagram } from "./ODEvolutionDiagram";
+import { ODActionResearchDiagram } from "./ODActionResearchDiagram";
+import { ODImplementationDiagram } from "./ODImplementationDiagram";
+import { ODStressInterventionsDiagram } from "./ODStressInterventionsDiagram";
+import { ODDiversityInclusionDiagram } from "./ODDiversityInclusionDiagram";
+import { BehaviouralFinanceFoundationsDiagram } from "./BehaviouralFinanceFoundationsDiagram";
+import { RationalVsBehaviouralDiagram } from "./RationalVsBehaviouralDiagram";
+import { HeuristicsBiasesDiagram } from "./HeuristicsBiasesDiagram";
+import { ProspectMentalAccountingDiagram } from "./ProspectMentalAccountingDiagram";
+import { InvestorBehaviourPortfolioDiagram } from "./InvestorBehaviourPortfolioDiagram";
+import { SFMFrameworkDiagram } from "./SFMFrameworkDiagram";
+import { CapitalStructureDiagram } from "./CapitalStructureDiagram";
+import { DividendPolicyDiagram } from "./DividendPolicyDiagram";
+import { TermFinanceVentureDiagram } from "./TermFinanceVentureDiagram";
+import { ProjectAnalysisDiagram } from "./ProjectAnalysisDiagram";
+import { ServiceOperationsNatureDiagram } from "./ServiceOperationsNatureDiagram";
+import { ServiceProcessCapacityDiagram } from "./ServiceProcessCapacityDiagram";
+import { SERVQUALDiagram } from "./SERVQUALDiagram";
+import { ServiceTechnologyDiagram } from "./ServiceTechnologyDiagram";
+import { ServiceStrategyDiagram } from "./ServiceStrategyDiagram";
+import { SourcingProcessDiagram } from "./SourcingProcessDiagram";
+import { SupplierEvaluationDiagram } from "./SupplierEvaluationDiagram";
+import { PriceNegotiationDiagram } from "./PriceNegotiationDiagram";
+import { ProjectLifecycleDiagram } from "./ProjectLifecycleDiagram";
+import { ProjectSchedulingDiagram } from "./ProjectSchedulingDiagram";
+import { GlobalSCComponentsDiagram } from "./GlobalSCComponentsDiagram";
+import { SCNetworkDesignDiagram } from "./SCNetworkDesignDiagram";
+import { SCCoordinationDiagram } from "./SCCoordinationDiagram";
+import { SCRiskSustainabilityDiagram } from "./SCRiskSustainabilityDiagram";
+import { SCTechnologyDiagram } from "./SCTechnologyDiagram";
+import { InternationalFinanceScopeDiagram } from "./InternationalFinanceScopeDiagram";
+import { InternationalFinancialInstitutionsDiagram } from "./InternationalFinancialInstitutionsDiagram";
+import { ForexMarketDiagram } from "./ForexMarketDiagram";
+import { FXExposureHedgingDiagram } from "./FXExposureHedgingDiagram";
+import { InternationalInvestmentRiskDiagram } from "./InternationalInvestmentRiskDiagram";
+import { DigitalEconomyModelsDiagram } from "./DigitalEconomyModelsDiagram";
+import { EBusinessSetupDiagram } from "./EBusinessSetupDiagram";
+import { PaymentSecurityLegalDiagram } from "./PaymentSecurityLegalDiagram";
+import { ITESMobilePervasiveDiagram } from "./ITESMobilePervasiveDiagram";
+import { EGovernanceModelsDiagram } from "./EGovernanceModelsDiagram";
+import { DWArchitectureKDDDiagram } from "./DWArchitectureKDDDiagram";
+import { DimensionalOLAPETLDiagram } from "./DimensionalOLAPETLDiagram";
+import { DataPreprocessingDiagram } from "./DataPreprocessingDiagram";
+import { DataMiningMethodsDiagram } from "./DataMiningMethodsDiagram";
+import { AdvancedMiningEthicsDiagram } from "./AdvancedMiningEthicsDiagram";
+import { PACSAccountingDiagram } from "./PACSAccountingDiagram";
+import { ZSCCBAccountingDiagram } from "./ZSCCBAccountingDiagram";
+import { CoopAuditTypesDiagram } from "./CoopAuditTypesDiagram";
+import { AuditCertificateDiagram } from "./AuditCertificateDiagram";
+import { AuditProgrammeDiagram } from "./AuditProgrammeDiagram";
+
+
 
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
@@ -543,6 +616,79 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "tax-planning-spectrum": TaxPlanningSpectrumDiagram,
   "tax-compliance": TaxComplianceDiagram,
   "corporate-tax": CorporateTaxDiagram,
-  "gst-components": GSTComponentsDiagram
+  "gst-components": GSTComponentsDiagram,
+
+  //mba sem4 
+  
+  "mba-universal-human-values-and-professional-ethics-foundation": ValueEducationDiagram,
+  "mba-universal-human-values-and-professional-ethics-self-body-harmony": SelfBodyHarmonyDiagram,
+  "mba-universal-human-values-and-professional-ethics-human-relationships": HumanRelationshipsDiagram,
+  "mba-universal-human-values-and-professional-ethics-four-orders-nature": FourOrdersNatureDiagram,
+  "mba-universal-human-values-and-professional-ethics-professional-ethics": ProfessionalEthicsDiagram,
+  "mba-service-and-retail-marketing-service-marketing-mix": ServiceMarketingMixDiagram,
+  "mba-service-and-retail-marketing-service-consumer-behavior": ServiceConsumerBehaviorDiagram,
+  "mba-service-and-retail-marketing-service-delivery-quality": ServiceDeliveryQualityDiagram,
+  "mba-service-and-retail-marketing-retail-formats": RetailFormatsDiagram,
+  "mba-service-and-retail-marketing-merchandise-supply-chain": MerchandiseSupplyChainDiagram,
+  "mba-b2b-marketing-b2b-environment": B2BEnvironmentDiagram,
+  "mba-b2b-marketing-organizational-buying": OrganizationalBuyingDiagram,
+  "mba-b2b-marketing-b2b-strategy": B2BStrategyDiagram,
+  "mba-b2b-marketing-b2b-stp": B2BSTPDiagram,
+  "mba-b2b-marketing-b2b-channels-communication": B2BChannelsCommunicationDiagram,
+  "mba-hr-analytics-hr-analytics-evolution": HRAnalyticsEvolutionDiagram,
+  "mba-hr-analytics-hr-data-planning": HRDataPlanningDiagram,
+  "mba-hr-analytics-recruitment-analytics": RecruitmentAnalyticsDiagram,
+  "mba-hr-analytics-performance-compensation-analytics": PerformanceCompensationAnalyticsDiagram,
+  "mba-hr-analytics-hr-dashboard": HRDashboardDiagram,
+  "mba-organizational-development-and-change-management-od-evolution": ODEvolutionDiagram,
+  "mba-organizational-development-and-change-management-od-action-research": ODActionResearchDiagram,
+  "mba-organizational-development-and-change-management-od-implementation": ODImplementationDiagram,
+  "mba-organizational-development-and-change-management-od-stress-interventions": ODStressInterventionsDiagram,
+  "mba-organizational-development-and-change-management-od-diversity-inclusion": ODDiversityInclusionDiagram,
+  "mba-behavioural-finance-behavioural-finance-foundations": BehaviouralFinanceFoundationsDiagram,
+  "mba-behavioural-finance-rational-vs-behavioural": RationalVsBehaviouralDiagram,
+  "mba-behavioural-finance-heuristics-biases": HeuristicsBiasesDiagram,
+  "mba-behavioural-finance-prospect-mental-accounting": ProspectMentalAccountingDiagram,
+  "mba-behavioural-finance-investor-behaviour-portfolio": InvestorBehaviourPortfolioDiagram,
+  "mba-strategic-financial-management-sfm-framework": SFMFrameworkDiagram,
+  "mba-strategic-financial-management-capital-structure": CapitalStructureDiagram,
+  "mba-strategic-financial-management-dividend-policy": DividendPolicyDiagram,
+  "mba-strategic-financial-management-term-finance-venture": TermFinanceVentureDiagram,
+  "mba-strategic-financial-management-project-analysis": ProjectAnalysisDiagram,
+  "mba-service-operations-management-service-operations-nature": ServiceOperationsNatureDiagram,
+  "mba-service-operations-management-service-process-capacity": ServiceProcessCapacityDiagram,
+  "mba-service-operations-management-servqual": SERVQUALDiagram,
+  "mba-service-operations-management-service-technology": ServiceTechnologyDiagram,
+  "mba-service-operations-management-service-strategy": ServiceStrategyDiagram,
+  "mba-project-and-sourcing-management-sourcing-process": SourcingProcessDiagram,
+  "mba-project-and-sourcing-management-supplier-evaluation": SupplierEvaluationDiagram,
+  "mba-project-and-sourcing-management-price-negotiation": PriceNegotiationDiagram,
+  "mba-project-and-sourcing-management-project-lifecycle": ProjectLifecycleDiagram,
+  "mba-project-and-sourcing-management-project-scheduling": ProjectSchedulingDiagram,
+  "mba-managing-global-supply-chains-global-sc-components": GlobalSCComponentsDiagram,
+  "mba-managing-global-supply-chains-sc-network-design": SCNetworkDesignDiagram,
+  "mba-managing-global-supply-chains-sc-coordination": SCCoordinationDiagram,
+  "mba-managing-global-supply-chains-sc-risk-sustainability": SCRiskSustainabilityDiagram,
+  "mba-managing-global-supply-chains-sc-technology": SCTechnologyDiagram,
+  "mba-international-finance-international-finance-scope": InternationalFinanceScopeDiagram,
+  "mba-international-finance-international-financial-institutions": InternationalFinancialInstitutionsDiagram,
+  "mba-international-finance-forex-market": ForexMarketDiagram,
+  "mba-international-finance-fx-exposure-hedging": FXExposureHedgingDiagram,
+  "mba-international-finance-international-investment-risk": InternationalInvestmentRiskDiagram,
+  "mba-e-business-digital-economy-models": DigitalEconomyModelsDiagram,
+  "mba-e-business-e-business-setup": EBusinessSetupDiagram,
+  "mba-e-business-payment-security-legal": PaymentSecurityLegalDiagram,
+  "mba-e-business-ites-mobile-pervasive": ITESMobilePervasiveDiagram,
+  "mba-e-business-e-governance-models": EGovernanceModelsDiagram,
+  "mba-business-data-warehouse-and-data-mining-dw-architecture-kdd": DWArchitectureKDDDiagram,
+  "mba-business-data-warehouse-and-data-mining-dimensional-olap-etl": DimensionalOLAPETLDiagram,
+  "mba-business-data-warehouse-and-data-mining-data-preprocessing": DataPreprocessingDiagram,
+  "mba-business-data-warehouse-and-data-mining-data-mining-methods": DataMiningMethodsDiagram,
+  "mba-business-data-warehouse-and-data-mining-advanced-mining-ethics": AdvancedMiningEthicsDiagram,
+  "mba-co-operative-accounting-and-audit-pacs-accounting": PACSAccountingDiagram,
+  "mba-co-operative-accounting-and-audit-zsc-cb-accounting": ZSCCBAccountingDiagram,
+  "mba-co-operative-accounting-and-audit-coop-audit-types": CoopAuditTypesDiagram,
+  "mba-co-operative-accounting-and-audit-audit-certificate": AuditCertificateDiagram,
+  "mba-co-operative-accounting-and-audit-audit-programme": AuditProgrammeDiagram,
 
 };
