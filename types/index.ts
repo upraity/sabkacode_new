@@ -118,7 +118,7 @@ export type NoteBlock =
     }
   | {
       kind: "callout";
-      tone: "info" | "example" | "case" | "important";
+      tone: "info" | "example" | "case" | "important" | "formula";
       title: string;
       text: string;
     }
