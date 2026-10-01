@@ -1175,7 +1175,7 @@ export const MbaEBusinessUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "important",
+            "tone": "info",
             "title": "Exam approach",
             "text": "For long-answer questions, define the concept first, explain its mechanism or model, describe applications, discuss benefits and limitations, and conclude with relevant implementation considerations."
           }
