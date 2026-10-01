@@ -162,7 +162,7 @@ export const MbaNonCreditCooperativesUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "important",
+            "tone": "info",
             "title": "Exam focus",
             "text": "For a long answer, explain the need for collective marketing first, then discuss the structure and functions of marketing co-operatives, major institutions such as NAFED, problems and practical improvement measures."
           }
@@ -623,7 +623,7 @@ export const MbaNonCreditCooperativesUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "important",
+            "tone": "info",
             "title": "Source boundary",
             "text": "The supplied syllabus identifies the topic but does not reproduce the regulations. Therefore, detailed clause-by-clause provisions are not asserted here."
           }
