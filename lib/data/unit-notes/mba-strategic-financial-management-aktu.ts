@@ -101,7 +101,7 @@ export const MbaStrategicFinancialManagementUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "formula",
+            "tone": "info",
             "title": "Core principle",
             "text": "Present Value = Future Cash Flow ÷ (1 + required return)^number of periods. For multiple cash flows, discount each relevant cash flow and sum the present values."
           }
@@ -409,7 +409,7 @@ export const MbaStrategicFinancialManagementUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "formula",
+            "tone": "info",
             "title": "Core measures",
             "text": "Degree of Operating Leverage (DOL) = % change in EBIT ÷ % change in sales. Degree of Financial Leverage (DFL) = % change in EPS ÷ % change in EBIT. Combined leverage links the two effects."
           }
@@ -1099,7 +1099,7 @@ export const MbaStrategicFinancialManagementUnitNotes: UnitNote[] = [
           },
           {
             "kind": "callout",
-            "tone": "formula",
+            "tone": "info",
             "title": "Project value logic",
             "text": "NPV = Present value of expected incremental project cash inflows and outflows, including relevant terminal cash flows, minus the initial investment. A positive NPV under the selected assumptions indicates value creation."
           }
