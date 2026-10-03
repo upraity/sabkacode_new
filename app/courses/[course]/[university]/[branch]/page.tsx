@@ -2,7 +2,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
-import { getBranchBySlug, getCourseBySlug, getUniversityBySlug } from "@/lib/data";
+import { StatsStrip } from "@/components/ui/StatsStrip";
+import { getBranchBySlug, getCourseBySlug, getUniversityBySlug, getScopeStats } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 
 interface Props {
@@ -34,6 +35,12 @@ export default async function SemesterListPage({ params }: Props) {
   const branchLabel = await resolveBranchLabel(params.course, params.university, params.branch, course.hasBranches);
   if (!branchLabel) notFound();
 
+  const stats = await getScopeStats({
+    courseSlug: course.slug,
+    universitySlug: university.slug,
+    branchSlug: params.branch,
+  });
+
   const semesters = Array.from({ length: course.totalSemesters }, (_, i) => i + 1);
 
   return (
@@ -50,6 +57,26 @@ export default async function SemesterListPage({ params }: Props) {
           { label: branchLabel },
         ]}
       />
+
+      <p className="mb-6 max-w-2xl text-ink-600">
+        {course.name} at {university.shortName} runs across {course.totalSemesters} semesters.
+        {stats.totalSubjects > 0
+          ? ` ${stats.totalSubjects} subject${stats.totalSubjects === 1 ? "" : "s"} currently have notes, syllabus or previous year papers available — pick a semester below to see what's there.`
+          : " Subject content for this combination is being added — pick a semester below to check."}
+      </p>
+
+      <div className="mb-8">
+        <StatsStrip
+          stats={[
+            { value: course.totalSemesters, label: "Semesters" },
+            { value: stats.totalSubjects, label: "Subjects Covered" },
+            { value: stats.totalResources, label: "Notes & PYQs" },
+            { value: stats.totalDetailedNotes, label: "Full Unit-Wise Notes" },
+          ]}
+        />
+      </div>
+
+      <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-ink-500">Select Semester</h2>
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-8">
         {semesters.map((sem) => (
           <Link
