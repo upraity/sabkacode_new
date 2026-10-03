@@ -73,6 +73,11 @@ import { MbaBusinessDataWarehouseAndDataMiningUnitNotes } from "./unit-notes/mba
 import { MbaCooperativeAccountingAndAuditUnitNotes } from "./unit-notes/mba-cooperative-accounting-and-audit-aktu";
 import { MbaNonCreditCooperativesUnitNotes } from "./unit-notes/mba-non-credit-co-operatives-aktu";
 
+import { BcaDigitalElectronicsDbrauUnitNotes } from "./unit-notes/bca-digital-electronics-dbrau";
+import { pythonProgrammingC302UnitNotes } from "./unit-notes/python-programming-c-302";
+
+
+
 
 
 // DATA — subjects across AKTU (B.Tech CSE demo hierarchy, MBA, MCA),
@@ -4303,6 +4308,7 @@ Registers: Introduction of Registers, Classification of Registers, Register with
 
 UNIT-V
 Counters: Introduction of Counter, Asynchronous/Ripple Counters, Synchronous Counters, BCD Counter, 4-bit Binary Counter with Parallel Load, Design of Synchronous Counters, Ring Counter, Johnson Counter.`,
+        unitNotes: BcaDigitalElectronicsDbrauUnitNotes,
   },
   {
     id: `s-1295`,
@@ -4328,6 +4334,7 @@ Functions: Defining a Function, Syntax, calling a Function, call by value and ca
 
 UNIT-V
 File Manipulation, Opening Text File, Working with a File on Python, The open function, File modes, the file object attributes, close() method, write() method, read() method, Files: Input, Files: Output, Reading files, Renaming & deleting files, Writing into a file, remove() method.`,
+      unitNotes: pythonProgrammingC302UnitNotes,
   },
   {
     id: `s-1296`,
