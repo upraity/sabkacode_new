@@ -4548,7 +4548,6 @@ UNIT-V
 Microprogramming: Basic Principles, Features, Hardwired vs. micro programmed computers, Applications and advantages of microprogramming, Limitations of microprogramming, Computer Clock. Parallel Organization, Instruction Set Architecture (ISA), RISC and CISC, Characteristics of CISC, Characteristics of RISC, RISC versus CISC.`,  
    unitNotes: computerOrganizationArchitectureC404UnitNotes,
 },
-  },
   {
     id: `s-1304`,
     slug: `optimization-techniques`,
