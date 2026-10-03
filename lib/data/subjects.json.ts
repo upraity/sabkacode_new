@@ -75,6 +75,21 @@ import { MbaNonCreditCooperativesUnitNotes } from "./unit-notes/mba-non-credit-c
 
 import { BcaDigitalElectronicsDbrauUnitNotes } from "./unit-notes/bca-digital-electronics-dbrau";
 import { pythonProgrammingC302UnitNotes } from "./unit-notes/python-programming-c-302";
+import { BcaSoftwareEngineeringDbrauUnitNotes } from "./unit-notes/bca-software-engineering-dbrau";
+
+import { numericalMethodsUnitNotes } from "./unit-notes/numerical-methods-c305";
+import { BcaComputerNetworkDbrauUnitNotes } from "./unit-notes/bca-computer-network-dbrau";
+import { operatingSystemC402UnitNotes } from "./unit-notes/operating-system-c402";
+import { BcaWebTechnologyPhpMysqlDbrauUnitNotes } from "./unit-notes/bca-web-technology-php-mysql-dbrau";
+
+import { computerOrganizationArchitectureC404UnitNotes } from "./unit-notes/computer-organization-architecture-c404";
+import { BcaCloudComputingDbrauUnitNotes } from "./unit-notes/bca-cloud-computing-dbrau";
+import { networkSecurityC501UnitNotes } from "./unit-notes/network-security-c501";
+import { BcaOptimizationTechniquesDbrauUnitNotes } from "./unit-notes/bca-optimization-techniques-dbrau";
+import { BcaVisualBasicDotNetDbrauUnitNotes } from "./unit-notes/bca-visual-basic-dot-net-dbrau";
+import { computerGraphicsC503UnitNotes } from "./unit-notes/computer-graphics-c503";
+import { BcaDesignAndAnalysisOfAlgorithmDbrauUnitNotes } from "./unit-notes/bca-design-and-analysis-of-algorithm-dbrau";
+import { aiMlC504UnitNotes } from "./unit-notes/artificial-intelligence-machine-learning-c504.ts";
 
 
 
@@ -4359,7 +4374,9 @@ UNIT-IV
 Software Testing and Quality Assurance: Verification and Validation, Techniques of Testing: Black-Box and White Box Testing, Inspections. Level of Testing: Unit Testing, Integration Testing, Interface testing, System Testing, Alpha and Beta Testing, Regression Testing. Design of test Cases, Quality Management activities, Product and process quality, capability Maturity Model (CMM).
 
 UNIT-V
-Software Cost Estimation: Introduction - Software Cost Factors - Software Cost Estimation Techniques - Stating Level estimation - Estimating Software Maintenance Costs Software.`,  },
+Software Cost Estimation: Introduction - Software Cost Factors - Software Cost Estimation Techniques - Stating Level estimation - Estimating Software Maintenance Costs Software.`, 
+  unitNotes: BcaSoftwareEngineeringDbrauUnitNotes,
+  },
   {
     id: `s-1297`,
     slug: `computer-network`,
@@ -4387,6 +4404,7 @@ UNIT-V
 Session Layer: Introduction, Design and remote procedure call.
 Presentation Layer: Introduction, Design.
 Application Layer: Introduction, File transfer, access and management, electronic mail, virtual terminals, other application.`,
+      unitNotes: BcaComputerNetworkDbrauUnitNotes,
   },
   {
     id: `s-1298`,
@@ -4412,6 +4430,7 @@ Solution of Linear Equation: Gauss’s Elimination method and Gauss’s Siedel i
 
 UNIT-V
 Solution of Differential Equations: Euler’s method, Picard’s method, Fourth-order Ranga Kutta method.`,
+      unitNotes: numericalMethodsUnitNotes,
   },
   // {
   //   id: `s-1299`,
@@ -4448,7 +4467,9 @@ UNIT-IV
 Session and Cookie: Introduction to Session Control, Session Functionality What is a Cookie, Setting Cookies with PHP. Using Cookies with Sessions, Deleting Cookies, Registering Session variables, Destroying variables and session. 8. Database Connectivity with.
 
 UNIT-V
-MySQL: Introduction to RDBMS, Connection with MySQL Database, Performing basic database operation (DML) (Insert, Delete, Update, Select), Setting query parameter, Executing query Join (Cross joins, Inner joins, Outer Joins, Self joins). Exception Handling Understanding Exception and error, Try, catch, throw. Error tracking and debugging.`,  },
+MySQL: Introduction to RDBMS, Connection with MySQL Database, Performing basic database operation (DML) (Insert, Delete, Update, Select), Setting query parameter, Executing query Join (Cross joins, Inner joins, Outer Joins, Self joins). Exception Handling Understanding Exception and error, Try, catch, throw. Error tracking and debugging.`,  
+      unitNotes: BcaWebTechnologyPhpMysqlDbrauUnitNotes,
+  },
   {
     id: `s-1301`,
     slug: `operating-system`,
@@ -4472,7 +4493,9 @@ UNIT-IV
 File Management: File Systems, Secondary Storage Structure, File concept, Access methods, Directory implementation, Efficiency and performance, Recovery.
 
 UNIT-V
-Disk Management: Disk Structure, Disk scheduling, Disk scheduling algorithm: FCFS, SSTF, SCAN, Recovery, Swap-Space Management, Disk Reliability.`,  },
+Disk Management: Disk Structure, Disk scheduling, Disk scheduling algorithm: FCFS, SSTF, SCAN, Recovery, Swap-Space Management, Disk Reliability.`,  
+    unitNotes: operatingSystemC402UnitNotes,
+  },
   {
     id: `s-1302`,
     slug: `cloud-computing`,
@@ -4496,7 +4519,9 @@ UNIT-IV
 Resource management and security in cloud: Inter Cloud Resource Management, Resource Provisioning and Resource Provisioning Methods, Security Overview, Cloud Security Challenges, Software-as-a-Service Security, Security Governance.
 
 UNIT-V
-Cloud technologies and advancements: Hadoop, MapReduce, Virtual Box, Google App Engine – Programming Environment for Google App Engine.`,  },
+Cloud technologies and advancements: Hadoop, MapReduce, Virtual Box, Google App Engine – Programming Environment for Google App Engine.`,  
+      unitNotes: BcaCloudComputingDbrauUnitNotes,
+  },
   {
     id: `s-1303`,
     slug: `computer-organization-architecture`,
@@ -4520,7 +4545,10 @@ UNIT-IV
 I/O Organization: Input / Output Module: Need, Techniques, Interrupt Driven I/O, Basic concepts of an Interrupt, Response of CPU to an Interrupt, Design Issues, Priorities, Interrupt handling, Types of Interrupts. Data Transfer Techniques, Data Memory Access, Buses, Types of buses, I/O Interface, Synchronous and Asynchronous Data Transfer, Serial I/O, Input Devices, Output Devices, Multiprogramming vs. Multiprocessing, Comparison between closely coupled and loosely coupled Multiprocessor.
 
 UNIT-V
-Microprogramming: Basic Principles, Features, Hardwired vs. micro programmed computers, Applications and advantages of microprogramming, Limitations of microprogramming, Computer Clock. Parallel Organization, Instruction Set Architecture (ISA), RISC and CISC, Characteristics of CISC, Characteristics of RISC, RISC versus CISC.`,  },
+Microprogramming: Basic Principles, Features, Hardwired vs. micro programmed computers, Applications and advantages of microprogramming, Limitations of microprogramming, Computer Clock. Parallel Organization, Instruction Set Architecture (ISA), RISC and CISC, Characteristics of CISC, Characteristics of RISC, RISC versus CISC.`,  
+   unitNotes: computerOrganizationArchitectureC404UnitNotes,
+},
+  },
   {
     id: `s-1304`,
     slug: `optimization-techniques`,
@@ -4544,7 +4572,9 @@ UNIT-IV
 Sequencing Problem: Processing of n jobs through 2 machines, processing n jobs through 3 machines, processing 2 jobs through m machines.
 
 UNIT-V
-Game Theory: Characteristics of games, maxima, minimax criteria of optimality, dominance property, algebraic and graphical method of solution of solving 2 x 2 games.`,  },
+Game Theory: Characteristics of games, maxima, minimax criteria of optimality, dominance property, algebraic and graphical method of solution of solving 2 x 2 games.`,
+  
+      unitNotes: BcaOptimizationTechniquesDbrauUnitNotes,},
   // {
   //   id: `s-1305`,
   //   slug: `practical-sem4`,
@@ -4580,7 +4610,9 @@ UNIT-IV
 Network Security: Authentication Applications: Kerberos, X.509 Authentication Service, Electronic Mail Security, PGP, S/MIME, IP Security, Web Security.
 
 UNIT-V
-System Level Security: Intrusion detection, password management, Viruses and related Threats, Virus Counter measures, Firewall Design Principles, Trusted Systems.`,  },
+System Level Security: Intrusion detection, password management, Viruses and related Threats, Virus Counter measures, Firewall Design Principles, Trusted Systems.`, 
+    unitNotes: networkSecurityC501UnitNotes,
+  },
   {
     id: `s-1307`,
     slug: `visual-basic-net`,
@@ -4604,7 +4636,9 @@ UNIT-IV
 Elements of Visual Basic .Net: Properties, Events and Methods of Form, Label, Text Box, List Box, Combo Box, Radio Button, Button, Check Box, Progress Bar, Date Time Picker, Calendar, Picture Box, Hscroll bar, VScroll Bar, Group Box, ToolTip, Timer.
 
 UNIT-V
-Advanced Concepts in VB.Net: Object Oriented Programming, Creating Classes, Objects, Fields, Properties, Methods, Events, Constructors and destructors, Exception Handling, Models, Statements, File Handling, Using File Stream Class, File Mode, File Share, Opening or Creating Files with File Stream Class, Reading and Writing to File with Stream Reader and Stream Writer Classes, Data Access with ADO.NET -- What are Databases? Data Access with Server Explorer, Data Adapter and Data Sets, ADO.NET Objects and Basic SQL. Creating Windows/Web Applications with the help of databases.`,  },
+Advanced Concepts in VB.Net: Object Oriented Programming, Creating Classes, Objects, Fields, Properties, Methods, Events, Constructors and destructors, Exception Handling, Models, Statements, File Handling, Using File Stream Class, File Mode, File Share, Opening or Creating Files with File Stream Class, Reading and Writing to File with Stream Reader and Stream Writer Classes, Data Access with ADO.NET -- What are Databases? Data Access with Server Explorer, Data Adapter and Data Sets, ADO.NET Objects and Basic SQL. Creating Windows/Web Applications with the help of databases.`, 
+        unitNotes: BcaVisualBasicDotNetDbrauUnitNotes,
+  },
   {
     id: `s-1308`,
     slug: `computer-graphics`,
@@ -4628,7 +4662,9 @@ UNIT-IV
 Curves & Surfaces: Polygon Surfaces and polygon meshes, Quadratic and super quadratics surfaces, Spline curve and representation. Solid Modeling: Characteristics, Representation, primitive Instancing, Sweep Representations, Boundary Representations, Constructive Solid Geometry, Spatial Partitioning Representations: Cell Decomposition, Enumeration of Space Occupation, Octree representation.
 
 UNIT-V
-Computer Animation: Introduction, Application of animation, Morphing, Keyframe system, Motion specifications in Animation, Types of animation, Sequencing of Animation Design and Fundamental principles of animation.`,  },
+Computer Animation: Introduction, Application of animation, Morphing, Keyframe system, Motion specifications in Animation, Types of animation, Sequencing of Animation Design and Fundamental principles of animation.`, 
+    unitNotes: computerGraphicsC503UnitNotes,
+  },
   {
     id: `s-1309`,
     slug: `ai-machine-learning`,
@@ -4652,7 +4688,9 @@ UNIT-IV
 Natural Language Processing: Introduction, Need, Goal, Fundamental Problems in Natural Language Understanding, Text and Speech Recognition: Introduction, Advantages and Approaches.
 
 UNIT-V
-Machine Learning: Introduction, Supervised, Unsupervised and Reinforcement Learning, Decision Tree, KNN, Support Vector Machines (SVM), Bayes theorem, Clustering: K-Means, K-Medoids.`,  },
+Machine Learning: Introduction, Supervised, Unsupervised and Reinforcement Learning, Decision Tree, KNN, Support Vector Machines (SVM), Bayes theorem, Clustering: K-Means, K-Medoids.`, 
+      unitNotes: aiMlC504UnitNotes,
+  },
   {
     id: `s-1310`,
     slug: `design-analysis-algorithms`,
@@ -4677,6 +4715,7 @@ Analysis of Graph Algorithms: Elementary Graph Algorithms, Multistage Graphs, Ba
 
 UNIT-V
 Introduction to Complexity Theory: The class P and NP, Polynomial reduction, NP-Complete Problems, NP-Hard Problems.`, 
+      unitNotes: BcaDesignAndAnalysisOfAlgorithmDbrauUnitNotes,
   },
   // {
   //   id: `s-1311`,
