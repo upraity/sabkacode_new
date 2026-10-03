@@ -213,3 +213,74 @@ export async function getAffiliateProduct(code: string): Promise<AffiliateProduc
 export async function getActiveAffiliateProducts(): Promise<AffiliateProductData[]> {
   return Object.values(affiliateProducts).filter((p) => p.active);
 }
+
+// ---------- Content stats ----------
+// Real, computed-from-data numbers — never hardcoded — used to show
+// genuine scale on the homepage and course/semester pages (e.g. "311
+// subjects across 4 universities") instead of leaving those pages with
+// just a list and nothing else.
+
+export interface ContentStats {
+  totalSubjects: number;
+  totalUniversities: number;
+  totalCourses: number;
+  totalNotes: number;
+  totalPyqs: number;
+  totalDetailedNotes: number; // subjects with full in-app unit-wise notes
+}
+
+export async function getContentStats(): Promise<ContentStats> {
+  return {
+    totalSubjects: subjects.length,
+    totalUniversities: universities.filter((u) => u.status === "active").length,
+    totalCourses: courses.length,
+    totalNotes: resources.filter((r) => r.type === "notes").length,
+    totalPyqs: resources.filter((r) => r.type === "pyq").length,
+    totalDetailedNotes: subjects.filter((s) => s.unitNotes && s.unitNotes.length > 0).length,
+  };
+}
+
+export interface CourseStats {
+  totalSubjects: number;
+  totalUniversities: number;
+  totalResources: number;
+  totalDetailedNotes: number;
+}
+
+export async function getCourseStats(courseSlug: string): Promise<CourseStats> {
+  const subs = subjects.filter((s) => s.courseSlug === courseSlug);
+  const subjectIds = new Set(subs.map((s) => s.id));
+  const totalUniversities = (await getUniversitiesForCourse(courseSlug)).length;
+  const totalResources = resources.filter((r) => subjectIds.has(r.subjectId)).length;
+  const totalDetailedNotes = subs.filter((s) => s.unitNotes && s.unitNotes.length > 0).length;
+  return { totalSubjects: subs.length, totalUniversities, totalResources, totalDetailedNotes };
+}
+
+export interface ScopeStats {
+  totalSubjects: number;
+  totalResources: number;
+  totalSemesters: number;
+  totalDetailedNotes: number;
+}
+
+// Stats scoped to a course+university (optionally narrowed to one branch) —
+// used on the "Select Semester" page and the subject-list page so even a
+// sparsely-filled branch/semester shows real, specific numbers rather than
+// just a bare grid of links.
+export async function getScopeStats(params: {
+  courseSlug: string;
+  universitySlug: string;
+  branchSlug?: string;
+}): Promise<ScopeStats> {
+  let subs = subjects.filter(
+    (s) => s.courseSlug === params.courseSlug && s.universitySlug === params.universitySlug
+  );
+  if (params.branchSlug) subs = subs.filter((s) => s.branchSlug === params.branchSlug);
+
+  const subjectIds = new Set(subs.map((s) => s.id));
+  const totalResources = resources.filter((r) => subjectIds.has(r.subjectId)).length;
+  const totalSemesters = new Set(subs.map((s) => s.semester)).size;
+  const totalDetailedNotes = subs.filter((s) => s.unitNotes && s.unitNotes.length > 0).length;
+
+  return { totalSubjects: subs.length, totalResources, totalSemesters, totalDetailedNotes };
+}
