@@ -117,7 +117,7 @@ export const numericalMethodsUnitNotes: UnitNote[] = [
           },
           {
             kind: "info",
-            title": "Exam Note",
+            title: "Exam Note",
             text: "State both the iteration formula and the stopping criterion. A common criterion is |x_(n+1)−x_n| < ε, or |f(x_n)| < ε, depending on the question."
           }
         ]
