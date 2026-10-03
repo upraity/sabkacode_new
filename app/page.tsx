@@ -3,16 +3,21 @@ import { ArrowRight, FileText, HelpCircle, FolderGit2, FlaskConical, MessageCirc
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { LinkButton } from "@/components/ui/Button";
+import { StatsStrip } from "@/components/ui/StatsStrip";
 import { CourseCard } from "@/components/courses/CourseCard";
 import { UniversityCard } from "@/components/university/UniversityCard";
 import { ProjectCard } from "@/components/projects/ProjectCard";
 import { ToolCard } from "@/components/tools/ToolCard";
+import { WhySabkaCode } from "@/components/home/WhySabkaCode";
+import { HowItWorks } from "@/components/home/HowItWorks";
+import { FAQSection } from "@/components/home/FAQSection"; 
 import {
   getCourses,
   getUniversities,
   getUniversitiesForCourse,
   getFeaturedProjects,
   getTools,
+  getContentStats,
 } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 
@@ -27,11 +32,12 @@ const popularResources = [
 ];
 
 export default async function HomePage() {
-  const [courses, universities, featuredProjects, tools] = await Promise.all([
+  const [courses, universities, featuredProjects, tools, stats] = await Promise.all([
     getCourses(),
     getUniversities(),
     getFeaturedProjects(4),
     getTools(),
+    getContentStats(),
   ]);
 
   const courseCounts = await Promise.all(
@@ -57,6 +63,17 @@ export default async function HomePage() {
               Browse Projects
             </LinkButton>
           </div>
+
+          <div className="mx-auto mt-10 max-w-3xl">
+            <StatsStrip
+              stats={[
+                { value: stats.totalUniversities, label: "Universities" },
+                { value: stats.totalSubjects, label: "Subjects" },
+                { value: stats.totalNotes + stats.totalPyqs, label: "Notes & PYQs" },
+                { value: stats.totalDetailedNotes, label: "Full Unit-Wise Notes" },
+              ]}
+            />
+          </div>
         </Container>
       </section>
 
@@ -73,6 +90,18 @@ export default async function HomePage() {
             <CourseCard key={course.id} course={course} universityCount={countBySlug[course.slug]} />
           ))}
         </div>
+      </Section>
+
+      <Section
+        title="Why Students Choose SabkaCode"
+        description="Built around what actually helps before an exam — not a generic resource dump."
+        className="bg-ink-50/40"
+      >
+        <WhySabkaCode />
+      </Section>
+
+      <Section title="How It Works" description="From homepage to exam-ready notes in four steps.">
+        <HowItWorks />
       </Section>
 
       <Section title="Popular Resources" className="bg-ink-50/40">
@@ -127,6 +156,10 @@ export default async function HomePage() {
             <UniversityCard key={u.id} university={u} href={`/universities/${u.slug}`} />
           ))}
         </div>
+      </Section>
+
+      <Section title="Frequently Asked Questions" className="bg-ink-50/40">
+        <FAQSection />
       </Section>
     </>
   );
