@@ -5,7 +5,7 @@ export const siteConfig = {
   tagline: "Study smarter. Build better.",
   description:
     "Notes, previous year papers, projects and useful tools for students — across multiple universities.",
-  url: "https://sabkacode.com",
+  url: "https://sabkacode.vecel.app",
 };
 
 interface PageMetaParams {
