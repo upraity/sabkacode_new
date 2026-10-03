@@ -2947,6 +2947,20 @@ export const resources: ResourceItem[] = [
   { id: "r-5703", subjectId: "s-1090", type: "notes", title: "Unit 4 — Sugarcane and Fertilizer cooperatives", description: " The Uttar Pradesh Sugar Cane Co-operative Societies; Service Regulations 1975", anchor: "unit-4", updatedAt: "2025-01-01", isDemo: false },
   { id: "r-5704", subjectId: "s-1090", type: "notes", title: "Unit 5 — Industrial and Processing Co-operatives", description: " Chikankari / Handlooms Weavers Co- operatives Sugar Factories", anchor: "unit-5", updatedAt: "2025-01-01", isDemo: false },
 
+  // Digital Electronics  (C-301, s-1294) — Detailed Notes index.
+  { id: "r-5705", subjectId: "s-1294", type: "notes", title: "Unit 1 — Number System & Boolean Algebra", description: "Number systems, binary arithmetic, complements, Boolean algebra, logic gates, SOP/POS and K-map minimization.", anchor: "unit-1", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5706", subjectId: "s-1294", type: "notes", title: "Unit 2 — Combinational Circuits", description: "Half/full adders and subtractors, magnitude comparators, multiplexers, demultiplexers, decoders and encoders.", anchor: "unit-2", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5707", subjectId: "s-1294", type: "notes", title: "Unit 3 — Sequential Circuit", description: "Flip-flops, characteristic and excitation tables, master-slave operation, state representation and sequential-circuit design.", anchor: "unit-3", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5708", subjectId: "s-1294", type: "notes", title: "Unit 4 — Registers", description: "Register classification, parallel loading, shift registers, bidirectional shifting and universal register operation.", anchor: "unit-4", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5709", subjectId: "s-1294", type: "notes", title: "Unit 5 — Counters", description: "Counter fundamentals, ripple and synchronous counters, BCD, parallel-load binary counters, ring and Johnson counters.", anchor: "unit-5", updatedAt: "2025-01-01", isDemo: false },
+
+    // Python Programming (C-302, s-1295) — Detailed Notes index.
+  { id: "r-5710", subjectId: "s-1295", type: "notes", title: "Unit 1 — Python Fundamentals, Data Types and Operators", description: "Python basics, interpreter vs compiler, data types, identifiers, literals, assignment, operators and precedence.", anchor: "unit-1", updatedAt: "2025-12-01", isDemo: false },
+  { id: "r-5711", subjectId: "s-1295", type: "notes", title: "Unit 2 — Python Programs, Input/Output and Control Statements", description: "Input/output, conditional statements, for and while loops, loop control and nested loops.", anchor: "unit-2", updatedAt: "2025-12-01", isDemo: false },
+  { id: "r-5712", subjectId: "s-1295", type: "notes", title: "Unit 3 — Strings, Lists, Tuples and Dictionaries", description: "String operations and formatting plus creation, indexing, slicing and methods for lists, tuples and dictionaries.", anchor: "unit-3", updatedAt: "2025-12-01", isDemo: false },
+  { id: "r-5713", subjectId: "s-1295", type: "notes", title: "Unit 4 — Functions, Arguments, Scope and Return Values", description: "Function definition and calls, argument forms, Python's object model, return values and variable scope.", anchor: "unit-4", updatedAt: "2025-12-01", isDemo: false },
+  { id: "r-5714", subjectId: "s-1295", type: "notes", title: "Unit 5 — File Manipulation and Text File Handling", description: "Opening, reading, writing, appending and closing files, modes, file methods, attributes and safe file handling.", anchor: "unit-5", updatedAt: "2025-12-01", isDemo: false },
+
   
   // Strategic Management (BMB301, s-1052) — Detailed Notes index.
   // These entries use `anchor` to jump to the in-app Detailed Notes section.
