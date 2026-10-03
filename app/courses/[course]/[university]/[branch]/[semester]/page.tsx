@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Section } from "@/components/ui/Section";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { EmptyState } from "@/components/ui/EmptyState";
+import { StatsStrip } from "@/components/ui/StatsStrip";
 import { SubjectCard } from "@/components/resources/SubjectCard";
 import { SpecializationFilter } from "@/components/resources/SpecializationFilter";
 import { getBranchBySlug, getCourseBySlug, getSubjects, getUniversityBySlug } from "@/lib/data";
@@ -61,6 +62,9 @@ export default async function SubjectsPage({ params, searchParams }: Props) {
     ? allSubjects.filter((s) => s.specialization === activeSpecialization)
     : allSubjects;
 
+  const subjectsWithNotes = allSubjects.filter((s) => s.unitNotes && s.unitNotes.length > 0).length;
+  const subjectsWithSyllabus = allSubjects.filter((s) => s.syllabus && s.syllabus.trim().length > 0).length;
+
   return (
     <Section title={`Semester ${semester} — Subjects`} description={`${branchLabel} · ${university.shortName}`}>
       <Breadcrumbs
@@ -73,6 +77,28 @@ export default async function SubjectsPage({ params, searchParams }: Props) {
           { label: `Semester ${semester}` },
         ]}
       />
+
+      {allSubjects.length > 0 && (
+        <>
+          <p className="mb-5 max-w-2xl text-ink-600">
+            Semester {semester} of {course.name} at {university.shortName} has {allSubjects.length} subject
+            {allSubjects.length === 1 ? "" : "s"} listed below
+            {subjectsWithSyllabus > 0 ? `, ${subjectsWithSyllabus} with a full syllabus breakdown` : ""}
+            {subjectsWithNotes > 0 ? ` and ${subjectsWithNotes} with complete unit-wise notes` : ""}. Open a
+            subject to see its syllabus, notes and previous year papers.
+          </p>
+
+          <div className="mb-6">
+            <StatsStrip
+              stats={[
+                { value: allSubjects.length, label: "Subjects" },
+                { value: subjectsWithSyllabus, label: "With Syllabus" },
+                { value: subjectsWithNotes, label: "With Full Notes" },
+              ]}
+            />
+          </div>
+        </>
+      )}
 
       {specializations.length > 1 && (
         <Suspense fallback={null}>
