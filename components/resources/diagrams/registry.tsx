@@ -377,6 +377,195 @@ import PythonStringIndexingDiagram from "./PythonStringIndexingDiagram";
 import PythonCollectionTypesDiagram from "./PythonCollectionTypesDiagram";
 import PythonFileHandlingFlowDiagram from "./PythonFileHandlingFlowDiagram";
 
+import SoftwareEngineeringProcessDiagram from "./SoftwareEngineeringProcessDiagram";
+import SoftwareDevelopmentLifeCycleDiagram from "./SoftwareDevelopmentLifeCycleDiagram";
+import SoftwareEngineeringVModelDiagram from "./SoftwareEngineeringVModelDiagram";
+import SoftwareEngineeringPrototypingCycleDiagram from "./SoftwareEngineeringPrototypingCycleDiagram";
+import SoftwareEngineeringArchitectureLayersDiagram from "./SoftwareEngineeringArchitectureLayersDiagram";
+import SoftwareEngineeringModularityDiagram from "./SoftwareEngineeringModularityDiagram";
+import SoftwareEngineeringDesignNotationDiagram from "./SoftwareEngineeringDesignNotationDiagram";
+import SoftwareEngineeringTestingLevelsDiagram from "./SoftwareEngineeringTestingLevelsDiagram";
+import SoftwareEngineeringEstimationFactorsDiagram from "./SoftwareEngineeringEstimationFactorsDiagram";
+import SoftwareEngineeringMaintenanceTypesDiagram from "./SoftwareEngineeringMaintenanceTypesDiagram";
+
+import C305RootFindingMethodsDiagram from "./C305RootFindingMethodsDiagram";
+import C305NewtonTangentDiagram from "./C305NewtonTangentDiagram";
+import C305DifferenceTableDiagram from "./C305DifferenceTableDiagram";
+import C305QuadratureRulesDiagram from "./C305QuadratureRulesDiagram";
+import C305GaussEliminationDiagram from "./C305GaussEliminationDiagram";
+import C305GaussSeidelDiagram from "./C305GaussSeidelDiagram";
+import C305OdeMethodsDiagram from "./C305OdeMethodsDiagram";
+import C305Rk4FourSlopesDiagram from "./C305Rk4FourSlopesDiagram";
+
+import ComputerNetworkCommunicationModelDiagram from "./ComputerNetworkCommunicationModelDiagram";
+import ComputerNetworkTransmissionModesDiagram from "./ComputerNetworkTransmissionModesDiagram";
+import ComputerNetworkTransmissionMediaDiagram from "./ComputerNetworkTransmissionMediaDiagram";
+import ComputerNetworkNetworkTypesDiagram from "./ComputerNetworkNetworkTypesDiagram";
+import ComputerNetworkTopologiesDiagram from "./ComputerNetworkTopologiesDiagram";
+import ComputerNetworkOsiLayersDiagram from "./ComputerNetworkOsiLayersDiagram";
+import ComputerNetworkMultiplexingDiagram from "./ComputerNetworkMultiplexingDiagram";
+import ComputerNetworkFramingDiagram from "./ComputerNetworkFramingDiagram";
+import ComputerNetworkAlohaDiagram from "./ComputerNetworkAlohaDiagram";
+import ComputerNetworkNetworkLayerDiagram from "./ComputerNetworkNetworkLayerDiagram";
+import ComputerNetworkTransportLayerDiagram from "./ComputerNetworkTransportLayerDiagram";
+import ComputerNetworkSessionLayerDiagram from "./ComputerNetworkSessionLayerDiagram";
+import ComputerNetworkRpcDiagram from "./ComputerNetworkRpcDiagram";
+import ComputerNetworkEmailFlowDiagram from "./ComputerNetworkEmailFlowDiagram";
+import WebTechnologyPhpRequestResponseDiagram from "./WebTechnologyPhpRequestResponseDiagram";
+import WebTechnologyPhpRecursionDiagram from "./WebTechnologyPhpRecursionDiagram";
+import WebTechnologyPhpArrayStructureDiagram from "./WebTechnologyPhpArrayStructureDiagram";
+import WebTechnologyPhpFormFlowDiagram from "./WebTechnologyPhpFormFlowDiagram";
+import WebTechnologyPhpFileDirectoryFlowDiagram from "./WebTechnologyPhpFileDirectoryFlowDiagram";
+import WebTechnologyPhpUploadDownloadDiagram from "./WebTechnologyPhpUploadDownloadDiagram";
+import WebTechnologyPhpSessionCookieFlowDiagram from "./WebTechnologyPhpSessionCookieFlowDiagram";
+import WebTechnologyPhpSessionLifecycleDiagram from "./WebTechnologyPhpSessionLifecycleDiagram";
+import WebTechnologyPhpMysqlArchitectureDiagram from "./WebTechnologyPhpMysqlArchitectureDiagram";
+import WebTechnologyMysqlJoinsDiagram from "./WebTechnologyMysqlJoinsDiagram";
+import WebTechnologyPhpErrorDebugFlowDiagram from "./WebTechnologyPhpErrorDebugFlowDiagram";
+import C402OsLayeredViewDiagram from "./C402OsLayeredViewDiagram";
+import C402ProcessStatesDiagram from "./C402ProcessStatesDiagram";
+import C402CriticalSectionDiagram from "./C402CriticalSectionDiagram";
+import C402DeadlockCycleDiagram from "./C402DeadlockCycleDiagram";
+import C402AddressTranslationDiagram from "./C402AddressTranslationDiagram";
+import C402PagingTranslationDiagram from "./C402PagingTranslationDiagram";
+import C402PageFaultFlowDiagram from "./C402PageFaultFlowDiagram";
+import C402FileSystemStructureDiagram from "./C402FileSystemStructureDiagram";
+import C402FileAllocationDiagram from "./C402FileAllocationDiagram";
+import C402DiskSchedulingDiagram from "./C402DiskSchedulingDiagram";
+import CloudComputingBasicModelDiagram from "./CloudComputingBasicModelDiagram";
+import CloudComputingEvolutionDiagram from "./CloudComputingEvolutionDiagram";
+import CloudComputingElasticityDiagram from "./CloudComputingElasticityDiagram";
+import CloudComputingSoaDiagram from "./CloudComputingSoaDiagram";
+import CloudComputingVirtualizationDiagram from "./CloudComputingVirtualizationDiagram";
+import CloudComputingMemoryVirtualizationDiagram from "./CloudComputingMemoryVirtualizationDiagram";
+import CloudComputingDisasterRecoveryDiagram from "./CloudComputingDisasterRecoveryDiagram";
+import CloudComputingLayeredArchitectureDiagram from "./CloudComputingLayeredArchitectureDiagram";
+import CloudComputingDeploymentModelsDiagram from "./CloudComputingDeploymentModelsDiagram";
+import CloudComputingServiceModelsDiagram from "./CloudComputingServiceModelsDiagram";
+import CloudComputingStorageTypesDiagram from "./CloudComputingStorageTypesDiagram";
+import CloudComputingInterCloudResourceManagementDiagram from "./CloudComputingInterCloudResourceManagementDiagram";
+import CloudComputingSaasSecurityDiagram from "./CloudComputingSaasSecurityDiagram";
+import HadoopOverviewDiagram from "./HadoopOverviewDiagram";
+import MapReduceFlowDiagram from "./MapReduceFlowDiagram";
+import VirtualBoxConceptDiagram from "./VirtualBoxConceptDiagram";
+import GoogleAppEngineDevelopmentFlowDiagram from "./GoogleAppEngineDevelopmentFlowDiagram";
+import C404VonNeumannStructureDiagram from "./C404VonNeumannStructureDiagram";
+import C404InstructionCycleDiagram from "./C404InstructionCycleDiagram";
+import C404SingleBusCpuDiagram from "./C404SingleBusCpuDiagram";
+import C404InstructionFormatsDiagram from "./C404InstructionFormatsDiagram";
+import C404GeneralRegisterOrganizationDiagram from "./C404GeneralRegisterOrganizationDiagram";
+import C404MicroprogrammedControlDiagram from "./C404MicroprogrammedControlDiagram";
+import C404MemoryHierarchyDiagram from "./C404MemoryHierarchyDiagram";
+import C404MemoryInterleavingDiagram from "./C404MemoryInterleavingDiagram";
+import C404CacheHierarchyDiagram from "./C404CacheHierarchyDiagram";
+import C404IoModuleDiagram from "./C404IoModuleDiagram";
+import C404InterruptCycleDiagram from "./C404InterruptCycleDiagram";
+import C404DmaTransferDiagram from "./C404DmaTransferDiagram";
+import C404MicroprogrammingPrincipleDiagram from "./C404MicroprogrammingPrincipleDiagram";
+import C404RiscCiscComparisonDiagram from "./C404RiscCiscComparisonDiagram";
+import OptimizationDecisionModelDiagram from "./OptimizationDecisionModelDiagram";
+import OptimizationLPFeasibleRegionDiagram from "./OptimizationLPFeasibleRegionDiagram";
+import OptimizationSimplexTableauFlowDiagram from "./OptimizationSimplexTableauFlowDiagram";
+import OptimizationTwoPhaseMethodDiagram from "./OptimizationTwoPhaseMethodDiagram";
+import OptimizationTransportationModelDiagram from "./OptimizationTransportationModelDiagram";
+import OptimizationVogelPenaltyDiagram from "./OptimizationVogelPenaltyDiagram";
+import OptimizationAssignmentModelDiagram from "./OptimizationAssignmentModelDiagram";
+import OptimizationSequencingGeneralDiagram from "./OptimizationSequencingGeneralDiagram";
+import OptimizationJohnsonTwoMachinesDiagram from "./OptimizationJohnsonTwoMachinesDiagram";
+import OptimizationSequencingThreeMachinesDiagram from "./OptimizationSequencingThreeMachinesDiagram";
+import OptimizationGamePayoffMatrixDiagram from "./OptimizationGamePayoffMatrixDiagram";
+import OptimizationGameSaddlePointDiagram from "./OptimizationGameSaddlePointDiagram";
+import OptimizationGameGraphicalMethodDiagram from "./OptimizationGameGraphicalMethodDiagram";
+import C501OsiSecurityArchitectureDiagram from "./C501OsiSecurityArchitectureDiagram";
+import C501DesFeistelDiagram from "./C501DesFeistelDiagram";
+import C501RsaKeyFlowDiagram from "./C501RsaKeyFlowDiagram";
+import C501HashFunctionDiagram from "./C501HashFunctionDiagram";
+import C501HmacFlowDiagram from "./C501HmacFlowDiagram";
+import C501DigitalSignatureDiagram from "./C501DigitalSignatureDiagram";
+import C501KerberosDiagram from "./C501KerberosDiagram";
+import C501X509ChainDiagram from "./C501X509ChainDiagram";
+import C501IdsDiagram from "./C501IdsDiagram";
+import C501MalwareDefenseDiagram from "./C501MalwareDefenseDiagram";
+import C501FirewallDiagram from "./C501FirewallDiagram";
+import C503InteractiveGraphicsDiagram from "./C503InteractiveGraphicsDiagram";
+import C503GraphicsSystemDiagram from "./C503GraphicsSystemDiagram";
+import C503RasterScanDiagram from "./C503RasterScanDiagram";
+import C503RandomScanDiagram from "./C503RandomScanDiagram";
+import C503CircleSymmetryDiagram from "./C503CircleSymmetryDiagram";
+import C503LineClippingDiagram from "./C503LineClippingDiagram";
+import C503CohenSutherlandDiagram from "./C503CohenSutherlandDiagram";
+import C5032DMatricesDiagram from "./C5032DMatricesDiagram";
+import C503WindowViewportDiagram from "./C503WindowViewportDiagram";
+import C5033DAxesDiagram from "./C5033DAxesDiagram";
+import C503PolygonMeshDiagram from "./C503PolygonMeshDiagram";
+import C503SplineControlDiagram from "./C503SplineControlDiagram";
+import C503BrepDiagram from "./C503BrepDiagram";
+import C503CsgDiagram from "./C503CsgDiagram";
+import C503OctreeDiagram from "./C503OctreeDiagram";
+import C503AnimationPipelineDiagram from "./C503AnimationPipelineDiagram";
+import C503MorphingDiagram from "./C503MorphingDiagram";
+import C503KeyframeDiagram from "./C503KeyframeDiagram";
+import C503AnimationSequencingDiagram from "./C503AnimationSequencingDiagram";
+import VisualBasicDotNetFrameworkOverviewDiagram from "./VisualBasicDotNetFrameworkOverviewDiagram";
+import VisualBasicDotNetClrExecutionFlowDiagram from "./VisualBasicDotNetClrExecutionFlowDiagram";
+import VisualBasicDotNetVisualStudioIdeComponentsDiagram from "./VisualBasicDotNetVisualStudioIdeComponentsDiagram";
+import VisualBasicDotNetWindowsFormControlsDiagram from "./VisualBasicDotNetWindowsFormControlsDiagram";
+import VisualBasicDotNetConditionFlowDiagram from "./VisualBasicDotNetConditionFlowDiagram";
+import VisualBasicDotNetArrayDiagram from "./VisualBasicDotNetArrayDiagram";
+import VisualBasicDotNetProcedureFlowDiagram from "./VisualBasicDotNetProcedureFlowDiagram";
+import VisualBasicDotNetDialogsDiagram from "./VisualBasicDotNetDialogsDiagram";
+import VisualBasicDotNetEventDrivenFlowDiagram from "./VisualBasicDotNetEventDrivenFlowDiagram";
+import VisualBasicDotNetFormEventModelDiagram from "./VisualBasicDotNetFormEventModelDiagram";
+import VisualBasicDotNetFormControlsGroupingDiagram from "./VisualBasicDotNetFormControlsGroupingDiagram";
+import VisualBasicDotNetOopModelDiagram from "./VisualBasicDotNetOopModelDiagram";
+import VisualBasicDotNetExceptionFlowDiagram from "./VisualBasicDotNetExceptionFlowDiagram";
+import VisualBasicDotNetStreamReaderWriterDiagram from "./VisualBasicDotNetStreamReaderWriterDiagram";
+import VisualBasicDotNetAdoNetArchitectureDiagram from "./VisualBasicDotNetAdoNetArchitectureDiagram";
+import VisualBasicDotNetDatabaseApplicationDiagram from "./VisualBasicDotNetDatabaseApplicationDiagram";
+import DesignAndAnalysisAlgorithmFlowDiagram from "./DesignAndAnalysisAlgorithmFlowDiagram";
+import GrowthFunctionsDiagram from "./GrowthFunctionsDiagram";
+import MasterTheoremDiagram from "./MasterTheoremDiagram";
+import RecurrenceExpansionDiagram from "./RecurrenceExpansionDiagram";
+import DivideConquerDiagram from "./DivideConquerDiagram";
+import MergeSortDiagram from "./MergeSortDiagram";
+import QuickSortDiagram from "./QuickSortDiagram";
+import HeapSortDiagram from "./HeapSortDiagram";
+import GreedyMethodDiagram from "./GreedyMethodDiagram";
+import HuffmanTreeDiagram from "./HuffmanTreeDiagram";
+import MatrixChainDiagram from "./MatrixChainDiagram";
+import LcsTableDiagram from "./LcsTableDiagram";
+import BacktrackingTreeDiagram from "./BacktrackingTreeDiagram";
+import NQueensDiagram from "./NQueensDiagram";
+import BasicGraphDiagram from "./BasicGraphDiagram";
+import MultistageGraphDiagram from "./MultistageGraphDiagram";
+import BfsDiagram from "./BfsDiagram";
+import DfsDiagram from "./DfsDiagram";
+import SpanningTreeDiagram from "./SpanningTreeDiagram";
+import KruskalDiagram from "./KruskalDiagram";
+import PrimDiagram from "./PrimDiagram";
+import DijkstraDiagram from "./DijkstraDiagram";
+import BellmanFordDiagram from "./BellmanFordDiagram";
+import ComplexityClassesDiagram from "./ComplexityClassesDiagram";
+import PolynomialReductionDiagram from "./PolynomialReductionDiagram";
+import PNPRelationshipDiagram from "./PNPRelationshipDiagram";
+import C504KnowledgeSystemDiagram from "./C504KnowledgeSystemDiagram";
+import C504KnowledgePyramidDiagram from "./C504KnowledgePyramidDiagram";
+import C504ProblemRepresentationDiagram from "./C504ProblemRepresentationDiagram";
+import C504ExpertSystemArchitectureDiagram from "./C504ExpertSystemArchitectureDiagram";
+import C504ForwardBackwardDiagram from "./C504ForwardBackwardDiagram";
+import C504ExpertLifeCycleDiagram from "./C504ExpertLifeCycleDiagram";
+import C504SearchTreeDiagram from "./C504SearchTreeDiagram";
+import C504DfsBfsDiagram from "./C504DfsBfsDiagram";
+import C504HillClimbingDiagram from "./C504HillClimbingDiagram";
+import C504AStarDiagram from "./C504AStarDiagram";
+import C504NlpPipelineDiagram from "./C504NlpPipelineDiagram";
+import C504SpeechRecognitionDiagram from "./C504SpeechRecognitionDiagram";
+import C504MlOverviewDiagram from "./C504MlOverviewDiagram";
+import C504ReinforcementLearningDiagram from "./C504ReinforcementLearningDiagram";
+import C504DecisionTreeDiagram from "./C504DecisionTreeDiagram";
+import C504SvmMarginDiagram from "./C504SvmMarginDiagram";
+import C504KmeansDiagram from "./C504KmeansDiagram";
+
 
 // Add a new diagram anywhere on the platform by:
 //   1. Building a presentational component in this folder (no required props).
@@ -732,5 +921,197 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "python-string-indexing": PythonStringIndexingDiagram,
   "python-collection-types": PythonCollectionTypesDiagram,
   "python-file-handling-flow": PythonFileHandlingFlowDiagram,
+   "bca-se-software-engineering-process": SoftwareEngineeringProcessDiagram,
+  "bca-se-sdlc-overview": SoftwareDevelopmentLifeCycleDiagram,
+  "bca-se-v-model": SoftwareEngineeringVModelDiagram,
+  "bca-se-prototyping-cycle": SoftwareEngineeringPrototypingCycleDiagram,
+  "bca-se-architecture-layers": SoftwareEngineeringArchitectureLayersDiagram,
+  "bca-se-modularity": SoftwareEngineeringModularityDiagram,
+  "bca-se-design-notation": SoftwareEngineeringDesignNotationDiagram,
+  "bca-se-testing-levels": SoftwareEngineeringTestingLevelsDiagram,
+  "bca-se-estimation-factors": SoftwareEngineeringEstimationFactorsDiagram,
+  "bca-se-maintenance-types": SoftwareEngineeringMaintenanceTypesDiagram,
+    "bca-cn-communication-model": ComputerNetworkCommunicationModelDiagram,
+  "bca-cn-transmission-modes": ComputerNetworkTransmissionModesDiagram,
+  "bca-cn-transmission-media": ComputerNetworkTransmissionMediaDiagram,
+  "bca-cn-network-types": ComputerNetworkNetworkTypesDiagram,
+  "bca-cn-topologies": ComputerNetworkTopologiesDiagram,
+  "bca-cn-osi-layers": ComputerNetworkOsiLayersDiagram,
+  "bca-cn-multiplexing": ComputerNetworkMultiplexingDiagram,
+  "bca-cn-framing": ComputerNetworkFramingDiagram,
+  "bca-cn-aloha": ComputerNetworkAlohaDiagram,
+  "bca-cn-network-layer": ComputerNetworkNetworkLayerDiagram,
+  "bca-cn-transport-layer": ComputerNetworkTransportLayerDiagram,
+  "bca-cn-session-layer": ComputerNetworkSessionLayerDiagram,
+  "bca-cn-rpc": ComputerNetworkRpcDiagram,
+  "bca-cn-email-flow": ComputerNetworkEmailFlowDiagram,
+  "c305-root-finding-methods": C305RootFindingMethodsDiagram,
+  "c305-newton-tangent": C305NewtonTangentDiagram,
+  "c305-difference-table": C305DifferenceTableDiagram,
+  "c305-quadrature-rules": C305QuadratureRulesDiagram,
+  "c305-gauss-elimination": C305GaussEliminationDiagram,
+  "c305-gauss-seidel": C305GaussSeidelDiagram,
+  "c305-ode-methods": C305OdeMethodsDiagram,
+  "c305-rk4-four-slopes": C305Rk4FourSlopesDiagram, 
+
+  "c402-os-layered-view": C402OsLayeredViewDiagram,
+  "c402-process-states": C402ProcessStatesDiagram,
+  "c402-critical-section": C402CriticalSectionDiagram,
+  "c402-deadlock-cycle": C402DeadlockCycleDiagram,
+  "c402-address-translation": C402AddressTranslationDiagram,
+  "c402-paging-translation": C402PagingTranslationDiagram,
+  "c402-page-fault-flow": C402PageFaultFlowDiagram,
+  "c402-file-system-structure": C402FileSystemStructureDiagram,
+  "c402-file-allocation": C402FileAllocationDiagram,
+  "c402-disk-scheduling": C402DiskSchedulingDiagram,
+    "bca-php-request-response": WebTechnologyPhpRequestResponseDiagram,
+  "bca-php-recursion": WebTechnologyPhpRecursionDiagram,
+  "bca-php-array-structure": WebTechnologyPhpArrayStructureDiagram,
+  "bca-php-form-flow": WebTechnologyPhpFormFlowDiagram,
+  "bca-php-file-directory-flow": WebTechnologyPhpFileDirectoryFlowDiagram,
+  "bca-php-upload-download": WebTechnologyPhpUploadDownloadDiagram,
+  "bca-php-session-cookie-flow": WebTechnologyPhpSessionCookieFlowDiagram,
+  "bca-php-session-lifecycle": WebTechnologyPhpSessionLifecycleDiagram,
+  "bca-php-mysql-architecture": WebTechnologyPhpMysqlArchitectureDiagram,
+  "bca-mysql-joins": WebTechnologyMysqlJoinsDiagram,
+  "bca-php-error-debug-flow": WebTechnologyPhpErrorDebugFlowDiagram,
+
+    "c404-von-neumann-structure": C404VonNeumannStructureDiagram,
+  "c404-instruction-cycle": C404InstructionCycleDiagram,
+  "c404-single-bus-cpu": C404SingleBusCpuDiagram,
+  "c404-instruction-formats": C404InstructionFormatsDiagram,
+  "c404-general-register-organization": C404GeneralRegisterOrganizationDiagram,
+  "c404-microprogrammed-control": C404MicroprogrammedControlDiagram,
+  "c404-memory-hierarchy": C404MemoryHierarchyDiagram,
+  "c404-memory-interleaving": C404MemoryInterleavingDiagram,
+  "c404-cache-hierarchy": C404CacheHierarchyDiagram,
+  "c404-io-module": C404IoModuleDiagram,
+  "c404-interrupt-cycle": C404InterruptCycleDiagram,
+  "c404-dma-transfer": C404DmaTransferDiagram,
+  "c404-microprogramming-principle": C404MicroprogrammingPrincipleDiagram,
+  "c404-risc-cisc-comparison": C404RiscCiscComparisonDiagram,
+   "bca-cloud-basic-model": CloudComputingBasicModelDiagram,
+  "bca-cloud-evolution": CloudComputingEvolutionDiagram,
+  "bca-cloud-elasticity": CloudComputingElasticityDiagram,
+  "bca-cloud-soa": CloudComputingSoaDiagram,
+  "bca-cloud-virtualization": CloudComputingVirtualizationDiagram,
+  "bca-cloud-memory-virtualization": CloudComputingMemoryVirtualizationDiagram,
+  "bca-cloud-disaster-recovery": CloudComputingDisasterRecoveryDiagram,
+  "bca-cloud-layered-architecture": CloudComputingLayeredArchitectureDiagram,
+  "bca-cloud-deployment-models": CloudComputingDeploymentModelsDiagram,
+  "bca-cloud-service-models": CloudComputingServiceModelsDiagram,
+  "bca-cloud-storage-types": CloudComputingStorageTypesDiagram,
+  "bca-intercloud-resource-management": CloudComputingInterCloudResourceManagementDiagram,
+  "bca-saas-security": CloudComputingSaasSecurityDiagram,
+  "bca-hadoop-overview": HadoopOverviewDiagram,
+  "bca-mapreduce-flow": MapReduceFlowDiagram,
+  "bca-virtualbox-concept": VirtualBoxConceptDiagram,
+  "bca-app-engine-development-flow": GoogleAppEngineDevelopmentFlowDiagram,
+
+    "c501-osi-security-architecture": C501OsiSecurityArchitectureDiagram,
+  "c501-des-feistel": C501DesFeistelDiagram,
+  "c501-rsa-key-flow": C501RsaKeyFlowDiagram,
+  "c501-hash-function": C501HashFunctionDiagram,
+  "c501-hmac-flow": C501HmacFlowDiagram,
+  "c501-digital-signature": C501DigitalSignatureDiagram,
+  "c501-kerberos": C501KerberosDiagram,
+  "c501-x509-chain": C501X509ChainDiagram,
+  "c501-ids": C501IdsDiagram,
+  "c501-malware-defense": C501MalwareDefenseDiagram,
+  "c501-firewall": C501FirewallDiagram,
+   "bca-or-decision-model": OptimizationDecisionModelDiagram,
+  "bca-lp-feasible-region": OptimizationLPFeasibleRegionDiagram,
+  "bca-simplex-tableau-flow": OptimizationSimplexTableauFlowDiagram,
+  "bca-two-phase-method": OptimizationTwoPhaseMethodDiagram,
+  "bca-transportation-model": OptimizationTransportationModelDiagram,
+  "bca-vogel-penalty": OptimizationVogelPenaltyDiagram,
+  "bca-assignment-model": OptimizationAssignmentModelDiagram,
+  "bca-sequencing-general": OptimizationSequencingGeneralDiagram,
+  "bca-johnson-two-machines": OptimizationJohnsonTwoMachinesDiagram,
+  "bca-sequencing-three-machines": OptimizationSequencingThreeMachinesDiagram,
+  "bca-game-payoff-matrix": OptimizationGamePayoffMatrixDiagram,
+  "bca-game-saddle-point": OptimizationGameSaddlePointDiagram,
+  "bca-game-graphical-method": OptimizationGameGraphicalMethodDiagram,
+
+   "bca-dotnet-framework-overview": VisualBasicDotNetFrameworkOverviewDiagram,
+  "bca-clr-execution-flow": VisualBasicDotNetClrExecutionFlowDiagram,
+  "bca-vs-ide-components": VisualBasicDotNetVisualStudioIdeComponentsDiagram,
+  "bca-windows-form-controls": VisualBasicDotNetWindowsFormControlsDiagram,
+  "bca-vbnet-condition-flow": VisualBasicDotNetConditionFlowDiagram,
+  "bca-vbnet-array": VisualBasicDotNetArrayDiagram,
+  "bca-vbnet-procedure-flow": VisualBasicDotNetProcedureFlowDiagram,
+  "bca-vbnet-dialogs": VisualBasicDotNetDialogsDiagram,
+  "bca-vbnet-event-driven-flow": VisualBasicDotNetEventDrivenFlowDiagram,
+  "bca-vbnet-form-event-model": VisualBasicDotNetFormEventModelDiagram,
+  "bca-vbnet-form-controls-grouping": VisualBasicDotNetFormControlsGroupingDiagram,
+  "bca-vbnet-oop-model": VisualBasicDotNetOopModelDiagram,
+  "bca-vbnet-exception-flow": VisualBasicDotNetExceptionFlowDiagram,
+  "bca-vbnet-stream-reader-writer": VisualBasicDotNetStreamReaderWriterDiagram,
+  "bca-ado-net-architecture": VisualBasicDotNetAdoNetArchitectureDiagram,
+  "bca-vbnet-database-application": VisualBasicDotNetDatabaseApplicationDiagram,
+
+   "c503-interactive-graphics": C503InteractiveGraphicsDiagram,
+  "c503-graphics-system": C503GraphicsSystemDiagram,
+  "c503-raster-scan": C503RasterScanDiagram,
+  "c503-random-scan": C503RandomScanDiagram,
+  "c503-circle-symmetry": C503CircleSymmetryDiagram,
+  "c503-line-clipping": C503LineClippingDiagram,
+  "c503-cohen-sutherland": C503CohenSutherlandDiagram,
+  "c503-2d-matrices": C5032DMatricesDiagram,
+  "c503-window-viewport": C503WindowViewportDiagram,
+  "c503-3d-axes": C5033DAxesDiagram,
+  "c503-polygon-mesh": C503PolygonMeshDiagram,
+  "c503-spline-control": C503SplineControlDiagram,
+  "c503-brep": C503BrepDiagram,
+  "c503-csg": C503CsgDiagram,
+  "c503-octree": C503OctreeDiagram,
+  "c503-animation-pipeline": C503AnimationPipelineDiagram,
+  "c503-morphing": C503MorphingDiagram,
+  "c503-keyframe": C503KeyframeDiagram,
+  "c503-animation-sequencing": C503AnimationSequencingDiagram,
+
   
+  "c504-knowledge-system": C504KnowledgeSystemDiagram,
+  "c504-knowledge-pyramid": C504KnowledgePyramidDiagram,
+  "c504-problem-representation": C504ProblemRepresentationDiagram,
+  "c504-expert-system-architecture": C504ExpertSystemArchitectureDiagram,
+  "c504-forward-backward": C504ForwardBackwardDiagram,
+  "c504-expert-life-cycle": C504ExpertLifeCycleDiagram,
+  "c504-search-tree": C504SearchTreeDiagram,
+  "c504-dfs-bfs": C504DfsBfsDiagram,
+  "c504-hill-climbing": C504HillClimbingDiagram,
+  "c504-a-star": C504AStarDiagram,
+  "c504-nlp-pipeline": C504NlpPipelineDiagram,
+  "c504-speech-recognition": C504SpeechRecognitionDiagram,
+  "c504-ml-overview": C504MlOverviewDiagram,
+  "c504-reinforcement-learning": C504ReinforcementLearningDiagram,
+  "c504-decision-tree": C504DecisionTreeDiagram,
+  "c504-svm-margin": C504SvmMarginDiagram,
+  "c504-kmeans": C504KmeansDiagram,
+   "bca-c505-algorithm-flow": DesignAndAnalysisAlgorithmFlowDiagram,
+  "bca-c505-growth-functions": GrowthFunctionsDiagram,
+  "bca-c505-master-theorem": MasterTheoremDiagram,
+  "bca-c505-recurrence-expansion": RecurrenceExpansionDiagram,
+  "bca-c505-divide-conquer": DivideConquerDiagram,
+  "bca-c505-merge-sort": MergeSortDiagram,
+  "bca-c505-quick-sort": QuickSortDiagram,
+  "bca-c505-heap-sort": HeapSortDiagram,
+  "bca-c505-greedy-method": GreedyMethodDiagram,
+  "bca-c505-huffman-tree": HuffmanTreeDiagram,
+  "bca-c505-matrix-chain": MatrixChainDiagram,
+  "bca-c505-lcs-table": LcsTableDiagram,
+  "bca-c505-backtracking-tree": BacktrackingTreeDiagram,
+  "bca-c505-nqueens": NQueensDiagram,
+  "bca-c505-basic-graph": BasicGraphDiagram,
+  "bca-c505-multistage-graph": MultistageGraphDiagram,
+  "bca-c505-bfs": BfsDiagram,
+  "bca-c505-dfs": DfsDiagram,
+  "bca-c505-spanning-tree": SpanningTreeDiagram,
+  "bca-c505-kruskal": KruskalDiagram,
+  "bca-c505-prim": PrimDiagram,
+  "bca-c505-dijkstra": DijkstraDiagram,
+  "bca-c505-bellman-ford": BellmanFordDiagram,
+  "bca-c505-complexity-classes": ComplexityClassesDiagram,
+  "bca-c505-polynomial-reduction": PolynomialReductionDiagram,
+  "bca-c505-p-np-relationship": PNPRelationshipDiagram, 
 };
