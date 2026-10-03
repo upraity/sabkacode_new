@@ -1,0 +1,7 @@
+export default function MultistageGraphDiagram() {
+  return <svg viewBox="0 0 760 230" className="w-full h-auto" role="img" aria-label="Multistage graph">
+    <text x="90" y="30">Stage 1</text><text x="270" y="30">Stage 2</text><text x="450" y="30">Stage 3</text><text x="640" y="30">Stage 4</text>
+    <circle cx="90" cy="110" r="22" fill="none" stroke="currentColor"/><circle cx="270" cy="70" r="22" fill="none" stroke="currentColor"/><circle cx="270" cy="150" r="22" fill="none" stroke="currentColor"/><circle cx="450" cy="70" r="22" fill="none" stroke="currentColor"/><circle cx="450" cy="150" r="22" fill="none" stroke="currentColor"/><circle cx="650" cy="110" r="22" fill="none" stroke="currentColor"/>
+    <line x1="112" y1="110" x2="248" y2="70" stroke="currentColor"/><line x1="112" y1="110" x2="248" y2="150" stroke="currentColor"/><line x1="292" y1="70" x2="428" y2="70" stroke="currentColor"/><line x1="292" y1="70" x2="428" y2="150" stroke="currentColor"/><line x1="292" y1="150" x2="428" y2="70" stroke="currentColor"/><line x1="292" y1="150" x2="428" y2="150" stroke="currentColor"/><line x1="472" y1="70" x2="628" y2="110" stroke="currentColor"/><line x1="472" y1="150" x2="628" y2="110" stroke="currentColor"/>
+  </svg>;
+}
