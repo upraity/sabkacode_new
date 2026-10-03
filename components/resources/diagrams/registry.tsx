@@ -354,7 +354,28 @@ import { ZSCCBAccountingDiagram } from "./ZSCCBAccountingDiagram";
 import { CoopAuditTypesDiagram } from "./CoopAuditTypesDiagram";
 import { AuditCertificateDiagram } from "./AuditCertificateDiagram";
 import { AuditProgrammeDiagram } from "./AuditProgrammeDiagram";
-
+// Digital Electronics (C-301) — DBRAU B.C.A. Third Semester diagrams.
+import BcaSem3DeNumberSystemsDiagram from "./BcaSem3DeNumberSystemsDiagram";
+import BcaSem3DeBooleanGatesDiagram from "./BcaSem3DeBooleanGatesDiagram";
+import BcaSem3DeKmapDiagram from "./BcaSem3DeKmapDiagram";
+import BcaSem3DeAddersDiagram from "./BcaSem3DeAddersDiagram";
+import BcaSem3DeMuxDemuxDiagram from "./BcaSem3DeMuxDemuxDiagram";
+import BcaSem3DeFlipFlopsDiagram from "./BcaSem3DeFlipFlopsDiagram";
+import BcaSem3DeMasterSlaveDiagram from "./BcaSem3DeMasterSlaveDiagram";
+import BcaSem3DeSequenceDesignDiagram from "./BcaSem3DeSequenceDesignDiagram";
+import BcaSem3DeParallelLoadRegisterDiagram from "./BcaSem3DeParallelLoadRegisterDiagram";
+import BcaSem3DeShiftRegistersDiagram from "./BcaSem3DeShiftRegistersDiagram";
+import BcaSem3DeUniversalRegisterDiagram from "./BcaSem3DeUniversalRegisterDiagram";
+import BcaSem3DeRippleCounterDiagram from "./BcaSem3DeRippleCounterDiagram";
+import BcaSem3DeSynchronousCounterDiagram from "./BcaSem3DeSynchronousCounterDiagram";
+import BcaSem3DeBcdParallelLoadDiagram from "./BcaSem3DeBcdParallelLoadDiagram";
+import BcaSem3DeRingJohnsonDiagram from "./BcaSem3DeRingJohnsonDiagram";
+import PythonExecutionFlowDiagram from "./PythonExecutionFlowDiagram";
+import PythonOperatorPrecedenceDiagram from "./PythonOperatorPrecedenceDiagram";
+import PythonControlFlowDiagram from "./PythonControlFlowDiagram";
+import PythonStringIndexingDiagram from "./PythonStringIndexingDiagram";
+import PythonCollectionTypesDiagram from "./PythonCollectionTypesDiagram";
+import PythonFileHandlingFlowDiagram from "./PythonFileHandlingFlowDiagram";
 
 
 // Add a new diagram anywhere on the platform by:
@@ -690,5 +711,26 @@ export const diagramRegistry: Record<string, ComponentType> = {
   "mba-co-operative-accounting-and-audit-coop-audit-types": CoopAuditTypesDiagram,
   "mba-co-operative-accounting-and-audit-audit-certificate": AuditCertificateDiagram,
   "mba-co-operative-accounting-and-audit-audit-programme": AuditProgrammeDiagram,
-
+    "bca-sem3-de-number-systems": BcaSem3DeNumberSystemsDiagram,
+  "bca-sem3-de-boolean-gates": BcaSem3DeBooleanGatesDiagram,
+  "bca-sem3-de-kmap": BcaSem3DeKmapDiagram,
+  "bca-sem3-de-adders": BcaSem3DeAddersDiagram,
+  "bca-sem3-de-mux-demux": BcaSem3DeMuxDemuxDiagram,
+  "bca-sem3-de-flipflops": BcaSem3DeFlipFlopsDiagram,
+  "bca-sem3-de-master-slave": BcaSem3DeMasterSlaveDiagram,
+  "bca-sem3-de-sequence-design": BcaSem3DeSequenceDesignDiagram,
+  "bca-sem3-de-parallel-load-register": BcaSem3DeParallelLoadRegisterDiagram,
+  "bca-sem3-de-shift-registers": BcaSem3DeShiftRegistersDiagram,
+  "bca-sem3-de-universal-register": BcaSem3DeUniversalRegisterDiagram,
+  "bca-sem3-de-ripple-counter": BcaSem3DeRippleCounterDiagram,
+  "bca-sem3-de-synchronous-counter": BcaSem3DeSynchronousCounterDiagram,
+  "bca-sem3-de-bcd-parallel-load": BcaSem3DeBcdParallelLoadDiagram,
+  "bca-sem3-de-ring-johnson": BcaSem3DeRingJohnsonDiagram,
+  "python-execution-flow": PythonExecutionFlowDiagram,
+  "python-operator-precedence": PythonOperatorPrecedenceDiagram,
+  "python-control-flow": PythonControlFlowDiagram,
+  "python-string-indexing": PythonStringIndexingDiagram,
+  "python-collection-types": PythonCollectionTypesDiagram,
+  "python-file-handling-flow": PythonFileHandlingFlowDiagram,
+  
 };
