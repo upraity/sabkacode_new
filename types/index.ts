@@ -43,6 +43,11 @@ export interface Course {
   description: string;
   hasBranches: boolean;
   totalSemesters: number;
+    // Longer, multi-paragraph write-up shown on the course's own page
+  // (/courses/[course]) — what the degree covers, typical structure,
+  // where it leads. Separate paragraphs with a blank line. Optional so
+  // older/newer course entries don't need it to type-check.
+  longDescription?: string;
 }
 
 export interface University {
