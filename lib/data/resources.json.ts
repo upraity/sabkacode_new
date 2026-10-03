@@ -2961,6 +2961,97 @@ export const resources: ResourceItem[] = [
   { id: "r-5713", subjectId: "s-1295", type: "notes", title: "Unit 4 — Functions, Arguments, Scope and Return Values", description: "Function definition and calls, argument forms, Python's object model, return values and variable scope.", anchor: "unit-4", updatedAt: "2025-12-01", isDemo: false },
   { id: "r-5714", subjectId: "s-1295", type: "notes", title: "Unit 5 — File Manipulation and Text File Handling", description: "Opening, reading, writing, appending and closing files, modes, file methods, attributes and safe file handling.", anchor: "unit-5", updatedAt: "2025-12-01", isDemo: false },
 
+  //Software Engineering  (C-303, s-1296) — Detailed Notes index.
+  { id: "r-5715", subjectId: "s-1296", type: "notes", title: "Unit 1 — Introduction to Software Engineering", description: "Software concepts, quality attributes, software engineering, costs, challenges and requirements specification.", anchor: "unit-1", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5716", subjectId: "s-1296", type: "notes", title: "Unit 2 — Software Development Life Cycle", description: "Waterfall, V-model, Spiral, iterative, Big Bang, RAD, Agile, XP and prototype models.", anchor: "unit-2", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5717", subjectId: "s-1296", type: "notes", title: "Unit 3 — Design Concepts", description: "Abstraction, architecture, patterns, modularity, cohesion, coupling, information hiding and UI design.", anchor: "unit-3", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5718", subjectId: "s-1296", type: "notes", title: "Unit 4 — Software Testing and Quality Assurance", description: "Testing techniques, testing levels, test cases, quality management, product/process quality and CMM.", anchor: "unit-4", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5719", subjectId: "s-1296", type: "notes", title: "Unit 5 — Software Cost Estimation and Maintenance", description: "Cost factors, estimation techniques, staffing and software maintenance cost estimation.", anchor: "unit-5", updatedAt: "2025-01-01", isDemo: false },
+
+  // Numerical Methods  (C-305, s-1298) — Detailed Notes index.
+  { id: "r-5720", subjectId: "s-1298", type: "notes", title: "Unit 1 — Roots of Equations", description: "Bisection, False Position, Newton-Raphson and convergence.", anchor: "unit-1", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5721", subjectId: "s-1298", type: "notes", title: "Unit 2 — Interpolation and Extrapolation", description: "Finite differences, Newton, Lagrange and central interpolation formulas.", anchor: "unit-2", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5722", subjectId: "s-1298", type: "notes", title: "Unit 3 — Numerical Differentiation and Numerical Integration", description: "Numerical differentiation, quadrature, Trapezoidal and Simpson rules.", anchor: "unit-3", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5723", subjectId: "s-1298", type: "notes", title: "Unit 4 — Solution of Linear Equations", description: "Gauss elimination and Gauss-Seidel iterative solution.", anchor: "unit-4", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5724", subjectId: "s-1298", type: "notes", title: "Unit 5 — Solution of Differential Equations", description: "Euler, Picard and fourth-order Runge-Kutta methods.", anchor: "unit-5", updatedAt: "2026-10-03", isDemo: false },
+
+    //  Computer Network  (C-304, s-1297) — Detailed Notes index.
+  { id: "r-5725", subjectId: "s-1297", type: "notes", title: "Unit 1 — Data Communications", description: "Communication theory, channel capacity, impairments, transmission modes and media.", anchor: "unit-1", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5726", subjectId: "s-1297", type: "notes", title: "Unit 2 — Computer Network", description: "Network types, topologies, OSI/TCP-IP models and multiplexing.", anchor: "unit-2", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5727", subjectId: "s-1297", type: "notes", title: "Unit 3 — Data Link Layer", description: "Framing, error and flow control, medium access, channel allocation and ALOHA.", anchor: "unit-3", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5728", subjectId: "s-1297", type: "notes", title: "Unit 4 — Network Layer and Transport Layer", description: "Routing, congestion, IP, IPv4, IPv6 and transport-layer concepts.", anchor: "unit-4", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5729", subjectId: "s-1297", type: "notes", title: "Unit 5 — Session, Presentation and Application Layers", description: "Session design, RPC, presentation functions, electronic mail, virtual terminals and application services.", anchor: "unit-5", updatedAt: "2025-01-01", isDemo: false },
+
+  // Operating System     (C-402, s-1301) — Detailed Notes index.
+  { id: "r-5730", subjectId: "s-1301", type: "notes", title: "Unit 1 — Introduction and Process Management", description: "OS fundamentals, types, processes, IPC, CPU scheduling and multiprocessor scheduling.", anchor: "unit-1", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5731", subjectId: "s-1301", type: "notes", title: "Unit 2 — Process Synchronization and Deadlocks", description: "Critical sections, synchronization, semaphores, monitors and deadlock handling.", anchor: "unit-2", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5732", subjectId: "s-1301", type: "notes", title: "Unit 3 — Memory Management", description: "Address spaces, allocation, paging, segmentation, virtual memory and page replacement.", anchor: "unit-3", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5733", subjectId: "s-1301", type: "notes", title: "Unit 4 — File Management", description: "File systems, access methods, directories, allocation, free space and recovery.", anchor: "unit-4", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5734", subjectId: "s-1301", type: "notes", title: "Unit 5 — Disk Management", description: "Disk structure, FCFS, SSTF, SCAN, swap space and disk reliability.", anchor: "unit-5", updatedAt: "2026-10-03", isDemo: false },
+
+    // Web Technology with PHP & MySQL (C-401, s-NEXT)
+  { id: "r-5735", subjectId: "s-1300", type: "notes", title: "Unit 1 — Introduction to PHP", description: "PHP syntax, variables, constants, operators, decisions, loops, functions, recursion and strings.", anchor: "unit-1", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5736", subjectId: "s-1300", type: "notes", title: "Unit 2 — Arrays, HTML Forms and File Upload Forms", description: "Indexed and associative arrays, array functions, HTML forms, multi-value fields and file-upload form concepts.", anchor: "unit-2", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5737", subjectId: "s-1300", type: "notes", title: "Unit 3 — Files and Directories", description: "File opening, reading, writing, copying, renaming, deleting, directories, uploads and downloads.", anchor: "unit-3", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5738", subjectId: "s-1300", type: "notes", title: "Unit 4 — Session and Cookie", description: "Session control, session variables, cookies, cookie/session interaction and session destruction.", anchor: "unit-4", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5739", subjectId: "s-1300", type: "notes", title: "Unit 5 — MySQL", description: "RDBMS, MySQL connectivity, DML, query execution, joins, exceptions and debugging.", anchor: "unit-5", updatedAt: "2025-01-01", isDemo: false },
+
+  // Computer Organization and Architecture (C-404, s-NEXT) — Detailed Notes index.
+  { id: "r-5740", subjectId: "s-1303", type: "notes", title: "Unit 1 — Basic Computer Organization and Instruction Formats", description: "Von Neumann architecture, CPU organization, microoperations, addressing modes and instruction formats.", anchor: "unit-1", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5741", subjectId: "s-1303", type: "notes", title: "Unit 2 — Processor Organization and Control Unit", description: "Processor organization, register organization, bus structures, instruction cycle and control units.", anchor: "unit-2", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5742", subjectId: "s-1303", type: "notes", title: "Unit 3 — Memory Organization and Cache Memory", description: "Memory hierarchy, DRAM/SRAM, interleaving, cache design, mapping and replacement.", anchor: "unit-3", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5743", subjectId: "s-1303", type: "notes", title: "Unit 4 — Input / Output Organization", description: "I/O modules, interrupts, DMA, buses, interfaces and data-transfer techniques.", anchor: "unit-4", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5744", subjectId: "s-1303", type: "notes", title: "Unit 5 — Microprogramming and RISC/CISC", description: "Microprogramming, control implementation, ISA and RISC versus CISC.", anchor: "unit-5", updatedAt: "2026-10-03", isDemo: false },
+
+    // Cloud Computing (C-403, s-NEXT)
+  { id: "r-5745", subjectId: "s-1302", type: "notes", title: "Unit 1 — Introduction to Cloud Computing", description: "Cloud definition, evolution, parallel/distributed principles, characteristics, elasticity and on-demand provisioning.", anchor: "unit-1", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5746", subjectId: "s-1302", type: "notes", title: "Unit 2 — Cloud Enabling Technologies", description: "SOA, virtualization, CPU/memory/I-O virtualization, mechanisms, tools and disaster recovery.", anchor: "unit-2", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5747", subjectId: "s-1302", type: "notes", title: "Unit 3 — Cloud Architecture, Services and Storage", description: "Layered architecture, public/private/hybrid clouds, IaaS/PaaS/SaaS, design challenges and cloud storage.", anchor: "unit-3", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5748", subjectId: "s-1302", type: "notes", title: "Unit 4 — Resource Management and Security", description: "Inter-cloud resource management, provisioning, cloud security, SaaS security and security governance.", anchor: "unit-4", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5749", subjectId: "s-1302", type: "notes", title: "Unit 5 — Cloud Technologies and Advancements", description: "Hadoop, MapReduce, VirtualBox and Google App Engine programming environment.", anchor: "unit-5", updatedAt: "2025-01-01", isDemo: false },
+
+  // Network Security (C-501, s-NEXT) — Detailed Notes resource index.
+  { id: "r-5750", subjectId: "s-1306", type: "notes", title: "Unit 1 — Network Security Fundamentals and Classical Cryptography", description: "OSI security architecture, classical ciphers, DES/block-cipher concepts and passive attacks.", anchor: "unit-1", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5751", subjectId: "s-1306", type: "notes", title: "Unit 2 — Number Theory, Symmetric and Public-Key Cryptography", description: "Modular arithmetic, Euclid, Fermat/Euler, CRT, discrete logarithm, key management and RSA.", anchor: "unit-2", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5752", subjectId: "s-1306", type: "notes", title: "Unit 3 — Authentication, Hash Functions and Digital Signatures", description: "Authentication, hash functions, MD5/SHA/RIPEMD, HMAC, signatures and DSS.", anchor: "unit-3", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5753", subjectId: "s-1306", type: "notes", title: "Unit 4 — Network Security Applications", description: "Kerberos, X.509, secure email, PGP, S/MIME, IPsec and web security.", anchor: "unit-4", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5754", subjectId: "s-1306", type: "notes", title: "Unit 5 — System-Level Security", description: "Intrusion detection, password management, malware, firewalls and trusted systems.", anchor: "unit-5", updatedAt: "2026-10-03", isDemo: false },
+
+    // Optimization Techniques (C-405, s-NEXT)
+  { id: "r-5755", subjectId: "s-1304", type: "notes", title: "Unit 1 — OR and Linear Programming", description: "OR basics, characteristics, decision making, LP formulation, graphical solution and standard/canonical terms.", anchor: "unit-1", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5756", subjectId: "s-1304", type: "notes", title: "Unit 2 — Algebraic Solution", description: "Simplex method, Big-M method of penalties and two-phase simplex method.", anchor: "unit-2", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5757", subjectId: "s-1304", type: "notes", title: "Unit 3 — Transportation and Assignment", description: "Transportation formulation, NW Corner, row/column minima, VAM, assignment formulation and Hungarian method.", anchor: "unit-3", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5758", subjectId: "s-1304", type: "notes", title: "Unit 4 — Sequencing Problems", description: "n jobs through 2 machines, n jobs through 3 machines and 2 jobs through m machines.", anchor: "unit-4", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5759", subjectId: "s-1304", type: "notes", title: "Unit 5 — Game Theory", description: "Game characteristics, maximin/minimax, saddle point, dominance and 2×2 algebraic/graphical methods.", anchor: "unit-5", updatedAt: "2025-01-01", isDemo: false },
+
+  // Computer Graphics (C-503, s-NEXT) — Detailed Notes resource index.
+  { id: "r-5760", subjectId: "s-1308", type: "notes", title: "Unit 1 — Introduction to Computer Graphics and Display Devices", description: "Interactive graphics, graphics hardware, raster scan, video controller, random scan and image scanners.", anchor: "unit-1", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5761", subjectId: "s-1308", type: "notes", title: "Unit 2 — Scan Conversion and Clipping Algorithms", description: "Line, circle and ellipse scan conversion plus point and line clipping algorithms.", anchor: "unit-2", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5762", subjectId: "s-1308", type: "notes", title: "Unit 3 — Geometrical Transformations in 2D and 3D", description: "2D transformations, homogeneous coordinates, matrix composition, window-to-viewport mapping and 3D matrices.", anchor: "unit-3", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5763", subjectId: "s-1308", type: "notes", title: "Unit 4 — Curves, Surfaces and Solid Modeling", description: "Polygon meshes, quadrics, splines, B-rep, CSG, spatial partitioning and octrees.", anchor: "unit-4", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5764", subjectId: "s-1308", type: "notes", title: "Unit 5 — Computer Animation", description: "Animation applications, morphing, keyframes, interpolation, sequencing and animation principles.", anchor: "unit-5", updatedAt: "2026-10-03", isDemo: false },
+
+    // Visual Basic .NET (C-502, s-NEXT)
+  { id: "r-5765", subjectId: "s-1307", type: "notes", title: "Unit 1 — VB.NET and .NET Framework", description: "CLR, FCL, Visual Studio IDE, controls and development environment.", anchor: "unit-1", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5766", subjectId: "s-1307", type: "notes", title: "Unit 2 — VB.NET Programming", description: "Data types, variables, operators, conditions, loops, arrays, functions and procedures.", anchor: "unit-2", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5767", subjectId: "s-1307", type: "notes", title: "Unit 3 — Functions, Dialogs, Menus and Toolbar", description: "Built-in functions, dialogs, MenuStrip, ToolStrip, StatusStrip and user-defined functions.", anchor: "unit-3", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5768", subjectId: "s-1307", type: "notes", title: "Unit 4 — Elements of VB.NET", description: "Forms, properties, events, methods and common Windows Forms controls.", anchor: "unit-4", updatedAt: "2025-01-01", isDemo: false },
+  { id: "r-5769", subjectId: "s-1307", type: "notes", title: "Unit 5 — Advanced VB.NET and Data Access", description: "OOP, constructors, exception handling, file streams, ADO.NET, DataSet, DataAdapter and SQL.", anchor: "unit-5", updatedAt: "2025-01-01", isDemo: false },
+
+  // C-505 Design and Analysis of Algorithm resources
+{ id: "r-5770", subjectId: "s-1310", type: "notes", title: "Unit 1 — Algorithms and Complexity", description: "Algorithm basics, complexity, asymptotic notation, Master Theorem, substitution and iteration.", anchor: "unit-1", updatedAt: "2026-10-03", isDemo: false },
+{ id: "r-5771", subjectId: "s-1310", type: "notes", title: "Unit 2 — Sorting and Divide-and-Conquer", description: "Maximum/minimum, Merge Sort, Quick Sort and Heap Sort with time complexity.", anchor: "unit-2", updatedAt: "2026-10-03", isDemo: false },
+{ id: "r-5772", subjectId: "s-1310", type: "notes", title: "Unit 3 — Greedy, Dynamic Programming and Backtracking", description: "Knapsack, Huffman, Matrix Chain, LCS, N-Queens and Sum of Subsets.", anchor: "unit-3", updatedAt: "2026-10-03", isDemo: false },
+{ id: "r-5773", subjectId: "s-1310", type: "notes", title: "Unit 4 — Graph Algorithms", description: "BFS, DFS, spanning trees, Kruskal, Prim, Dijkstra, Bellman-Ford and all-pairs shortest paths.", anchor: "unit-4", updatedAt: "2026-10-03", isDemo: false },
+{ id: "r-5774", subjectId: "s-1310", type: "notes", title: "Unit 5 — Complexity Theory", description: "P, NP, polynomial reduction, NP-complete and NP-hard problems.", anchor: "unit-5", updatedAt: "2026-10-03", isDemo: false },
+
+  // Artificial Intelligence & Machine Learning (C-504) — DBRAU BCA Semester 5
+  { id: "r-5775", subjectId: "s-1309", type: "notes", title: "Unit 1 — AI Concepts, Knowledge and Problem Representation", description: "AI concepts, definitions, knowledge pyramid, characteristics, problem representation and application areas.", anchor: "unit-1", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5776", subjectId: "s-1309", type: "notes", title: "Unit 2 — Expert Systems", description: "Architecture, knowledge base, inference engine, user interface, life cycle, advantages, limitations and applications.", anchor: "unit-2", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5777", subjectId: "s-1309", type: "notes", title: "Unit 3 — AI Search Process", description: "Brute-force, DFS, BFS, heuristic search, hill climbing, CSP, means-end analysis, Best First, A*, AO* and Beam Search.", anchor: "unit-3", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5778", subjectId: "s-1309", type: "notes", title: "Unit 4 — Natural Language Processing", description: "NLP introduction, need, goals, NLU problems, text recognition, speech recognition and approaches.", anchor: "unit-4", updatedAt: "2026-10-03", isDemo: false },
+  { id: "r-5779", subjectId: "s-1309", type: "notes", title: "Unit 5 — Machine Learning", description: "Supervised, unsupervised and reinforcement learning, Decision Tree, KNN, SVM, Bayes theorem, K-Means and K-Medoids.", anchor: "unit-5", updatedAt: "2026-10-03", isDemo: false },
+
   
   // Strategic Management (BMB301, s-1052) — Detailed Notes index.
   // These entries use `anchor` to jump to the in-app Detailed Notes section.
