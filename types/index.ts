@@ -129,6 +129,11 @@ export type NoteBlock =
     }
   | { kind: "code"; language?: string; title?: string; code: string; output?: string }
   | {
+      kind: "formula";
+      title?: string;
+      text: string;
+    }
+  | {
       kind: "diagram";
       // Must match a key registered in
       // components/resources/diagrams/registry.tsx
