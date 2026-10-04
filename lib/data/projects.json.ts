@@ -303,4 +303,279 @@ export const projects: Project[] = [
   //     vivaQuestions: "",
   //   },
   // },
+
+  {
+  id: "p-13",
+  slug: "college-management-system",
+  title: "College Management System",
+
+  shortDescription:
+    "A full-stack college management and information system for managing students, faculty, courses, attendance, examinations, results, assignments, library operations and college information.",
+
+  fullDescription:
+    "A full-stack College Management System designed as an intermediate-level academic project for BCA students. The system combines a public college website with role-based management portals for administrators, faculty members, students and librarians. It provides modules for student and faculty management, departments, courses, subjects, attendance, marks and results, examination schedules, assignments and submissions, library book management, book issue and return, notices, events, admissions and notifications. The application uses a React-based frontend, Node.js and Express.js backend, JWT-based authentication and a MySQL relational database, providing a practical demonstration of full-stack web development, REST APIs, authentication, database management and role-based access control.",
+
+  category: "web-development",
+
+  technologies: [
+    "React.js",
+    "Vite",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "REST API",
+    "JWT",
+    "HTML5",
+    "CSS3"
+  ],
+
+  projectType: "major",
+
+  difficulty: "intermediate",
+
+  features: [
+    "Responsive public college website",
+    "College home page with announcements and highlights",
+    "About college and institution information",
+    "Mission, vision and principal information",
+    "Department and course information",
+    "Faculty directory and faculty profiles",
+    "College notice and announcement management",
+    "College events management",
+    "Student admission management",
+    "Student profile and academic information management",
+    "Faculty management",
+    "Department management",
+    "Course and subject management",
+    "Role-based authentication and authorization",
+    "Admin dashboard with college statistics",
+    "Faculty dashboard",
+    "Student dashboard",
+    "Librarian dashboard",
+    "Student attendance management",
+    "Subject-wise attendance tracking",
+    "Attendance percentage calculation",
+    "Internal and external marks management",
+    "Subject-wise student results",
+    "Grade and result management",
+    "Examination schedule management",
+    "Student examination schedule",
+    "Assignment creation and management",
+    "Assignment submission and tracking",
+    "Library book management",
+    "Book search and availability tracking",
+    "Book issue and return management",
+    "Automatic library fine calculation",
+    "Student library records",
+    "Notice management with attachments",
+    "Event management",
+    "Gallery and college media management structure",
+    "Dashboard notifications",
+    "Student, faculty and book search and filtering",
+    "Student report generation",
+    "CSV data export",
+    "RESTful backend API",
+    "JWT-based secure authentication",
+    "Password hashing",
+    "Protected frontend and backend routes",
+    "Role-based access control",
+    "Relational MySQL database",
+    "Demo database with sample college data",
+    "Responsive design for desktop, tablet and mobile",
+    "Local development support",
+    "Vercel-ready frontend architecture"
+  ],
+
+  isFree: false,
+
+  createdAt: "2026-10-04",
+  updatedAt: "2026-10-04",
+
+  isDemo: true,
+
+  screenshots: [
+      "",
+  ],
+
+  demoUrl: "",
+
+  // githubUrl: "https://github.com/you/repo",
+
+  files: {
+    // database: "https://drive.google.com/file/d/XXXXX/view",
+
+    sourceCode: "",
+    report: "",
+    ppt: "",
+    synopsis: "",
+    documentation: "",
+    vivaQuestions: "",
+  },
+},
+      {
+  id: "p-11",
+  slug: "personal-portfolio-website",
+  title: "Personal Portfolio Website",
+
+  shortDescription:
+    "A modern responsive portfolio website to showcase personal profile, skills, projects and experience with multiple visual themes.",
+
+  fullDescription:
+    "A modern and responsive personal portfolio website designed to present a developer's profile, skills, projects, experience and contact information in a professional and visually appealing way. The website includes a polished home section, about section, skills showcase, project portfolio, experience and education timeline, and contact section. It also provides four selectable visual themes, responsive navigation, smooth scrolling and scroll-based animations. Built using HTML5, CSS3 and vanilla JavaScript, the project is lightweight, easy to customize and suitable for students, developers and professionals who want to create their own personal portfolio website.",
+
+  category: "web-development",
+
+  technologies: [
+    "HTML5",
+    "CSS3",
+    "JavaScript"
+  ],
+
+  projectType: "mini",
+
+  difficulty: "beginner",
+
+  features: [
+    "Modern and responsive personal portfolio design",
+    "Professional home and hero section",
+    "Personal introduction and about section",
+    "Skills section with skill proficiency indicators",
+    "Projects showcase with project details",
+    "Experience and education timeline",
+    "Contact section with email interaction",
+    "Four selectable website themes",
+    "Midnight, Paper, Aurora and Sunset themes",
+    "Theme preference saved using localStorage",
+    "Responsive navigation for mobile, tablet and desktop",
+    "Smooth scrolling between website sections",
+    "Scroll-based reveal animations",
+    "Clean and customizable HTML, CSS and JavaScript code",
+    "No backend or database required",
+    "Easy to run directly in a web browser",
+    "Suitable for students, developers and professionals"
+  ],
+
+  isFree: false,
+
+  createdAt: "2025-10-04",
+  updatedAt: "2025-10-04",
+
+  isDemo: false,
+
+  screenshots: [
+      "https://drive.google.com/file/d/1GXAXuX0mVUWi-7Z5UbC7qdTdZj2eq5Px/view?usp=drive_link",
+  ],
+
+  demoUrl: "https://portfolio-topaz-omega-63.vercel.app/",
+
+  // githubUrl: "https://github.com/you/repo",
+
+  files: {
+    // database: "https://drive.google.com/file/d/XXXXX/view",
+
+    sourceCode: "",
+    report: "",
+    ppt: "",
+    synopsis: "",
+    documentation: "",
+    vivaQuestions: "",
+  },
+},
+      {
+  id: "p-12",
+  slug: "talksta-social-discussion-platform",
+  title: "TalkSta - Social Discussion & Messaging Platform",
+
+  shortDescription:
+    "A PHP and MySQL based social discussion platform where users can create accounts, participate in discussions, comment on topics, connect with other users and communicate through messaging features.",
+
+  fullDescription:
+    "TalkSta is a PHP and MySQL based social discussion and communication platform designed to provide users with a place to create profiles, start discussion topics, participate in conversations, comment on threads, search discussions and interact with other users. The platform includes user registration and login, email verification, password recovery, profile management, user following, discussion threads, comments, search functionality, reporting features, file and image handling, direct messaging and a basic chat interface. User profiles can contain personal information, profile images and external social links, while the discussion system allows users to create and interact with topic-based content. The project uses PHP, MySQL, Bootstrap and PHPMailer and demonstrates practical concepts of authentication, database-driven web applications, user-generated content and communication features.",
+
+  category: "web-development",
+
+  technologies: [
+    "PHP",
+    "MySQL",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Bootstrap",
+    "PHPMailer"
+  ],
+
+  projectType: "major",
+
+  difficulty: "intermediate",
+
+  features: [
+    "User registration and account creation",
+    "User login and logout",
+    "Email verification during account registration",
+    "Forgot password functionality",
+    "Email-based password reset",
+    "User profile creation",
+    "Profile image upload and management",
+    "Profile information editing",
+    "Public user profile pages",
+    "Username-based profile URLs",
+    "Display of user name and profile information",
+    "Optional email visibility control",
+    "External social profile links",
+    "User following functionality",
+    "Following list",
+    "Discussion thread creation",
+    "Discussion topic title and description",
+    "User-generated discussion content",
+    "Thread and topic viewing",
+    "Comment functionality",
+    "User interaction through discussion threads",
+    "Discussion search functionality",
+    "Search results pagination",
+    "Search term highlighting",
+    "Content reporting functionality",
+    "User messaging functionality",
+    "Basic real-time-style chat interface",
+    "Message storage using MySQL",
+    "AJAX/fetch-based message loading",
+    "Automatic chat message refresh",
+    "File and image upload functionality",
+    "Uploaded image listing",
+    "Image download functionality",
+    "Profile-based content display",
+    "Session-based authentication",
+    "MySQL database integration",
+    "Prepared statements for selected database operations",
+    "Bootstrap-based responsive interface",
+    "PHPMailer SMTP email integration",
+    "Password recovery through email links",
+    "User-generated social and discussion platform"
+  ],
+
+  isFree: false,
+
+  createdAt: "2024-10-04",
+  updatedAt: "2024-10-04",
+
+  isDemo: false,
+
+  screenshots: [],
+
+  demoUrl: "https://talksta.is-best.net",
+
+  // githubUrl: "https://github.com/you/repo",
+
+  files: {
+    // database: "https://drive.google.com/file/d/XXXXX/view",
+
+    sourceCode: "",
+    report: "",
+    ppt: "",
+    synopsis: "",
+    documentation: "",
+    vivaQuestions: "",
+  },
+}
+      
 ];
