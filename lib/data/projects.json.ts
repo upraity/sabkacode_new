@@ -10,8 +10,7 @@ export const projects: Project[] = [
     slug: "student-management-system",
     title: "Student Management System",
     shortDescription: "A web app to manage student records, attendance and results.",
-    fullDescription:
-      "A full CRUD web application for colleges to manage student admissions, attendance, marks and basic reporting. Built with a simple relational schema and a clean admin-style UI.",
+    fullDescription: "A complete CRUD-based web application for colleges to manage student information in a centralized and organized way. The system includes student admissions, personal and academic records, attendance, marks management, and basic reporting features. Built with a structured relational database, role-based access, and a clean admin-style interface, it provides a practical solution for handling common student management tasks.",
     category: "web-development",
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "MySQL"],
     courseSlug: "btech",
@@ -29,21 +28,25 @@ export const projects: Project[] = [
     featured: true,
     createdAt: "2026-06-01",
     updatedAt: "2026-06-01",
-    isDemo: false,
-     screenshots: [                      // ⚠️ neeche note dekho
-    "https://drive.google.com/uc?id=XXXXX",
+    isDemo: true,
+     screenshots: [                      
+      "https://drive.google.com/file/d/154AEnNKWcqXcyiOrJdY4IyT8utq2pQQT/view?usp=drive_link",
+      "https://drive.google.com/file/d/1muWC2PVoQO5KP1zUzI8uMiRIt7zbDyg2/view?usp=drive_link",
+      "https://drive.google.com/file/d/1IkWlOzOAb3jfjtwuwXCrXYKj4KAwmwxy/view?usp=drive_link",
+       "https://drive.google.com/file/d/1U53zvoUVDpjhbLwmGtb9ByssSNMNMjvB/view?usp=drive_link",
+       "https://drive.google.com/file/d/1PBVgZbUzlH9G-27N6jBR1sDk6dWH7iBB/view?usp=drive_link",
   ],
-  demoUrl: "https://your-live-demo.vercel.app",   // optional
-  githubUrl: "https://github.com/you/repo",       // optional
+  demoUrl: "",  
+  // githubUrl: "https://github.com/you/repo",       
   files: {
-    sourceCode: "https://drive.google.com/file/d/XXXXX/view",
-    database: "https://drive.google.com/file/d/XXXXX/view",
-    report: "https://drive.google.com/file/d/XXXXX/view",
-    ppt: "https://drive.google.com/file/d/XXXXX/view",
-    synopsis: "https://drive.google.com/file/d/XXXXX/view",
-    ieeePaper: "https://drive.google.com/file/d/XXXXX/view",
-    documentation: "https://drive.google.com/file/d/XXXXX/view",
-    vivaQuestions: "https://drive.google.com/file/d/XXXXX/view",
+    sourceCode: "https://drive.google.com/file/d/1QTFdu4_D92KA8gyYWCXcKyQUF55i2RY8/view?usp=drive_link",
+    // database: "https://drive.google.com/file/d/XXXXX/view",
+    report: "https://docs.google.com/document/d/1qJwx-aSLJO6Ta3TWYzr5bvCQMkS62paT/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
+    ppt: "https://docs.google.com/presentation/d/1s2snd00GIP4PGU7EQzZb6KpKMXdedbPJ/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
+    synopsis: "https://docs.google.com/document/d/1tXyK_5B7FpGH2bQwOpYyz8IwayUOvcA4/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
+    // ieeePaper: "https://drive.google.com/file/d/XXXXX/view",
+    documentation: "https://drive.google.com/drive/folders/1iiChO_7LVTfHQOG0UNdpzwiXCphf28kv?usp=drive_link",
+    vivaQuestions: "https://docs.google.com/document/d/1I8O5HC-KX81Iai31wNdeSifP_13UThpr/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
   },
 
   },
