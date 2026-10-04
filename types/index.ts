@@ -133,6 +133,11 @@ export type NoteBlock =
       title?: string;
       text: string;
     }
+    | {
+      kind: "info";
+      title?: string;
+      text: string;
+    }
   | {
       kind: "diagram";
       // Must match a key registered in
