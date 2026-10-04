@@ -34,7 +34,7 @@ export const projects: Project[] = [
     featured: true,
     createdAt: "2026-06-01",
     updatedAt: "2026-06-01",
-    isDemo: true,,
+    isDemo: true,
      screenshots: [                      
       "https://drive.google.com/file/d/154AEnNKWcqXcyiOrJdY4IyT8utq2pQQT/view?usp=drive_link",
       "https://drive.google.com/file/d/1muWC2PVoQO5KP1zUzI8uMiRIt7zbDyg2/view?usp=drive_link",
