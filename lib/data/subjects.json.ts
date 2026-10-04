@@ -89,7 +89,7 @@ import { BcaOptimizationTechniquesDbrauUnitNotes } from "./unit-notes/bca-optimi
 import { BcaVisualBasicDotNetDbrauUnitNotes } from "./unit-notes/bca-visual-basic-dot-net-dbrau";
 import { computerGraphicsC503UnitNotes } from "./unit-notes/computer-graphics-c503";
 import { BcaDesignAndAnalysisOfAlgorithmDbrauUnitNotes } from "./unit-notes/bca-design-and-analysis-of-algorithm-dbrau";
-import { aiMlC504UnitNotes } from "./unit-notes/artificial-intelligence-machine-learning-c504.ts";
+import { aiMlC504UnitNotes } from "./unit-notes/artificial-intelligence-machine-learning-c504";
 
 
 
