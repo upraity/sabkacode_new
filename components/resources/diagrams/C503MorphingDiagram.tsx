@@ -1,4 +1,4 @@
-import { Frame, Lines } from "./DiagramKit";
+import { Frame, Lines, Arrow } from "./DiagramKit";
 
 export default function C503MorphingDiagram() {
   return (
