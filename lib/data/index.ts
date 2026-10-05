@@ -23,6 +23,7 @@ import { resources } from "./resources.json";
 import { projects } from "./projects.json";
 import { tools } from "./tools.json";
 import { affiliateProducts } from "./products.json";
+
 import type {
   Branch,
   Course,
@@ -41,7 +42,9 @@ export async function getCourses(): Promise<Course[]> {
   return courses;
 }
 
-export async function getCourseBySlug(slug: string): Promise<Course | undefined> {
+export async function getCourseBySlug(
+  slug: string
+): Promise<Course | undefined> {
   return courses.find((c) => c.slug === slug);
 }
 
@@ -51,14 +54,19 @@ export async function getUniversities(): Promise<University[]> {
   return universities;
 }
 
-export async function getUniversityBySlug(slug: string): Promise<University | undefined> {
+export async function getUniversityBySlug(
+  slug: string
+): Promise<University | undefined> {
   return universities.find((u) => u.slug === slug);
 }
 
-export async function getUniversitiesForCourse(courseSlug: string): Promise<University[]> {
+export async function getUniversitiesForCourse(
+  courseSlug: string
+): Promise<University[]> {
   const slugs = courseUniversityLinks
     .filter((link) => link.courseSlug === courseSlug)
     .map((link) => link.universitySlug);
+
   return universities.filter((u) => slugs.includes(u.slug));
 }
 
@@ -69,7 +77,11 @@ export async function getBranches(
   universitySlug: string
 ): Promise<Branch[]> {
   return branchLinks
-    .filter((l) => l.courseSlug === courseSlug && l.universitySlug === universitySlug)
+    .filter(
+      (l) =>
+        l.courseSlug === courseSlug &&
+        l.universitySlug === universitySlug
+    )
     .map((l) => l.branch);
 }
 
@@ -79,6 +91,7 @@ export async function getBranchBySlug(
   branchSlug: string
 ): Promise<Branch | undefined> {
   const branches = await getBranches(courseSlug, universitySlug);
+
   return branches.find((b) => b.slug === branchSlug);
 }
 
@@ -107,6 +120,7 @@ export async function getSubjectBySlug(params: {
   subjectSlug: string;
 }): Promise<Subject | undefined> {
   const list = await getSubjects(params);
+
   return list.find((s) => s.slug === params.subjectSlug);
 }
 
@@ -114,13 +128,17 @@ export async function getAllSubjects(): Promise<Subject[]> {
   return subjects;
 }
 
-export async function getSubjectsForUniversity(universitySlug: string): Promise<Subject[]> {
+export async function getSubjectsForUniversity(
+  universitySlug: string
+): Promise<Subject[]> {
   return subjects.filter((s) => s.universitySlug === universitySlug);
 }
 
 // ---------- Resources (notes / pyq / question-bank / practical / viva) ----------
 
-export async function getResourcesForSubject(subjectId: string): Promise<ResourceItem[]> {
+export async function getResourcesForSubject(
+  subjectId: string
+): Promise<ResourceItem[]> {
   return resources.filter((r) => r.subjectId === subjectId);
 }
 
@@ -137,16 +155,32 @@ export async function getPYQRows(params: {
   courseSlug?: string;
   subjectId?: string;
 }): Promise<PYQRow[]> {
-  let subs = subjects.filter((s) => s.universitySlug === params.universitySlug);
-  if (params.courseSlug) subs = subs.filter((s) => s.courseSlug === params.courseSlug);
-  if (params.subjectId) subs = subs.filter((s) => s.id === params.subjectId);
+  let subs = subjects.filter(
+    (s) => s.universitySlug === params.universitySlug
+  );
+
+  if (params.courseSlug) {
+    subs = subs.filter((s) => s.courseSlug === params.courseSlug);
+  }
+
+  if (params.subjectId) {
+    subs = subs.filter((s) => s.id === params.subjectId);
+  }
 
   const subjectById = new Map(subs.map((s) => [s.id, s]));
 
   return resources
-    .filter((r) => r.type === "pyq" && subjectById.has(r.subjectId))
-    .map((r) => ({ subject: subjectById.get(r.subjectId)!, resource: r }))
-    .sort((a, b) => (b.resource.year ?? 0) - (a.resource.year ?? 0));
+    .filter(
+      (r) => r.type === "pyq" && subjectById.has(r.subjectId)
+    )
+    .map((r) => ({
+      subject: subjectById.get(r.subjectId)!,
+      resource: r,
+    }))
+    .sort(
+      (a, b) =>
+        (b.resource.year ?? 0) - (a.resource.year ?? 0)
+    );
 }
 
 // ---------- Projects ----------
@@ -158,35 +192,68 @@ export interface ProjectFilterParams {
   query?: string;
 }
 
-export async function getProjects(filters: ProjectFilterParams = {}): Promise<Project[]> {
+export async function getProjects(
+  filters: ProjectFilterParams = {}
+): Promise<Project[]> {
   return projects.filter((p) => {
-    if (filters.category && p.category !== filters.category) return false;
-    if (filters.difficulty && p.difficulty !== filters.difficulty) return false;
+    if (filters.category && p.category !== filters.category) {
+      return false;
+    }
+
+    if (filters.difficulty && p.difficulty !== filters.difficulty) {
+      return false;
+    }
+
     if (
       filters.technology &&
-      !p.technologies.some((t) => t.toLowerCase() === filters.technology!.toLowerCase())
-    )
+      !p.technologies.some(
+        (t) =>
+          t.toLowerCase() === filters.technology!.toLowerCase()
+      )
+    ) {
       return false;
+    }
+
     if (filters.query) {
       const q = filters.query.toLowerCase();
-      const haystack = `${p.title} ${p.shortDescription} ${p.technologies.join(" ")}`.toLowerCase();
-      if (!haystack.includes(q)) return false;
+
+      const haystack = `${p.title} ${p.shortDescription} ${p.technologies.join(
+        " "
+      )}`.toLowerCase();
+
+      if (!haystack.includes(q)) {
+        return false;
+      }
     }
+
     return true;
   });
 }
 
-export async function getFeaturedProjects(limit = 4): Promise<Project[]> {
-  return projects.filter((p) => p.featured).slice(0, limit);
+export async function getFeaturedProjects(
+  limit = 4
+): Promise<Project[]> {
+  return projects
+    .filter((p) => p.featured)
+    .slice(0, limit);
 }
 
-export async function getProjectBySlug(slug: string): Promise<Project | undefined> {
+export async function getProjectBySlug(
+  slug: string
+): Promise<Project | undefined> {
   return projects.find((p) => p.slug === slug);
 }
 
-export async function getRelatedProjects(project: Project, limit = 3): Promise<Project[]> {
+export async function getRelatedProjects(
+  project: Project,
+  limit = 3
+): Promise<Project[]> {
   return projects
-    .filter((p) => p.id !== project.id && p.category === project.category)
+    .filter(
+      (p) =>
+        p.id !== project.id &&
+        p.category === project.category
+    )
     .slice(0, limit);
 }
 
@@ -200,25 +267,29 @@ export async function getTools(): Promise<Tool[]> {
   return tools;
 }
 
-export async function getToolBySlug(slug: string): Promise<Tool | undefined> {
+export async function getToolBySlug(
+  slug: string
+): Promise<Tool | undefined> {
   return tools.find((t) => t.slug === slug);
 }
 
 // ---------- Affiliate Products ----------
 
-export async function getAffiliateProduct(code: string): Promise<AffiliateProductData | undefined> {
+export async function getAffiliateProduct(
+  code: string
+): Promise<AffiliateProductData | undefined> {
   return affiliateProducts[code];
 }
 
-export async function getActiveAffiliateProducts(): Promise<AffiliateProductData[]> {
-  return Object.values(affiliateProducts).filter((p) => p.active);
+export async function getActiveAffiliateProducts(): Promise<
+  AffiliateProductData[]
+> {
+  return Object.values(affiliateProducts).filter(
+    (p) => p.active
+  );
 }
 
 // ---------- Content stats ----------
-// Real, computed-from-data numbers — never hardcoded — used to show
-// genuine scale on the homepage and course/semester pages (e.g. "311
-// subjects across 4 universities") instead of leaving those pages with
-// just a list and nothing else.
 
 export interface ContentStats {
   totalSubjects: number;
@@ -226,19 +297,29 @@ export interface ContentStats {
   totalCourses: number;
   totalNotes: number;
   totalPyqs: number;
-  totalDetailedNotes: number; // subjects with full in-app unit-wise notes
+  totalDetailedNotes: number;
 }
 
 export async function getContentStats(): Promise<ContentStats> {
   return {
     totalSubjects: subjects.length,
-    totalUniversities: universities.filter((u) => u.status === "active").length,
+    totalUniversities: universities.filter(
+      (u) => u.status === "active"
+    ).length,
     totalCourses: courses.length,
-    totalNotes: resources.filter((r) => r.type === "notes").length,
-    totalPyqs: resources.filter((r) => r.type === "pyq").length,
-    totalDetailedNotes: subjects.filter((s) => s.unitNotes && s.unitNotes.length > 0).length,
+    totalNotes: resources.filter(
+      (r) => r.type === "notes"
+    ).length,
+    totalPyqs: resources.filter(
+      (r) => r.type === "pyq"
+    ).length,
+    totalDetailedNotes: subjects.filter(
+      (s) => s.unitNotes && s.unitNotes.length > 0
+    ).length,
   };
 }
+
+// ---------- Course stats ----------
 
 export interface CourseStats {
   totalSubjects: number;
@@ -247,14 +328,35 @@ export interface CourseStats {
   totalDetailedNotes: number;
 }
 
-export async function getCourseStats(courseSlug: string): Promise<CourseStats> {
-  const subs = subjects.filter((s) => s.courseSlug === courseSlug);
+export async function getCourseStats(
+  courseSlug: string
+): Promise<CourseStats> {
+  const subs = subjects.filter(
+    (s) => s.courseSlug === courseSlug
+  );
+
   const subjectIds = new Set(subs.map((s) => s.id));
-  const totalUniversities = (await getUniversitiesForCourse(courseSlug)).length;
-  const totalResources = resources.filter((r) => subjectIds.has(r.subjectId)).length;
-  const totalDetailedNotes = subs.filter((s) => s.unitNotes && s.unitNotes.length > 0).length;
-  return { totalSubjects: subs.length, totalUniversities, totalResources, totalDetailedNotes };
+
+  const totalUniversities =
+    (await getUniversitiesForCourse(courseSlug)).length;
+
+  const totalResources = resources.filter(
+    (r) => subjectIds.has(r.subjectId)
+  ).length;
+
+  const totalDetailedNotes = subs.filter(
+    (s) => s.unitNotes && s.unitNotes.length > 0
+  ).length;
+
+  return {
+    totalSubjects: subs.length,
+    totalUniversities,
+    totalResources,
+    totalDetailedNotes,
+  };
 }
+
+// ---------- Scope stats ----------
 
 export interface ScopeStats {
   totalSubjects: number;
@@ -263,34 +365,51 @@ export interface ScopeStats {
   totalDetailedNotes: number;
 }
 
-// Stats scoped to a course+university (optionally narrowed to one branch) —
-// used on the "Select Semester" page and the subject-list page so even a
-// sparsely-filled branch/semester shows real, specific numbers rather than
-// just a bare grid of links.
 export async function getScopeStats(params: {
   courseSlug: string;
   universitySlug: string;
   branchSlug?: string;
 }): Promise<ScopeStats> {
   let subs = subjects.filter(
-    (s) => s.courseSlug === params.courseSlug && s.universitySlug === params.universitySlug
+    (s) =>
+      s.courseSlug === params.courseSlug &&
+      s.universitySlug === params.universitySlug
   );
-  if (params.branchSlug) subs = subs.filter((s) => s.branchSlug === params.branchSlug);
+
+  if (params.branchSlug) {
+    subs = subs.filter(
+      (s) => s.branchSlug === params.branchSlug
+    );
+  }
 
   const subjectIds = new Set(subs.map((s) => s.id));
-  const totalResources = resources.filter((r) => subjectIds.has(r.subjectId)).length;
-  const totalSemesters = new Set(subs.map((s) => s.semester)).size;
-  const totalDetailedNotes = subs.filter((s) => s.unitNotes && s.unitNotes.length > 0).length;
 
-  return { totalSubjects: subs.length, totalResources, totalSemesters, totalDetailedNotes };
+  const totalResources = resources.filter(
+    (r) => subjectIds.has(r.subjectId)
+  ).length;
+
+  const totalSemesters = new Set(
+    subs.map((s) => s.semester)
+  ).size;
+
+  const totalDetailedNotes = subs.filter(
+    (s) => s.unitNotes && s.unitNotes.length > 0
+  ).length;
+
+  return {
+    totalSubjects: subs.length,
+    totalResources,
+    totalSemesters,
+    totalDetailedNotes,
+  };
 }
-  
-// ---------- Related subjects (used on the subject detail page) ----------
-// Other subjects in the same semester, course and university — real,
-// computed, and gives every subject page extra genuine content plus
-// internal links to browse by, instead of ending abruptly after notes/PYQs.
 
-export async function getRelatedSubjects(subject: Subject, limit = 6): Promise<Subject[]> {
+// ---------- Related subjects ----------
+
+export async function getRelatedSubjects(
+  subject: Subject,
+  limit = 6
+): Promise<Subject[]> {
   return subjects
     .filter(
       (s) =>
@@ -303,7 +422,7 @@ export async function getRelatedSubjects(subject: Subject, limit = 6): Promise<S
     .slice(0, limit);
 }
 
-// ---------- University stats (used on the university detail page) ----------
+// ---------- University stats ----------
 
 export interface UniversityStats {
   totalCourses: number;
@@ -311,12 +430,28 @@ export interface UniversityStats {
   totalResources: number;
 }
 
-export async function getUniversityStats(universitySlug: string): Promise<UniversityStats> {
-  const subs = subjects.filter((s) => s.universitySlug === universitySlug);
-  const subjectIds = new Set(subs.map((s) => s.id));
-  const totalResources = resources.filter((r) => subjectIds.has(r.subjectId)).length;
-  const totalCourses = new Set(subs.map((s) => s.courseSlug)).size;
-  return { totalCourses, totalSubjects: subs.length, totalResources };
-}
+export async function getUniversityStats(
+  universitySlug: string
+): Promise<UniversityStats> {
+  const subs = subjects.filter(
+    (s) => s.universitySlug === universitySlug
+  );
 
+  const subjectIds = new Set(
+    subs.map((s) => s.id)
+  );
+
+  const totalResources = resources.filter(
+    (r) => subjectIds.has(r.subjectId)
+  ).length;
+
+  const totalCourses = new Set(
+    subs.map((s) => s.courseSlug)
+  ).size;
+
+  return {
+    totalCourses,
+    totalSubjects: subs.length,
+    totalResources,
+  };
 }
