@@ -45,12 +45,12 @@ export const projects: Project[] = [
   demoUrl: "",  
   // githubUrl: "https://github.com/you/repo",       
   files: {
-      sourceCode: "https://drive.google.com/file/d/1QTFdu4_D92KA8gyYWCXcKyQUF55i2RY8/view?usp=drive_link",
-      // database: "https://drive.google.com/file/d/XXXXX/view",
+      sourceCode: "https://lh3.googleusercontent.com/d/1QTFdu4_D92KA8gyYWCXcKyQUF55i2RY8",
+      // database: "https://lh3.googleusercontent.com/d/XXXXX",
       report: "https://docs.google.com/document/d/1qJwx-aSLJO6Ta3TWYzr5bvCQMkS62paT/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
       ppt: "https://docs.google.com/presentation/d/1s2snd00GIP4PGU7EQzZb6KpKMXdedbPJ/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
       synopsis: "https://docs.google.com/document/d/1tXyK_5B7FpGH2bQwOpYyz8IwayUOvcA4/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
-      // ieeePaper: "https://drive.google.com/file/d/XXXXX/view",
+      // ieeePaper: "https://lh3.googleusercontent.com/d/XXXXX",
       documentation: "https://drive.google.com/drive/folders/1iiChO_7LVTfHQOG0UNdpzwiXCphf28kv?usp=drive_link",
       vivaQuestions: "https://docs.google.com/document/d/1I8O5HC-KX81Iai31wNdeSifP_13UThpr/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
     },
@@ -85,17 +85,17 @@ export const projects: Project[] = [
     updatedAt: "2026-05-10",
     isDemo: true,
      screenshots: [                      
-       "https://drive.google.com/file/d/1M0LWphvmqeQ4Y12CPdGrAf53lzMIkQdD/view?usp=drive_link",
-       "https://drive.google.com/file/d/1ESTK7KSKn0_SxiyM32aocV0Yiig5gwii/view?usp=drive_link",
-       "https://drive.google.com/file/d/1c83PzpbpI8cRkbCmE7n1oZLpk6iUxi0c/view?usp=drive_link",
-       "https://drive.google.com/file/d/1ljNWmST0aDWRIHEqwfeCql7mWzCSXI11/view?usp=drive_link",
-       "https://drive.google.com/file/d/1aEEzJayBsljxGh7ZDQjSF5tZWy7oQHF8/view?usp=drive_link",
+       "https://lh3.googleusercontent.com/d/1M0LWphvmqeQ4Y12CPdGrAf53lzMIkQdD",
+       "https://lh3.googleusercontent.com/d/1ESTK7KSKn0_SxiyM32aocV0Yiig5gwii",
+       "https://lh3.googleusercontent.com/d/1c83PzpbpI8cRkbCmE7n1oZLpk6iUxi0c",
+       "https://lh3.googleusercontent.com/d/1ljNWmST0aDWRIHEqwfeCql7mWzCSXI11",
+       "https://lh3.googleusercontent.com/d/1aEEzJayBsljxGh7ZDQjSF5tZWy7oQHF8",
   ],
       demoUrl: "",  
       // githubUrl: "https://github.com/you/repo",       
       files: {
-        sourceCode: "https://drive.google.com/file/d/15Wrk-KtvWc4igjt5GdAaZ_nJ1wsdNrhC/view?usp=drive_link",
-        // database: "https://drive.google.com/file/d/XXXXX/view",
+        sourceCode: "https://lh3.googleusercontent.com/d/15Wrk-KtvWc4igjt5GdAaZ_nJ1wsdNrhC",
+        // database: "https://lh3.googleusercontent.com/d/XXXXX",
         report: "https://docs.google.com/document/d/1DRPlV5j9mF5LLVcrI7Q2yYUAn8Nvxc8q/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
         ppt: "https://docs.google.com/presentation/d/1y0TwalZs_OknUqBJvu25haWSt6yEdW7e/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
         synopsis: "https://docs.google.com/document/d/1sWBBRFYiDZKuzGc3FMhHQV6n8haMXmuL/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
@@ -132,15 +132,15 @@ export const projects: Project[] = [
     updatedAt: "2026-04-18",
     isDemo: true,
      screenshots: [   
-       "https://drive.google.com/file/d/1p8XvMvRU2-MkpYdZItn6U94zruAz8K93/view?usp=drive_link",
-       "https://drive.google.com/file/d/1R8wzJ85XWc0GQcsHsON_HUU3Qkt5Pb2t/view?usp=drive_link",
+       "https://lh3.googleusercontent.com/d/1p8XvMvRU2-MkpYdZItn6U94zruAz8K93",
+       "https://lh3.googleusercontent.com/d/1R8wzJ85XWc0GQcsHsON_HUU3Qkt5Pb2t",
       
   ],
       demoUrl: "",  
       // githubUrl: "https://github.com/you/repo",       
       files: {
-        // database: "https://drive.google.com/file/d/XXXXX/view",
-        sourceCode: "https://drive.google.com/file/d/1sqHGPlobsMKRjhXUjjdrwH2bJZHz68lO/view?usp=drive_link",
+        // database: "https://lh3.googleusercontent.com/d/XXXXX",
+        sourceCode: "https://lh3.googleusercontent.com/d/1sqHGPlobsMKRjhXUjjdrwH2bJZHz68lO",
         report: "https://docs.google.com/document/d/1nypnqVOt683FOzhQkagV4DzKzwUudLEY/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
         ppt: "https://docs.google.com/presentation/d/1LlODiYnSc8dGqpnV4RVvBRj-fjf8Lts0/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
         synopsis: "https://docs.google.com/document/d/1PT4AJT5ZzPxN7qewiYqoyls3SoFsjal2/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
@@ -177,15 +177,15 @@ export const projects: Project[] = [
     updatedAt: "2026-03-02",
     isDemo: true,
     screenshots: [
-      "https://drive.google.com/file/d/1gWg5S7Uw28qjH71V5HHdYgFz-Bf32gR_/view?usp=drive_link",
-      "https://drive.google.com/file/d/11epwRJYfDCQgG5IbZDf9VsiW8RNRlK7M/view?usp=drive_link",
+      "https://lh3.googleusercontent.com/d/1gWg5S7Uw28qjH71V5HHdYgFz-Bf32gR_",
+      "https://lh3.googleusercontent.com/d/11epwRJYfDCQgG5IbZDf9VsiW8RNRlK7M",
     ],
 
     demoUrl: "",
     // githubUrl: "https://github.com/you/repo",
     files: {
-      // database: "https://drive.google.com/file/d/XXXXX/view",
-      sourceCode: "https://drive.google.com/file/d/1MWruiEnUfd5cSH8gpxuFD3FKIUW0O_Nm/view?usp=drive_link",
+      // database: "https://lh3.googleusercontent.com/d/XXXXX",
+      sourceCode: "https://lh3.googleusercontent.com/d/1MWruiEnUfd5cSH8gpxuFD3FKIUW0O_Nm",
       report: "https://docs.google.com/document/d/1r8GUle1SV4PgTLL7e09o4M4OGpUilQYr/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
       ppt: "https://docs.google.com/presentation/d/1WWQNqzNEhYCNnfx1drdCAktiyfAkQre8/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
       synopsis: "https://docs.google.com/document/d/1siXLZ1rhRSAaCyAJaS957FXXb0VkWmmy/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
@@ -216,7 +216,7 @@ export const projects: Project[] = [
     // githubUrl: "https://github.com/you/repo",
     
     files: {
-      // database: "https://drive.google.com/file/d/XXXXX/view",
+      // database: "https://lh3.googleusercontent.com/d/XXXXX",
       sourceCode: "",
       report: "",
       ppt: "",
@@ -253,8 +253,8 @@ export const projects: Project[] = [
     updatedAt: "2026-01-20",
     isDemo: true,
     screenshots: [
-      "https://drive.google.com/file/d/18fumv9zrZqkee98xj38Sg0MLl6mM_5EW/view?usp=drive_link",
-      "https://drive.google.com/file/d/14gSXKpGlfMRNjt720fGiv93209B4Ze45/view?usp=drive_link",
+      "https://lh3.googleusercontent.com/d/18fumv9zrZqkee98xj38Sg0MLl6mM_5EW",
+      "https://lh3.googleusercontent.com/d/14gSXKpGlfMRNjt720fGiv93209B4Ze45",
     ],
     
     demoUrl: "",
@@ -262,8 +262,8 @@ export const projects: Project[] = [
     // githubUrl: "https://github.com/you/repo",
     
     files: {
-      // database: "https://drive.google.com/file/d/XXXXX/view",
-      sourceCode: "https://drive.google.com/file/d/1mDB4NvGB1CMGFygcX1RyjN044_ciiPFQ/view?usp=drive_link",
+      // database: "https://lh3.googleusercontent.com/d/XXXXX",
+      sourceCode: "https://lh3.googleusercontent.com/d/1mDB4NvGB1CMGFygcX1RyjN044_ciiPFQ",
       report: "https://docs.google.com/document/d/1QND-0xujVEmg0yPeDv4dTXk_UNVEwcaE/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
       ppt: "https://docs.google.com/presentation/d/1sOEVLbz_24ccvS6mcG4RjdA6d-7Clj45/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
       synopsis: "https://docs.google.com/document/d/1vKjNDGJnt181hWoJRajlwTpkjeKIOzbx/edit?usp=drive_link&ouid=104288118438468355829&rtpof=true&sd=true",
@@ -294,7 +294,7 @@ export const projects: Project[] = [
   //   // githubUrl: "https://github.com/you/repo",
     
   //   files: {
-  //     // database: "https://drive.google.com/file/d/XXXXX/view",
+  //     // database: "https://lh3.googleusercontent.com/d/XXXXX",
   //     sourceCode: "",
   //     report: "",
   //     ppt: "",
@@ -403,7 +403,7 @@ export const projects: Project[] = [
   // githubUrl: "https://github.com/you/repo",
 
   files: {
-    // database: "https://drive.google.com/file/d/XXXXX/view",
+    // database: "https://lh3.googleusercontent.com/d/XXXXX",
 
     sourceCode: "",
     report: "",
@@ -464,7 +464,7 @@ export const projects: Project[] = [
   isDemo: false,
 
   screenshots: [
-      "https://drive.google.com/file/d/1GXAXuX0mVUWi-7Z5UbC7qdTdZj2eq5Px/view?usp=drive_link",
+      "https://lh3.googleusercontent.com/d/1GXAXuX0mVUWi-7Z5UbC7qdTdZj2eq5Px",
   ],
 
   demoUrl: "https://portfolio-topaz-omega-63.vercel.app/",
@@ -472,7 +472,7 @@ export const projects: Project[] = [
   // githubUrl: "https://github.com/you/repo",
 
   files: {
-    // database: "https://drive.google.com/file/d/XXXXX/view",
+    // database: "https://lh3.googleusercontent.com/d/XXXXX",
 
     sourceCode: "",
     report: "",
@@ -567,7 +567,7 @@ export const projects: Project[] = [
   // githubUrl: "https://github.com/you/repo",
 
   files: {
-    // database: "https://drive.google.com/file/d/XXXXX/view",
+    // database: "https://lh3.googleusercontent.com/d/XXXXX",
 
     sourceCode: "",
     report: "",
