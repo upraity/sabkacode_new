@@ -36,7 +36,7 @@ export const projects: Project[] = [
     updatedAt: "2026-06-01",
     isDemo: true,
      screenshots: [                      
-      "https://drive.google.com/file/d/154AEnNKWcqXcyiOrJdY4IyT8utq2pQQT/view?usp=drive_link",
+      "https://drive.google.com/file/d/154AEnNKWcqXcyiOrJdY4IyT8utq2pQQT/",
       "https://drive.google.com/file/d/1muWC2PVoQO5KP1zUzI8uMiRIt7zbDyg2/view?usp=drive_link",
       "https://drive.google.com/file/d/1IkWlOzOAb3jfjtwuwXCrXYKj4KAwmwxy/view?usp=drive_link",
        "https://drive.google.com/file/d/1U53zvoUVDpjhbLwmGtb9ByssSNMNMjvB/view?usp=drive_link",
