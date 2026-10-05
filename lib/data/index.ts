@@ -283,4 +283,40 @@ export async function getScopeStats(params: {
   const totalDetailedNotes = subs.filter((s) => s.unitNotes && s.unitNotes.length > 0).length;
 
   return { totalSubjects: subs.length, totalResources, totalSemesters, totalDetailedNotes };
+
+  
+// ---------- Related subjects (used on the subject detail page) ----------
+// Other subjects in the same semester, course and university — real,
+// computed, and gives every subject page extra genuine content plus
+// internal links to browse by, instead of ending abruptly after notes/PYQs.
+
+export async function getRelatedSubjects(subject: Subject, limit = 6): Promise<Subject[]> {
+  return subjects
+    .filter(
+      (s) =>
+        s.id !== subject.id &&
+        s.courseSlug === subject.courseSlug &&
+        s.universitySlug === subject.universitySlug &&
+        s.branchSlug === subject.branchSlug &&
+        s.semester === subject.semester
+    )
+    .slice(0, limit);
+}
+
+// ---------- University stats (used on the university detail page) ----------
+
+export interface UniversityStats {
+  totalCourses: number;
+  totalSubjects: number;
+  totalResources: number;
+}
+
+export async function getUniversityStats(universitySlug: string): Promise<UniversityStats> {
+  const subs = subjects.filter((s) => s.universitySlug === universitySlug);
+  const subjectIds = new Set(subs.map((s) => s.id));
+  const totalResources = resources.filter((r) => subjectIds.has(r.subjectId)).length;
+  const totalCourses = new Set(subs.map((s) => s.courseSlug)).size;
+  return { totalCourses, totalSubjects: subs.length, totalResources };
+}
+
 }
