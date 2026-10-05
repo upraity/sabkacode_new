@@ -16,6 +16,14 @@ export default async function ToolsPage() {
   return (
     <Section title="Tools" description="Simple calculators and utilities students actually need.">
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Tools" }]} />
+
+      <p className="mb-6 max-w-2xl text-ink-600">
+        These {tools.length} calculators cover the maths students look up most often during a
+        semester — SGPA and CGPA from your grade sheet, converting a CGPA into a percentage, working
+        out attendance margins, and more. Each tool page also explains the exact formula behind it,
+        not just the number.
+      </p>
+
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {tools.map((tool) => (
           <ToolCard key={tool.id} tool={tool} />
