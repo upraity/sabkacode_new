@@ -1,4 +1,6 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
+import { BookOpen } from "lucide-react";
 import { Section } from "@/components/ui/Section";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Badge } from "@/components/ui/Badge";
@@ -11,6 +13,7 @@ import {
   getResourcesForSubject,
   getSubjectBySlug,
   getUniversityBySlug,
+  getRelatedSubjects,
 } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 
@@ -62,7 +65,10 @@ export default async function SubjectDetailPage({ params }: Props) {
   });
   if (!subject) notFound();
 
-  const resources = await getResourcesForSubject(subject.id);
+  const [resources, relatedSubjects] = await Promise.all([
+    getResourcesForSubject(subject.id),
+    getRelatedSubjects(subject),
+  ]);
 
   return (
     <Section title={subject.name} description={subject.description}>
@@ -89,6 +95,25 @@ export default async function SubjectDetailPage({ params }: Props) {
       <ResourceTabs resources={resources} notesCta={subject.notesCta} />
       <UnitNotesSection unitNotes={subject.unitNotes} />
 
+      {relatedSubjects.length > 0 && (
+        <div className="mt-10 border-t border-ink-100 pt-8">
+          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-ink-500">
+            Other Subjects in Semester {semester}
+          </h2>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedSubjects.map((s) => (
+              <Link
+                key={s.id}
+                href={`/courses/${course.slug}/${university.slug}/${params.branch}/${semester}/${s.slug}`}
+                className="flex items-center gap-2.5 rounded-card border border-ink-100 bg-white p-3 text-sm font-medium text-ink-800 shadow-card hover:border-brand-300"
+              >
+                <BookOpen className="h-4 w-4 shrink-0 text-brand-600" />
+                {s.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </Section>
   );
 }
