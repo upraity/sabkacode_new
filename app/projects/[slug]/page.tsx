@@ -59,6 +59,7 @@ export default async function ProjectDetailPage({ params }: Props) {
   const fileKeys = Object.keys(fileLabels) as (keyof ProjectFiles)[];
   const availableFiles = fileKeys.filter((key) => project.files?.[key]);
 
+  
   return (
     <Section>
       <Breadcrumbs
@@ -104,6 +105,27 @@ export default async function ProjectDetailPage({ params }: Props) {
           </a>
         )}
       </div>
+
+       {project.screenshots && project.screenshots.length > 0 && (
+        // Plain <img>, not next/image, on purpose: screenshots can come from
+        // any free image host you use (Imgur, GitHub, etc.), and next/image
+        // would require adding every new host to next.config.mjs first.
+        // Note: a normal Google Drive "share" link (.../view) will NOT work
+        // here — it's a viewer page, not the image itself. Use a direct
+        // image host, or Drive's direct-content link format instead:
+        // https://drive.google.com/uc?export=view&id=FILE_ID
+        <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {project.screenshots.map((src, i) => (
+            <img
+              key={src}
+              src={src}
+              alt={`${project.title} — screenshot ${i + 1}`}
+              loading="lazy"
+              className="aspect-video w-full rounded-card border border-ink-100 bg-ink-50 object-cover"
+            />
+          ))}
+        </div>
+      )}
 
       <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-3">
         <div className="lg:col-span-2 space-y-8">
