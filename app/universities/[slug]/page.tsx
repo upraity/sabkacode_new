@@ -4,7 +4,14 @@ import { Section } from "@/components/ui/Section";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Badge } from "@/components/ui/Badge";
-import { getCourses, getUniversities, getUniversityBySlug, getUniversitiesForCourse } from "@/lib/data";
+import { StatsStrip } from "@/components/ui/StatsStrip";
+import {
+  getCourses,
+  getUniversities,
+  getUniversityBySlug,
+  getUniversitiesForCourse,
+  getUniversityStats,
+} from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 
 interface Props {
@@ -30,7 +37,7 @@ export default async function UniversityDetailPage({ params }: Props) {
   const university = await getUniversityBySlug(params.slug);
   if (!university) notFound();
 
-  const allCourses = await getCourses();
+  const [allCourses, stats] = await Promise.all([getCourses(), getUniversityStats(university.slug)]);
   const offeredChecks = await Promise.all(
     allCourses.map(async (c) => ({
       course: c,
@@ -60,6 +67,18 @@ export default async function UniversityDetailPage({ params }: Props) {
         <a href={university.websiteUrl} className="mt-2 inline-block text-sm font-medium text-brand-600">
           Official website ↗
         </a>
+      )}
+
+      {stats.totalSubjects > 0 && (
+        <div className="mt-6">
+          <StatsStrip
+            stats={[
+              { value: stats.totalCourses, label: "Courses" },
+              { value: stats.totalSubjects, label: "Subjects" },
+              { value: stats.totalResources, label: "Notes & PYQs" },
+            ]}
+          />
+        </div>
       )}
 
       <div className="mt-8">
