@@ -3,8 +3,9 @@ import { FileDown, FileCheck2 } from "lucide-react";
 import { Section } from "@/components/ui/Section";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { EmptyState } from "@/components/ui/EmptyState";
+import { StatsStrip } from "@/components/ui/StatsStrip";
 import { PYQFilters } from "@/components/papers/PYQFilters";
-import { getUniversities, getCourses, getSubjectsForUniversity, getPYQRows } from "@/lib/data";
+import { getUniversities, getCourses, getSubjectsForUniversity, getPYQRows, getContentStats } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
@@ -18,7 +19,11 @@ interface Props {
 }
 
 export default async function PapersPage({ searchParams }: Props) {
-  const [universities, allCourses] = await Promise.all([getUniversities(), getCourses()]);
+  const [universities, allCourses, stats] = await Promise.all([
+    getUniversities(),
+    getCourses(),
+    getContentStats(),
+  ]);
   const activeUniversities = universities.filter((u) => u.status === "active");
 
   const currentUniversity =
@@ -54,6 +59,12 @@ export default async function PapersPage({ searchParams }: Props) {
     >
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Previous Papers" }]} />
 
+      <p className="mb-5 max-w-2xl text-ink-600">
+        Past exam papers help you understand the actual question pattern and difficulty level
+        before an exam — far more useful than the syllabus alone. Filter by university, course and
+        subject below to find exactly what you need.
+      </p>
+
       <div className="mb-6">
         <Suspense fallback={null}>
           <PYQFilters
@@ -65,6 +76,15 @@ export default async function PapersPage({ searchParams }: Props) {
             currentSubjectId={currentSubjectId}
           />
         </Suspense>
+      </div>
+
+      <div className="mb-6">
+        <StatsStrip
+          stats={[
+            { value: stats.totalPyqs, label: "Papers Across Platform" },
+            { value: rows.length, label: "Matching This Filter" },
+          ]}
+        />
       </div>
 
       {rows.length === 0 ? (
