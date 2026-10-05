@@ -238,6 +238,10 @@ export interface Tool {
   description: string;
   category: ToolCategory;
   icon: string; // lucide-react icon name
+    // Plain-language explanation of the formula/method the tool uses —
+  // shown on the tool's own page so it's not just a bare calculator.
+  howItWorks?: string;
+  faqs?: { q: string; a: string }[];
 }
 
 // Generic shape used by the global search index.
