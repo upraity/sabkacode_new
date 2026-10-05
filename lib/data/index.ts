@@ -283,7 +283,7 @@ export async function getScopeStats(params: {
   const totalDetailedNotes = subs.filter((s) => s.unitNotes && s.unitNotes.length > 0).length;
 
   return { totalSubjects: subs.length, totalResources, totalSemesters, totalDetailedNotes };
-
+}
   
 // ---------- Related subjects (used on the subject detail page) ----------
 // Other subjects in the same semester, course and university — real,
