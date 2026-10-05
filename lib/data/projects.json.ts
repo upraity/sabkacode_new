@@ -35,13 +35,13 @@ export const projects: Project[] = [
     createdAt: "2026-06-01",
     updatedAt: "2026-06-01",
     isDemo: true,
-     screenshots: [                      
-      "https://drive.google.com/file/d/154AEnNKWcqXcyiOrJdY4IyT8utq2pQQT/",
-      "https://drive.google.com/file/d/1muWC2PVoQO5KP1zUzI8uMiRIt7zbDyg2/view?usp=drive_link",
-      "https://drive.google.com/file/d/1IkWlOzOAb3jfjtwuwXCrXYKj4KAwmwxy/view?usp=drive_link",
-       "https://drive.google.com/file/d/1U53zvoUVDpjhbLwmGtb9ByssSNMNMjvB/view?usp=drive_link",
-       "https://drive.google.com/file/d/1PBVgZbUzlH9G-27N6jBR1sDk6dWH7iBB/view?usp=drive_link",
-  ],
+    screenshots: [
+  "https://drive.google.com/uc?export=view&id=154AEnNKWcqXcyiOrJdY4IyT8utq2pQQT",
+  "https://drive.google.com/uc?export=view&id=1muWC2PVoQO5KP1zUzI8uMiRIt7zbDyg2",
+  "https://drive.google.com/uc?export=view&id=1IkWlOzOAb3jfjtwuwXCrXYKj4KAwmwxy",
+  "https://drive.google.com/uc?export=view&id=1U53zvoUVDpjhbLwmGtb9ByssSNMNMjvB",
+  "https://drive.google.com/uc?export=view&id=1PBVgZbUzlH9G-27N6jBR1sDk6dWH7iBB",
+],
   demoUrl: "",  
   // githubUrl: "https://github.com/you/repo",       
   files: {
