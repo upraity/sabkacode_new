@@ -4,7 +4,8 @@ import {use,useState} from 'react';
 // this page as `{PAYMENT_APP_URL}/buy/{project-slug}` — it collects the
 // buyer's name/email, creates the order with a same-origin call to
 // /api/orders (no CORS setup needed), then sends them to /pay/[id].
-export default function Buy({params}:{params:Promise<{slug:string}>}){const {slug}=use(params);
+export default function Buy({ params }: { params: { slug: string } }) {
+  const { slug } = params;
 const [v,setV]=useState({name:'',email:''});const [msg,setMsg]=useState('');const [loading,setLoading]=useState(false);
 async function submit(e:React.FormEvent){e.preventDefault();setLoading(true);setMsg('');
 try{
