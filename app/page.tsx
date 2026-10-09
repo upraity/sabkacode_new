@@ -164,3 +164,17 @@ export default async function HomePage() {
     </>
   );
 }
+
+export default function Home()
+{
+  return 
+    <main className="wrap">
+      <div className="card">
+        <h1>SabkaCode Manual Payment Starter</h1>
+        <p>Use the APIs and components from this starter inside your existing SabkaCode project. Full setup is in README.md.</p>
+        <p><a href="/admin">Open Admin</a>
+        </p>
+      </div>
+    </main>
+}
+
