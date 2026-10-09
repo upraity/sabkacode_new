@@ -88,6 +88,11 @@ export default async function ProjectDetailPage({ params }: Props) {
       </div>
 
       <div className="mt-6 flex flex-wrap gap-3">
+         {!project.isFree && (
+          <Link href={`/buy/${project.slug}`} className="inline-flex items-center justify-center rounded-md bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2">
+            Buy Now
+          </Link>
+        )}
         {project.demoUrl && (
           <a
             href={project.demoUrl}
