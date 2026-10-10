@@ -99,28 +99,37 @@ export async function POST(
     }
 
     // Fetch the project title for the admin notification.
-    const { data: project } = await supabaseAdmin
+    const { data: project, error: projectError } = await supabaseAdmin
       .from("projects")
       .select("title")
       .eq("id", order.project_id)
       .maybeSingle();
 
-    // Email failure should not undo a successfully submitted proof.
-   try {
-  const result = await sendProofSubmittedEmail({
-    name,
-    email,
-    phone,
-    title: projectTitle,
-    order: orderNumber,
-    amount: paid,
-    transactionId: txn,
-  });
+    if (projectError) {
+      console.error("Could not fetch project title:", projectError);
+    }
 
-  console.log("Admin email accepted by SMTP:", result.messageId);
-} catch (emailError) {
-  console.error("Admin email failed:", emailError);
-}
+    // Email failure should not undo the submitted payment proof.
+    try {
+      if (!project?.title) {
+        throw new Error("Project title not found for this order.");
+      }
+
+      const result = await sendProofSubmittedEmail({
+        name,
+        email,
+        phone,
+        title: project.title,
+        order: order.order_number,
+        amount: paid,
+        transactionId: txn,
+      });
+
+      console.log("Admin email accepted by SMTP:", result.messageId);
+    } catch (emailError) {
+      console.error("Admin email failed:", emailError);
+    }
+
     return NextResponse.json({
       ok: true,
       message: "Payment proof submitted for review.",
