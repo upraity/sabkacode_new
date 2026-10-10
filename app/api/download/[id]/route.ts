@@ -47,8 +47,7 @@ export async function GET(
     const path = project.download_url.trim();
 
     const { data, error: storageError } = await supabaseAdmin.storage
-      .from("projects")
-      .createSignedUrl(path, 300);
+      .from("projects");
 
     if (storageError || !data?.signedUrl) {
       console.error("Signed URL generation failed:", {
