@@ -15,7 +15,7 @@ export const metadata = pageMetadata({
 });
 
 interface Props {
-  searchParams: { university?: string; course?: string; subject?: string };
+  searchParams: { university?: string; course?: string; semester?: string; subject?: string; };
 }
 
 export default async function PapersPage({ searchParams }: Props) {
