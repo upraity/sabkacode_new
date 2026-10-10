@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
@@ -12,19 +13,19 @@ interface PYQFiltersProps {
   currentUniversity?: string;
   courses: Option[];
   currentCourse?: string;
+  semesters: Option[];
+  currentSemester?: string;
   subjects: Option[];
   currentSubjectId?: string;
 }
 
-// A pure "controlled by the URL" filter bar: the server page computes which
-// courses/subjects are valid for the current university+course (see
-// app/papers/page.tsx) and passes them in as props. This component only
-// renders selects and updates the URL — it never filters data itself.
 export function PYQFilters({
   universities,
   currentUniversity,
   courses,
   currentCourse,
+  semesters,
+  currentSemester,
   subjects,
   currentSubjectId,
 }: PYQFiltersProps) {
@@ -33,20 +34,37 @@ export function PYQFilters({
 
   function update(next: Record<string, string | undefined>) {
     const params = new URLSearchParams(searchParams.toString());
+
     for (const [key, value] of Object.entries(next)) {
-      if (value) params.set(key, value);
-      else params.delete(key);
+      if (value) {
+        params.set(key, value);
+      } else {
+        params.delete(key);
+      }
     }
-    router.push(`/papers?${params.toString()}`);
+
+    const query = params.toString();
+    router.push(query ? `/papers?${query}` : "/papers");
   }
 
   return (
     <div className="flex flex-wrap gap-3">
+      {/* University */}
       <div>
-        <label className="mb-1 block text-xs font-medium text-ink-500">University</label>
+        <label className="mb-1 block text-xs font-medium text-ink-500">
+          University
+        </label>
+
         <select
           value={currentUniversity ?? ""}
-          onChange={(e) => update({ university: e.target.value, course: undefined, subject: undefined })}
+          onChange={(e) =>
+            update({
+              university: e.target.value,
+              course: undefined,
+              semester: undefined,
+              subject: undefined,
+            })
+          }
           className="rounded-md border border-ink-200 bg-white px-3 py-2 text-sm text-ink-700 focus:border-brand-500 focus:outline-none"
         >
           {universities.map((u) => (
@@ -57,14 +75,25 @@ export function PYQFilters({
         </select>
       </div>
 
+      {/* Course */}
       <div>
-        <label className="mb-1 block text-xs font-medium text-ink-500">Course</label>
+        <label className="mb-1 block text-xs font-medium text-ink-500">
+          Course
+        </label>
+
         <select
           value={currentCourse ?? ""}
-          onChange={(e) => update({ course: e.target.value || undefined, subject: undefined })}
+          onChange={(e) =>
+            update({
+              course: e.target.value || undefined,
+              semester: undefined,
+              subject: undefined,
+            })
+          }
           className="rounded-md border border-ink-200 bg-white px-3 py-2 text-sm text-ink-700 focus:border-brand-500 focus:outline-none"
         >
           <option value="">All Courses</option>
+
           {courses.map((c) => (
             <option key={c.value} value={c.value}>
               {c.label}
@@ -73,14 +102,49 @@ export function PYQFilters({
         </select>
       </div>
 
+      {/* Semester */}
       <div>
-        <label className="mb-1 block text-xs font-medium text-ink-500">Subject</label>
+        <label className="mb-1 block text-xs font-medium text-ink-500">
+          Semester
+        </label>
+
+        <select
+          value={currentSemester ?? ""}
+          onChange={(e) =>
+            update({
+              semester: e.target.value || undefined,
+              subject: undefined,
+            })
+          }
+          className="rounded-md border border-ink-200 bg-white px-3 py-2 text-sm text-ink-700 focus:border-brand-500 focus:outline-none"
+        >
+          <option value="">All Semesters</option>
+
+          {semesters.map((semester) => (
+            <option key={semester.value} value={semester.value}>
+              {semester.label}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      {/* Subject */}
+      <div>
+        <label className="mb-1 block text-xs font-medium text-ink-500">
+          Subject
+        </label>
+
         <select
           value={currentSubjectId ?? ""}
-          onChange={(e) => update({ subject: e.target.value || undefined })}
+          onChange={(e) =>
+            update({
+              subject: e.target.value || undefined,
+            })
+          }
           className="rounded-md border border-ink-200 bg-white px-3 py-2 text-sm text-ink-700 focus:border-brand-500 focus:outline-none"
         >
           <option value="">All Subjects</option>
+
           {subjects.map((s) => (
             <option key={s.value} value={s.value}>
               {s.label}
