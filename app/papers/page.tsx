@@ -72,11 +72,11 @@ export default async function PapersPage({ searchParams }: Props) {
             currentUniversity={currentUniversity}
             courses={coursesAvailable.map((c) => ({ value: c.slug, label: c.name }))}
             currentCourse={currentCourse}
-              currentSemester={searchParams.semester}
-                subjects={subjectsAvailable.map((s) => ({
-                  value: s.id,
-                  label: s.name,
-                }))}
+            currentSemester={searchParams.semester}
+              semesters={Array.from({ length: 8 }, (_, i) => ({
+                value: String(i + 1),
+                label: `Semester ${i + 1}`,
+              }))}
             subjects={subjectsForDropdown.map((s) => ({ value: s.id, label: s.name }))}
             currentSubjectId={currentSubjectId}
           />
