@@ -55,12 +55,12 @@ const popularResources = [
   {
     icon: FlaskConical,
     label: "Practical",
-    href: "/practical",
+    href: "/notes",
   },
   {
     icon: MessageCircleQuestion,
     label: "Question Bank",
-    href: "/question-bank",
+    href: "/notes",
   },
 ];
 
