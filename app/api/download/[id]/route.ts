@@ -1,4 +1,4 @@
-
+```ts
 import { NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase";
 
@@ -15,18 +15,18 @@ export async function GET(
       .eq("id", id)
       .single();
 
-    if (orderError) {
+    if (orderError || !order) {
       console.error("Download order lookup failed:", orderError);
 
       return NextResponse.json(
-        { error: "Could not find order." },
-        { status: 500 }
+        { error: "Order not found." },
+        { status: 404 }
       );
     }
 
-    if (!order || order.status !== "PAID") {
+    if (order.status !== "PAID") {
       return NextResponse.json(
-        { error: "Download unavailable. Payment may not be verified." },
+        { error: "Download unavailable. Payment is not verified." },
         { status: 403 }
       );
     }
@@ -44,16 +44,44 @@ export async function GET(
       );
     }
 
-    const path = project.download_url.trim();
+    const downloadUrl = project.download_url.trim();
+
+    // Accept a bucket-relative path or a Supabase Storage URL.
+    let path = downloadUrl;
+
+    if (downloadUrl.startsWith("https://")) {
+      try {
+        const url = new URL(downloadUrl);
+        const match = url.pathname.match(
+          /\/storage\/v1\/object\/(?:sign|public)\/projects\/(.+)$/
+        );
+
+        if (match) {
+          path = decodeURIComponent(match[1]);
+        } else {
+          return NextResponse.json(
+            { error: "Invalid Supabase Storage URL in download_url." },
+            { status: 400 }
+          );
+        }
+      } catch {
+        return NextResponse.json(
+          { error: "Invalid download URL." },
+          { status: 400 }
+        );
+      }
+    }
 
     const { data, error: storageError } = await supabaseAdmin.storage
-      .from("projects");
+      .from("projects")
+      .createSignedUrl(path, 300);
 
     if (storageError || !data?.signedUrl) {
       console.error("Signed URL generation failed:", {
         orderId: id,
+        bucket: "projects",
         path,
-        error: storageError,
+        error: storageError?.message,
       });
 
       return NextResponse.json(
@@ -72,3 +100,4 @@ export async function GET(
     );
   }
 }
+```
