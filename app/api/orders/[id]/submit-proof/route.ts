@@ -106,29 +106,21 @@ export async function POST(
       .maybeSingle();
 
     // Email failure should not undo a successfully submitted proof.
-    try {
-      const result = await sendProofSubmittedEmail({
-        name,
-        email,
-        phone,
-        title: project?.title || "Project",
-        order: order.order_number,
-        amount: paid,
-        transactionId: txn,
-      });
+   try {
+  const result = await sendProofSubmittedEmail({
+    name,
+    email,
+    phone,
+    title: projectTitle,
+    order: orderNumber,
+    amount: paid,
+    transactionId: txn,
+  });
 
-      if (result.error) {
-        console.error("Admin email failed:", result.error);
-      } else {
-        console.log(
-          "Admin email accepted by Resend:",
-          result.data?.id
-        );
-      }
-    } catch (emailError) {
-      console.error("Admin notification error:", emailError);
-    }
-
+  console.log("Admin email accepted by SMTP:", result.messageId);
+} catch (emailError) {
+  console.error("Admin email failed:", emailError);
+}
     return NextResponse.json({
       ok: true,
       message: "Payment proof submitted for review.",
