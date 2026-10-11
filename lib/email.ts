@@ -1,4 +1,4 @@
-
+```ts
 import nodemailer from "nodemailer";
 
 const getTransporter = () => {
@@ -112,15 +112,50 @@ export async function sendPaidEmail(a: {
   download: string;
   order: string;
 }) {
+  const downloadUrl = esc(a.download);
+
   return sendEmail(
     a.to,
     `SabkaCode: ${a.title} is ready`,
     `
-      <h2>Payment verified</h2>
-      <p>Hi ${esc(a.name)},</p>
-      <p>Your payment for <b>${esc(a.title)}</b> was verified.</p>
-      <p>Order: <b>${esc(a.order)}</b></p>
-      <p><a href="${esc(a.download)}">Download project</a></p>
+      <div style="font-family:Arial,Helvetica,sans-serif;max-width:600px;margin:0 auto;color:#222;line-height:1.6;">
+        <h2 style="color:#15803d;">Payment Verified</h2>
+
+        <p>Hi ${esc(a.name)},</p>
+
+        <p>
+          Your payment for <strong>${esc(a.title)}</strong>
+          was verified successfully.
+        </p>
+
+        <p>
+          <strong>Order:</strong> ${esc(a.order)}
+        </p>
+
+        <div style="text-align:center;margin:30px 0;">
+          <a
+            href="${downloadUrl}"
+            style="display:inline-block;background-color:#2563eb;color:#ffffff;text-decoration:none;padding:17px 34px;border-radius:9px;font-size:18px;font-weight:bold;"
+          >Download Project &#8594;</a>
+        </div>
+
+        <p style="margin-bottom:8px;">
+          If the button does not work, click the download link below:
+        </p>
+
+        <p style="overflow-wrap:anywhere;">
+          <a
+            href="${downloadUrl}"
+            style="color:#2563eb;text-decoration:underline;"
+          >${downloadUrl}</a>
+        </p>
+
+        <hr style="border:none;border-top:1px solid #e5e7eb;margin:28px 0;" />
+
+        <p style="font-size:13px;color:#666;">
+          Thank you for choosing SabkaCode.
+        </p>
+      </div>
     `
   );
 }
@@ -132,3 +167,4 @@ export async function sendTestEmail(to: string) {
     "<h2>Email test successful</h2><p>Your Gmail SMTP configuration is working.</p>"
   );
 }
+```
