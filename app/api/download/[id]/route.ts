@@ -17,11 +17,7 @@ export async function GET(
 
     if (orderError || !order) {
       console.error("Download order lookup failed:", orderError);
-
-      return NextResponse.json(
-        { error: "Order not found." },
-        { status: 404 }
-      );
+      return NextResponse.json({ error: "Order not found." }, { status: 404 });
     }
 
     if (order.status !== "PAID") {
@@ -37,39 +33,32 @@ export async function GET(
 
     if (!project?.download_url) {
       console.error("Project download_url is missing:", id);
-
       return NextResponse.json(
         { error: "Project download file is not configured." },
         { status: 404 }
       );
     }
 
-    const downloadUrl = projects.download_url.trim();
-
-    // Accept a bucket-relative path or a Supabase Storage URL.
+    const downloadUrl = project.download_url.trim();
     let path = downloadUrl;
 
+    // Extract the object path if the database contains a Supabase URL.
     if (downloadUrl.startsWith("https://")) {
-      try {
-        const url = new URL(downloadUrl);
-        const match = url.pathname.match(
-          /\/storage\/v1\/object\/(?:sign|public)\/projects\/(.+)$/
-        );
+      const url = new URL(downloadUrl);
 
-        if (match) {
-          path = decodeURIComponent(match[1]);
-        } else {
-          return NextResponse.json(
-            { error: "Invalid Supabase Storage URL in download_url." },
-            { status: 400 }
-          );
-        }
-      } catch {
+      const match = url.pathname.match(
+        /\/storage\/v1\/object\/(?:sign|public)\/projects\/(.+)$/
+      );
+
+      if (!match) {
+        console.error("Unrecognized Supabase Storage URL:", url.pathname);
         return NextResponse.json(
-          { error: "Invalid download URL." },
+          { error: "Invalid Supabase Storage URL in download_url." },
           { status: 400 }
         );
       }
+
+      path = decodeURIComponent(match[1]);
     }
 
     const { data, error: storageError } = await supabaseAdmin.storage
@@ -93,7 +82,6 @@ export async function GET(
     return NextResponse.redirect(data.signedUrl);
   } catch (error) {
     console.error("Download route exception:", error);
-
     return NextResponse.json(
       { error: "Could not create download link." },
       { status: 500 }
