@@ -44,7 +44,7 @@ export async function GET(
       );
     }
 
-    const downloadUrl = project.download_url.trim();
+    const downloadUrl = projects.download_url.trim();
 
     // Accept a bucket-relative path or a Supabase Storage URL.
     let path = downloadUrl;
