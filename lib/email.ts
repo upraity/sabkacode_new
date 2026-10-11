@@ -1,4 +1,4 @@
-```ts
+
 import nodemailer from "nodemailer";
 
 const getTransporter = () => {
@@ -167,4 +167,3 @@ export async function sendTestEmail(to: string) {
     "<h2>Email test successful</h2><p>Your Gmail SMTP configuration is working.</p>"
   );
 }
-```
