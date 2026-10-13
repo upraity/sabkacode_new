@@ -19,6 +19,7 @@ const columns: { title: string; links: { href: string; label: string }[] }[] = [
     links: [
       { href: "/universities", label: "Universities" },
       { href: "/notes", label: "Subjects" },
+       { href: "/frontpage", label: "Frontpage" },
       { href: "/papers", label: "PYQs" },
       { href: "/notes", label: "Question Banks" },
       { href: "/recommendations", label: "Recommended Products" },
