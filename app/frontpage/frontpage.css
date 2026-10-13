@@ -1,0 +1,45 @@
+.fpw{max-width:1180px;margin:0 auto;padding:20px 16px 60px;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#1f2937}
+.fpw h1{font-size:28px;margin:8px 0}.fpw h2{font-size:20px;margin:28px 0 8px}.fpw p,.fpw li{line-height:1.65}
+.fp-muted{color:#6b7280}
+.fp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:16px}
+.fp-card{display:block;border:1px solid #e5e7eb;border-radius:10px;padding:16px;background:#fff;text-decoration:none;color:inherit;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.fp-card:hover{border-color:#2f82ff}.fp-card b{display:block;font-size:16px}.fp-card span{font-size:13px;color:#6b7280}
+.fp-tag{display:inline-block;margin-top:8px;font-size:11px;background:#eef6ff;color:#1863f0;border-radius:6px;padding:2px 8px}
+.fp-layout{display:grid;gap:24px;grid-template-columns:1fr;margin-top:16px}
+@media(min-width:980px){.fp-layout{grid-template-columns:360px 1fr;align-items:start}.fp-form{position:sticky;top:12px}}
+.fp-form{border:1px solid #e5e7eb;border-radius:10px;padding:16px;background:#fff}
+.fp-form label{display:block;font-size:13px;font-weight:600;margin:12px 0 4px}
+.fp-form input[type=text],.fp-form select{width:100%;padding:9px 10px;border:1px solid #d1d5db;border-radius:8px;font-size:15px;background:#fff}
+.fp-check{display:flex;gap:8px;align-items:center;margin-top:14px;font-size:14px}
+.fp-btn{margin-top:16px;width:100%;padding:12px;border:0;border-radius:8px;background:#1863f0;color:#fff;font-size:16px;font-weight:600;cursor:pointer}
+.fp-btn:disabled{background:#9ca3af;cursor:not-allowed}
+.fp-hint{font-size:12px;color:#6b7280;margin-top:8px}
+.fp-stage{max-width:100%;overflow:hidden;box-shadow:0 2px 14px rgba(0,0,0,.18);background:#fff}
+.fp-scale{transform-origin:top left;width:210mm;height:297mm}
+.fp-page{box-sizing:border-box;width:210mm;height:297mm;background:#fff;color:#000;font-family:"Times New Roman",Times,serif;text-align:center;position:relative;background-size:100% 100%;background-repeat:no-repeat}
+.fp-bordered{outline:3px solid #000;outline-offset:-14px}
+.fp-logo{display:block;margin:0 auto;height:auto}
+.fp-standard,.fp-project{display:flex;flex-direction:column;justify-content:space-between;padding:56px 60px 60px}
+.s-college{font-size:42px;font-weight:700;line-height:1.15}.s-city{font-size:38px;font-weight:700;margin-top:8px}.s-dept{font-size:28px;font-weight:700;margin-top:22px}
+.s-session{font-size:28px;font-weight:700}.s-doc{font-size:36px;font-weight:700;text-decoration:underline;margin-top:34px}
+.s-subject{font-size:34px;margin-top:14px}.s-sem{font-size:32px;font-weight:700;text-decoration:underline;color:#4ba3d8;margin-top:34px}.s-batch{font-size:28px;font-weight:700;margin-top:10px}
+.s-cols,.p-cols{display:flex;justify-content:space-between;text-align:left;font-size:27px;gap:16px}
+.s-cols>div,.p-cols>div{flex:1}.s-cols p,.p-cols p{margin:8px 0}.s-cols>div:last-child,.p-cols>div:last-child{text-align:right}
+.p-label{font-size:36px;font-weight:700}.p-title{font-size:40px;font-weight:700;margin-top:26px}.p-on{font-size:34px;font-weight:700;margin-top:6px}
+.p-topic{font-size:36px;font-weight:700;margin-top:18px}.p-univ{font-size:23px;font-weight:700;margin-top:24px;line-height:1.4}.p-degree{font-size:28px;font-weight:700;margin-top:18px}
+.p-foot{font-size:26px}.p-college{font-weight:700;font-size:30px}.p-addr{color:#4ba3d8;font-weight:700;margin-top:6px}
+.fp-agra{font-weight:700}
+.a-session{position:absolute;left:0;right:0;top:36.6%;font-size:26px}
+.a-subject{position:absolute;left:24.5%;width:53%;top:51.6%;transform:translateY(-50%);font-size:30px;line-height:1.2}
+.a-rows{position:absolute;left:13%;right:11%;top:69%;text-align:left;font-size:26px}
+.a-rows>div{display:flex;gap:10px;margin-bottom:22px}.a-rows b{width:210px}.a-rows span{width:14px}.a-rows em{font-style:normal;font-weight:400;flex:1;border-bottom:1px solid #000}
+@page{size:A4;margin:0}
+@media print{
+  html,body{margin:0!important;padding:0!important;background:#fff!important}
+  .fpw>p,.fpw>h1,.fp-form{display:none!important}
+  .fpw{padding:0!important;margin:0!important;max-width:none!important;height:296mm;overflow:hidden}
+  .fp-layout{display:block!important;margin:0!important}
+  .fp-stage{position:static!important;width:210mm!important;height:297mm!important;overflow:visible!important;box-shadow:none!important}
+  .fp-scale{transform:none!important}
+  .fp-page{print-color-adjust:exact;-webkit-print-color-adjust:exact}
+}
