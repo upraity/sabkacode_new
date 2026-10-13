@@ -4,7 +4,7 @@ export function CoverPage({cover,v}:{cover:Cover;v:CoverValues}){
   const city=v.city||cover.city||'';
   const frame=v.border?' fp-bordered':'';
   if(cover.template==='agra'){
-    return <div className={`fp-page fp-agra${frame}`} style={{backgroundImage:`url(${cover.background_url||'/frontpage/agra-bg.png'})`}}>
+    return <div className={`fp-page fp-agra${frame}`} style={{backgroundImage:`url(${cover.background_url||'/agra-bg.png'})`}}>
       <div className="a-session">SESSION: {v.session}</div>
       <div className="a-subject">{v.subject}</div>
       <div className="a-rows">
