@@ -54,7 +54,7 @@ export function Builder({cover}:{cover:Cover}){
       {cover.template==='standard'&&text('batch','Batch (optional)')}
       {cover.template==='standard'&&text('city','City',cover.city||'')}
       {text('rollNo','Roll no. (optional)')}
-      <label className="fp-check"><input type="checkbox" checked={v.border} onChange={e=>set('border',e.target.checked)}/> Add page border</label>
+      {/* <label className="fp-check"><input type="checkbox" checked={v.border} onChange={e=>set('border',e.target.checked)}/> Add page border</label> */}
       <button type="button" className="fp-btn" disabled={missing.length>0} onClick={print}>Print / Save as PDF</button>
       {missing.length>0
         ?<p className="fp-hint">Fill the required fields to enable download.</p>
