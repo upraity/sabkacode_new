@@ -1,16 +1,7 @@
 import { Tool } from "@/types";
 
 export const tools: Tool[] = [
-  {
-    id: "f-page",
-    slug: "frontpage",
-    name: "Frontpage",
-    description: "Assignments frontpage Generator.  Create college assignment, practical file and project report cover pages. Download as PDF.",
-    category: "coding-tools",
-    icon: "ArrowLeftRight",
-    howItWorks: `Choose your college or cover type above. Fill in your name, subject, session, department and teacher name. \nCheck the live preview. Optionally add a page border. Press Print / Save as PDF, then choose Save as PDF in the print window.`,
 
-  },
   {
     id: "t-cgpa",
     slug: "cgpa-calculator",
