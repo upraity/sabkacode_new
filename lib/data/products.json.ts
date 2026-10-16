@@ -47,7 +47,7 @@ export const affiliateProducts: Record<string, AffiliateProductData> = {
     affiliateLink: "https://www.amazon.in/AULA-F87-Mechanical-Swappable-Pre-lubed/dp/B0D5R7P3W9?crid=1BKEO943YTTKX&dib=eyJ2IjoiMSJ9.Zu-knlIOjdWOpE24GFuNXR1sC4wmm1aY_er6b9V_gbVVbMVRQXE3hGFyJ5orUoRTr94V-Z9vYlB3OgmWUKAzXlvI3WQnsDbw7oIcZ9wHPptkGqZAiugWez-Kmjs4J3K0SBjbOHUWXoI0FreD3TC43w_gBEgrXB2oWj9trEKjWuyJSm9AMgG-O34EcAPDG-rDJKOFctOoiTatZqVp5UGvhyCV7h10GQeIMFsyYLyltG4.edf4IPvE8Nn5pltr7-l15CN51PrL5Qeq1RLzrAyuSuE&dib_tag=se&keywords=wireless+keyboard&qid=1789398316&sprefix=wireless+keyboar%2Caps%2C401&sr=8-14&linkCode=ll2&tag=dheerajuprait-21&linkId=05c214b99e387e02768d7a1f5522f581&ref_=as_li_ss_tl",
     buttonText: "View on Amazon",
     category: "Accessories",
-    active: false, // example of an inactive product — it will not render anywhere
+    active: true, // example of an inactive product — it will not render anywhere
   },
   BOOK001: {
     code: "BOOK001",
@@ -58,6 +58,28 @@ export const affiliateProducts: Record<string, AffiliateProductData> = {
     affiliateLink: "https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834?crid=2ZBIJ19HLBOMY&dib=eyJ2IjoiMSJ9.xAoqssi61EZJQQ1VLeENKyKf4viTubjZtXiJap1seBESIgwRo6JB9ZR4sIeAsH_05jBNQPr4BUSx4xrgYmLYPUB0xAnyIyYdcx6_XOB4iYOaSKC-thLosHCFzcK_l-36NHzn6SOL00yolFiZISEYsPBhftWtUXsQg53-0jDNMNoUED9UXk6xRRTXW9yocaOM8VDnknNIseTSjDzX-2eb37YxYSJRjhc4Bp0zKMvj36Q._oXsB1L3kSCXVYb9368ZjlgWr-_TO9Wo7LDVONTkbvE&dib_tag=se&keywords=atomic+habit&qid=1789398721&sprefix=atomic+habi%2Caps%2C359&sr=8-3&linkCode=ll2&tag=dheerajuprait-21&linkId=8b6f818d2400a1e7fa67a95f28724525&ref_=as_li_ss_tl",
     buttonText: "View on Amazon",
     category: "Books",
+    active: true,
+  },
+    MOUSE002: {
+    code: "MOUSE002",
+    name: "Logitech M186 Wireless Mouse",
+    image: "https://m.media-amazon.com/images/I/41xAn0iwc6L._SL1000_.jpg",
+    shortDescription: "Logitech M186 Wireless Mouse, 2.4GHz with USB Mini Receiver, 3 Years Battery Life, 1000 DPI Optical Tracking, Ambidextrous, Compatible with PC, Mac, Laptop",
+    description: "",
+    affiliateLink: "https://link.amazon/B0a4HC4Pv",
+    buttonText: "View on Amazon",
+    category: "Mouse",
+    active: true,
+  },
+    MOUSE002: {
+    code: "",
+    name: "e",
+    image: "",
+    shortDescription: "",
+    description: "",
+    affiliateLink: "",
+    buttonText: "View on Amazon",
+    category: "",
     active: true,
   },
 };
