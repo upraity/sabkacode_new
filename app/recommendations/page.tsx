@@ -32,6 +32,7 @@ export default function RecommendationsPage() {
         <AffiliateProduct code="LAPTOP001" />
         <AffiliateProduct code="MOUSE001" />
         <AffiliateProduct code="BOOK001" />
+        <AffiliateProduct code="MOUSE002" />
       </div>
 
       <p className="mt-8 max-w-2xl text-xs text-ink-400">
