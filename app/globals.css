@@ -36,14 +36,14 @@ body {
 }
 
 /* Button styling */
-/* button {
+button {
   border: 0;
   border-radius: 8px;
   padding: 10px 15px;
   background: #111;
   color: #fff;
   cursor: pointer;
-} */
+}
 
 /* Input fields */
 input {
