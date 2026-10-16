@@ -71,7 +71,7 @@ export const affiliateProducts: Record<string, AffiliateProductData> = {
     category: "Mouse",
     active: true,
   },
-    MOUSE002: {
+    MOUSE003: {
     code: "",
     name: "e",
     image: "",
