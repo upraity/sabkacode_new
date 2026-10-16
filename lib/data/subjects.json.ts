@@ -740,7 +740,7 @@ UNIT V: Presentation Software (lab Work) Interface of the Presentation Package: 
     syllabus: `Project/Practical work / Seminar In the first semester, the students (individuals or teams of 2-3) are required to develop an innovative idea for a product or servic and a project report to be prepared on that idea under the guidance of a faculty member. The report will be prepared individually and this report will consist of importance and relevance of the innovative idea, its feasibilities and detailed descriptions. The report will be evaluated by one external examiner appointed by the university. Student has to present his output in a seminar.`,
      notesCta: {
       label: "Browse Your Projects",
-      url: "https://sabkacode-new.vercel.app/projects",
+      url: "https://sabkacode.vercel.app/projects",
       description: "Looking for project ideas or a ready reference? Check out our project catalog instead.",
     },
     },
@@ -4741,7 +4741,7 @@ Introduction to Complexity Theory: The class P and NP, Polynomial reduction, NP-
     syllabus: `Major project in the sixth semester involving planning, implementation, documentation and presentation of a substantial BCA project.`,
      notesCta: {
       label: "Browse Final Year Projects",
-      url: "https://sabkacode-new.vercel.app/projects",
+      url: "https://sabkacode.vercel.app/projects",
       description: "Looking for project ideas or a ready reference? Check out our final-year project catalog instead.",
     },
   },
