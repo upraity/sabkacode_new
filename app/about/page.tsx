@@ -1,103 +1,78 @@
 
 import Link from "next/link";
-import {
-  ArrowRight,
-  BookOpen,
-  CheckCircle2,
-  Code2,
-  FileText,
-  GraduationCap,
-  ShieldCheck,
-} from "lucide-react";
-
+import { CheckCircle2, ArrowRight } from "lucide-react";
 import { Section } from "@/components/ui/Section";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { LinkButton } from "@/components/ui/Button";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "About SabkaCode | Free Study Resources for Students",
+  title: "About Us | SabkaCode",
   description:
-    "Learn about SabkaCode, a student-focused educational platform offering study notes, university previous year papers, coding projects and useful learning tools.",
+    "Learn about SabkaCode, our mission and the educational resources we provide, including study notes, university previous year papers, coding projects and useful tools for students.",
   path: "/about",
 });
 
-const highlights = [
-  {
-    icon: BookOpen,
-    title: "Study Notes",
-    description:
-      "Explore subject-wise notes, programming concepts and study material to support your coursework.",
-    href: "/notes",
-    linkText: "Browse notes",
-  },
-  {
-    icon: FileText,
-    title: "Previous Year Papers",
-    description:
-      "Find available university question papers to understand exam patterns and practise important topics.",
-    href: "/papers",
-    linkText: "Explore papers",
-  },
-  {
-    icon: Code2,
-    title: "Projects & Tools",
-    description:
-      "Discover practical coding projects and useful online tools for learning and everyday tasks.",
-    href: "/projects",
-    linkText: "Explore projects",
-  },
-  {
-    icon: GraduationCap,
-    title: "University Resources",
-    description:
-      "Browse university information, courses and related academic resources in one place.",
-    href: "/universities",
-    linkText: "Browse universities",
-  },
-];
-
-const principles = [
-  {
-    icon: BookOpen,
-    title: "Student-focused learning",
-    description:
-      "We organize educational resources to help students spend less time searching and more time learning.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Clarity and transparency",
-    description:
-      "We aim to present information clearly and encourage students to verify important academic details through official university sources.",
-  },
-  {
-    icon: Code2,
-    title: "Practical knowledge",
-    description:
-      "Alongside academic preparation, we provide access to coding projects and tools that support hands-on learning.",
-  },
+const stats = [
+  { value: "4+", label: "Universities Covered" },
+  { value: "40+", label: "Subjects Available" },
+  { value: "100+", label: "Previous Papers" },
+  { value: "Free", label: "Student Resources" },
 ];
 
 const timeline = [
   {
     year: "2022",
-    title: "The idea behind SabkaCode",
-    body: "The platform's journey began with the goal of making study notes and programming resources easier for students to find.",
+    title: "The Idea Behind SabkaCode",
+    body: "The journey began with the goal of making programming notes, study material and academic resources easier to find.",
   },
   {
     year: "2023",
-    title: "Academic resources expanded",
-    body: "The platform's stated development journey included expanding its collection of university study resources and previous year papers.",
+    title: "Academic Resources Expanded",
+    body: "The platform expanded its focus on university study material and previous year question papers.",
   },
   {
     year: "2024",
-    title: "More learning content",
-    body: "Additional educational content, including exam-related resources and blog material, became part of the platform's broader direction.",
+    title: "More Learning Resources",
+    body: "Additional exam-related resources and educational blog content became part of the platform's learning ecosystem.",
   },
   {
-    year: "Today",
-    title: "Continuing to improve",
-    body: "SabkaCode continues to focus on accessible study resources, useful tools and practical learning opportunities.",
+    year: "2025",
+    title: "Continuous Improvement",
+    body: "The focus continued on improving the organization of study resources, university information and learning tools.",
+  },
+];
+
+const offerings = [
+  {
+    title: "Study Notes",
+    body: "Explore notes covering programming, computer science, management and other available academic subjects.",
+    href: "/notes",
+  },
+  {
+    title: "University Previous Papers",
+    body: "Find available previous year question papers to practise questions and understand examination patterns.",
+    href: "/papers",
+  },
+  {
+    title: "University Information",
+    body: "Explore university pages and related academic resources to support your study planning.",
+    href: "/universities",
+  },
+  {
+    title: "Courses and Subjects",
+    body: "Browse available courses and subject-specific resources organized for easier discovery.",
+    href: "/courses",
+  },
+  {
+    title: "Coding Projects",
+    body: "Discover practical projects that can help you explore programming concepts and develop technical skills.",
+    href: "/projects",
+  },
+  {
+    title: "Online Tools",
+    body: "Use useful web-based tools for everyday tasks, calculations and other supported activities.",
+    href: "/tools",
   },
 ];
 
@@ -110,22 +85,27 @@ const faqs = [
   {
     question: "Who can use SabkaCode?",
     answer:
-      "Students looking for academic study material, programming resources, exam preparation support or practical coding projects can explore the available content.",
+      "Students looking for academic study material, university papers, programming resources or practical projects can explore the resources available on SabkaCode.",
   },
   {
-    question: "Are SabkaCode resources free?",
+    question: "Are the resources on SabkaCode free?",
     answer:
-      "The platform provides free educational resources. Check the relevant page for any specific access requirements or conditions that may apply to an individual resource.",
+      "SabkaCode provides free educational resources. Please check the relevant page for any specific access conditions associated with an individual resource.",
   },
   {
-    question: "Can I rely on previous year papers for exam preparation?",
+    question: "How can I prepare using previous year papers?",
     answer:
-      "Previous year papers can help you practise questions and understand exam formats. Always check your current syllabus and official university notices because exam patterns may change.",
+      "Practise available questions, identify topics that need more revision and use the papers to become familiar with question formats. Always refer to your current syllabus and official university notices.",
   },
   {
-    question: "How can I contact SabkaCode?",
+    question: "Does SabkaCode replace official university websites?",
     answer:
-      "Visit the Contact page to find the available ways to get in touch with the SabkaCode team.",
+      "No. SabkaCode is an independent educational resource platform. Students should verify official syllabi, examination schedules, results and notifications through the relevant university website.",
+  },
+  {
+    question: "How can I contact the SabkaCode team?",
+    answer:
+      "Visit our Contact page to find the available ways to contact us with questions, suggestions or feedback.",
   },
 ];
 
@@ -139,367 +119,275 @@ export default function AboutPage() {
         ]}
       />
 
-      <div className="mx-auto max-w-4xl">
-        {/* Hero */}
-        <header className="relative overflow-hidden rounded-2xl border border-ink-100 bg-white px-5 py-10 text-center shadow-card sm:px-10 sm:py-14">
+      {/* Hero section — original theme maintained */}
+      <div className="text-center">
+        <p className="text-sm font-semibold text-brand-600">
+          ✦ About SabkaCode
+        </p>
+
+        <h1 className="mt-2 text-2xl font-bold text-ink-900 sm:text-3xl">
+          Your Free Study Partner for Every Student
+        </h1>
+
+        <p className="mx-auto mt-3 max-w-2xl leading-7 text-ink-500">
+          SabkaCode brings together study notes, previous year question papers,
+          university resources, coding projects and useful online tools in one
+          place. Our aim is to make educational resources easier to discover
+          and use throughout your learning journey.
+        </p>
+
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+          <LinkButton href="/notes">Explore Notes</LinkButton>
+          <LinkButton href="/papers" variant="secondary">
+            Previous Papers
+          </LinkButton>
+        </div>
+      </div>
+
+      {/* Stats — same original card design */}
+      <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+        {stats.map((stat) => (
           <div
-            aria-hidden="true"
-            className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-brand-500 via-sky-400 to-brand-600"
-          />
-
-          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-50 text-brand-600">
-            <GraduationCap className="h-7 w-7" />
+            key={stat.label}
+            className="rounded-card border border-ink-100 bg-white p-4 text-center shadow-card"
+          >
+            <p className="text-xl font-bold text-brand-600">
+              {stat.value}
+            </p>
+            <p className="mt-1 text-xs text-ink-500">{stat.label}</p>
           </div>
+        ))}
+      </div>
 
-          <p className="mt-5 text-sm font-semibold uppercase tracking-wider text-brand-600">
-            About SabkaCode
+      {/* Our story */}
+      <div className="mt-14">
+        <h2 className="text-lg font-semibold text-ink-900">
+          Our Story
+        </h2>
+
+        <p className="mt-1 font-medium text-ink-700">
+          Making Educational Resources Easier to Find
+        </p>
+
+        <div className="mt-3 max-w-3xl space-y-3 leading-7 text-ink-600">
+          <p>
+            Students often need to search across multiple websites to find
+            useful notes, previous year papers, programming explanations and
+            other academic resources. Finding the right material can take
+            valuable time, particularly during examination preparation.
           </p>
 
-          <h1 className="mx-auto mt-3 max-w-3xl text-3xl font-bold leading-tight tracking-tight text-ink-900 sm:text-4xl lg:text-5xl">
-            Making learning resources easier to find
-          </h1>
-
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-ink-500 sm:text-lg">
-            SabkaCode brings together academic study material, previous year
-            papers, programming resources and useful digital tools to support
-            students throughout their learning journey.
+          <p>
+            SabkaCode was created around the idea of bringing useful learning
+            resources together in a more organized and accessible format.
+            Students can explore available study material, university
+            information, subject resources and practical coding projects
+            according to their needs.
           </p>
 
-          <div className="mt-7 flex flex-wrap justify-center gap-3">
-            <LinkButton href="/notes">Explore Study Notes</LinkButton>
-            <LinkButton href="/papers" variant="secondary">
-              Previous Year Papers
-            </LinkButton>
-          </div>
-        </header>
+          <p>
+            The platform aims to support students by making resources easier
+            to discover, encouraging independent learning and providing a
+            convenient starting point for academic preparation.
+          </p>
+        </div>
 
-        {/* Introduction */}
-        <section className="mt-12 sm:mt-16">
-          <div className="grid gap-8 md:grid-cols-2 md:items-start">
-            <div>
-              <p className="text-sm font-semibold text-brand-600">
-                Who We Are
-              </p>
-              <h2 className="mt-2 text-2xl font-bold tracking-tight text-ink-900 sm:text-3xl">
-                One platform for academic and practical learning
-              </h2>
-            </div>
+        {/* Timeline — original two-column layout */}
+        <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {timeline.map((item) => (
+            <div
+              key={item.year}
+              className="flex gap-3 rounded-card border border-ink-100 bg-white p-4 shadow-card"
+            >
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-brand-50 text-sm font-bold text-brand-600">
+                {item.year === "Today" ? "Now" : item.year.slice(2)}
+              </span>
 
-            <div className="space-y-4 text-sm leading-7 text-ink-600 sm:text-base">
-              <p>
-                Finding useful study material can take time when notes,
-                question papers, programming tutorials and other resources are
-                spread across different websites. SabkaCode aims to make this
-                process simpler by organizing useful learning resources in
-                accessible sections.
-              </p>
-
-              <p>
-                Whether you are revising a subject, preparing for university
-                examinations, exploring programming concepts or looking for a
-                project idea, you can use the platform to discover resources
-                relevant to your learning goals.
-              </p>
-
-              <p>
-                Our focus is on accessibility, practical learning and clear
-                navigation, so students can find the material they need without
-                unnecessary complexity.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Resources */}
-        <section className="mt-14 sm:mt-16">
-          <div className="max-w-2xl">
-            <p className="text-sm font-semibold text-brand-600">
-              Explore the Platform
-            </p>
-            <h2 className="mt-2 text-2xl font-bold tracking-tight text-ink-900 sm:text-3xl">
-              What you can find on SabkaCode
-            </h2>
-            <p className="mt-3 leading-7 text-ink-500">
-              Explore the available resources according to your course,
-              academic requirements and interests.
-            </p>
-          </div>
-
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            {highlights.map((item) => {
-              const Icon = item.icon;
-
-              return (
-                <article
-                  key={item.title}
-                  className="flex h-full flex-col rounded-card border border-ink-100 bg-white p-5 shadow-card transition duration-200 hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-md"
-                >
-                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-50 text-brand-600">
-                    <Icon className="h-5 w-5" />
-                  </div>
-
-                  <h3 className="mt-4 text-lg font-semibold text-ink-900">
-                    {item.title}
-                  </h3>
-
-                  <p className="mt-2 flex-1 text-sm leading-6 text-ink-500">
-                    {item.description}
-                  </p>
-
-                  <Link
-                    href={item.href}
-                    className="mt-4 inline-flex w-fit items-center gap-2 text-sm font-semibold text-brand-600 transition hover:text-brand-700"
-                  >
-                    {item.linkText}
-                    <ArrowRight className="h-4 w-4" />
-                  </Link>
-                </article>
-              );
-            })}
-          </div>
-        </section>
-
-        {/* Mission, vision and values */}
-        <section className="mt-14 sm:mt-16">
-          <div className="max-w-2xl">
-            <p className="text-sm font-semibold text-brand-600">
-              Our Direction
-            </p>
-            <h2 className="mt-2 text-2xl font-bold tracking-tight text-ink-900 sm:text-3xl">
-              Our mission, vision and values
-            </h2>
-          </div>
-
-          <div className="mt-6 grid gap-4 md:grid-cols-3">
-            <article className="rounded-card border border-ink-100 bg-white p-5 shadow-card">
-              <h3 className="text-lg font-semibold text-ink-900">
-                Our Mission
-              </h3>
-              <p className="mt-3 text-sm leading-6 text-ink-600">
-                To make useful educational resources easier to discover and
-                help students access study material that supports their
-                academic goals.
-              </p>
-            </article>
-
-            <article className="rounded-card border border-ink-100 bg-white p-5 shadow-card">
-              <h3 className="text-lg font-semibold text-ink-900">
-                Our Vision
-              </h3>
-              <p className="mt-3 text-sm leading-6 text-ink-600">
-                To build a helpful learning destination where academic
-                resources, programming knowledge and practical tools come
-                together.
-              </p>
-            </article>
-
-            <article className="rounded-card border border-ink-100 bg-white p-5 shadow-card">
-              <h3 className="text-lg font-semibold text-ink-900">
-                Our Values
-              </h3>
-              <p className="mt-3 text-sm leading-6 text-ink-600">
-                Accessibility, clarity, continuous improvement and a
-                student-focused approach guide the way we organize our
-                resources.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        {/* Principles */}
-        <section className="mt-14 sm:mt-16">
-          <h2 className="text-2xl font-bold tracking-tight text-ink-900 sm:text-3xl">
-            What matters to us
-          </h2>
-
-          <div className="mt-6 space-y-4">
-            {principles.map((principle) => {
-              const Icon = principle.icon;
-
-              return (
-                <div
-                  key={principle.title}
-                  className="flex gap-4 rounded-card border border-ink-100 bg-white p-4 sm:p-5"
-                >
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600">
-                    <Icon className="h-5 w-5" />
-                  </div>
-
-                  <div>
-                    <h3 className="font-semibold text-ink-900">
-                      {principle.title}
-                    </h3>
-                    <p className="mt-1 text-sm leading-6 text-ink-500">
-                      {principle.description}
-                    </p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-
-        {/* Journey */}
-        <section className="mt-14 sm:mt-16">
-          <div className="max-w-2xl">
-            <p className="text-sm font-semibold text-brand-600">
-              Our Journey
-            </p>
-            <h2 className="mt-2 text-2xl font-bold tracking-tight text-ink-900 sm:text-3xl">
-              The journey of SabkaCode
-            </h2>
-            <p className="mt-3 leading-7 text-ink-500">
-              The platform has been shaped around a simple idea: make learning
-              resources more accessible and easier to navigate.
-            </p>
-          </div>
-
-          <div className="mt-6 space-y-4">
-            {timeline.map((item, index) => (
-              <article
-                key={item.year}
-                className="flex gap-4 rounded-card border border-ink-100 bg-white p-4 shadow-card sm:gap-5 sm:p-5"
-              >
-                <div className="flex h-11 w-14 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-sm font-bold text-brand-600 sm:w-16">
-                  {item.year}
-                </div>
-
-                <div className="min-w-0 flex-1">
-                  <h3 className="font-semibold text-ink-900">
-                    {item.title}
-                  </h3>
-                  <p className="mt-1 text-sm leading-6 text-ink-500">
-                    {item.body}
-                  </p>
-                </div>
-
-                <span className="hidden text-xs font-medium text-ink-400 sm:block">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        {/* Founder */}
-        <section className="mt-14 sm:mt-16">
-          <div className="overflow-hidden rounded-2xl border border-ink-100 bg-white shadow-card">
-            <div className="h-1 bg-gradient-to-r from-brand-500 via-sky-400 to-brand-600" />
-
-            <div className="p-5 sm:p-8">
-              <p className="text-sm font-semibold text-brand-600">
-                Behind the Platform
-              </p>
-
-              <div className="mt-4 flex flex-col gap-4 sm:flex-row sm:gap-5">
-                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-brand-50 text-lg font-bold text-brand-600">
-                  DJ
-                </div>
-
-                <div className="min-w-0">
-                  <h2 className="text-xl font-bold text-ink-900 sm:text-2xl">
-                    Meet the Founder — Dj Upraity
-                  </h2>
-
-                  <p className="mt-1 text-sm text-ink-500">
-                    Building a more accessible learning experience
-                  </p>
-
-                  <div className="mt-4 space-y-3 text-sm leading-7 text-ink-600">
-                    <p>
-                      SabkaCode was developed around the idea of making
-                      educational resources easier for students to discover.
-                      Its focus brings together academic material, programming
-                      resources and practical digital tools in one place.
-                    </p>
-
-                    <p>
-                      The goal is to keep improving how students find and use
-                      learning resources, while encouraging them to check
-                      official sources whenever they need the latest syllabus,
-                      examination schedule or university notification.
-                    </p>
-                  </div>
-                </div>
+              <div>
+                <p className="font-medium text-ink-900">
+                  {item.title} — {item.year}
+                </p>
+                <p className="mt-1 text-sm leading-6 text-ink-500">
+                  {item.body}
+                </p>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* FAQ */}
-        <section className="mt-14 sm:mt-16">
-          <div className="max-w-2xl">
-            <p className="text-sm font-semibold text-brand-600">
-              Frequently Asked Questions
-            </p>
-            <h2 className="mt-2 text-2xl font-bold tracking-tight text-ink-900 sm:text-3xl">
-              About SabkaCode
-            </h2>
-          </div>
-
-          <div className="mt-6 space-y-3">
-            {faqs.map((faq) => (
-              <details
-                key={faq.question}
-                className="group rounded-card border border-ink-100 bg-white p-4 open:border-brand-200 sm:p-5"
-              >
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-ink-900 [&::-webkit-details-marker]:hidden">
-                  <span>{faq.question}</span>
-                  <span
-                    aria-hidden="true"
-                    className="text-xl font-normal text-brand-600 transition-transform group-open:rotate-45"
-                  >
-                    +
-                  </span>
-                </summary>
-
-                <p className="mt-3 border-t border-ink-100 pt-3 text-sm leading-7 text-ink-600">
-                  {faq.answer}
-                </p>
-              </details>
-            ))}
-          </div>
-        </section>
-
-        {/* Final CTA */}
-        <section className="mt-14 rounded-2xl border border-brand-100 bg-brand-50 px-5 py-9 text-center sm:mt-16 sm:px-8 sm:py-12">
-          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-white text-brand-600 shadow-sm">
-            <CheckCircle2 className="h-6 w-6" />
-          </div>
-
-          <h2 className="mt-4 text-2xl font-bold tracking-tight text-ink-900 sm:text-3xl">
-            Start exploring SabkaCode
-          </h2>
-
-          <p className="mx-auto mt-3 max-w-xl text-sm leading-7 text-ink-600 sm:text-base">
-            Browse study notes, discover university resources, practise with
-            previous year papers and explore tools designed to support your
-            learning journey.
-          </p>
-
-          <div className="mt-6 flex flex-wrap justify-center gap-3">
-            <LinkButton href="/notes">Explore Resources</LinkButton>
-            <LinkButton href="/contact" variant="secondary">
-              Contact Us
-            </LinkButton>
-          </div>
-        </section>
-
-        <p className="mt-8 text-center text-sm text-ink-500">
-          Have a question or suggestion?{" "}
-          <Link
-            href="/contact"
-            className="font-semibold text-brand-600 underline-offset-4 hover:underline"
-          >
-            Get in touch
-          </Link>
-          .
-        </p>
+          ))}
+        </div>
       </div>
+
+      {/* Mission, vision and values — original three-column layout */}
+      <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-3">
+        <div>
+          <h2 className="font-semibold text-ink-900">Our Mission</h2>
+          <p className="mt-2 text-sm leading-6 text-ink-600">
+            To make useful study material and learning resources easier to
+            access, helping students spend more time learning and less time
+            searching for information.
+          </p>
+        </div>
+
+        <div>
+          <h2 className="font-semibold text-ink-900">Our Vision</h2>
+          <p className="mt-2 text-sm leading-6 text-ink-600">
+            To build a helpful educational resource platform where students
+            can discover academic material, explore programming and develop
+            practical skills in one place.
+          </p>
+        </div>
+
+        <div>
+          <h2 className="font-semibold text-ink-900">Our Values</h2>
+          <p className="mt-2 text-sm leading-6 text-ink-600">
+            Accessibility, clear information, continuous improvement and a
+            student-focused approach guide how we organize and present
+            educational resources.
+          </p>
+        </div>
+      </div>
+
+      {/* What we offer — same card layout */}
+      <div className="mt-14">
+        <h2 className="text-lg font-semibold text-ink-900">
+          What We Offer
+        </h2>
+
+        <p className="mt-1 max-w-3xl leading-7 text-ink-500">
+          From academic study material to practical programming resources,
+          SabkaCode helps students explore different learning resources
+          through dedicated sections.
+        </p>
+
+        <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {offerings.map((offering) => (
+            <div
+              key={offering.title}
+              className="flex gap-2 rounded-card border border-ink-100 bg-white p-4 shadow-card"
+            >
+              <CheckCircle2 className="h-5 w-5 shrink-0 text-brand-600" />
+
+              <div>
+                <p className="font-medium text-ink-900">
+                  {offering.title}
+                </p>
+
+                <p className="mt-1 text-sm leading-6 text-ink-500">
+                  {offering.body}
+                </p>
+
+                <Link
+                  href={offering.href}
+                  className="mt-2 inline-flex items-center gap-1 text-sm font-medium text-brand-600 hover:underline"
+                >
+                  Explore
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Founder — original card style */}
+      <div className="mt-14 rounded-card border border-ink-100 bg-white p-5 shadow-card sm:p-6">
+        <div className="flex items-start gap-4">
+          <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-brand-50 font-bold text-brand-600">
+            DJ
+          </span>
+
+          <div>
+            <h2 className="font-semibold text-ink-900">
+              Meet the Founder — Dj Upraity
+            </h2>
+
+            <p className="text-sm text-ink-500">
+              One Idea, One Platform, A Focus on Learning
+            </p>
+
+            <p className="mt-2 text-sm leading-6 text-ink-600">
+              SabkaCode was developed with the goal of making educational
+              resources easier for students to find and explore. The platform
+              brings together academic study material, university resources
+              and programming-related content to support different learning
+              needs.
+            </p>
+
+            <p className="mt-2 text-sm leading-6 text-ink-600">
+              The focus is on building a useful learning destination where
+              students can discover resources, practise independently and
+              continue developing their academic and technical knowledge.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* FAQs — uses existing colors and border conventions */}
+      <div className="mt-14">
+        <h2 className="text-lg font-semibold text-ink-900">
+          Frequently Asked Questions
+        </h2>
+
+        <p className="mt-1 text-ink-500">
+          Common questions about SabkaCode and its educational resources.
+        </p>
+
+        <div className="mt-4 space-y-3">
+          {faqs.map((faq) => (
+            <details
+              key={faq.question}
+              className="group rounded-card border border-ink-100 bg-white p-4 shadow-card"
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-medium text-ink-900 [&::-webkit-details-marker]:hidden">
+                <span>{faq.question}</span>
+                <span
+                  aria-hidden="true"
+                  className="shrink-0 text-xl text-brand-600 transition-transform group-open:rotate-45"
+                >
+                  +
+                </span>
+              </summary>
+
+              <p className="mt-3 border-t border-ink-100 pt-3 text-sm leading-6 text-ink-600">
+                {faq.answer}
+              </p>
+            </details>
+          ))}
+        </div>
+      </div>
+
+      {/* Final CTA — same simple design */}
+      <div className="mt-14 text-center">
+        <h2 className="text-lg font-semibold text-ink-900">
+          Ready to Start Studying?
+        </h2>
+
+        <p className="mx-auto mt-1 max-w-2xl leading-7 text-ink-500">
+          Explore study notes, browse university resources, practise with
+          previous year papers and discover projects and tools that support
+          your learning goals.
+        </p>
+
+        <div className="mt-4 flex flex-wrap justify-center gap-3">
+          <LinkButton href="/">Explore SabkaCode</LinkButton>
+          <LinkButton href="/contact" variant="secondary">
+            Contact Us
+          </LinkButton>
+        </div>
+      </div>
+
+      <p className="mt-10 text-center text-sm text-ink-400">
+        Have questions or suggestions?{" "}
+        <Link
+          href="/contact"
+          className="font-medium text-brand-600 hover:underline"
+        >
+          Contact us
+        </Link>
+        .
+      </p>
     </Section>
   );
 }
-
 
 // import Link from "next/link";
 // import { CheckCircle2 } from "lucide-react";
